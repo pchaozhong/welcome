@@ -1,4 +1,6 @@
 node_modules
+public
+!public/.gitkeep
 
 # For JetBrains IDE
 .idea
