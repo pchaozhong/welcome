@@ -19,6 +19,7 @@ module.exports = {
                     presets: ['es2015']
                 }
             },
+            {test: /\.html$/, loader: "file-loader?name=[name].[ext]"},
             {test: /\.css$/, loader: 'style-loader!css-loader'},
             {test: /\.svg$/, loader: 'url-loader?mimetype=image/svg+xml'},
             {test: /\.woff$/, loader: 'url-loader?mimetype=application/font-woff'},
