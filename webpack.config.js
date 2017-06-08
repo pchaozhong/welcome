@@ -1,8 +1,10 @@
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
   entry: {
-    bundle: './src/app.js'
+    home: './src/home.js',
+    legacy: './src/legacy.js',
   },
   output: {
     path: path.join(__dirname, 'public'),
@@ -27,5 +29,10 @@ module.exports = {
       {test: /\.eot$/, loader: 'url-loader?mimetype=application/font-woff'},
       {test: /\.ttf$/, loader: 'url-loader?mimetype=application/font-woff'}
     ]
-  }
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery'
+    })
+  ]
 };
