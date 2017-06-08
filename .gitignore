@@ -1,6 +1,7 @@
 node_modules
 public
 !public/.gitkeep
+.s3cfg
 
 # For JetBrains IDE
 .idea
