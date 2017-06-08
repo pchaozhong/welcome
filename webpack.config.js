@@ -3,7 +3,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    home: './src/home.js'
+    home: './src/home.js',
+    legacy: './src/legacy.js',
   },
   output: {
     path: path.join(__dirname, 'public'),
