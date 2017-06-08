@@ -1,6 +1,5 @@
-// FIXME: webpackのバグ？？でbootstrap周りはここで読めないためhtmlから直接読み込んでいる
-
 // CSS
+require('../node_modules/bootstrap/dist/css/bootstrap.min.css');
 require('./cover.css');
 require('./ie10-viewport-bug-workaround.css');
 
