@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -27,5 +28,10 @@ module.exports = {
       {test: /\.eot$/, loader: 'url-loader?mimetype=application/font-woff'},
       {test: /\.ttf$/, loader: 'url-loader?mimetype=application/font-woff'}
     ]
-  }
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery'
+    })
+  ]
 };

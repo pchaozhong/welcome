@@ -4,6 +4,7 @@ require('./cover.css');
 require('./ie10-viewport-bug-workaround.css');
 
 // JS
+require('../node_modules/bootstrap/dist/js/bootstrap.min');
 require('./ie8-responsive-file-warning');
 require('./ie10-viewport-bug-workaround');
 
