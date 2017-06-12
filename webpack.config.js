@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const path = require('path');
 
 module.exports = {
@@ -33,6 +34,9 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       jQuery: 'jquery'
-    })
+    }),
+    new CopyWebpackPlugin(
+      [{from: "src/img/", to: "img/"}]
+    )
   ]
 };
