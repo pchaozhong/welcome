@@ -4,12 +4,12 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    home: './src/home.js',
-    legacy: './src/legacy.js',
+    home: './src/js/home.js',
+    legacy: './src/js/legacy.js',
   },
   output: {
     path: path.join(__dirname, 'public'),
-    filename: '[name].js'
+    filename: 'js/[name].js'
   },
   module: {
     loaders: [
