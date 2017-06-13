@@ -5,8 +5,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    home: './src/js/home.js',
-    legacy: './src/js/legacy.js',
+    home: './src/js/home.js'
   },
   output: {
     path: path.join(__dirname, 'public'),
