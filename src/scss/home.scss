@@ -143,26 +143,26 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.member .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.member h2 {
-  font-weight: normal;
-}
-
-.member .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
 .member {
   margin-bottom: 80px;
 
   .col-md-12 {
     margin-bottom: 20px;
     text-align: center;
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+
+  .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+
+    p {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
   }
 
   &__circle-image {
