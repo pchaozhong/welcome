@@ -22,7 +22,7 @@ module.exports = {
           presets: ['es2015']
         }
       },
-      {test: /\.jade$/, loader: 'jade-loader'},
+      {test: /\.pug$/, loader: 'pug-loader'},
       {test: /\.css$/, loader: 'style-loader!css-loader'},
       {test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader']},
       {test: /\.svg$/, loader: 'url-loader?mimetype=image/svg+xml'},
@@ -43,7 +43,7 @@ module.exports = {
     ),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'src/index.jade',
+      template: 'src/index.pug',
     })
   ]
 };

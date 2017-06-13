@@ -1,13 +1,13 @@
-mixin member(name, face_image, position, fb_id, twitter_id)
+mixin member(name, position, fb_id, twitter_id)
   .col-lg-4
-    img.img-circle.member__circle-image(src='img/#{face_image}', alt='#{name}')
-    h3 #{name}
-    h5 #{position}
+    img.img-circle.member__circle-image(alt=name)&attributes(attributes)
+    h3= name
+    h5= position
     p
       | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
       | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
     p.member__sns-link
-      a(href="https://www.facebook.com/#{fb_id}", target="_blank")
+      a(href="https://www.facebook.com/" + fb_id, target="_blank")
         img(src='img/facebook_logo.svg', alt='facebook')
-      a(href="https://twitter.com/#{twitter_id}", target="_blank")
+      a(href="https://twitter.com/" + twitter_id, target="_blank")
         img(src='img/twitter_logo.svg', alt='twitter')
