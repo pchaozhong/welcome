@@ -183,7 +183,7 @@ html(lang='ja')
         .col-md-12
           h2.ico__heading
             | ICO情報
-          img(src='img/logo.png', alt='ALIS')
+          img.ico__logo(src='img/logo.png', alt='ALIS')
           p.lead
             | 私たちはヴィジョンの実現のため、2017/08末にICO(Initial Public Offering)を実施予定です。
             | プロジェクト最新情報の通知をご希望の方はどうぞご登録ください。
@@ -194,12 +194,16 @@ html(lang='ja')
     // MEMBER
     .container.member
       .row
+        .col-md-12
+          h2.member__heading
+            | About
         include mixin/member
         +member('水澤 貴', 'mizusawa.jpg', 'Co-Founder / Communications', 'takashi.mizusawa', 'takashi_mizu')
         +member('安 昌浩', 'yasu.png', 'Founder', 'masahiro.yasu.7', 'fiesta_red_fg')
-        +member('石井 壮太', 'ishii.jpg', 'Founder / Engineering', 'sota.ishii', 'sot528')
+        +member('石井 壮太', 'ishii.jpg', 'Co-Founder / Engineering', 'sota.ishii', 'sot528')
 
-      // FOOTER
+    // FOOTER
+    .container
       footer
         p.pull-right
           a(href='#') Back to top
