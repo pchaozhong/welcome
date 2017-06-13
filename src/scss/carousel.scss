@@ -132,6 +132,17 @@ body {
     width: 140px;
     height: 140px;
   }
+
+  &__sns-link {
+    a:not(:first-child) {
+      margin-left: 3px;
+    }
+
+    img {
+      width: 23px;
+      height: 20px;
+    }
+  }
 }
 
 /* RESPONSIVE CSS

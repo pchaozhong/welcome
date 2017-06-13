@@ -180,30 +180,10 @@ html(lang='ja')
     // MEMBER
     .container.member
       .row
-        .col-lg-4
-          img.img-circle.member__circle-image(src='img/mizusawa.jpg', alt='水澤')
-          h3 水澤 貴
-          p
-            | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
-            | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
-          p
-            a.btn.btn-default(href='#', role='button') View details »
-        .col-lg-4
-          img.img-circle.member__circle-image(src='img/yasu.png', alt='安')
-          h3 安 昌浩
-          p
-            | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
-            | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
-          p
-            a.btn.btn-default(href='#', role='button') View details »
-        .col-lg-4
-          img.img-circle.member__circle-image(src='img/ishii.jpg', alt='石井')
-          h3 石井 壮太
-          p
-            | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
-            | 自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。自己紹介がこちら。
-          p
-            a.btn.btn-default(href='#', role='button') View details »
+        include mixin/member
+        +member('水澤 貴', 'mizusawa.jpg', 'Co-Founder / Communications', 'takashi.mizusawa', 'takashi_mizu')
+        +member('安 昌浩', 'yasu.png', 'Founder', 'masahiro.yasu.7', 'fiesta_red_fg')
+        +member('石井 壮太', 'ishii.jpg', 'Founder / Engineering', 'sota.ishii', 'sot528')
 
       // FOOTER
       footer
