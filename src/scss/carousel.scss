@@ -109,6 +109,31 @@ body {
   letter-spacing: -1px;
 }
 
+/* MEMBER CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.member .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.member h2 {
+  font-weight: normal;
+}
+
+.member .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.member {
+  &__circle-image {
+    width: 140px;
+    height: 140px;
+  }
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
