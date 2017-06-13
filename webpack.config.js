@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const path = require('path');
 
@@ -22,6 +23,7 @@ module.exports = {
           presets: ['es2015']
         }
       },
+      {test: /\.jade$/, loader: 'jade-loader'},
       {test: /\.css$/, loader: 'style-loader!css-loader'},
       {test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader']},
       {test: /\.svg$/, loader: 'url-loader?mimetype=image/svg+xml'},
@@ -37,9 +39,12 @@ module.exports = {
     }),
     new CopyWebpackPlugin(
       [
-        {from: "src/img/", to: "img/"},
-        {from: "src/*.html", to: "[name].[ext]"}
+        {from: "src/img/", to: "img/"}
       ]
-    )
+    ),
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'src/index.jade',
+    })
   ]
 };
