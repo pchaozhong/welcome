@@ -148,7 +148,7 @@ body {
   }
 }
 
-/* MEMBER CONTENT
+/* Team
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
@@ -177,6 +177,10 @@ body {
   &__circle-image {
     width: 140px;
     height: 140px;
+  }
+
+  &__content {
+    text-align: left;
   }
 
   &__sns-link {

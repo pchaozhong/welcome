@@ -1,12 +1,4 @@
-mixin team(name, position, fb_id, twitter_id)
-  .col-lg-4
-    img.img-circle.team__circle-image(alt=name)&attributes(attributes)
-    h3= name
-    h5= position
-    p
-      | 京都大学工学部出身。大学時代は核融合の研究を専攻し、ヘリカル型プラズマのアルヴェン固有モード励起をFortranを使ってシミュレーション。2011年株式会社リクルート（現リクルートホールディングス、Indeed親会社）に入社し、事業戦略、新規事業開発（SNS、名刺管理アプリ、リファラルツールなど）、商品企画、機械学習、自然言語解析等に取り組む。2016年リクルートグループの企画に贈られる最高賞のGROWHFORUMを受賞。
-    p.team__sns-link
-      a(href="https://www.facebook.com/" + fb_id, target="_blank")
-        img(src='img/facebook_logo.svg', alt='facebook')
-      a(href="https://twitter.com/" + twitter_id, target="_blank")
-        img(src='img/twitter_logo.svg', alt='twitter')
+mixin team_member(name, position)
+  img.img-circle.team__circle-image(alt=name)&attributes(attributes)
+  h3= name
+  h5= position

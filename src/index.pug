@@ -205,9 +205,22 @@ html(lang='ja')
           h2.team__heading
             | Team
         include mixin/team_member
-        +team('安 昌浩', 'Founder', 'masahiro.yasu.7', 'fiesta_red_fg')(src='img/yasu.png')
-        +team('水澤 貴', 'Co-Founder / Communications', 'takashi.mizusawa', 'takashi_mizu')(src='img/mizusawa.jpg')
-        +team('石井 壮太', 'Co-Founder / Engineering', 'sota.ishii', 'sot528')(src='img/ishii.jpg')
+        include mixin/team_member_sns
+        .col-lg-4
+          +team_member('安 昌浩', 'Founder')(src='img/yasu.png')
+          .team__content
+            include:markdown-it ./contents/member-profile-yasu.md
+          +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
+        .col-lg-4
+          +team_member('水澤 貴', 'Co-Founder / Communications')(src='img/mizusawa.jpg')
+          .team__content
+            include:markdown-it ./contents/member-profile-mizusawa.md
+          +team_member_sns('takashi.mizusawa', 'takashi_mizu')
+        .col-lg-4
+          +team_member('石井 壮太', 'Co-Founder / Engineering')(src='img/ishii.jpg')
+          .team__content
+            include:markdown-it ./contents/member-profile-ishii.md
+          +team_member_sns('sota.ishii', 'sot528')
 
     // Footer
     .container
