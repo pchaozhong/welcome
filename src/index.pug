@@ -133,35 +133,22 @@ html(lang='ja')
       // About Japan
       hr.about-japan-divider
       .row.about-japan
-        .col-md-7
-          h2.about-japan-heading
-            | 低品質のメディア量産が問題になっている日本
-            span.text-muted
-          p.lead
-            | 今日日本においては低品質・低信頼性のメディアが量産されることが問題になっています（必ずしも日本だけではないかもしれませんが。）クラウドソーシングを主に使用し簡単なコンテンツを大量生産してpvを稼ぐことが目的になっているからであると私たちは考えます。今までのメディアは結局マネタイズ手段の大半が企業の広告代として稼ぎを得ることであったがためにこのような事態になっていると考えるため、日本において真に非中央集権型のプラットフォームを運用し、第三者の介入なく価値が増大していくメディアを開発することが必要であると私たちは信じています。
-            //a(href='https://steemit.com') STEEM
+        .col-md-7.lead
+          include:markdown-it ./contents/about-japan__media-quority.md
         .col-md-5
-          img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='機能説明イメージ')
+          img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
       hr.about-japan-divider
       .row.about-japan
-        .col-md-7.col-md-push-5
-          h2.about-japan-heading
-            | 技術後進国日本
-            span.text-muted
-          p.lead
-            | 日本は過去の栄光を失いつつあり、ソフトウェア産業ではかなりの技術後進国となっております。現状ブロックチェーン技術や仮想通貨の話を日本国内で行なっているプレイヤーはほとんどおらず、私たちは日本のみがまた取り残されてしまう危機感を抱いております。ブロックチェーン技術が巻き起こす革命的な社会構造や世界が訪れることは必然であると我々は考えており、そのスピードを日本においても早めることを使命としてかかげています。
+        .col-md-7.col-md-push-5.lead
+          include:markdown-it ./contents/about-japan__technology.md
         .col-md-5.col-md-pull-7
-          img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='機能説明イメージ')
+          img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
       hr.about-japan-divider
       .row.about-japan
-        .col-md-7
-          h2.about-japan-heading
-            | 仮想通貨投資大国
-            span.text-muted
-          p.lead
-            | 技術的には後進国でありながらも、実は日本はもっとも仮想通貨に投資している国の一つです（世界第●位）。最近のビットコインの急騰により人々の関心はますます高まっており、まさに日本においても実用的な仮想通貨の登場が待たれていると感じております。また日本はGDP世界3位の経済大国であり、今の時流に乗ることで我々の実現したいプラットフォームを実現できると強く信じています。
+        .col-md-7.lead
+          include:markdown-it ./contents/about-japan__market.md
         .col-md-5
-          img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='機能説明イメージ')
+          img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
       hr.about-japan-divider
 
     //  ICO
