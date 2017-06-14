@@ -154,13 +154,12 @@ html(lang='ja')
     //  ICO
     .container.ico
       .row
-        .col-md-12
+        .col-md-12.lead
           h2.ico__heading
             | ICO情報
           img.ico__logo(src='img/logo.png', alt='ALIS')
-          p.lead
-            | 私たちはヴィジョンの実現のため、2017/08末にICO(Initial Public Offering)を実施予定です。
-            | プロジェクト最新情報の通知をご希望の方はどうぞご登録ください。
+          .lead
+            include:markdown-it ./contents/ico.md
           p
             a.ico__button.btn.btn-lg.btn-danger(href='#', role='button') 詳細はこちら
     hr.ico__divider
