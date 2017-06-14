@@ -23,7 +23,8 @@ html(lang='ja')
         nav.navbar.navbar-inverse.navbar-static-top
           .container
             .navbar-header
-              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar',
+              aria-expanded='false', aria-controls='navbar')
                 span.sr-only Toggle navigation
                 span.icon-bar
                 span.icon-bar
@@ -40,7 +41,8 @@ html(lang='ja')
                 li
                   a(href='#contact') Contact
                 li.dropdown
-                  a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                  a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true',
+                  aria-expanded='false')
                     | Dropdown
                     span.caret
                   ul.dropdown-menu
@@ -99,83 +101,75 @@ html(lang='ja')
         span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
         span.sr-only Next
 
+    //  Service information
+    .container.service-information
+      .row
+        .col-md-12
+          h2.service-information__heading
+            | ALISとはなにか？
+          img.service-information__logo(src='img/logo.png', alt='ALIS')
+          p.lead
+            | ALISは信頼性の高い情報・人に効率的に出会え、誰もが報酬を得ることができる非中央集権型ソーシャルメディアプラットフォームです。ブロックチェーン技術とALISトークンを利用することにより、誰にも管理されないP2Pによるプラットフォームを実現し、価値のある情報・人が評価され経済的に持続する世界を実現します。従来の中央集権によるメディアにありがちなペイドメディアの無価値な情報、ステルスマーケティング、および信用できるかどうかわからない情報を消費させられることに嫌気をさす日々からALISは人々を解放します。プラットフォームが発展するにつれ、このプラットフォームそのものが人の信頼を表したものとなり、様々な経済活動を行うプラットフォームへと進化します。
+          p
+            a.service-information__button.btn.btn-lg.btn-default(href='#', role='button') 詳細はこちら
+    hr.service-information__divider
+
     //
-      Marketing messaging and featurettes
+      Features
       ==================================================
     // Wrap the rest of the page in another container to center all the content.
-    .container.marketing
+    .container.features
       // Three columns of text below the carousel
       .row
         .col-lg-4
-          img.img-circle.marketing__circle-image(src='img/first_circle.png', alt='古いメディア')
-          h2 旧態然のメディア
+          img.img-circle.features__circle-image(src='img/first_circle.png', alt='古いメディア')
+          h2 ALISトークンによる良質な情報の評価
           p
-            | 悪質なステマ。わずらわしい広告。真偽の不明なあやしい情報。現状のメディアは新しい時代において古すぎる。
-            | 私たちはそう感じています。
-          p
-            a.btn.btn-default(href='#', role='button') View details »
+            | 多くの人々が価値があると認めるコンテンツを作成もしくは評価した人に対して、より多くののALISトークンを配布することによりそのモチベーションを最大化します。ALISトークンはEthereumやSTEEM同様、それ自体が売買される価値を持ちます。
         .col-lg-4
-          img.img-circle.marketing__circle-image(src='img/second_circle.png', alt='古いメディア')
-          h2 エンパワメント
+          img.img-circle.features__circle-image(src='img/second_circle.png', alt='古いメディア')
+          h2 プラットフォーム自体の価値をメンバーに還元
           p
-            | 質の高い情報へのアクセス。作りたいコンテンツを発信できる分権型のプラットフォーム。
-            | 私たちはこのプロダクトで中央集権から個人へのパワーシフトを促進します。
-          p
-            a.btn.btn-default(href='#', role='button') View details »
+            | ALISプラットフォームが信頼性の高いものであると人々が評価すればするほどALISトークンの価値が向上し、その価値がそのままプラットフォームを運用する人々に還元されます。その力学がさらなる信頼性の高いコンテンツ・人を生み出し、第三者の金銭の介入を必要とすることなく発展することが可能です。この仕組みはすでにsteem.ioが実装しており、実現可能な仕組みです。
         .col-lg-4
-          img.img-circle.marketing__circle-image(src='img/third_circle.jpg', alt='古いメディア')
-          h2 ヴィジョン
+          img.img-circle.features__circle-image(src='img/third_circle.jpg', alt='古いメディア')
+          h2 ブロックチェーン技術による高信頼・低コストの実現
           p
-            | 「信頼」とは何でしょうか？ どう扱われるべきものでしょうか？
-            | 私たちはこの難問に真っ向から立ち向かい、ブロックチェーン技術を用いて「個人の信頼」の新しい時代を志向しています。
-          p
-            a.btn.btn-default(href='#', role='button') View details »
+            | 従来のソーシャルメディアと異なり、ブロックチェーン技術を根幹に用いることでデータの改ざんが難しい高信頼を保ちながらも低コストでの運用を実現します。この技術がP2Pによるプラットフォーム運用および価値還元量の最大化に貢献します。
 
-      // START THE FEATURETTES
-      hr.featurette-divider
-      .row.featurette
+      // About Japan
+      hr.about-japan-divider
+      .row.about-japan
         .col-md-7
-          h2.featurette-heading
-            | 私たちが解決する課題
+          h2.about-japan-heading
+            | 低品質のメディア量産が問題になっている日本
             span.text-muted
           p.lead
-            | アフィリエイトの存在しないメディアは実現可能でしょうか？ 答えは"イエス"です。
-            | 現在、WEB上には"不誠実なコンテンツ"がまかり通っています。悪質なステルスマーケティング。
-            | 偽ニュース。日本では、広告収入を目当てに粗悪な医療情報を乱造して社会問題となったケースが記憶に新しいでしょう。
-            | 「できるはずない」と思われるかもしれませんが、広告なしで市場規模数百億円のメディアを実現した。
-            a(href='https://steemit.com') STEEM
-            |         等、幸いにも私たちには数多くの先人がいます。
+            | 今日日本においては低品質・低信頼性のメディアが量産されることが問題になっています（必ずしも日本だけではないかもしれませんが。）クラウドソーシングを主に使用し簡単なコンテンツを大量生産してpvを稼ぐことが目的になっているからであると私たちは考えます。今までのメディアは結局マネタイズ手段の大半が企業の広告代として稼ぎを得ることであったがためにこのような事態になっていると考えるため、日本において真に非中央集権型のプラットフォームを運用し、第三者の介入なく価値が増大していくメディアを開発することが必要であると私たちは信じています。
+            //a(href='https://steemit.com') STEEM
         .col-md-5
-          img.featurette-image.img-responsive.center-block(src='img/first_featurettes.png', alt='機能説明イメージ')
-      hr.featurette-divider
-      .row.featurette
+          img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='機能説明イメージ')
+      hr.about-japan-divider
+      .row.about-japan
         .col-md-7.col-md-push-5
-          h2.featurette-heading
-            | 実現のためのアクション
+          h2.about-japan-heading
+            | 技術後進国日本
             span.text-muted
           p.lead
-            | 私たちのヴィジョンを実現するためのキーワードは"ブロックチェーン技術"です。
-            | 現在、私たちは細部に至るまで考え抜き、一行一文言までロジックに裏打ちされた仕組み・要素・数値を設計中です。
-            | そのすべては近日中にホワイトペーパーとして公開予定です。
-            | 作成した設計に基づくDApp(分散アプリケーション)をEthereum等の適切な既存プラットフォーム上、あるいは
-            | 独自に運用するブロックチェーン上に構築します。
-            | そのコードは適切に設計され、高いテストカバレッジを維持し、CIや静的解析で高い品質を維持しつつすべてをオープンソースとして公開します。
+            | 日本は過去の栄光を失いつつあり、ソフトウェア産業ではかなりの技術後進国となっております。現状ブロックチェーン技術や仮想通貨の話を日本国内で行なっているプレイヤーはほとんどおらず、私たちは日本のみがまた取り残されてしまう危機感を抱いております。ブロックチェーン技術が巻き起こす革命的な社会構造や世界が訪れることは必然であると我々は考えており、そのスピードを日本においても早めることを使命としてかかげています。
         .col-md-5.col-md-pull-7
-          img.featurette-image.img-responsive.center-block(src='img/second_featurettes.png', alt='機能説明イメージ')
-      hr.featurette-divider
-      .row.featurette
+          img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='機能説明イメージ')
+      hr.about-japan-divider
+      .row.about-japan
         .col-md-7
-          h2.featurette-heading
-            | その先のヴィジョン、新しい社会のために
+          h2.about-japan-heading
+            | 仮想通貨投資大国
             span.text-muted
           p.lead
-            | 私たちは社会がこれから加速度的に進化し、変貌してゆくことを確信しています。
-            | その怒涛のような近未来において、私たちはブロックチェーン技術と親和性の高い"個人の信用"というキーワードで、
-            | 名誉ある貢献をしたいと考えています。
-            | 私たちには未来についての確信と意思があり、プロジェクトへの覚悟があります。
+            | 技術的には後進国でありながらも、実は日本はもっとも仮想通貨に投資している国の一つです（世界第●位）。最近のビットコインの急騰により人々の関心はますます高まっており、まさに日本においても実用的な仮想通貨の登場が待たれていると感じております。また日本はGDP世界3位の経済大国であり、今の時流に乗ることで我々の実現したいプラットフォームを実現できると強く信じています。
         .col-md-5
-          img.featurette-image.img-responsive.center-block(src='img/third_featurettes.png', alt='機能説明イメージ')
-      hr.featurette-divider
+          img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='機能説明イメージ')
+      hr.about-japan-divider
 
     //  ICO
     .container.ico
@@ -191,18 +185,31 @@ html(lang='ja')
             a.ico__button.btn.btn-lg.btn-danger(href='#', role='button') 詳細はこちら
     hr.ico__divider
 
-    // MEMBER
-    .container.member
+    //  Technology
+    .container.technology
       .row
         .col-md-12
-          h2.member__heading
-            | About
-        include mixin/member
-        +member('水澤 貴', 'Co-Founder / Communications', 'takashi.mizusawa', 'takashi_mizu')(src='img/mizusawa.jpg')
-        +member('安 昌浩', 'Founder', 'masahiro.yasu.7', 'fiesta_red_fg')(src='img/yasu.png')
-        +member('石井 壮太', 'Co-Founder / Engineering', 'sota.ishii', 'sot528')(src='img/ishii.jpg')
+          h2.technology__heading
+            | 技術
+          img.technology__logo(src='img/third_circle.jpg', alt='ALIS')
+          p.lead
+            | 現在、私たちは細部に至るまで考え抜き、一行一文言までロジックに裏打ちされた仕組み・要素・数値を設計中です。 そのすべては近日中にホワイトペーパーとして公開予定です。 作成した設計に基づくDApp(分散アプリケーション)をEthereum等の適切な既存プラットフォーム上、あるいは 独自に運用するブロックチェーン上に構築します。 そのコードは適切に設計され、高いテストカバレッジを維持し、CIや静的解析で高い品質を維持しつつすべてをオープンソースとして公開します。
+          p
+            a.technology__button.btn.btn-lg.btn-danger(href='#', role='button') 詳細はこちら
+    hr.technology__divider
 
-    // FOOTER
+    // Team
+    .container.team
+      .row
+        .col-md-12
+          h2.team__heading
+            | Team
+        include mixin/team_member
+        +team('安 昌浩', 'Founder', 'masahiro.yasu.7', 'fiesta_red_fg')(src='img/yasu.png')
+        +team('水澤 貴', 'Co-Founder / Communications', 'takashi.mizusawa', 'takashi_mizu')(src='img/mizusawa.jpg')
+        +team('石井 壮太', 'Co-Founder / Engineering', 'sota.ishii', 'sot528')(src='img/ishii.jpg')
+
+    // Footer
     .container
       footer
         p.pull-right

@@ -62,11 +62,41 @@ body {
   height: 500px;
 }
 
-/* MARKETING CONTENT
+/* Service information
+-------------------------------------------------- */
+
+.service-information {
+  .col-md-12 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__heading {
+    font-weight: normal;
+  }
+
+  &__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    width: 558px;
+    height: 56px;
+    font-size: 26px;
+    vertical-align: middle;
+  }
+
+  &__divider {
+    margin: 80px 0;
+  }
+}
+
+/* Features
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing {
+.features {
   .col-lg-4 {
     margin-bottom: 20px;
     text-align: center;
@@ -87,24 +117,11 @@ body {
   }
 }
 
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-/* ICO CONTENT
+/* ICO & Technology
 -------------------------------------------------- */
 
-.ico {
+.ico,
+.technology {
   .col-md-12 {
     margin-bottom: 20px;
     text-align: center;
@@ -135,7 +152,7 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.member {
+.team {
   margin-bottom: 80px;
 
   .col-md-12 {
@@ -203,21 +220,22 @@ body {
     line-height: 1.4;
   }
 
-  .featurette-heading {
+  .features-heading {
     font-size: 50px;
   }
 
-  .ico__heading {
-    font-size: 50px;
-  }
-
-  .member__heading {
-    font-size: 50px;
+  .service-information,
+  .features,
+  .ico,
+  .team {
+    &__heading {
+      font-size: 50px;
+    }
   }
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {
+  .features-heading {
     margin-top: 120px;
   }
 }
