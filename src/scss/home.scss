@@ -17,21 +17,17 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
-}
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.navbar-wrapper .navbar .container {
-  width: auto;
+  > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+    .container {
+      width: auto;
+    }
+  }
 }
 
 .navbar-brand {
@@ -45,21 +41,17 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
 .carousel {
   height: 500px;
   margin-bottom: 60px;
+  .item {
+    height: 500px;
+    background-color: #777;
+  }
 }
 
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
 }
 
 .carousel-inner > .item > img {
@@ -70,49 +62,10 @@ body {
   height: 500px;
 }
 
-/* MARKETING CONTENT
+/* Service information
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.marketing h2 {
-  font-weight: normal;
-}
-
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.marketing {
-  &__circle-image {
-    width: 140px;
-    height: 140px;
-  }
-}
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-/* ICO CONTENT
--------------------------------------------------- */
-
-.ico {
+.service-information {
   .col-md-12 {
     margin-bottom: 20px;
     text-align: center;
@@ -139,11 +92,67 @@ body {
   }
 }
 
-/* MEMBER CONTENT
+/* Features
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.member {
+.features {
+  .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+
+    p {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+
+  &__circle-image {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* ICO & Technology
+-------------------------------------------------- */
+
+.ico,
+.technology {
+  .col-md-12 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__heading {
+    font-weight: normal;
+  }
+
+  &__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    width: 558px;
+    height: 56px;
+    font-size: 26px;
+    vertical-align: middle;
+  }
+
+  &__divider {
+    margin: 80px 0;
+  }
+}
+
+/* Team
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.team {
   margin-bottom: 80px;
 
   .col-md-12 {
@@ -170,6 +179,10 @@ body {
     height: 140px;
   }
 
+  &__content {
+    text-align: left;
+  }
+
   &__sns-link {
     a:not(:first-child) {
       margin-left: 3px;
@@ -189,19 +202,19 @@ body {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
 
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    .navbar {
+      padding-right: 0;
+      padding-left: 0;
+
+      /* The navbar becomes detached from the top, so we round the corners */
+      border-radius: 4px;
+    }
   }
 
   /* Bump up size of carousel content */
@@ -211,21 +224,19 @@ body {
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
-
-  .ico__heading {
-    font-size: 50px;
-  }
-
-  .member__heading {
-    font-size: 50px;
+  .service-information,
+  .features,
+  .ico,
+  .technology,
+  .team {
+    &__heading {
+      font-size: 50px;
+    }
   }
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {
+  .features-heading {
     margin-top: 120px;
   }
 }

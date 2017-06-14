@@ -1,0 +1,213 @@
+doctype html
+html(lang='ja')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    meta(name='description', content='')
+    meta(name='author', content='')
+    // TODO: robots
+    meta(name='robots', content='noindex,nofollow,noarchive')
+    // TODO: <link rel="icon" href="../../favicon.ico">
+    title ALIS
+    // webpack
+    script(src='js/home.js')
+
+  //
+    NAVBAR
+    ==================================================
+  body
+    .navbar-wrapper
+      .container
+        nav.navbar.navbar-inverse.navbar-static-top
+          .container
+            .navbar-header
+              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar',
+              aria-expanded='false', aria-controls='navbar')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#')
+                // TODO: 正規のロゴが来たら差し替え
+                img.navbar-brand__logo(src='img/logo_square.png', alt='ALIS')
+            #navbar.navbar-collapse.collapse
+              ul.nav.navbar-nav
+                li.active
+                  a(href='#') Home
+                li
+                  a(href='#about') About
+                li
+                  a(href='#contact') Contact
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true',
+                  aria-expanded='false')
+                    | Dropdown
+                    span.caret
+                  ul.dropdown-menu
+                    li
+                      a(href='#') Action
+                    li
+                      a(href='#') Another action
+                    li
+                      a(href='#') Something else here
+                    li.divider(role='separator')
+                    li.dropdown-header Nav header
+                    li
+                      a(href='#') Separated link
+                    li
+                      a(href='#') One more separated link
+    //
+      Carousel
+      ==================================================
+    #myCarousel.carousel.slide(data-ride='carousel')
+      // Indicators
+      ol.carousel-indicators
+        li.active(data-target='#myCarousel', data-slide-to='0')
+        li(data-target='#myCarousel', data-slide-to='1')
+        li(data-target='#myCarousel', data-slide-to='2')
+      .carousel-inner(role='listbox')
+        .item.active
+          img.first-slide(src='img/first_slide.jpg', alt='First slide')
+          .container
+            .carousel-caption
+              // TODO: 正規のロゴが来たら差し替え
+              img(src='img/logo.png', alt='ALIS')
+              p ブロックチェーン活用した日本初の分散型メディアプラットフォーム
+              p
+                a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
+        .item
+          img.second-slide(src='img/second_slide.jpg', alt='Second slide')
+          .container
+            .carousel-caption
+              h1 Make the world flat with blockchain technology.
+              p ブロックチェーン技術があまねく世界を変えてゆく。私たちはその一翼を担います。
+              p
+                a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
+        .item
+          img.third-slide(src='img/third_slide.jpg', alt='Third slide')
+          .container
+            .carousel-caption
+              h1 私たちのミッション
+              p ブロックチェーンをベースとしたメディアで信頼性の高いコンテンツを提供。
+              p クリエイターは広告にとらわれず好きなコンテンツを作成できます。
+              p
+                a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
+      a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+        span.sr-only Previous
+      a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
+        span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+        span.sr-only Next
+
+    //  Service information
+    .container.service-information
+      .row
+        .col-md-12
+          h2.service-information__heading
+            | ALISとはなにか？
+          img.service-information__logo(src='img/logo.png', alt='ALIS')
+          .lead
+            include:markdown-it ./contents/service-information.md
+          p
+            a.service-information__button.btn.btn-lg.btn-default(href='#', role='button') 詳細はこちら
+    hr.service-information__divider
+
+    //
+      Features
+      ==================================================
+    // Wrap the rest of the page in another container to center all the content.
+    .container.features
+      .row
+        .col-lg-4
+          img.img-circle.features__circle-image(src='img/first_circle.png', alt='トークン')
+          include:markdown-it ./contents/features__about-token.md
+        .col-lg-4
+          img.img-circle.features__circle-image(src='img/second_circle.png', alt='プラットフォーム')
+          include:markdown-it ./contents/features__about-platform.md
+        .col-lg-4
+          img.img-circle.features__circle-image(src='img/third_circle.jpg', alt='ブロックチェーン技術')
+          include:markdown-it ./contents/features__about-technology.md
+
+      // About Japan
+      hr.about-japan-divider
+      .row.about-japan
+        .col-md-7.lead
+          include:markdown-it ./contents/about-japan__media-quority.md
+        .col-md-5
+          img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
+      hr.about-japan-divider
+      .row.about-japan
+        .col-md-7.col-md-push-5.lead
+          include:markdown-it ./contents/about-japan__technology.md
+        .col-md-5.col-md-pull-7
+          img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
+      hr.about-japan-divider
+      .row.about-japan
+        .col-md-7.lead
+          include:markdown-it ./contents/about-japan__market.md
+        .col-md-5
+          img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
+      hr.about-japan-divider
+
+    //  ICO
+    .container.ico
+      .row
+        .col-md-12.lead
+          h2.ico__heading
+            | ICO情報
+          img.ico__logo(src='img/logo.png', alt='ALIS')
+          .lead
+            include:markdown-it ./contents/ico.md
+          p
+            a.ico__button.btn.btn-lg.btn-danger(href='#', role='button') 詳細はこちら
+    hr.ico__divider
+
+    //  Technology
+    .container.technology
+      .row
+        .col-md-12
+          h2.technology__heading
+            | 技術
+          img.technology__logo(src='img/third_circle.jpg', alt='ALIS')
+          .lead
+            include:markdown-it ./contents/technology.md
+          p
+            a.technology__button.btn.btn-lg.btn-danger(href='#', role='button') 詳細はこちら
+    hr.technology__divider
+
+    // Team
+    .container.team
+      .row
+        .col-md-12
+          h2.team__heading
+            | Team
+        include mixin/team_member
+        include mixin/team_member_sns
+        .col-lg-4
+          +team_member('安 昌浩', 'Founder')(src='img/yasu.png')
+          .team__content
+            include:markdown-it ./contents/member-profile-yasu.md
+          +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
+        .col-lg-4
+          +team_member('水澤 貴', 'Co-Founder / Communications')(src='img/mizusawa.jpg')
+          .team__content
+            include:markdown-it ./contents/member-profile-mizusawa.md
+          +team_member_sns('takashi.mizusawa', 'takashi_mizu')
+        .col-lg-4
+          +team_member('石井 壮太', 'Co-Founder / Engineering')(src='img/ishii.jpg')
+          .team__content
+            include:markdown-it ./contents/member-profile-ishii.md
+          +team_member_sns('sota.ishii', 'sot528')
+
+    // Footer
+    .container
+      footer
+        p.pull-right
+          a(href='#') Back to top
+        p
+          | © ALIS team. ·
+          a(href='#') Privacy
+          |  ·
+          a(href='#') Terms
