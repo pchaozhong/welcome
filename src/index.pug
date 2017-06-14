@@ -119,23 +119,16 @@ html(lang='ja')
       ==================================================
     // Wrap the rest of the page in another container to center all the content.
     .container.features
-      // Three columns of text below the carousel
       .row
         .col-lg-4
-          img.img-circle.features__circle-image(src='img/first_circle.png', alt='古いメディア')
-          h2 ALISトークンによる良質な情報の評価
-          p
-            | 多くの人々が価値があると認めるコンテンツを作成もしくは評価した人に対して、より多くののALISトークンを配布することによりそのモチベーションを最大化します。ALISトークンはEthereumやSTEEM同様、それ自体が売買される価値を持ちます。
+          img.img-circle.features__circle-image(src='img/first_circle.png', alt='トークン')
+          include:markdown-it ./contents/features__about-token.md
         .col-lg-4
-          img.img-circle.features__circle-image(src='img/second_circle.png', alt='古いメディア')
-          h2 プラットフォーム自体の価値をメンバーに還元
-          p
-            | ALISプラットフォームが信頼性の高いものであると人々が評価すればするほどALISトークンの価値が向上し、その価値がそのままプラットフォームを運用する人々に還元されます。その力学がさらなる信頼性の高いコンテンツ・人を生み出し、第三者の金銭の介入を必要とすることなく発展することが可能です。この仕組みはすでにsteem.ioが実装しており、実現可能な仕組みです。
+          img.img-circle.features__circle-image(src='img/second_circle.png', alt='プラットフォーム')
+          include:markdown-it ./contents/features__about-platform.md
         .col-lg-4
-          img.img-circle.features__circle-image(src='img/third_circle.jpg', alt='古いメディア')
-          h2 ブロックチェーン技術による高信頼・低コストの実現
-          p
-            | 従来のソーシャルメディアと異なり、ブロックチェーン技術を根幹に用いることでデータの改ざんが難しい高信頼を保ちながらも低コストでの運用を実現します。この技術がP2Pによるプラットフォーム運用および価値還元量の最大化に貢献します。
+          img.img-circle.features__circle-image(src='img/third_circle.jpg', alt='ブロックチェーン技術')
+          include:markdown-it ./contents/features__about-technology.md
 
       // About Japan
       hr.about-japan-divider
