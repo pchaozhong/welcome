@@ -33,7 +33,6 @@
     "develop": "webpack -d",
     "watch": "webpack -d --watch",
     "clean": "rm -fr ./node_modules && yarn install && rm -fr ./public/*",
-    "deploy": "s3cmd -c .s3cfg -P --follow-symlinks sync ./public/ s3://aslis.staging/",
-    "test": "echo TODO"
+    "deploy": "s3cmd -c .s3cfg -P --follow-symlinks sync ./public/ s3://aslis.staging/"
   }
 }
