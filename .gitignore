@@ -2,6 +2,7 @@ node_modules
 public
 !public/.gitkeep
 .s3cfg
+.DS_Store
 
 # For JetBrains IDE
 .idea
