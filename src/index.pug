@@ -38,15 +38,17 @@ html(lang='ja')
               img(src='img/logo.png', alt='ALIS')
               p ブロックチェーン活用した日本初の分散型メディアプラットフォーム
               p
-                a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
+                button.btn.btn-lg.btn-primary(type="button", data-toggle="modal",
+                data-target=".video-modal") ビデオを見る
         .item
           img.second-slide(src='img/second_slide.jpg', alt='Second slide')
           .container
             .carousel-caption
-              h1 Make the world flat with blockchain technology.
-              p ブロックチェーン技術があまねく世界を変えてゆく。私たちはその一翼を担います。
+              h1 2017/08末にICOを実施いたします
+              p ALISプロジェクトのICOの情報を受け取りたい方は以下のボタンよりメールアドレスをご登録ください。
               p
-                a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
+                a.btn.btn-lg.btn-primary(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
+                role='button', target='blank') 登録する
         .item
           img.third-slide(src='img/third_slide.jpg', alt='Third slide')
           .container
@@ -165,3 +167,6 @@ html(lang='ja')
 
     // Footer
     include includes/footer
+
+    // Video modal
+    include mixin/video-mordal
