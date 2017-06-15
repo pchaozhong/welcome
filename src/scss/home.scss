@@ -153,8 +153,6 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .team {
-  margin-bottom: 80px;
-
   .col-md-12 {
     margin-bottom: 20px;
     text-align: center;
@@ -191,6 +189,28 @@ body {
     img {
       width: 23px;
       height: 20px;
+    }
+  }
+}
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__sns-links {
+    :not(:first-child) {
+      margin-left: 11px;
+    }
+
+    margin-bottom: 31px;
+
+    &__link {
+      color: #979797;
     }
   }
 }
