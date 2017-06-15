@@ -36,7 +36,7 @@ html(lang='ja')
             .carousel-caption
               // TODO: 正規のロゴが来たら差し替え
               img(src='img/logo.png', alt='ALIS')
-              p ブロックチェーン活用した日本初の分散型メディアプラットフォーム
+              p ブロックチェーン技術を活用した日本初の分散型メディアプラットフォーム
               p
                 button.btn.btn-lg.btn-primary(type="button", data-toggle="modal",
                 data-target=".video-modal") ビデオを見る
@@ -44,8 +44,8 @@ html(lang='ja')
           img.second-slide(src='img/second_slide.jpg', alt='Second slide')
           .container
             .carousel-caption
-              h1 2017/08末にICOを実施いたします
-              p ALISプロジェクトのICOの情報を受け取りたい方は以下のボタンよりメールアドレスをご登録ください。
+              h1 2017/08末にICOを実施する予定です
+              p ALISプロジェクトのICOの情報を受け取りたい方は以下のボタンよりメールアドレスをご登録ください
               p
                 a.btn.btn-lg.btn-primary(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
                 role='button', target='blank') 登録する
@@ -54,8 +54,8 @@ html(lang='ja')
           .container
             .carousel-caption
               h1 私たちのミッション
-              p ブロックチェーンをベースとしたメディアで信頼性の高いコンテンツを提供。
-              p クリエイターは広告にとらわれず好きなコンテンツを作成できます。
+              p 世の中に質の高いコンテンツとそれを生み出す信頼のおける人を明らかにすること
+              p 日本においても約束された分散型・個人主義型社会の到来を早めること
               p
                 a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
       a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
@@ -70,12 +70,12 @@ html(lang='ja')
       .row
         .col-md-12
           h2.service-information__heading
-            | ALISとはなにか？
+            | What is ALIS Project?
           img.service-information__logo(src='img/logo.png', alt='ALIS')
           .lead
             include:markdown-it ./contents/service-information.md
           p
-            a.service-information__button.btn.btn-lg.btn-default(href='#', role='button') 詳細はこちら
+            a.service-information__button.btn.btn-lg.btn-default(href='#', role='button') ホワイトペーパーを読む
     hr.service-information__divider
 
     //
@@ -84,6 +84,8 @@ html(lang='ja')
     // Wrap the rest of the page in another container to center all the content.
     .container.features
       .row
+        h2.features__heading
+          | ALISの特徴
         .col-lg-4
           img.img-rounded.features__circle-image(src='img/first_circle.png', alt='トークン')
           include:markdown-it ./contents/features__about-token.md
@@ -96,6 +98,8 @@ html(lang='ja')
 
       // About Japan
       hr.about-japan-divider
+      .h2
+        | なぜ日本でALISを実現するのか
       .row.about-japan
         .col-md-7.lead
           include:markdown-it ./contents/about-japan__media-quority.md
@@ -125,7 +129,7 @@ html(lang='ja')
           .lead
             include:markdown-it ./contents/ico.md
           p
-            a.ico__button.btn.btn-lg.btn-danger(href='#', role='button') 詳細はこちら
+            a.ico__button.btn.btn-lg.btn-danger(href='#', role='button') 登録はこちら
     hr.ico__divider
 
     //  Technology
@@ -160,7 +164,7 @@ html(lang='ja')
             include:markdown-it ./contents/member-profile-mizusawa.md
           +team_member_sns('takashi.mizusawa', 'takashi_mizu')
         .col-lg-4
-          +team_member('石井 壮太', 'Co-Founder / Engineering / Photos & Movies')(src='img/ishii.jpg')
+          +team_member('石井 壮太', 'Co-Founder / Engineering')(src='img/ishii.jpg')
           .team__content
             include:markdown-it ./contents/member-profile-ishii.md
           +team_member_sns('sota.ishii', 'sot528')
