@@ -55,7 +55,7 @@ html(lang='ja')
             .carousel-caption
               h1 私たちのミッション
               p 世の中に質の高いコンテンツとそれを生み出す信頼のおける人を明らかにすること
-              p 日本においても約束された分散型・個人主義型社会の到来を早めること
+              p 日本における非中央集権型社会の到来を早めること
               p
                 a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
       a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
@@ -98,8 +98,9 @@ html(lang='ja')
 
       // About Japan
       hr.about-japan-divider
-      .h2
-        | なぜ日本でALISを実現するのか
+      .row
+        h2.features__heading
+          | なぜ日本でALISを実現するのか
       .row.about-japan
         .col-md-7.lead
           include:markdown-it ./contents/about-japan__media-quority.md
