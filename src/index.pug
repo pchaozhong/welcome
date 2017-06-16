@@ -19,47 +19,18 @@ html(lang='ja')
     include includes/header
 
     //
-      Carousel
+      Cover
       ==================================================
-    #myCarousel.carousel.slide(data-ride='carousel')
-      // Indicators
-      ol.carousel-indicators
-        li.active(data-target='#myCarousel', data-slide-to='0')
-        li(data-target='#myCarousel', data-slide-to='1')
-        li(data-target='#myCarousel', data-slide-to='2')
+    #cover.carousel.slide(data-ride='carousel')
       .carousel-inner(role='listbox')
         .item.active
-          img.first-slide(src='img/first_slide.jpg', alt='First slide')
+          img.first-slide(src='img/cover.jpg', alt='cover')
           .container
             .carousel-caption
               p ブロックチェーン技術を活用した日本初の分散型メディアプラットフォーム
               p
                 button.btn.btn-lg.btn-primary(type="button", data-toggle="modal",
                 data-target=".video-modal") ビデオを見る
-        .item
-          img.second-slide(src='img/second_slide.jpg', alt='Second slide')
-          .container
-            .carousel-caption
-              h1 2017/08末にICOを実施する予定です
-              p ALISプロジェクトのICOの情報を受け取りたい方は以下のボタンよりメールアドレスをご登録ください
-              p
-                a.btn.btn-lg.btn-primary(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
-                role='button', target='blank') 登録する
-        .item
-          img.third-slide(src='img/third_slide.jpg', alt='Third slide')
-          .container
-            .carousel-caption
-              h1 私たちのミッション
-              p 世の中に質の高いコンテンツとそれを生み出す信頼のおける人を明らかにすること
-              p 日本における非中央集権型社会の到来を早めること
-              p
-                a.btn.btn-lg.btn-primary.smooth-anchor(href='#about-japan', role='button') 詳細はこちら
-      a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
-        span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
-        span.sr-only Previous
-      a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
-        span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
-        span.sr-only Next
 
     //  Service information
     .container.service-information#service-information
