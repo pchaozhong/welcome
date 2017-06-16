@@ -72,8 +72,13 @@ body {
     text-align: center;
   }
 
+  .lead{
+    font-size: 16px;
+  }
+
   &__heading {
     font-weight: normal;
+    font-size: 30px;
   }
 
   &__logo {
@@ -82,9 +87,9 @@ body {
   }
 
   &__button {
-    width: 558px;
-    height: 56px;
-    font-size: 26px;
+    width: 420px;
+    height: 43px;
+    font-size: 16px;
     vertical-align: middle;
   }
 
