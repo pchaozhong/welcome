@@ -5,7 +5,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    home: './src/js/home.js'
+    home: './src/js/home.js',
+    privacy: './src/js/privacy.js'
   },
   output: {
     path: path.join(__dirname, 'public'),
@@ -44,6 +45,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'src/index.pug',
+      inject: 'head',
+      chunks: ['home']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'privacy.html',
+      template: 'src/privacy.pug',
+      inject: 'head',
+      chunks: ['home', 'privacy']
     })
   ]
 };
