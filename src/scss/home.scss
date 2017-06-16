@@ -24,8 +24,10 @@ body {
   }
 
   .nav {
+    float: right;
     font-size: 18px;
     margin-top: 4px;
+    margin-right: -5px;
 
     li a {
       padding-left: 4px;
