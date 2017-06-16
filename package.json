@@ -32,8 +32,7 @@
     "production": "webpack -p",
     "develop": "webpack -d",
     "watch": "webpack -d --watch",
-    "clean": "rm -fr ./node_modules && yarn install && rm -fr ./public/*",
-    "deploy": "s3cmd -c .s3cfg -P --follow-symlinks sync ./public/ s3://aslis.staging/",
-    "test": "echo TODO"
+    "clean": "rm -fr ./node_modules && yarn && rm -fr ./public/*",
+    "deploy": "aws s3 sync public s3://${S3_BUCKET_DEVELOP}/  --acl public-read-write && aws s3 sync node_modules s3://${S3_BUCKET_DEVELOP}/node_modules  --acl public-read-write"
   }
 }
