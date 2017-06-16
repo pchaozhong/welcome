@@ -25,15 +25,19 @@ body {
 
   .nav {
     font-size: 18px;
-    margin-top: 1px;
+    margin-top: 4px;
+
+    li a {
+      padding-left: 4px;
+    }
   }
 }
 
 .navbar-brand {
   &__logo {
     width: 127px;
-    margin-top: -10px;
-    margin-left: -6px;
+    margin-top: -8px;
+    margin-left: -3px;
   }
 }
 
