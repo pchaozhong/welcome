@@ -122,12 +122,20 @@ body {
     p {
       margin-right: 10px;
       margin-left: 10px;
+      color: #787878;
+      text-align: left;
     }
   }
 
   h2 {
     font-weight: normal;
   }
+
+  &__heading {
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    }
 
   &__circle-image {
     width: 200px;
@@ -272,7 +280,7 @@ body {
   .technology,
   .team {
     &__heading {
-      font-size: 50px;
+      font-size: 30px;
     }
   }
 }
