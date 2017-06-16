@@ -33,9 +33,9 @@ body {
 
 .navbar-brand {
   &__logo {
-    width: 30px;
-    height: 30px;
-    margin-top: -3px
+    width: 127px;
+    margin-top: -10px;
+    margin-left: -6px;
   }
 }
 
@@ -79,6 +79,8 @@ body {
   &__logo {
     margin-top: 20px;
     margin-bottom: 20px;
+
+    width: 500px;
   }
 
   &__button {
