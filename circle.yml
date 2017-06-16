@@ -11,6 +11,10 @@ dependencies:
   cache_directories:
       - ~/.cache/yarn
 
+compile:
+  override:
+    - yarn production
+
 test:
   override:
     - yarn pug-lint ./src
