@@ -32,8 +32,6 @@ html(lang='ja')
           img.first-slide(src='img/first_slide.jpg', alt='First slide')
           .container
             .carousel-caption
-              // TODO: 正規のロゴが来たら差し替え
-              img(src='img/logo.png', alt='ALIS')
               p ブロックチェーン技術を活用した日本初の分散型メディアプラットフォーム
               p
                 button.btn.btn-lg.btn-primary(type="button", data-toggle="modal",
@@ -121,7 +119,6 @@ html(lang='ja')
         .col-md-12.lead
           h2.ico__heading
             | ICO情報
-          img.ico__logo(src='img/logo.png', alt='ALIS')
           .lead
             include:markdown-it ./contents/ico.md
           p
