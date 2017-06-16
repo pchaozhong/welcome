@@ -55,7 +55,7 @@ html(lang='ja')
               p 世の中に質の高いコンテンツとそれを生み出す信頼のおける人を明らかにすること
               p 日本における非中央集権型社会の到来を早めること
               p
-                a.btn.btn-lg.btn-primary(href='#', role='button') 詳細はこちら
+                a.btn.btn-lg.btn-primary.smooth-anchor(href='#about-japan', role='button') 詳細はこちら
       a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
         span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
         span.sr-only Previous
@@ -73,7 +73,8 @@ html(lang='ja')
           .lead
             include:markdown-it ./contents/service-information.md
           p
-            a.service-information__button.btn.btn-lg.btn-default(href='#', role='button') ホワイトペーパーを読む
+            a.service-information__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
+            target='blank' role='button') ホワイトペーパーの情報を受け取る
     hr.service-information__divider
 
     //
@@ -93,25 +94,26 @@ html(lang='ja')
           include:markdown-it ./contents/features__about-technology.md
 
       // About Japan
-      hr.about-japan-divider
-      .row.about-japan
-        .col-md-7.lead
-          include:markdown-it ./contents/about-japan__media-quority.md
-        .col-md-5
-          img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
-      hr.about-japan-divider
-      .row.about-japan
-        .col-md-7.col-md-push-5.lead
-          include:markdown-it ./contents/about-japan__technology.md
-        .col-md-5.col-md-pull-7
-          img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
-      hr.about-japan-divider
-      .row.about-japan
-        .col-md-7.lead
-          include:markdown-it ./contents/about-japan__market.md
-        .col-md-5
-          img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
-      hr.about-japan-divider
+      #about-japan
+        hr.about-japan-divider
+        .row.about-japan
+          .col-md-7.lead
+            include:markdown-it ./contents/about-japan__media-quority.md
+          .col-md-5
+            img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
+        hr.about-japan-divider
+        .row.about-japan
+          .col-md-7.col-md-push-5.lead
+            include:markdown-it ./contents/about-japan__technology.md
+          .col-md-5.col-md-pull-7
+            img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
+        hr.about-japan-divider
+        .row.about-japan
+          .col-md-7.lead
+            include:markdown-it ./contents/about-japan__market.md
+          .col-md-5
+            img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
+        hr.about-japan-divider
 
     //  ICO
     .container.ico#ico
@@ -123,7 +125,8 @@ html(lang='ja')
           .lead
             include:markdown-it ./contents/ico.md
           p
-            a.ico__button.btn.btn-lg.btn-danger(href='#', role='button') 登録はこちら
+            a.ico__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
+            target='blank' role='button') ICOの情報を受け取る
     hr.ico__divider
 
     //  Technology
@@ -135,8 +138,6 @@ html(lang='ja')
           img.technology__logo(src='img/third_circle.jpg', alt='ALIS')
           .lead
             include:markdown-it ./contents/technology.md
-          p
-            a.technology__button.btn.btn-lg.btn-danger(href='#', role='button') 詳細はこちら
     hr.technology__divider
 
     // Team
