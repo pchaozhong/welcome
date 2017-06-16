@@ -13,12 +13,16 @@ html(lang='ja')
     title ALIS
     // webpack
     script(src='js/home.js')
+    // google tag manager head tag
+    script(src='js/gtm_head.js')
 
   //
     NAVBAR
     ==================================================
   body
     include includes/header
+    // google tag manager body tag
+    script(src='js/gtm_body.js')
 
     //
       Carousel
