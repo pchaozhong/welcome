@@ -84,8 +84,6 @@ html(lang='ja')
     // Wrap the rest of the page in another container to center all the content.
     .container.features
       .row
-        h2.features__heading
-          | ALISの特徴
         .col-lg-4
           img.img-rounded.features__circle-image(src='img/first_circle.png', alt='トークン')
           include:markdown-it ./contents/features__about-token.md
@@ -98,9 +96,6 @@ html(lang='ja')
 
       // About Japan
       hr.about-japan-divider
-      .row
-        h2.features__heading
-          | なぜ日本でALISを実現するのか
       .row.about-japan
         .col-md-7.lead
           include:markdown-it ./contents/about-japan__media-quority.md
