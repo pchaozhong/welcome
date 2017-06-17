@@ -91,8 +91,17 @@ body {
     text-align: center;
   }
 
+  .lead{
+    font-size: 16px;
+    margin: 0px auto;
+    line-height: 32px;
+    width: 800px;
+    color: #787878;
+  }
+
   &__heading {
     font-weight: normal;
+    margin-bottom: 16px;
   }
 
   &__logo {
@@ -103,9 +112,10 @@ body {
   }
 
   &__button {
-    width: 558px;
-    height: 56px;
-    font-size: 26px;
+    width: 420px;
+    height: 43px;
+    font-size: 16px;
+    margin-top: 48px;
     vertical-align: middle;
   }
 
@@ -276,7 +286,7 @@ body {
   .technology,
   .team {
     &__heading {
-      font-size: 50px;
+      font-size: 30px;
     }
   }
 }
