@@ -1,25 +1,14 @@
-doctype html
-html(lang='ja')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
-    meta(name='description', content='')
-    meta(name='author', content='')
-    // TODO: robots
-    meta(name='robots', content='noindex,nofollow,noarchive')
-    // TODO: <link rel="icon" href="../../favicon.ico">
-    title ALIS | Privacy policy.
+// header
+include includes/header
 
-  //
-    NAVBAR
-    ==================================================
-  body
-    include includes/header_without_links
+//
+  NAVBAR
+  ==================================================
+body
+  include includes/navbar_without_links
 
-    .container.privacy-container
-      include:markdown-it ./contents/privacypolicy.md
+  .container.privacy-container
+    include:markdown-it ./contents/privacypolicy.md
 
-    // Footer
-    include includes/footer
+  // Footer
+  include includes/footer
