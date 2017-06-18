@@ -157,6 +157,38 @@ body {
   }
 }
 
+/* About Japan
+-------------------------------------------------- */
+
+.about-japan{
+  vertical-align: middle;
+  .col-md-7 {
+    margin-top: 70px;
+    text-align: left;
+
+    p {
+      color: #787878;
+      text-align: left;
+    }
+
+    .lead{
+      fontt-size: 16px;
+    }
+
+  }
+
+  &__heading {
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 /* ICO & Technology
 -------------------------------------------------- */
 
