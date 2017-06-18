@@ -296,6 +296,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #222;
+  width: auto;
+  padding-top: 31px;
+  margin-bottom: -40px;
 
   &__sns-links {
     :not(:first-child) {
