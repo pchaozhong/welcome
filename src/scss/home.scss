@@ -367,6 +367,15 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+// ex) iPhone5/5S/5c/SE
+@media (max-width: 640px) {
+  .service-information__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 56%;
+  }
+}
+
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
