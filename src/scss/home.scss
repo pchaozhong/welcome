@@ -1,11 +1,10 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+@import 'common';
 
 body {
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
   padding-bottom: 40px;
-  color: #5a5a5a;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -18,7 +17,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 0;
-  background-color: #05051e;
+  background-color: $navColor;
 
   .container {
     width: auto;
@@ -32,7 +31,7 @@ body {
 
     li a {
       padding-left: 4px;
-      color: #ffffff;
+      color: white;
     }
   }
 }
@@ -55,7 +54,7 @@ body {
 
   .item {
     height: 500px;
-    background-color: #777;
+    background-color: gray;
   }
 
   &__caption {
@@ -66,12 +65,12 @@ body {
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    color: white;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 
     &__btn {
-      fill: #858dda;
+      fill: $brandColor;
       width: 100px;
 
       &_hover {
@@ -91,7 +90,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 650px;
+  height: 100%;
 }
 
 /* Service information
@@ -103,16 +102,7 @@ body {
     text-align: center;
   }
 
-  .lead {
-    font-size: 16px;
-    margin: 0px auto;
-    line-height: 32px;
-    width: 800px;
-    color: #787878;
-  }
-
   &__heading {
-    font-weight: normal;
     margin-bottom: 16px;
   }
 
@@ -121,16 +111,6 @@ body {
     margin-bottom: 20px;
     width: 300px;
   }
-
-  &__button {
-    width: 420px;
-    height: 43px;
-    font-size: 16px;
-    margin-top: 48px;
-    margin-bottom: 48px;
-    vertical-align: middle;
-  }
-
 }
 
 /* Features
@@ -139,7 +119,7 @@ body {
 /* Center align the text within the three columns below the carousel */
 .features {
 
-  background-color: #f8f8f8;
+  background-color: $grayContainerColor;
   width: auto;
 
   &__row {
@@ -157,10 +137,9 @@ body {
     p {
       margin-right: 10px;
       margin-left: 10px;
-      color: #787878;
+      color: $textDarkGrayColor;
       text-align: left;
     }
-
   }
 
   h2 {
@@ -168,10 +147,9 @@ body {
   }
 
   &__heading {
-    font-weight: normal;
     text-align: center;
-    margin-top: 48px;
-    margin-bottom: 48px;}
+    margin-bottom: 48px;
+  }
 
   &__circle-image {
     width: 200px;
@@ -191,11 +169,10 @@ body {
     text-align: left;
 
     p {
-      font-size: 16px;
-      line-height: 32px;
-      color: #787878;
+      font-size: $subTextSize;
+      line-height: $subTextLineHeight;
+      color: $textDarkGrayColor;
     }
-
   }
 
   .row {
@@ -203,9 +180,7 @@ body {
   }
 
   &__heading {
-    font-weight: normal;
     text-align: center;
-    margin-top: 48px;
     margin-bottom: 48px;
   }
 
@@ -227,19 +202,9 @@ body {
     text-align: center;
   }
 
-  .lead {
-    font-size: 16px;
-    margin: 0px auto;
-    line-height: 32px;
-    width: 800px;
-    color: #ffffff;
-  }
-
   &__heading {
-    font-weight: normal;
-    margin-top: 48px;
     margin-bottom: 16px;
-    color: #ffffff;
+    color: white;
   }
 
   &__logo {
@@ -247,23 +212,13 @@ body {
     margin-bottom: 20px;
     width: 300px;
   }
-
-  &__button {
-    width: 420px;
-    height: 43px;
-    font-size: 16px;
-    margin-top: 48px;
-    margin-bottom: 48px;
-    vertical-align: middle;
-  }
-
 }
 
 /* Technology
 -------------------------------------------------- */
 
 .technology {
-  background-color: #f8f8f8;
+  background-color: $grayContainerColor;
   width: auto;
 
   .col-md-12 {
@@ -271,17 +226,7 @@ body {
     text-align: center;
   }
 
-  .lead {
-    font-size: 16px;
-    margin: 0px auto;
-    line-height: 32px;
-    width: 800px;
-    color: #787878;
-  }
-
   &__heading {
-    font-weight: normal;
-    margin-top: 48px;
     margin-bottom: 16px;
   }
 
@@ -290,7 +235,6 @@ body {
     margin-bottom: 20px;
     width: 300px;
   }
-
 }
 
 /* Team
@@ -346,7 +290,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #05051e;
+  background-color: $footerColor;
   width: auto;
   padding-top: 31px;
   margin-bottom: -40px;
@@ -399,13 +343,38 @@ body {
   }
 
   .service-information,
+  .ico,
+  .technology {
+    .lead {
+      font-size: $subTextSize;
+      margin: 0 auto;
+      line-height: $subTextLineHeight;
+      width: 800px;
+      color: $textDarkGrayColor;
+    }
+  }
+
+  .service-information,
   .features,
   .ico,
   .technology,
   .team {
     &__heading {
+      font-weight: normal;
       font-size: 30px;
       margin-top: 48px;
+    }
+  }
+
+  .service-information,
+  .ico {
+    &__button {
+      width: 420px;
+      height: 43px;
+      font-size: $buttonTextSize;
+      margin-top: 48px;
+      margin-bottom: 48px;
+      vertical-align: middle;
     }
   }
 }
