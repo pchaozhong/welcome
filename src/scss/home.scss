@@ -195,10 +195,53 @@ body {
   }
 }
 
-/* ICO & Technology
+/* ICO
 -------------------------------------------------- */
 
-.ico,
+.ico {
+  background-color: #464b74;
+  width: auto;
+
+  .col-md-12 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .lead{
+    font-size: 16px;
+    margin: 0px auto;
+    line-height: 32px;
+    width: 800px;
+    color: #ffffff;
+  }
+
+  &__heading {
+    font-weight: normal;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+
+  &__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+  }
+
+  &__button {
+    width: 420px;
+    height: 43px;
+    font-size: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    vertical-align: middle;
+  }
+
+}
+
+/* Technology
+-------------------------------------------------- */
+
 .technology {
   .col-md-12 {
     margin-bottom: 20px;
