@@ -15,13 +15,16 @@ body {
 .navbar {
   height: 82px;
   padding-top: 14px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-bottom: 0;
   background-color: #05051e;
 
   .container {
     width: auto;
+    background-color: #05051e;
+
+    .navbar-collapse {
+      border-top: 0;
+    }
   }
 
   .nav {
@@ -377,24 +380,11 @@ body {
 }
 
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-
-    .container {
-      padding-right: 15px;
-      padding-left: 15px;
-      width: auto;
-    }
-
-    .navbar {
-      padding-right: 0;
-      padding-left: 0;
-
-      /* The navbar becomes detached from the top, so we round the corners */
-      border-radius: 4px;
-    }
+  .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
   }
+
   .cover__caption {
     right: 20%;
     left: 20%;
