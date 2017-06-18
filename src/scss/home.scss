@@ -74,11 +74,11 @@ body {
 
     &__btn {
       fill: $brandColor;
-      width: 100px;
+      width: $coverVideoButtonSize;
 
       &_hover {
         fill: red;
-        width: 101px;
+        width: $coverVideoButtonSize;
       }
     }
   }
