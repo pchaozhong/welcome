@@ -52,7 +52,7 @@ body {
 
 .cover {
   position: relative;
-  height: 650px;
+  height: $coverHeight;
   margin-bottom: 60px;
 
   .item {
@@ -85,7 +85,7 @@ body {
 }
 
 .carousel-inner {
-  height: 650px;
+  height: $coverHeight;
 }
 
 .carousel-inner > .item > img {
@@ -93,7 +93,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 650px;
+  height: $coverHeight;
 }
 
 /* Service information
