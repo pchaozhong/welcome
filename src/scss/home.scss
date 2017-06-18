@@ -119,6 +119,7 @@ body {
     height: 43px;
     font-size: 16px;
     margin-top: 48px;
+    margin-bottom: 48px;
     vertical-align: middle;
   }
 
@@ -136,6 +137,7 @@ body {
   &__row {
     display: flex;
     justify-content: center;
+    margin-bottom: 48px;
   }
 
   .col-lg-4 {
@@ -158,8 +160,9 @@ body {
 
   &__heading {
     font-weight: normal;
-    margin-bottom: 20px;
     text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
     }
 
   &__circle-image {
@@ -173,6 +176,7 @@ body {
 
 .about-japan{
   vertical-align: middle;
+  margin-bottom: 48px;
 
   .col-md-7 {
     margin-top: 70px;
@@ -186,8 +190,9 @@ body {
 
   &__heading {
     font-weight: normal;
-    margin-bottom: 20px;
     text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
   }
 
   img {
@@ -248,7 +253,7 @@ body {
   width: auto;
 
   .col-md-12 {
-    margin-bottom: 20px;
+    margin-bottom: 48px;
     text-align: center;
   }
 
@@ -280,7 +285,7 @@ body {
 /* Center align the text within the three columns below the carousel */
 .team {
   .col-md-12 {
-    margin-bottom: 20px;
+    margin-bottom: 48px;
     text-align: center;
   }
 
@@ -386,6 +391,7 @@ body {
   .team {
     &__heading {
       font-size: 30px;
+      margin-top: 48px;
     }
   }
 }
