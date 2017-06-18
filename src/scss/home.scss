@@ -74,11 +74,11 @@ body {
 
     &__btn {
       fill: $brandColor;
-      width: 100px;
+      width: $coverVideoButtonSize;
 
       &_hover {
         fill: red;
-        width: 101px;
+        width: $coverVideoButtonSize;
       }
     }
   }
@@ -317,10 +317,16 @@ body {
 
 // ex) iPhone5/5S/5c/SE
 @media (max-width: 640px) {
-  .service-information__logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 56%;
+  .service-information {
+    &__logo {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 56%;
+    }
+
+    &__button {
+      font-size: $buttonTextSizeSmall;
+    }
   }
 }
 
