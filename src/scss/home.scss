@@ -133,9 +133,14 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .features {
+
+  background-color: #f8f8f8;
+  width: auto;
+
   .col-lg-4 {
     margin-bottom: 20px;
     text-align: center;
+    width: 27%;
 
     p {
       margin-right: 10px;
@@ -143,6 +148,7 @@ body {
       color: #787878;
       text-align: left;
     }
+
   }
 
   h2 {
@@ -215,7 +221,6 @@ body {
   &__logo {
     margin-top: 20px;
     margin-bottom: 20px;
-
     width: 500px;
   }
 
@@ -311,6 +316,7 @@ body {
     .container {
       padding-right: 15px;
       padding-left: 15px;
+      width: auto;
     }
 
     .navbar {
