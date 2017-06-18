@@ -12,6 +12,9 @@ module.exports = {
     path: path.join(__dirname, 'public'),
     filename: 'js/[name].js'
   },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'public')
+  },
   module: {
     loaders: [
       {

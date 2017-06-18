@@ -26,12 +26,13 @@
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.8",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
     "production": "webpack -p",
     "develop": "webpack -d",
-    "watch": "webpack -d --watch",
+    "watch": "webpack-dev-server --hot --inline --devtool source-map",
     "clean": "rm -fr ./node_modules && yarn && rm -fr ./public/*",
     "deploy": "aws s3 sync public s3://${S3_BUCKET_DEVELOP}/  --acl public-read-write && aws s3 sync node_modules s3://${S3_BUCKET_DEVELOP}/node_modules  --acl public-read-write"
   }
