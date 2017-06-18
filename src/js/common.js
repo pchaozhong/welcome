@@ -4,7 +4,8 @@ $(function () {
     const speed = 500;
     const href = $(this).attr("href");
     const target = $(href === "#" || href === "" ? 'html' : href);
-    const position = target.offset().top;
+    const headerHeight = $('#navbar-header').height();
+    const position = target.offset().top - headerHeight;
     $('body,html').animate({scrollTop: position}, speed, 'swing');
     return false;
   });
