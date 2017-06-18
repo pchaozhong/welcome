@@ -1,90 +1,79 @@
-doctype html
-html(lang='ja')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
-    meta(name='description', content='')
-    meta(name='author', content='')
-    // TODO: robots
-    meta(name='robots', content='noindex,nofollow,noarchive')
-    // TODO: <link rel="icon" href="../../favicon.ico">
-    title ALIS
+// header
+include includes/header
+
+//
+  NAVBAR
+  ==================================================
+body
+  include includes/navbar
 
   //
-    NAVBAR
+    Cover
     ==================================================
-  body
-    include includes/header
+  #cover.cover
+    // TODO: "carousel-inner" のclassを除却
+    .carousel-inner
+      .item.active
+        img(src='img/cover.jpg', alt='cover')
+        .container
+          .cover__caption
+            p ブロックチェーン技術を活用した日本初の分散型メディアプラットフォーム
+            p
+              button.cover__caption__btn.btn-lg.btn-primary(type="button", data-toggle="modal",
+              data-target=".video-modal") ビデオを見る
 
-    //
-      Cover
-      ==================================================
-    #cover.cover
-      // TODO: "carousel-inner" のclassを除却
-      .carousel-inner
-        .item.active
-          img(src='img/cover.jpg', alt='cover')
-          .container
-            .cover__caption
-              p ブロックチェーン技術を活用した日本初の分散型メディアプラットフォーム
-              p
-                button.cover__caption__btn.btn-lg.btn-primary(type="button", data-toggle="modal",
-                data-target=".video-modal") ビデオを見る
+  //  Service information
+  .container.service-information#service-information
+    .row
+      .col-md-12
+        img.service-information__logo(src='img/logo.png', alt='ALIS')
+        h2.service-information__heading
+          | What is ALIS Project?
+        .lead
+          include:markdown-it ./contents/service-information.md
+        p
+          a.service-information__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
+          target='blank' role='button') ホワイトペーパーの情報を受け取る
 
-    //  Service information
-    .container.service-information#service-information
-      .row
-        .col-md-12
-          img.service-information__logo(src='img/logo.png', alt='ALIS')
-          h2.service-information__heading
-            | What is ALIS Project?
-          .lead
-            include:markdown-it ./contents/service-information.md
-          p
-            a.service-information__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
-            target='blank' role='button') ホワイトペーパーの情報を受け取る
+  //
+    Features
+    ==================================================
+  // Wrap the rest of the page in another container to center all the content.
+  .container.features
+    h2.features__heading
+      | 特徴
+    .row.features__row
+      .col-lg-4
+        img.img-rounded.features__circle-image(src='img/first_circle.png', alt='トークン')
+        include:markdown-it ./contents/features__about-token.md
+      .col-lg-4
+        img.img-rounded.features__circle-image(src='img/second_circle.png', alt='プラットフォーム')
+        include:markdown-it ./contents/features__about-platform.md
+      .col-lg-4
+        img.img-rounded.features__circle-image(src='img/third_circle.jpg', alt='ブロックチェーン技術')
+        include:markdown-it ./contents/features__about-technology.md
 
-    //
-      Features
-      ==================================================
-    // Wrap the rest of the page in another container to center all the content.
-    .container.features
-      h2.features__heading
-        | 特徴
-      .row
-        .col-lg-4
-          img.img-rounded.features__circle-image(src='img/first_circle.png', alt='トークン')
-          include:markdown-it ./contents/features__about-token.md
-        .col-lg-4
-          img.img-rounded.features__circle-image(src='img/second_circle.png', alt='プラットフォーム')
-          include:markdown-it ./contents/features__about-platform.md
-        .col-lg-4
-          img.img-rounded.features__circle-image(src='img/third_circle.jpg', alt='ブロックチェーン技術')
-          include:markdown-it ./contents/features__about-technology.md
-
-      // About Japan
-      .container.about-japan#about-japan
-        hr.about-japan-divider
-        h2.about-japan__heading
-          | Why in Japan
-        .row
-          .col-md-7
-            include:markdown-it ./contents/about-japan__media-quority.md
-          .col-md-5
-            img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
-        .row
-          .col-md-7.col-md-push-5
-            include:markdown-it ./contents/about-japan__technology.md
-          .col-md-5.col-md-pull-7
-            img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
-        .row
-          .col-md-7
-            include:markdown-it ./contents/about-japan__market.md
-          .col-md-5
-            img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
-        hr.about-japan-divider
+  // About Japan
+  .container.about-japan#about-japan
+    hr.about-japan-divider
+    h2.about-japan__heading
+      | Why in Japan
+    .row
+      .col-md-7
+        include:markdown-it ./contents/about-japan__media-quority.md
+      .col-md-5
+        img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
+    .row
+      .col-md-7.col-md-push-5
+        include:markdown-it ./contents/about-japan__technology.md
+      .col-md-5.col-md-pull-7
+        img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
+    .row
+      .col-md-7
+        include:markdown-it ./contents/about-japan__market.md
+      .col-md-5
+        img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
+    hr.about-japan-divider
 
     //  ICO
     .container.ico#ico
@@ -109,32 +98,32 @@ html(lang='ja')
           .lead
             include:markdown-it ./contents/technology.md
 
-    // Team
-    .container.team#team
-      .row
-        .col-md-12
-          h2.team__heading
-            | Team
-        include mixin/team_member
-        include mixin/team_member_sns
-        .col-lg-4
-          +team_member('安 昌浩', 'Founder')(src='img/yasu.png')
-          .team__content
-            include:markdown-it ./contents/member-profile-yasu.md
-          +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
-        .col-lg-4
-          +team_member('水澤 貴', 'Co-Founder / Communications')(src='img/mizusawa.jpg')
-          .team__content
-            include:markdown-it ./contents/member-profile-mizusawa.md
-          +team_member_sns('takashi.mizusawa', 'takashi_mizu')
-        .col-lg-4
-          +team_member('石井 壮太', 'Co-Founder / Engineering')(src='img/ishii.jpg')
-          .team__content
-            include:markdown-it ./contents/member-profile-ishii.md
-          +team_member_sns('sota.ishii', 'sot528')
+  // Team
+  .container.team#team
+    .row
+      .col-md-12
+        h2.team__heading
+          | Team
+      include mixin/team_member
+      include mixin/team_member_sns
+      .col-lg-4
+        +team_member('安 昌浩', 'Founder')(src='img/yasu.png')
+        .team__content
+          include:markdown-it ./contents/member-profile-yasu.md
+        +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
+      .col-lg-4
+        +team_member('水澤 貴', 'Co-Founder / Communications')(src='img/mizusawa.jpg')
+        .team__content
+          include:markdown-it ./contents/member-profile-mizusawa.md
+        +team_member_sns('takashi.mizusawa', 'takashi_mizu')
+      .col-lg-4
+        +team_member('石井 壮太', 'Co-Founder / Engineering')(src='img/ishii.jpg')
+        .team__content
+          include:markdown-it ./contents/member-profile-ishii.md
+        +team_member_sns('sota.ishii', 'sot528')
 
-    // Footer
-    include includes/footer
+  // Footer
+  include includes/footer
 
-    // Video modal
-    include mixin/video-mordal
+  // Video modal
+  include mixin/video-mordal
