@@ -3,7 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial,
+  helvetica, sans-serif;
   padding-bottom: 40px;
   color: #5a5a5a;
 }
@@ -105,7 +106,7 @@ body {
 
   .lead {
     font-size: 16px;
-    margin: 0px auto;
+    margin: 0 auto;
     line-height: 32px;
     width: 800px;
     color: #787878;
@@ -170,7 +171,8 @@ body {
     font-weight: normal;
     text-align: center;
     margin-top: 48px;
-    margin-bottom: 48px;}
+    margin-bottom: 48px;
+  }
 
   &__circle-image {
     width: 200px;
@@ -228,7 +230,7 @@ body {
 
   .lead {
     font-size: 16px;
-    margin: 0px auto;
+    margin: 0 auto;
     line-height: 32px;
     width: 800px;
     color: #ffffff;
@@ -272,7 +274,7 @@ body {
 
   .lead {
     font-size: 16px;
-    margin: 0px auto;
+    margin: 0 auto;
     line-height: 32px;
     width: 800px;
     color: #787878;
