@@ -42,7 +42,7 @@ body
   .container.features
     h2.features__heading
       | 特徴
-    .row
+    .row.features__row
       .col-lg-4
         img.img-rounded.features__circle-image(src='img/first_circle.png', alt='トークン')
         include:markdown-it ./contents/features__about-token.md
@@ -53,27 +53,27 @@ body
         img.img-rounded.features__circle-image(src='img/third_circle.jpg', alt='ブロックチェーン技術')
         include:markdown-it ./contents/features__about-technology.md
 
-    // About Japan
-    .container.about-japan#about-japan
-      hr.about-japan-divider
-      h2.about-japan__heading
-        | Why in Japan
-      .row
-        .col-md-7
-          include:markdown-it ./contents/about-japan__media-quority.md
-        .col-md-5
-          img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
-      .row
-        .col-md-7.col-md-push-5
-          include:markdown-it ./contents/about-japan__technology.md
-        .col-md-5.col-md-pull-7
-          img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
-      .row
-        .col-md-7
-          include:markdown-it ./contents/about-japan__market.md
-        .col-md-5
-          img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
-      hr.about-japan-divider
+  // About Japan
+  .container.about-japan#about-japan
+    hr.about-japan-divider
+    h2.about-japan__heading
+      | Why in Japan
+    .row
+      .col-md-7
+        include:markdown-it ./contents/about-japan__media-quority.md
+      .col-md-5
+        img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
+    .row
+      .col-md-7.col-md-push-5
+        include:markdown-it ./contents/about-japan__technology.md
+      .col-md-5.col-md-pull-7
+        img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
+    .row
+      .col-md-7
+        include:markdown-it ./contents/about-japan__market.md
+      .col-md-5
+        img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
+    hr.about-japan-divider
 
   //  ICO
   .container.ico#ico
