@@ -65,22 +65,22 @@ html(lang='ja')
           include:markdown-it ./contents/features__about-technology.md
 
       // About Japan
-      #about-japan
+      .container.about-japan#about-japan
         hr.about-japan-divider
-        .row.about-japan
-          .col-md-7.lead
+        h2.about-japan__heading
+          | Why in Japan
+        .row
+          .col-md-7
             include:markdown-it ./contents/about-japan__media-quority.md
           .col-md-5
             img.about-japan-image.img-responsive.center-block(src='img/first_about-japan.png', alt='低品質なメディア')
-        hr.about-japan-divider
-        .row.about-japan
-          .col-md-7.col-md-push-5.lead
+        .row
+          .col-md-7.col-md-push-5
             include:markdown-it ./contents/about-japan__technology.md
           .col-md-5.col-md-pull-7
             img.about-japan-image.img-responsive.center-block(src='img/second_about-japan.png', alt='技術後進国')
-        hr.about-japan-divider
-        .row.about-japan
-          .col-md-7.lead
+        .row
+          .col-md-7
             include:markdown-it ./contents/about-japan__market.md
           .col-md-5
             img.about-japan-image.img-responsive.center-block(src='img/third_about-japan.png', alt='仮想通貨投資大国')
