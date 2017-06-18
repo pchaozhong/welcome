@@ -18,6 +18,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 0;
+  background-color: #05051e;
 
   .container {
     width: auto;
@@ -69,7 +70,13 @@ body {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 
     &__btn {
-      text-shadow: none;
+      fill: #858dda;
+      width: 100px;
+
+      &_hover {
+        fill: red;
+        width: 101px;
+      }
     }
   }
 }
@@ -95,7 +102,7 @@ body {
     text-align: center;
   }
 
-  .lead{
+  .lead {
     font-size: 16px;
     margin: 0px auto;
     line-height: 32px;
@@ -162,8 +169,7 @@ body {
     font-weight: normal;
     text-align: center;
     margin-top: 48px;
-    margin-bottom: 48px;
-    }
+    margin-bottom: 48px;}
 
   &__circle-image {
     width: 200px;
@@ -174,7 +180,7 @@ body {
 /* About Japan
 -------------------------------------------------- */
 
-.about-japan{
+.about-japan {
   vertical-align: middle;
   margin-bottom: 48px;
 
@@ -211,7 +217,7 @@ body {
 -------------------------------------------------- */
 
 .ico {
-  background-color: #464b74;
+  background-color: #05051e;
   width: auto;
 
   .col-md-12 {
@@ -219,7 +225,7 @@ body {
     text-align: center;
   }
 
-  .lead{
+  .lead {
     font-size: 16px;
     margin: 0px auto;
     line-height: 32px;
@@ -263,7 +269,7 @@ body {
     text-align: center;
   }
 
-  .lead{
+  .lead {
     font-size: 16px;
     margin: 0px auto;
     line-height: 32px;
@@ -338,7 +344,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #222;
+  background-color: #05051e;
   width: auto;
   padding-top: 31px;
   margin-bottom: -40px;
