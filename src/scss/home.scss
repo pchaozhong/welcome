@@ -32,6 +32,7 @@ body {
 
     li a {
       padding-left: 4px;
+      color: #ffffff;
     }
   }
 }
@@ -39,7 +40,7 @@ body {
 .navbar-brand {
   &__logo {
     width: 127px;
-    margin-top: -8px;
+    margin-top: -16px;
     margin-left: -3px;
   }
 }
