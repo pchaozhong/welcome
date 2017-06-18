@@ -144,15 +144,15 @@ body {
 
   &__row {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 48px;
   }
 
-  .col-lg-4 {
+  &__item {
     margin-bottom: 20px;
     text-align: center;
     line-height: 26px;
-    width: 27%;
 
     p {
       margin-right: 10px;
@@ -160,7 +160,6 @@ body {
       color: #787878;
       text-align: left;
     }
-
   }
 
   h2 {
@@ -171,7 +170,8 @@ body {
     font-weight: normal;
     text-align: center;
     margin-top: 48px;
-    margin-bottom: 48px;}
+    margin-bottom: 48px;
+  }
 
   &__circle-image {
     width: 200px;
@@ -415,6 +415,12 @@ body {
     &__heading {
       font-size: 30px;
       margin-top: 48px;
+    }
+  }
+
+  .features {
+    &__row {
+      flex-direction: row;
     }
   }
 }

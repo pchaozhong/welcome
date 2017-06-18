@@ -55,13 +55,13 @@ body
     h2.features__heading
       | Features
     .row.features__row
-      .col-lg-4
+      .col-lg-3.features__item
         img.img-rounded.features__circle-image(src='img/first_circle.png', alt='トークン')
         include:markdown-it ./contents/features__about-token.md
-      .col-lg-4
+      .col-lg-3.features__item
         img.img-rounded.features__circle-image(src='img/second_circle.png', alt='プラットフォーム')
         include:markdown-it ./contents/features__about-platform.md
-      .col-lg-4
+      .col-lg-3.features__item
         img.img-rounded.features__circle-image(src='img/third_circle.jpg', alt='ブロックチェーン技術')
         include:markdown-it ./contents/features__about-technology.md
 
