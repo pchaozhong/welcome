@@ -4,8 +4,6 @@
 @import 'common';
 
 body {
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial,
-  helvetica, sans-serif;
   padding-bottom: 40px;
 }
 
@@ -104,16 +102,7 @@ body {
     text-align: center;
   }
 
-  .lead {
-    font-size: $leadTextSize;
-    margin: 0 auto;
-    line-height: 32px;
-    width: 800px;
-    color: $textDarkGrayColor;
-  }
-
   &__heading {
-    font-weight: normal;
     margin-bottom: 16px;
   }
 
@@ -122,16 +111,6 @@ body {
     margin-bottom: 20px;
     width: 300px;
   }
-
-  &__button {
-    width: 420px;
-    height: 43px;
-    font-size: $buttonTextSize;
-    margin-top: 48px;
-    margin-bottom: 48px;
-    vertical-align: middle;
-  }
-
 }
 
 /* Features
@@ -168,9 +147,7 @@ body {
   }
 
   &__heading {
-    font-weight: normal;
     text-align: center;
-    margin-top: 48px;
     margin-bottom: 48px;
   }
 
@@ -192,8 +169,8 @@ body {
     text-align: left;
 
     p {
-      font-size: 16px;
-      line-height: 32px;
+      font-size: $subTextSize;
+      line-height: $subTextLineHeight;
       color: $textDarkGrayColor;
     }
   }
@@ -203,9 +180,7 @@ body {
   }
 
   &__heading {
-    font-weight: normal;
     text-align: center;
-    margin-top: 48px;
     margin-bottom: 48px;
   }
 
@@ -227,17 +202,7 @@ body {
     text-align: center;
   }
 
-  .lead {
-    font-size: $leadTextSize;
-    margin: 0 auto;
-    line-height: 32px;
-    width: 800px;
-    color: white;
-  }
-
   &__heading {
-    font-weight: normal;
-    margin-top: 48px;
     margin-bottom: 16px;
     color: white;
   }
@@ -246,16 +211,6 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 300px;
-  }
-
-  // TODO: メディアクエリ考慮
-  &__button {
-    width: 420px;
-    height: 43px;
-    font-size: $buttonTextSize;
-    margin-top: 48px;
-    margin-bottom: 48px;
-    vertical-align: middle;
   }
 }
 
@@ -271,17 +226,7 @@ body {
     text-align: center;
   }
 
-  .lead {
-    font-size: $leadTextSize;
-    margin: 0 auto;
-    line-height: 32px;
-    width: 800px;
-    color: $textDarkGrayColor;
-  }
-
   &__heading {
-    font-weight: normal;
-    margin-top: 48px;
     margin-bottom: 16px;
   }
 
@@ -398,13 +343,38 @@ body {
   }
 
   .service-information,
+  .ico,
+  .technology {
+    .lead {
+      font-size: $subTextSize;
+      margin: 0 auto;
+      line-height: $subTextLineHeight;
+      width: 800px;
+      color: $textDarkGrayColor;
+    }
+  }
+
+  .service-information,
   .features,
   .ico,
   .technology,
   .team {
     &__heading {
+      font-weight: normal;
       font-size: 30px;
       margin-top: 48px;
+    }
+  }
+
+  .service-information,
+  .ico {
+    &__button {
+      width: 420px;
+      height: 43px;
+      font-size: $buttonTextSize;
+      margin-top: 48px;
+      margin-bottom: 48px;
+      vertical-align: middle;
     }
   }
 }
