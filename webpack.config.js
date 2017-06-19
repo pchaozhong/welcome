@@ -43,7 +43,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin(
       [
-        {from: "src/img/", to: "img/"}
+        {from: "src/img/", to: "img/"},
+        {from: "src/json/", to: "json/"}
       ]
     ),
     new HtmlWebpackPlugin({
