@@ -27,6 +27,9 @@ $(function () {
   });
 });
 
+// カバーの背景
+particlesJS.load('cover-particles', 'json/cover-particles.json');
+
 // for console branding.
 (function () {
   console.log("%c\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660" +
