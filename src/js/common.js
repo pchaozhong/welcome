@@ -1,3 +1,6 @@
+/*globals $ particlesJS */
+/*eslint no-console: ["error", { allow: ["log"] }] */
+
 // スクロールをスムーズに
 $(function () {
   $('.smooth-anchor').click(function () {
