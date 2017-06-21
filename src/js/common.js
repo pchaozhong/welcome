@@ -1,3 +1,6 @@
+/*globals $ particlesJS */
+/*eslint no-console: ["error", { allow: ["log"] }] */
+
 // スクロールをスムーズに
 $(function () {
   $('.smooth-anchor').click(function () {
@@ -28,6 +31,7 @@ $(function () {
 });
 
 // カバーの背景
+//noinspection ES6ModulesDependencies
 particlesJS.load('cover-particles', 'json/cover-particles.json');
 
 // for console branding.

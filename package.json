@@ -17,6 +17,7 @@
     "bootstrap-social": "^5.1.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.4",
+    "eslint": "^4.0.0",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.28.0",
     "jstransformer-markdown-it": "^2.0.0",
@@ -34,6 +35,7 @@
     "production": "webpack -p",
     "develop": "webpack -d",
     "watch": "webpack-dev-server --hot --inline --devtool source-map",
+    "test": "yarn pug-lint ./src && yarn eslint ./src/js",
     "clean": "rm -fr ./node_modules && yarn && rm -fr ./public/*",
     "deploy": "webpack -p && aws s3 sync public s3://${S3_BUCKET_DEVELOP}/  --acl public-read-write && aws s3 sync node_modules s3://${S3_BUCKET_DEVELOP}/node_modules  --acl public-read-write"
   }
