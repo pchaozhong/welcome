@@ -28,6 +28,7 @@ $(function () {
 });
 
 // カバーの背景
+//noinspection ES6ModulesDependencies
 particlesJS.load('cover-particles', 'json/cover-particles.json');
 
 // for console branding.
