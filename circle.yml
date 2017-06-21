@@ -18,6 +18,7 @@ compile:
 test:
   override:
     - yarn pug-lint ./src
+    - yarn eslint ./src/js
 
 deployment:
   staging:
