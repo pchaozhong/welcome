@@ -1,6 +1,9 @@
+#noinspection NodeJsCodingAssistanceForCoreModules
 fs = require('fs')
 gulp = require('gulp')
 yaml = require('js-yaml')
+browserSync = require('browser-sync')
+reload = browserSync.reload
 $ = require('gulp-load-plugins')({pattern: ['gulp-*', 'gulp.*'], replaceString: /\bgulp[\-.]/})
 
 getYamlData = (lang) =>
@@ -21,3 +24,11 @@ gulp.task 'pug:build', () ->
       .pipe getYamlData(lang)
       .pipe $.pug({pretty: true})
       .pipe gulp.dest destination
+
+gulp.task 'watch', ['pug:build', 'browser-sync'], () ->
+  gulp.watch('./src/*.pug', ['pug:build', reload])
+  gulp.watch('./src/yaml/*.yml', ['pug:build', reload])
+
+gulp.task 'browser-sync', ->
+# webpack-dev-server
+  browserSync.init proxy: 'localhost:8080'

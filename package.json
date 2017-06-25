@@ -15,6 +15,7 @@
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "bootstrap-social": "^5.1.1",
+    "browser-sync": "^2.18.12",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.4",
     "eslint": "^4.0.0",
@@ -29,6 +30,7 @@
     "js-yaml": "^3.8.4",
     "jstransformer-markdown-it": "^2.0.0",
     "node-sass": "^4.5.3",
+    "npm-run-all": "^4.0.2",
     "pug": "^2.0.0-rc.2",
     "pug-lint": "^2.4.0",
     "pug-loader": "^2.3.0",
@@ -41,9 +43,11 @@
   "scripts": {
     "production": "rm -fr public/* && webpack -p && yarn gulp pug:build",
     "develop": "webpack -d",
-    "watch": "webpack-dev-server --hot --inline --devtool source-map",
+    "watch": "npm-run-all --parallel watch:*",
+    "watch:webpack": "webpack-dev-server --hot --inline --devtool source-map",
+    "watch:gulp": "yarn gulp watch",
     "test": "yarn pug-lint ./src && yarn eslint ./src/js",
     "clean": "rm -fr ./node_modules && yarn && rm -fr ./public/*",
-    "deploy": "webpack -p && aws s3 sync public s3://${S3_BUCKET_DEVELOP}/  --acl public-read-write && aws s3 sync node_modules s3://${S3_BUCKET_DEVELOP}/node_modules  --acl public-read-write"
+    "deploy": "yarn production && aws s3 sync public s3://${S3_BUCKET_DEVELOP}/  --acl public-read-write && aws s3 sync node_modules s3://${S3_BUCKET_DEVELOP}/node_modules  --acl public-read-write"
   }
 }
