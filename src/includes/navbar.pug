@@ -12,14 +12,19 @@ nav.navbar.navbar-inverse.navbar-static-top.navbar-fixed-top#navbar-header
         span.icon-bar
         span.icon-bar
       a.navbar-brand(href='/')
-        img.navbar-brand__logo(src='img/logo_header.png', alt='ALIS')
+        img.navbar-brand__logo(src=base_dir + '/img/logo_header.png', alt='ALIS')
     #navbar.navbar-collapse.collapse
       ul.nav.navbar-nav
         li
-          a.smooth-anchor(href='#service-information') Whitepaper
+          a.smooth-anchor(href='#service-information') #{navbar.whitepaper}
         li
-          a.smooth-anchor(href='#service-information') Roadmap
+          a.smooth-anchor(href='#service-information') #{navbar.roadmap}
         li
-          a.smooth-anchor(href='#ico') ICO
+          a.smooth-anchor(href='#ico') #{navbar.ico}
         li
-          a.smooth-anchor(href='#team') Team
+          a.smooth-anchor(href='#team') #{navbar.team}
+        // TODO: add collapse UI
+        li
+          a.smooth-anchor(href='/') English
+        li
+          a.smooth-anchor(href='/zh') 中文
