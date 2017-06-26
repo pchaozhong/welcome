@@ -26,7 +26,7 @@ gulp.task 'pug:build', () ->
       .pipe gulp.dest destination
 
 gulp.task 'watch', ['pug:build', 'browser-sync'], () ->
-  gulp.watch('./src/*.pug', ['pug:build', reload])
+  gulp.watch('./src/**/*.pug', ['pug:build', reload])
   gulp.watch('./src/yaml/*.yml', ['pug:build', reload])
 
 gulp.task 'browser-sync', ->

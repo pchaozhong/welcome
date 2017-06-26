@@ -16,10 +16,15 @@ nav.navbar.navbar-inverse.navbar-static-top.navbar-fixed-top#navbar-header
     #navbar.navbar-collapse.collapse
       ul.nav.navbar-nav
         li
-          a.smooth-anchor(href='#service-information') Whitepaper
+          a.smooth-anchor(href='#service-information') #{navbar.whitepaper}
         li
-          a.smooth-anchor(href='#service-information') Roadmap
+          a.smooth-anchor(href='#service-information') #{navbar.roadmap}
         li
-          a.smooth-anchor(href='#ico') ICO
+          a.smooth-anchor(href='#ico') #{navbar.ico}
         li
-          a.smooth-anchor(href='#team') Team
+          a.smooth-anchor(href='#team') #{navbar.team}
+        // TODO: add collapse UI
+        li
+          a.smooth-anchor(href='/') English
+        li
+          a.smooth-anchor(href='/zh') 中文
