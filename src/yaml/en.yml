@@ -8,93 +8,100 @@ navbar:
   ico: ICO
   team: Team
 cover:
-  caption_line_one: 報酬によって良質な情報と無益な情報を分別する
-  caption_line_two: ブロックチェーン技術を活用した日本初のソーシャルメディアプラットフォーム
+  caption_line_one: Distinguish between valueless contents and valuable contents with rewards
+  caption_line_two: Japa's first social media platform using block chain technology
 service_information:
   header: What is ALIS Project
   body: |
-    ALISは信頼性の高い情報・人に素早く出会え、
-    誰もが報酬を得ることができるソーシャルメディアプラットフォームです。
-    私たちは類似サービスのSTEEM(https://steem.io)が数百億の評価を得ていることに感銘をうけ、
-    より分かりやすい形のメディアを日本に作ることをミッションにしています。
-    従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報に
-    うんざりしている人々を解放することがALISの目的です。
-
-    現在、ALISプロジェクトではホワイトペーパーを作成中です。
-    最新の情報を受け取りたい方は以下のボタンよりメールアドレスをご登録ください。
-  button: ホワイトペーパーの情報を受け取る
+    ALIS is socail media platform which enables people to get reliable information and people as soon as possible.
+    We were impressed by STEEM(https://steem.io) and they already got evaluation of tens of billions,
+    so we want to make more concise media in Japan.
+    Our mission is to release people who are tired of advertising contents, stealth marketing,
+    less reliable information which made by traditional media.
+    We are on progress of releasing whitepaper.
+    If you want to receive the latest information, please register e-mail address from the button below.
+  button: Register e-mail address
 features:
   header: Features
   token:
-    header: 良質な情報の発掘
+    header: Discover high-quality contens
     body: |
-      多くの人々が価値を認めるコンテンツを投稿・評価した人に対して、
-      より多くのALISトークンを配布します。
-      ALISトークンはEthereumやSTEEM同様、それ自体が売買される価値を持ちます。
+      Those who posted or evaluated contens that many people think great contents,
+      we will distribute much more ALIS token.
+      Like Ethereum or STEEM, ALIS tokens are going to have evaluated by itselfs.
   platform:
-    header: プラットフォーム価値の還元
+    header: Reduction of platform value
     body: |
-      ALISプラットフォームが評価されるほどALISトークンの価値も向上し、貢献した人々に還元されます。
-      すでにSTEEM(https://steem.io)が上述のエコシステムを構築しており、数百億の評価を得ています。
+      The more people evaluate ALIS platform, the more value is distributed to people who contribute to ALIS.
+      STEEM(https://steem.io) has already built similar eco-system, and gained tens of billions of value.
   technology:
-    header: 高信頼・低コストの両立
+    header: High reliability and low cost compability
     body: |
-      ブロックチェーン技術を基軸に据えることでデータの高信頼性と低コストの両方を実現します。
-      結果として、ALISに貢献する人への報酬を最大化します。
+      By using block chain technology as a basis, we realize both high reliability and low cost.
+      As a result, we can maximize the rewards for those who contribute to ALIS.
 about_japan:
   header: Why in Japan
   media_quality:
-    header: 低品質のメディア量産が問題化
+    header: Mass production of low-quality contents becomes problematic
     body: |
-      今日の日本において低品質・低信頼性のメディアが量産されており、大々的にニュースに取り上げられました。
-      大量の安価なコンテンツでPVを稼ぐメディアを淘汰するルールが必要です。
+      A lot of low quality and low reliablity contents are produced in today's japan,
+      and becomes big news which some media created a garbage contents.
+      We need to change the rules creating lots of cheap contents to gain PV.
   technology:
-    header: ブロックチェーン技術への注目
+    header: Attention to block chain technology
     body: |
-      日本はソフトウェア産業においてますます世界に遅れをとっています。
-      その危機感から、ブロックチェーン技術への興味関心が非常に高まっている状態です。
+      Japan is lagging behind the world in software industy more and more.
+      From that sense of crisis, people highly pay attention to the block chain technology.
   market:
-    header: 仮想通貨への期待の高まり
+    header: Increased expectations for crypto currency
     body: |
-      技術後進国でありながらも、日本における仮想通貨への関心はますます高まっています。
-      日本において実用的な仮想通貨の登場が待望されています。
+      Despite being a technologically disadvanted country, the number of people who are interested in crypto currency
+      is increasing. The practical virtual currency in Japan is awaited.
 ico:
-  header: ico
+  header: ICO
   body: |
-    私たちはヴィジョンの実現のため、2017/08末にクラウドセールを実施予定です。
-    独自トークンである仮想通貨ALISを我々が発行し、BitcoinやEthereumと交換することができます。
-    ALISのICOおよびプロジェクト最新情報の通知をご希望の方は下記ボタンよりご登録ください。
-  button: ICOの情報を受け取る
+    To realize our vision, we plan to implement cloud sale at the end of 08/2017.
+    You can change Bitcoin and Ethereum to our unique token ALIS.
+    If you would like to get an information about ICO and latest information about project,
+    register your e-mail address from the button below.
+  button: Register e-mail address
 technology:
   header: Technology
   body: |
-    現在、私たちは細部に至るまで考え抜き、一行一文言までロジックに裏打ちされた仕組み・要素・数値を設計中です。
-    作成した設計に基づくDApp(分散アプリケーション)をEthereum等の適切な既存プラットフォーム上、
-    あるいは 独自に運用するブロックチェーン上に構築します。そのコードは適切に設計され、
-    高いテストカバレッジを維持し、CIや静的解析で高い品質を維持しつつすべてをオープンソースとして公開します。
+    Currently we are thinking through all the details and designing the mechanism,
+    elements and numerical values backed up by logic up.
+    We will use DApp(Distributed Application) based on Ethereum or our original
+    block chain we make. The code is properly designed and maintained high test coverage,
+    show everything on github as a open source code.
 team:
   header: Team
   profile:
     yasu:
       name: Masahiro Yasu
       body: |
-        日本で最もノーベル賞を輩出する京都大学出身。大学時代は核融合の研究を専攻し、ヘリカル型プラズマのアルヴェン固有モード励起のパターンをFortran言語で解析。
-        2011年株式会社リクルート（Indeedの親会社）に入社し、ビジネスSNS・名刺管理アプリ・リファラルツール等の事業戦略、
-        新規事業開発、開発ディレクションを行う。また、機械学習や自然言語解析等にも積極的に取り組み、2016年リクルートグループの企画に贈られる最高賞のGROWTH FORUMを受賞。現在も日本マイクロソフトとの共同プロジェクトのプロジェクトリーダーを兼ねる。
-        ブロックチェーン技術に出会い、AI・VRよりも世の中の進化スピードを早められる手段だと確信し、ALISを立ち上げる。
+        Graduated Kyoto univercity which produces most of the Nobel Prize person in Japan.
+        He majored in nuclear fusion and analyzed alfven eigenmode raised in helical prasma by Fortran.
+        He joind Recruit Co., Ltd.(Parent company of indeed, world's secondest large HR company)
+        and has business strategies and development direction such as business SNS, application for business man, referral tool.
+        He also actively work on machine learning and natural language analysis, and received the
+        GROWTH FORUM awarded which is the highest prize in Recruit.
+        Currently he also serves a project leader of a joint project with Japan Microsoft.
     mizusawa:
       name: Takashi Mizusawa
       body: |
-        大学在学中にベンチャー企業を立ち上げ、世界的な教育企業であるベネッセコーポレーションでキャリアをスタート。
-        入社後わずか1年目にして全社の年間MVPを受賞し、学生向けSNSや学習用タブレットの新規事業開発を6年間経験。
-        その後、「学ぶ」と「働く」の接続を目的に日本のHR業界で最も有名なリクルートキャリアへ転職。
-        MOOCやリファラルツールの事業開発を担当している。一貫した社会的ネットワークへの関心と教育&HR現場での転用経験から、
-        一人ひとりの持ち味が発揮されやすいエコシステムの実現を目指す。
+        He started a venture company when he was univercity student, and started his career at
+        Benesse Corporatin which is a famous worldwide education company.
+        He won the company's annual MVP though he was recruit, and then he produced SNS of students and
+        tablets for learning. After that, he changed jobs to the Recruit Career which is most famous HR company in Japan
+        to connect "learning" and "working". He does a business development of MOOC and referral tool.
+        He is very interested in social networks and also uses it into HR, so
+        he want to realize a social where everyone can success by using their own unique ability.
     ishii:
       name: Sota Ishii
       body: |
-        業界歴13年超のエンジニア。某大手人材企業においてフリーランスながら新規プロジェクトの開発チームを一任され、
-        サービスのグロースや社内受賞に貢献する等、常に開発の現場に身を置き続ける。
-        新技術や未経験の業務を好み、役割や技術を問わず意識的にゼネラリストを指向。
-        ブロックチェーン技術は広く普及すると確信しており、Mt.Goxで大金を失うが気にせず全財産を仮想通貨に投じる。
-        昨今の価値上昇により一度リタイアメント。現在はALISプロジェクトへフルコミットしている。
+        He is an professional engineer over 13 years. He was a development leader of a famous
+        HR company and contributed to service growth and getting award as a special engineer.
+        He likes new technology and business, consciously oriented generalist regardless of role or technology.
+        He strongly believes that block chain technology will be a defact standard and invest
+        all the money into crypto currency though he lost a lot of money in Mt.Gox.
+        He retired alyready because of the higly up of cryoto currency's price, now fully committed to the ALIS project.
