@@ -1,0 +1,107 @@
+base_dir: '.'
+meta:
+  title: 'TODO'
+  description: 'TODO'
+navbar:
+  whitepaper: Whitepaper
+  roadmap: Roadmap
+  ico: ICO
+  team: Team
+cover:
+  caption_line_one: Distinguish between valueless contents and valuable contents with rewards
+  caption_line_two: Japa's first social media platform using block chain technology
+service_information:
+  header: What is ALIS Project
+  body: |
+    ALIS is socail media platform which enables people to get reliable information and people as soon as possible.
+    We were impressed by STEEM(https://steem.io) and they already got evaluation of tens of billions,
+    so we want to make more concise media in Japan.
+    Our mission is to release people who are tired of advertising contents, stealth marketing,
+    less reliable information which made by traditional media.
+    We are on progress of releasing whitepaper.
+    If you want to receive the latest information, please register e-mail address from the button below.
+  button: Register e-mail address
+features:
+  header: Features
+  token:
+    header: Discover high-quality contens
+    body: |
+      Those who posted or evaluated contens that many people think great contents,
+      we will distribute much more ALIS token.
+      Like Ethereum or STEEM, ALIS tokens are going to have evaluated by itselfs.
+  platform:
+    header: Reduction of platform value
+    body: |
+      The more people evaluate ALIS platform, the more value is distributed to people who contribute to ALIS.
+      STEEM(https://steem.io) has already built similar eco-system, and gained tens of billions of value.
+  technology:
+    header: High reliability and low cost compability
+    body: |
+      By using block chain technology as a basis, we realize both high reliability and low cost.
+      As a result, we can maximize the rewards for those who contribute to ALIS.
+about_japan:
+  header: Why in Japan
+  media_quality:
+    header: Mass production of low-quality contents becomes problematic
+    body: |
+      A lot of low quality and low reliablity contents are produced in today's japan,
+      and becomes big news which some media created a garbage contents.
+      We need to change the rules creating lots of cheap contents to gain PV.
+  technology:
+    header: Attention to block chain technology
+    body: |
+      Japan is lagging behind the world in software industy more and more.
+      From that sense of crisis, people highly pay attention to the block chain technology.
+  market:
+    header: Increased expectations for crypto currency
+    body: |
+      Despite being a technologically disadvanted country, the number of people who are interested in crypto currency
+      is increasing. The practical virtual currency in Japan is awaited.
+ico:
+  header: ICO
+  body: |
+    To realize our vision, we plan to implement cloud sale at the end of 08/2017.
+    You can change Bitcoin and Ethereum to our unique token ALIS.
+    If you would like to get an information about ICO and latest information about project,
+    register your e-mail address from the button below.
+  button: Register e-mail address
+technology:
+  header: Technology
+  body: |
+    Currently we are thinking through all the details and designing the mechanism,
+    elements and numerical values backed up by logic up.
+    We will use DApp(Distributed Application) based on Ethereum or our original
+    block chain we make. The code is properly designed and maintained high test coverage,
+    show everything on github as a open source code.
+team:
+  header: Team
+  profile:
+    yasu:
+      name: Masahiro Yasu
+      body: |
+        Graduated Kyoto univercity which produces most of the Nobel Prize person in Japan.
+        He majored in nuclear fusion and analyzed alfven eigenmode raised in helical prasma by Fortran.
+        He joind Recruit Co., Ltd.(Parent company of indeed, world's secondest large HR company)
+        and has business strategies and development direction such as business SNS, application for business man, referral tool.
+        He also actively work on machine learning and natural language analysis, and received the
+        GROWTH FORUM awarded which is the highest prize in Recruit.
+        Currently he also serves a project leader of a joint project with Japan Microsoft.
+    mizusawa:
+      name: Takashi Mizusawa
+      body: |
+        He started a venture company when he was univercity student, and started his career at
+        Benesse Corporatin which is a famous worldwide education company.
+        He won the company's annual MVP though he was recruit, and then he produced SNS of students and
+        tablets for learning. After that, he changed jobs to the Recruit Career which is most famous HR company in Japan
+        to connect "learning" and "working". He does a business development of MOOC and referral tool.
+        He is very interested in social networks and also uses it into HR, so
+        he want to realize a social where everyone can success by using their own unique ability.
+    ishii:
+      name: Sota Ishii
+      body: |
+        He is an professional engineer over 13 years. He was a development leader of a famous
+        HR company and contributed to service growth and getting award as a special engineer.
+        He likes new technology and business, consciously oriented generalist regardless of role or technology.
+        He strongly believes that block chain technology will be a defact standard and invest
+        all the money into crypto currency though he lost a lot of money in Mt.Gox.
+        He retired alyready because of the higly up of cryoto currency's price, now fully committed to the ALIS project.
