@@ -29,17 +29,17 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 256,
       "color": "#858dda",
       "opacity": 0.4,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
-      "direction": "none",
+      "speed": 2,
+      "direction": "top",
       "random": false,
-      "straight": false,
+      "straight": true,
       "out_mode": "out",
       "attract": {
         "enable": false,
@@ -52,11 +52,11 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "grab"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "resize": true
