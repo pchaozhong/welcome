@@ -79,6 +79,7 @@ body {
 
       &_hover {
         fill: red;
+        cursor: pointer;
         width: $coverVideoButtonSize;
       }
     }
