@@ -20,7 +20,8 @@ body {
     background-color: $navColor;
 
     .navbar-collapse {
-      border-top: 0;
+      box-shadow: none;
+      -webkit-box-shadow: none;
     }
   }
 
@@ -316,6 +317,13 @@ body {
 
 // ex) iPhone5/5S/5c/SE
 @media (max-width: 640px) {
+  .navbar {
+    .navbar-collapse {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+  }
+
   .service-information {
     &__logo {
       margin-top: 20px;
@@ -333,6 +341,11 @@ body {
   .navbar {
     padding-right: 15px;
     padding-left: 15px;
+
+    .navbar-collapse {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+    }
   }
 
   .cover__caption {
