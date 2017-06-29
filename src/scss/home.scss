@@ -30,9 +30,16 @@ body {
     margin-top: 4px;
     margin-right: -5px;
 
-    li a {
-      padding-left: 4px;
-      color: white;
+    li {
+      a {
+        padding-left: 4px;
+        color: white;
+      }
+    }
+
+    &__language {
+      margin-top: 9px;
+      color: gray;
     }
   }
 }

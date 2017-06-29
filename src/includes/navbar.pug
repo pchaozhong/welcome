@@ -11,8 +11,8 @@ block links
         a.smooth-anchor(href='#ico') #{navbar.ico}
       li
         a.smooth-anchor(href='#team') #{navbar.team}
-      // TODO: add collapse UI
       li
-        a.smooth-anchor(href='/') English
-      li
-        a.smooth-anchor(href='/zh') 中文
+        select.form-control.nav__language(onchange="location = this.options[this.selectedIndex].value;")
+          option #{navbar.language}
+          option(value='/') English
+          option(value='/zh') 中文
