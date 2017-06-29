@@ -325,6 +325,14 @@ body {
     }
   }
 
+  .cover {
+    .carousel-inner {
+      .item {
+        height: 500px;
+      }
+    }
+  }
+
   .service-information {
     &__logo {
       margin-top: 20px;
