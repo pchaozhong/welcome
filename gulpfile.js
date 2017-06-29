@@ -33,9 +33,8 @@ gulp.task('pug:build', function () {
   for (i = 0, len = ref.length; i < len; i++) {
     lang = ref[i];
     destination = lang === 'en' ? 'public' : 'public/' + lang;
-    results.push(gulp.src(['src/*.pug']).pipe($.plumber()).pipe(getYamlData(lang)).pipe($.pug({
-      pretty: true
-    })).pipe(gulp.dest(destination)));
+    results.push(gulp.src(['src/*.pug']).pipe($.plumber()).pipe(getYamlData(lang)).pipe($.pug())
+      .pipe(gulp.dest(destination)));
   }
   return results;
 });
