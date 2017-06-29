@@ -21,7 +21,6 @@
     "eslint": "^4.0.0",
     "file-loader": "^0.11.2",
     "fs": "^0.0.1-security",
-    "fs-extra": "^3.0.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-data": "^1.2.1",
