@@ -1,4 +1,3 @@
-base_dir: '..'
 meta:
   title: 'TODO'
   description: 'TODO'
@@ -7,6 +6,7 @@ navbar:
   roadmap: Roadmap
   ico: ICO
   team: Team
+  language: 语言..
 cover:
   caption_line_one: 为了区分薪酬的无用信息和高质量的信息
   caption_line_two: 日本最早的社交媒体平台，利用该块链技术
