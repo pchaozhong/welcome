@@ -4,6 +4,8 @@ include includes/header
 body
   include includes/navbar
 
+  include mixin/mail_form
+
   // Cover
   #cover.cover
     // TODO: "carousel-inner" のclassを除却
@@ -38,8 +40,7 @@ body
         .lead
           | #{service_information.body}
         p
-          a.service-information__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
-          target='blank' role='button') #{service_information.button}
+          +mail_form
 
   // Features
   .container.features
@@ -106,8 +107,7 @@ body
         .lead
           | #{ico.body}
         p
-          a.ico__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
-          target='blank' role='button') #{ico.button}
+          +mail_form
 
   // Technology
   .container.technology
