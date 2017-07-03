@@ -344,6 +344,14 @@ body {
       font-size: $buttonTextSizeSmall;
     }
   }
+
+  .footer {
+    &__sns-links {
+      :not(:first-child) {
+        margin-left: 3px;
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) {
