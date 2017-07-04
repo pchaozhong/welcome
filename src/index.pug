@@ -4,6 +4,8 @@ include includes/header
 body
   include includes/navbar
 
+  include mixin/mail_form
+
   // Cover
   #cover.cover
     // TODO: "carousel-inner" のclassを除却
@@ -38,8 +40,7 @@ body
         .lead
           | #{service_information.body}
         p
-          a.service-information__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
-          target='blank' role='button') #{service_information.button}
+          +mail_form
 
   // Features
   .container.features
@@ -47,19 +48,22 @@ body
       | #{features.header}
     .row.features__row
       .col-lg-3.features__item
-        img.img-rounded.features__image(src='/img/feature_token.png', alt='token')
+        .features__image-container
+          img.img-rounded.features__container__image(src='/img/feature_token.png', alt='token')
         h4
           | #{features.token.header}
         p
           | #{features.token.body}
       .col-lg-3.features__item
-        img.img-rounded.features__image(src='/img/feature_platform.png', alt='platform')
+        .features__image-container
+          img.img-rounded.features__container__image(src='/img/feature_platform.png', alt='platform')
         h4
           | #{features.platform.header}
         p
           | #{features.platform.body}
       .col-lg-3.features__item
-        img.img-rounded.features__image(src='/img/feature_technology.jpg', alt='technology')
+        .features__image-container
+          img.img-rounded.features__container__image(src='/img/feature_technology.png', alt='technology')
         h4
           | #{features.technology.header}
         p
@@ -69,31 +73,31 @@ body
   .container.about-japan#about-japan
     h2.about-japan__heading
       | #{about_japan.header}
-    .row
+    .row.about-japan__row
       .col-md-7
         h3
           | #{about_japan.media_quality.header}
         p
           | #{about_japan.media_quality.body}
-      .col-md-5
+      .col-md-5.about-japan__image-container
         img.about-japan-image.img-responsive.center-block(src='/img/japan-media-quality.png',
         alt='media quality')
-    .row
+    .row.about-japan__row
       .col-md-7.col-md-push-5
         h3
           | #{about_japan.technology.header}
         p
           | #{about_japan.technology.body}
-      .col-md-5.col-md-pull-7
+      .col-md-5.col-md-pull-7.about-japan__image-container
         img.about-japan-image.img-responsive.center-block(src='/img/japan-technology.png',
         alt='technology')
-    .row
+    .row.about-japan__row
       .col-md-7
         h3
           | #{about_japan.market.header}
         p
           | #{about_japan.market.body}
-      .col-md-5
+      .col-md-5.about-japan__image-container
         img.about-japan-image.img-responsive.center-block(src='/img/japan-market.png', alt='market')
 
   // ICO
@@ -106,8 +110,7 @@ body
         .lead
           | #{ico.body}
         p
-          a.ico__button.btn.btn-lg.btn-default(href='https://goo.gl/forms/rNbmA3BOOUhnLGos2',
-          target='blank' role='button') #{ico.button}
+          +mail_form
 
   // Technology
   .container.technology
@@ -115,36 +118,40 @@ body
       .col-md-12
         h2.technology__heading
           | #{technology.header}
-        img.technology__logo(src='/img/feature_technology.jpg', alt='technology')
+        img.technology__logo(src='/img/technology.png', alt='technology')
         .lead
           | #{technology.body}
 
   // Team
-  .container.team#team
-    .row
-      .col-md-12
-        h2.team__heading
-          | #{team.header}
-      include mixin/team_member
-      include mixin/team_member_sns
-      .col-lg-4
-        +team_member(team.profile.yasu.name, 'Founder')(src='/img/yasu.jpg')
-        .team__content
-          | #{team.profile.yasu.body}
-        +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
-      .col-lg-4
-        +team_member(team.profile.mizusawa.name, 'Co-Founder / Marketing')(src='/img/mizusawa.jpg')
-        .team__content
-          | #{team.profile.mizusawa.body}
-        +team_member_sns('takashi.mizusawa', 'takashi_mizu')
-      .col-lg-4
-        +team_member(team.profile.ishii.name, 'Co-Founder / Engineering')(src='/img/ishii.jpg')
-        .team__content
-          | #{team.profile.ishii.body}
-        +team_member_sns('sota.ishii', 'sot528')
+  .team
+    .container#team
+      .row
+        .col-md-12
+          h2.team__heading
+            | #{team.header}
+        include mixin/team_member
+        include mixin/team_member_sns
+        .col-lg-4
+          +team_member(team.profile.yasu.name, 'Founder')(src='/img/yasu.jpg')
+          .team__content
+            | #{team.profile.yasu.body}
+          +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
+        .col-lg-4
+          +team_member(team.profile.mizusawa.name, 'Co-Founder / Marketing')(src='/img/mizusawa.jpg')
+          .team__content
+            | #{team.profile.mizusawa.body}
+          +team_member_sns('takashi.mizusawa', 'takashi_mizu')
+        .col-lg-4
+          +team_member(team.profile.ishii.name, 'Co-Founder / Engineering')(src='/img/ishii.jpg')
+          .team__content
+            | #{team.profile.ishii.body}
+          +team_member_sns('sota.ishii', 'sot528')
 
   // Footer
   include includes/footer
 
   // Video modal
   include mixin/video-mordal
+
+  // generated by webpack
+  script(type="text/javascript", src='/js/low_priority_index.js')
