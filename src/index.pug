@@ -73,31 +73,31 @@ body
   .container.about-japan#about-japan
     h2.about-japan__heading
       | #{about_japan.header}
-    .row
+    .row.about-japan__row
       .col-md-7
         h3
           | #{about_japan.media_quality.header}
         p
           | #{about_japan.media_quality.body}
-      .col-md-5
+      .col-md-5.about-japan__image-container
         img.about-japan-image.img-responsive.center-block(src='/img/japan-media-quality.png',
         alt='media quality')
-    .row
+    .row.about-japan__row
       .col-md-7.col-md-push-5
         h3
           | #{about_japan.technology.header}
         p
           | #{about_japan.technology.body}
-      .col-md-5.col-md-pull-7
+      .col-md-5.col-md-pull-7.about-japan__image-container
         img.about-japan-image.img-responsive.center-block(src='/img/japan-technology.png',
         alt='technology')
-    .row
+    .row.about-japan__row
       .col-md-7
         h3
           | #{about_japan.market.header}
         p
           | #{about_japan.market.body}
-      .col-md-5
+      .col-md-5.about-japan__image-container
         img.about-japan-image.img-responsive.center-block(src='/img/japan-market.png', alt='market')
 
   // ICO
