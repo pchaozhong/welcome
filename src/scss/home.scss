@@ -211,9 +211,13 @@ body {
 -------------------------------------------------- */
 
 .ico {
-  background-color: #1e242c;
-  color: $textDarkGrayColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/img/ico-background.png");
+  color: $textLightGrayColor;
   width: auto;
+  height: 680px;
 
   .col-md-12 {
     margin-bottom: 20px;
@@ -390,7 +394,6 @@ body {
   }
 
   .service-information,
-  .ico,
   .technology {
     .lead {
       font-size: $subTextSize;
@@ -398,6 +401,16 @@ body {
       line-height: $subTextLineHeight;
       width: 800px;
       color: $textDarkGrayColor;
+    }
+  }
+
+  .ico {
+    .lead {
+      font-size: $subTextSize;
+      margin: 0 auto;
+      line-height: $subTextLineHeight;
+      width: 800px;
+      color: $textLightGrayColor;
     }
   }
 
