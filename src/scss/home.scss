@@ -156,9 +156,15 @@ body {
     margin-bottom: 48px;
   }
 
-  &__image {
-    width: 200px;
+  &__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 200px;
+
+    &__image {
+      width: 100%;
+    }
   }
 }
 

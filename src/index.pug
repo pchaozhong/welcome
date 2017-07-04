@@ -48,19 +48,22 @@ body
       | #{features.header}
     .row.features__row
       .col-lg-3.features__item
-        img.img-rounded.features__image(src='/img/feature_token.png', alt='token')
+        .features__image-container
+          img.img-rounded.features__container__image(src='/img/feature_token.png', alt='token')
         h4
           | #{features.token.header}
         p
           | #{features.token.body}
       .col-lg-3.features__item
-        img.img-rounded.features__image(src='/img/feature_platform.png', alt='platform')
+        .features__image-container
+          img.img-rounded.features__container__image(src='/img/feature_platform.png', alt='platform')
         h4
           | #{features.platform.header}
         p
           | #{features.platform.body}
       .col-lg-3.features__item
-        img.img-rounded.features__image(src='/img/feature_technology.jpg', alt='technology')
+        .features__image-container
+          img.img-rounded.features__container__image(src='/img/feature_technology.png', alt='technology')
         h4
           | #{features.technology.header}
         p
