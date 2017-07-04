@@ -5,8 +5,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    home: './src/js/home.js',
-    privacy: './src/js/privacy.js'
+    home: './src/js/home.js'
   },
   output: {
     path: path.join(__dirname, 'public'),
