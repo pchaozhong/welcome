@@ -123,28 +123,29 @@ body
           | #{technology.body}
 
   // Team
-  .container.team#team
-    .row
-      .col-md-12
-        h2.team__heading
-          | #{team.header}
-      include mixin/team_member
-      include mixin/team_member_sns
-      .col-lg-4
-        +team_member(team.profile.yasu.name, 'Founder')(src='/img/yasu.jpg')
-        .team__content
-          | #{team.profile.yasu.body}
-        +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
-      .col-lg-4
-        +team_member(team.profile.mizusawa.name, 'Co-Founder / Marketing')(src='/img/mizusawa.jpg')
-        .team__content
-          | #{team.profile.mizusawa.body}
-        +team_member_sns('takashi.mizusawa', 'takashi_mizu')
-      .col-lg-4
-        +team_member(team.profile.ishii.name, 'Co-Founder / Engineering')(src='/img/ishii.jpg')
-        .team__content
-          | #{team.profile.ishii.body}
-        +team_member_sns('sota.ishii', 'sot528')
+  .team
+    .container#team
+      .row
+        .col-md-12
+          h2.team__heading
+            | #{team.header}
+        include mixin/team_member
+        include mixin/team_member_sns
+        .col-lg-4
+          +team_member(team.profile.yasu.name, 'Founder')(src='/img/yasu.jpg')
+          .team__content
+            | #{team.profile.yasu.body}
+          +team_member_sns('masahiro.yasu.7', 'fiesta_red_fg')
+        .col-lg-4
+          +team_member(team.profile.mizusawa.name, 'Co-Founder / Marketing')(src='/img/mizusawa.jpg')
+          .team__content
+            | #{team.profile.mizusawa.body}
+          +team_member_sns('takashi.mizusawa', 'takashi_mizu')
+        .col-lg-4
+          +team_member(team.profile.ishii.name, 'Co-Founder / Engineering')(src='/img/ishii.jpg')
+          .team__content
+            | #{team.profile.ishii.body}
+          +team_member_sns('sota.ishii', 'sot528')
 
   // Footer
   include includes/footer

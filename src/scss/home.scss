@@ -210,6 +210,7 @@ body {
 /* ICO
 -------------------------------------------------- */
 
+/*noinspection ALL*/
 .ico {
   display: flex;
   align-items: center;
@@ -263,6 +264,8 @@ body {
 -------------------------------------------------- */
 
 .team {
+  background-image: url("/img/team-background.png");
+
   .col-md-12 {
     margin-bottom: 48px;
     text-align: center;
