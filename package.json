@@ -51,10 +51,10 @@
     "install:develop": "yarn install --modules-folder ./public/node_modules",
     "install:production": "yarn install --modules-folder ./public/node_modules --prod",
     "test": "yarn pug-lint ./src && yarn eslint ./src/js",
-    "s3sync:develop": "aws s3 sync public s3://${S3_BUCKET_DEVELOP}/ --delete --acl public-read-write",
-    "s3sync:staging": "aws s3 sync public s3://${S3_BUCKET_STAGING}/ --delete --acl public-read-write",
-    "s3sync:production": "aws s3 sync public s3://alismedia.jp/ --delete --acl public-read-write",
+    "s3sync:develop": "aws s3 sync public s3://${S3_BUCKET_DEVELOP}/ --delete --acl  public-read",
+    "s3sync:staging": "aws s3 sync public s3://${S3_BUCKET_STAGING}/ --delete --acl  public-read",
+    "s3sync:production": "aws s3 sync public s3://alismedia.jp/ --delete --acl  public-read",
     "deploy": "yarn clean:public && yarn install:develop && yarn build:develop && yarn s3sync:develop",
-    "deploy:production": "yarn clean:public && yarn install:develop && yarn build:develop && yarn s3sync:develop"
+    "deploy:production": "yarn clean:public && yarn build:production && yarn install:production && yarn s3sync:production"
   }
 }
