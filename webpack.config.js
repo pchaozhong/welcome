@@ -5,7 +5,8 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    home: './src/js/home.js'
+    home: './src/js/home.js',
+    low_priority_index: './src/js/low_priority_index.js',
   },
   output: {
     path: path.join(__dirname, 'public'),
@@ -42,7 +43,8 @@ module.exports = {
     new CopyWebpackPlugin(
       [
         {from: "src/img/", to: "img/"},
-        {from: "src/json/", to: "json/"}
+        {from: "src/json/", to: "json/"},
+        {from: "src/manifest.json"}
       ]
     )
   ]
