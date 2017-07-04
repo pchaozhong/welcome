@@ -1,6 +1,8 @@
 meta:
   title: 'ALIS'
-
+mail_form:
+  place_holder: Enter your email
+  button: Subscribe
 navbar:
   whitepaper: Whitepaper
   roadmap: Roadmap
