@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     home: './src/js/home.js',
     low_priority_index: './src/js/low_priority_index.js',
+    error: './src/js/error.js'
   },
   output: {
     path: path.join(__dirname, 'public'),
