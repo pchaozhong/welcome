@@ -7,6 +7,7 @@ body {
 // color
 $brandColor: #858dda;
 $textDarkGrayColor: #787878;
+$textLightGrayColor: lightgray;
 $grayContainerColor: #f8f8f8;
 $navColor: #05051e;
 $coverColor: $navColor;
@@ -20,6 +21,9 @@ $buttonTextSizeSmall: 15px;
 // line height
 $subTextLineHeight: 32px;
 
+// navbar
+$navbarHeight: 82px;
+
 // cover
-$coverHeight: 650px;
+$coverHeight: 680px;
 $coverVideoButtonSize: 100px;
