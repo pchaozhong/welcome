@@ -107,12 +107,12 @@ body {
 
 .service-information {
   .col-md-12 {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     text-align: center;
   }
 
   &__heading {
-    margin-bottom: 16px;
+    margin-bottom: 36px;
   }
 
   &__logo {
@@ -134,11 +134,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 48px;
+    margin-bottom: 70px;
   }
 
   &__item {
-    margin-bottom: 20px;
     text-align: center;
     line-height: 26px;
 
@@ -156,7 +155,6 @@ body {
 
   &__heading {
     text-align: center;
-    margin-bottom: 48px;
   }
 
   &__image-container {
@@ -176,7 +174,7 @@ body {
 
 .about-japan {
   vertical-align: middle;
-  margin-bottom: 48px;
+  margin-bottom: 70px;
 
   .col-md-7 {
     margin-top: 20px;
@@ -196,7 +194,6 @@ body {
 
   &__heading {
     text-align: center;
-    margin-bottom: 48px;
   }
 
   &__image-container {
@@ -216,10 +213,10 @@ body {
   background-image: url("/img/ico-background.png");
   color: $textLightGrayColor;
   width: auto;
-  height: 680px;
+  height: 614px;
 
   .col-md-12 {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     text-align: center;
   }
 
@@ -243,7 +240,7 @@ body {
   width: auto;
 
   .col-md-12 {
-    margin-bottom: 48px;
+    margin-bottom: 70px;
     text-align: center;
   }
 
@@ -274,7 +271,7 @@ body {
   }
 
   .col-lg-4 {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     text-align: center;
 
     p {
@@ -395,7 +392,17 @@ body {
     }
   }
 
-  .service-information,
+  .service-information {
+    .lead {
+      font-size: $subTextSize;
+      margin: 0 auto;
+      line-height: $subTextLineHeight;
+      width: 800px;
+      margin-bottom: 48px;
+      color: $textDarkGrayColor;
+    }
+  }
+
   .technology {
     .lead {
       font-size: $subTextSize;
@@ -412,6 +419,7 @@ body {
       margin: 0 auto;
       line-height: $subTextLineHeight;
       width: 800px;
+      margin-bottom: 48px;
       color: $textLightGrayColor;
     }
   }
@@ -420,11 +428,12 @@ body {
   .features,
   .ico,
   .technology,
+  .about-japan,
   .team {
     &__heading {
       font-weight: normal;
-      font-size: 30px;
-      margin-top: 48px;
+      font-size: 40px;
+      margin-top: 70px;
     }
   }
 
