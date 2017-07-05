@@ -275,6 +275,15 @@ body {
     color: $textMainBlueColor;
   }
 
+  h3 {
+    font-weight: 600;
+    color: $textMainBlueColor;
+  }
+
+  h5 {
+    color: $textDarkGrayColor;
+  }
+
   .col-lg-4 {
     margin-bottom: 70px;
     text-align: center;
@@ -292,6 +301,7 @@ body {
 
   &__content {
     text-align: left;
+    color: $textDarkGrayColor;
   }
 
   &__sns-link {
