@@ -1,5 +1,43 @@
+$elementWidth: 300px;
+$buttonTextColor: white;
+
 .mail-form {
+  &__input {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
   &__button {
-    margin-left: 3px;
+    color: $buttonTextColor;
+    border: 0;
+    background-color: #8c9af3;
+    margin-left: 0;
+    width: $elementWidth;
+
+    &:hover {
+      color: $buttonTextColor;
+      background-color: #858dda;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 9px;
+
+    .form-control {
+      width: $elementWidth;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .mail-form {
+    &__button {
+      margin-left: 3px;
+      width: 130px;
+    }
+
+    .form-group {
+      margin-bottom: 0;
+    }
   }
 }
