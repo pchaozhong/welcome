@@ -88,7 +88,7 @@ body {
 
 .carousel-inner {
   margin-top: $navbarHeight;
-  height: $coverHeight;
+  height: 100%;
 
   .item {
     position: absolute;
@@ -98,7 +98,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: $coverHeight;
+    height: 100%;
   }
 }
 
@@ -365,10 +365,15 @@ body {
   }
 
   .cover {
-    .carousel-inner {
-      .item {
-        height: 500px;
-      }
+    height: 400px;
+
+    &__caption {
+      position: inherit;
+      right: 20%;
+      left: 20%;
+      margin-top: 67px;
+      margin-bottom: 0;
+      padding-top: 0;
     }
   }
 
