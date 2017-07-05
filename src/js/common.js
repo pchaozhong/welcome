@@ -25,8 +25,14 @@ $(function () {
 
 // カバーのビデオボタンクリックでビデオモーダル表示
 $(function () {
-  $("#cover-button").on('click', function () {
-    $('.video-modal').modal();
+  $("#cover-button").on('click', () => {
+    $.ajax('video-modal.html', {
+      timeout: 3000,
+      datatype: 'html'
+    }).then(function (data) {
+      let video_modal = $('#video-modal').html('');
+      $($.parseHTML(data)).appendTo(video_modal).modal();
+    })
   });
 });
 

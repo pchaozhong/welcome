@@ -1,9 +1,11 @@
 .video-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   .modal-dialog {
-    width: 90%;
-    height: 96%;
-    padding: 0;
-    margin: 1% 5% 0% 5%;
+    width: 80%;
+    height: 80%;
 
     .modal-content {
       width: 100%;
