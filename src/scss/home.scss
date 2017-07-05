@@ -142,6 +142,10 @@ body {
     text-align: center;
     line-height: 26px;
 
+    h4 {
+      color: $textDarkestGrayColor;
+    }
+
     p {
       margin-right: 10px;
       margin-left: 10px;
@@ -181,6 +185,10 @@ body {
   .col-md-7 {
     margin-top: 20px;
     text-align: left;
+
+    h3 {
+      color: $textDarkestGrayColor;
+    }
 
     p {
       font-size: $subTextSize;
