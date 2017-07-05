@@ -113,6 +113,7 @@ body {
 
   &__heading {
     margin-bottom: 36px;
+    color: $textMainBlueColor;
   }
 
   &__logo {
@@ -141,6 +142,10 @@ body {
     text-align: center;
     line-height: 26px;
 
+    h4 {
+      color: $textDarkestGrayColor;
+    }
+
     p {
       margin-right: 10px;
       margin-left: 10px;
@@ -155,6 +160,7 @@ body {
 
   &__heading {
     text-align: center;
+    color: $textMainBlueColor;
   }
 
   &__image-container {
@@ -180,6 +186,10 @@ body {
     margin-top: 20px;
     text-align: left;
 
+    h3 {
+      color: $textDarkestGrayColor;
+    }
+
     p {
       font-size: $subTextSize;
       line-height: $subTextLineHeight;
@@ -194,6 +204,7 @@ body {
 
   &__heading {
     text-align: center;
+    color: $textMainBlueColor;
   }
 
   &__image-container {
@@ -246,6 +257,7 @@ body {
 
   &__heading {
     margin-bottom: 16px;
+    color: $textMainBlueColor;
   }
 
   &__logo {
@@ -268,6 +280,16 @@ body {
 
   h2 {
     font-weight: normal;
+    color: $textMainBlueColor;
+  }
+
+  h3 {
+    font-weight: 600;
+    color: $textMainBlueColor;
+  }
+
+  h5 {
+    color: $textDarkGrayColor;
   }
 
   .col-lg-4 {
@@ -287,6 +309,7 @@ body {
 
   &__content {
     text-align: left;
+    color: $textDarkGrayColor;
   }
 
   &__sns-link {
@@ -309,6 +332,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: $textLightGrayColor;
   background-image: url('/img/footer-background.png');
   height: 309px;
   width: auto;
