@@ -447,6 +447,23 @@ body {
       margin-bottom: 48px;
       vertical-align: middle;
     }
+
+    .btn-default{
+      background-color: #8c9af3;
+      color: white;
+      border-color: #8c9af3;
+      width: 130px;
+    }
+
+    .btn-default:hover{
+      background-color: #858dda;
+    }
+
+    .form-control{
+      width: 300px;
+      display: inline-block;
+      vertical-align: middle;
+    }
   }
 
   .features {
