@@ -41,7 +41,7 @@
   },
   "scripts": {
     "build:production": "yarn webpack -p && yarn gulp pug:build",
-    "build:develop": "yarn webpack -p && yarn gulp pug:build",
+    "build:develop": "yarn webpack -p && yarn gulp pug:build && cp -p ./robots.txt ./public/",
     "watch": "npm-run-all --parallel watch:*",
     "watch:webpack": "webpack-dev-server --hot --inline --devtool source-map",
     "watch:gulp": "yarn gulp watch",
