@@ -72,7 +72,7 @@ ico:
 technology:
   header: Technology
   body: |
-    We are constantly in the process of improving the specifications of ALIS's system using our collaborative knowledge 
+    We are constantly in the process of improving the specifications of ALIS's system using our collaborative knowledge
     and other tools based on Ethereum or our own innovation.
     We are also in the process of creating DApp (Distributed Application) for the purpose of ALIS's platform.
     The code will be designed and maintained
@@ -83,14 +83,14 @@ team:
     yasu:
       name: Masahiro Yasu
       body: |
-        Yasu is a graduate from Kyoto University, the university with the highest number of Nobel Prize winner 
+        Yasu is a graduate from Kyoto University, the university with the highest number of Nobel Prize winner
         recipients in Japan.
         He majored in nuclear fusion and analyzed alfven eigenmode raised in helical plasma by Fortran.
-        After graduation, he joined Recruit Co., Ltd. (The 2nd largest HR company in the world, also the parent company 
+        After graduation, he joined Recruit Co., Ltd. (The 2nd largest HR company in the world, also the parent company
         of Indeed).
-        Yasu is experienced in business development, including business strategy and system development of several 
-        products, such as business SNS and referral tool. He also actively worked on machine learning and natural 
-        language analysis, and received the GROWTH FORUM Award which is the highest prize in Recruit. Currently he also 
+        Yasu is experienced in business development, including business strategy and system development of several
+        products, such as business SNS and referral tool. He also actively worked on machine learning and natural
+        language analysis, and received the GROWTH FORUM Award which is the highest prize in Recruit. Currently he also
         serves as a project leader of a joint project with Microsoft Japan.
     mizusawa:
       name: Takashi Mizusawa
@@ -101,7 +101,7 @@ team:
         he worked mainly in business development such as student SNS and education services on tablets.
         After working at Benesse for 6 years, he joined Recruit Career Co., Ltd., known for connecting
         "learning" and "working". There he gained experience in business development of MOOC and referral tool.
-        He is interested in using social networks in HR. He envisions a world were individuals can
+        He is interested in using social networks in HR. He envisions a world where individuals can
         earn success through their own unique abilities.
     ishii:
       name: Sota Ishii
