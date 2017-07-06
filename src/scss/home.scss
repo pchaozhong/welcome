@@ -370,6 +370,10 @@ body {
   }
 
   .cover {
+    .container {
+      height: 0;
+    }
+
     &__caption {
       position: inherit;
       right: 20%;
