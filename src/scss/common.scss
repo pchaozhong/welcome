@@ -1,7 +1,7 @@
 // TODO: index.htmlのものを別に分ける
 body {
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial,
-  helvetica, sans-serif;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
+  Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 }
 
 // color
@@ -12,13 +12,9 @@ $textLightGrayColor: lightgray;
 $textMainBlueColor: #444c76;
 $grayContainerColor: #f8f8f8;
 $navColor: #05051e;
-$coverColor: $navColor;
-$footerColor: $navColor;
 
 // text size
 $subTextSize: 16px;
-$buttonTextSize: 16px;
-$buttonTextSizeSmall: 15px;
 
 // line height
 $subTextLineHeight: 32px;

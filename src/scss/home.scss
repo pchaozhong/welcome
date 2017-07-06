@@ -92,9 +92,8 @@ body {
 
   .item {
     position: absolute;
-    background-image: url('/img/cover-background.png');
     background-size: cover;
-    background-color: #4c527b;
+    background: #4c527b url('/img/cover-background.png');
     top: 0;
     left: 0;
     min-width: 100%;
@@ -384,10 +383,6 @@ body {
       margin-bottom: 20px;
       width: 56%;
     }
-
-    &__button {
-      font-size: $buttonTextSizeSmall;
-    }
   }
 
   .footer {
@@ -425,10 +420,9 @@ body {
   .service-information {
     .lead {
       font-size: $subTextSize;
-      margin: 0 auto;
       line-height: $subTextLineHeight;
       width: 800px;
-      margin-bottom: 48px;
+      margin: 0 auto 48px;
       color: $textDarkGrayColor;
     }
   }
@@ -466,10 +460,9 @@ body {
   .ico {
     .lead {
       font-size: $subTextSize;
-      margin: 0 auto;
       line-height: $subTextLineHeight;
       width: 800px;
-      margin-bottom: 48px;
+      margin: 0 auto 48px;
       color: $textLightGrayColor;
     }
   }
@@ -484,18 +477,6 @@ body {
       font-weight: normal;
       font-size: 40px;
       margin-top: 70px;
-    }
-  }
-
-  .service-information,
-  .ico {
-    &__button {
-      width: 420px;
-      height: 43px;
-      font-size: $buttonTextSize;
-      margin-top: 48px;
-      margin-bottom: 48px;
-      vertical-align: middle;
     }
   }
 }
