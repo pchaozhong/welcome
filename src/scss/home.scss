@@ -112,7 +112,7 @@ body {
 
   &__heading {
     margin-bottom: 36px;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__logo {
@@ -127,7 +127,7 @@ body {
 
 .features {
 
-  background-color: $grayContainerColor;
+  background-color: $containerGrayColor;
   width: auto;
 
   &__row {
@@ -160,7 +160,7 @@ body {
 
   &__heading {
     text-align: center;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__image-container {
@@ -203,7 +203,7 @@ body {
 
   &__heading {
     text-align: center;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__image-container {
@@ -247,7 +247,7 @@ body {
 -------------------------------------------------- */
 
 .technology {
-  background-color: $grayContainerColor;
+  background-color: $containerGrayColor;
   width: auto;
 
   .col-md-12 {
@@ -257,7 +257,7 @@ body {
 
   &__heading {
     margin-bottom: 16px;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__logo {
@@ -278,28 +278,31 @@ body {
     text-align: center;
   }
 
-  h2 {
-    font-weight: normal;
-    color: $textMainBlueColor;
-  }
-
-  h3 {
-    font-weight: 600;
-    color: $textMainBlueColor;
-  }
-
+  h2,
+  h3,
   h5 {
-    color: $textDarkGrayColor;
+    color: $textDarkBlueColor;
+  }
+
+  h3,
+  h5,
+  &__circle-image,
+  &__cntent {
+    margin-top: 0;
+    margin-bottom: 10px;
   }
 
   .col-lg-4 {
     margin-bottom: 70px;
     text-align: center;
+  }
 
-    p {
-      margin-right: 10px;
-      margin-left: 10px;
-    }
+  h2 {
+    font-weight: normal;
+  }
+
+  h3 {
+    font-weight: 600;
   }
 
   &__circle-image {
@@ -313,6 +316,8 @@ body {
   }
 
   &__sns-link {
+    margin-bottom: 22px;
+
     a:not(:first-child) {
       margin-left: 3px;
     }
