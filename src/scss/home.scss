@@ -139,6 +139,7 @@ body {
   }
 
   &__item {
+    margin-top: 17px;
     text-align: center;
     line-height: 26px;
 
@@ -199,7 +200,6 @@ body {
 
   .about-japan__row {
     margin-top: 48px;
-    height: 300px
   }
 
   &__heading {
@@ -210,6 +210,7 @@ body {
   &__image-container {
     display: flex;
     align-items: center;
+    margin-top: 33px;
   }
 }
 
@@ -432,6 +433,22 @@ body {
     }
   }
 
+  .features {
+    &__row {
+      flex-direction: row;
+
+      &__item {
+        margin-top: 9px;
+      }
+    }
+  }
+
+  .about-japan {
+    &__image-container {
+      margin-top: 0;
+    }
+  }
+
   .technology {
     .lead {
       font-size: $subTextSize;
@@ -475,12 +492,6 @@ body {
       margin-top: 48px;
       margin-bottom: 48px;
       vertical-align: middle;
-    }
-  }
-
-  .features {
-    &__row {
-      flex-direction: row;
     }
   }
 }
