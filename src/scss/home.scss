@@ -451,7 +451,6 @@ body {
     .lead {
       font-size: $subTextSize;
       line-height: $subTextLineHeight;
-      width: 800px;
       margin: 0 auto 48px;
       color: $textDarkGrayColor;
     }
@@ -459,8 +458,6 @@ body {
 
   .features {
     &__row {
-      flex-direction: row;
-
       &__item {
         margin-top: 9px;
       }
@@ -478,7 +475,6 @@ body {
       font-size: $subTextSize;
       margin: 0 auto;
       line-height: $subTextLineHeight;
-      width: 800px;
       color: $textDarkGrayColor;
     }
 
@@ -491,7 +487,6 @@ body {
     .lead {
       font-size: $subTextSize;
       line-height: $subTextLineHeight;
-      width: 800px;
       margin: 0 auto 48px;
       color: $textLightGrayColor;
     }
@@ -512,7 +507,21 @@ body {
 }
 
 @media (min-width: 992px) {
-  .features-heading {
-    margin-top: 120px;
+  .features {
+    .features-heading {
+      margin-top: 120px;
+    }
+
+    &__row {
+      flex-direction: row;
+    }
+  }
+
+  .service-information,
+  .technology,
+  .ico {
+    .lead {
+      width: 800px;
+    }
   }
 }
