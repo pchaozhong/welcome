@@ -262,9 +262,9 @@ body {
   }
 
   &__logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 500px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    width: 82%;
   }
 }
 
@@ -456,6 +456,10 @@ body {
       line-height: $subTextLineHeight;
       width: 800px;
       color: $textDarkGrayColor;
+    }
+
+    &__logo {
+      width: 500px;
     }
   }
 
