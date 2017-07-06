@@ -58,7 +58,7 @@ body {
 
 .cover {
   position: relative;
-  height: $coverHeight;
+  height: 400px;
   margin-bottom: 60px;
 
   &__caption {
@@ -88,17 +88,16 @@ body {
 
 .carousel-inner {
   margin-top: $navbarHeight;
-  height: $coverHeight;
+  height: 100%;
 
   .item {
     position: absolute;
-    background-image: url('/img/cover-background.png');
     background-size: cover;
-    background-color: #4c527b;
+    background: #4c527b url('/img/cover-background.png');
     top: 0;
     left: 0;
     min-width: 100%;
-    height: $coverHeight;
+    height: 100%;
   }
 }
 
@@ -113,7 +112,7 @@ body {
 
   &__heading {
     margin-bottom: 36px;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__logo {
@@ -128,7 +127,7 @@ body {
 
 .features {
 
-  background-color: $grayContainerColor;
+  background-color: $containerGrayColor;
   width: auto;
 
   &__row {
@@ -139,6 +138,7 @@ body {
   }
 
   &__item {
+    margin-top: 17px;
     text-align: center;
     line-height: 26px;
 
@@ -160,7 +160,7 @@ body {
 
   &__heading {
     text-align: center;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__image-container {
@@ -199,17 +199,17 @@ body {
 
   .about-japan__row {
     margin-top: 48px;
-    height: 300px
   }
 
   &__heading {
     text-align: center;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__image-container {
     display: flex;
     align-items: center;
+    margin-top: 33px;
   }
 }
 
@@ -247,7 +247,7 @@ body {
 -------------------------------------------------- */
 
 .technology {
-  background-color: $grayContainerColor;
+  background-color: $containerGrayColor;
   width: auto;
 
   .col-md-12 {
@@ -257,13 +257,13 @@ body {
 
   &__heading {
     margin-bottom: 16px;
-    color: $textMainBlueColor;
+    color: $textDarkBlueColor;
   }
 
   &__logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 500px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    width: 82%;
   }
 }
 
@@ -278,28 +278,31 @@ body {
     text-align: center;
   }
 
-  h2 {
-    font-weight: normal;
-    color: $textMainBlueColor;
-  }
-
-  h3 {
-    font-weight: 600;
-    color: $textMainBlueColor;
-  }
-
+  h2,
+  h3,
   h5 {
-    color: $textDarkGrayColor;
+    color: $textDarkBlueColor;
+  }
+
+  h3,
+  h5,
+  &__circle-image,
+  &__cntent {
+    margin-top: 0;
+    margin-bottom: 10px;
   }
 
   .col-lg-4 {
     margin-bottom: 70px;
     text-align: center;
+  }
 
-    p {
-      margin-right: 10px;
-      margin-left: 10px;
-    }
+  h2 {
+    font-weight: normal;
+  }
+
+  h3 {
+    font-weight: 600;
   }
 
   &__circle-image {
@@ -313,6 +316,8 @@ body {
   }
 
   &__sns-link {
+    margin-bottom: 22px;
+
     a:not(:first-child) {
       margin-left: 3px;
     }
@@ -357,18 +362,29 @@ body {
 
 // ex) iPhone5/5S/5c/SE
 @media (max-width: 640px) {
+  body {
+    // FIXME:
+    margin-right: -5px;
+  }
+
   .navbar {
     .navbar-collapse {
-      box-shadow: none;
-      -webkit-box-shadow: none;
+      border-top: 0;
     }
   }
 
   .cover {
-    .carousel-inner {
-      .item {
-        height: 500px;
-      }
+    .container {
+      height: 0;
+    }
+
+    &__caption {
+      position: inherit;
+      right: 20%;
+      left: 20%;
+      margin-top: 67px;
+      margin-bottom: 0;
+      padding-top: 0;
     }
   }
 
@@ -379,8 +395,14 @@ body {
       width: 56%;
     }
 
-    &__button {
-      font-size: $buttonTextSizeSmall;
+    .lead {
+      margin-bottom: $marginLeadBottomMobile;
+    }
+  }
+
+  .ico {
+    .lead {
+      margin-bottom: $marginLeadBottomMobile;
     }
   }
 
@@ -389,6 +411,19 @@ body {
       :not(:first-child) {
         margin-left: 3px;
       }
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .cover {
+    height: 500px;
+  }
+
+  .service-information,
+  .ico {
+    .lead {
+      margin-bottom: $marginLeadBottomMobile;
     }
   }
 }
@@ -404,26 +439,42 @@ body {
     }
   }
 
-  .cover__caption {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 80px;
+  .cover {
+    height: 680px;
 
-    p {
-      margin-bottom: 20px;
-      font-size: 21px;
-      line-height: 1.4;
+    &__caption {
+      right: 20%;
+      left: 20%;
+      padding-bottom: 80px;
+
+      p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+      }
     }
   }
 
   .service-information {
     .lead {
       font-size: $subTextSize;
-      margin: 0 auto;
       line-height: $subTextLineHeight;
-      width: 800px;
-      margin-bottom: 48px;
+      margin: 0 auto 48px;
       color: $textDarkGrayColor;
+    }
+  }
+
+  .features {
+    &__row {
+      &__item {
+        margin-top: 9px;
+      }
+    }
+  }
+
+  .about-japan {
+    &__image-container {
+      margin-top: 0;
     }
   }
 
@@ -432,18 +483,19 @@ body {
       font-size: $subTextSize;
       margin: 0 auto;
       line-height: $subTextLineHeight;
-      width: 800px;
       color: $textDarkGrayColor;
+    }
+
+    &__logo {
+      width: 500px;
     }
   }
 
   .ico {
     .lead {
       font-size: $subTextSize;
-      margin: 0 auto;
       line-height: $subTextLineHeight;
-      width: 800px;
-      margin-bottom: 48px;
+      margin: 0 auto 48px;
       color: $textLightGrayColor;
     }
   }
@@ -460,45 +512,39 @@ body {
       margin-top: 70px;
     }
   }
+}
 
-  .service-information,
-  .ico {
-    &__button {
-      width: 420px;
-      height: 43px;
-      font-size: $buttonTextSize;
-      margin-top: 48px;
-      margin-bottom: 48px;
-      vertical-align: middle;
-    }
-
-    .btn-default{
-      background-color: #8c9af3;
-      color: white;
-      border-color: #8c9af3;
-      width: 130px;
-    }
-
-    .btn-default:hover{
-      background-color: #858dda;
-    }
-
-    .form-control{
-      width: 300px;
-      display: inline-block;
-      vertical-align: middle;
-    }
-  }
-
+@media (min-width: 992px) {
   .features {
+    .features-heading {
+      margin-top: 120px;
+    }
+
     &__row {
       flex-direction: row;
     }
   }
+
+  .service-information,
+  .technology,
+  .ico {
+    .lead {
+      width: 800px;
+    }
+  }
 }
 
-@media (min-width: 992px) {
-  .features-heading {
-    margin-top: 120px;
+@media (min-width: 1440px) {
+  .cover {
+    .item {
+      // FIXME
+      background-size: 100% !important;
+    }
+  }
+
+  .ico,
+  .team,
+  .footer {
+    background-size: 100%;
   }
 }
