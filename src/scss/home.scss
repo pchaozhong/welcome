@@ -525,3 +525,17 @@ body {
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .cover {
+    .item {
+      background-size: 100% !important;
+    }
+  }
+
+  .ico,
+  .team,
+  .footer {
+    background-size: 100%;
+  }
+}
