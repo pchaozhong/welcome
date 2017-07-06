@@ -362,6 +362,11 @@ body {
 
 // ex) iPhone5/5S/5c/SE
 @media (max-width: 640px) {
+  body {
+    // FIXME:
+    margin-right: -5px;
+  }
+
   .navbar {
     .navbar-collapse {
       box-shadow: none;
@@ -533,6 +538,7 @@ body {
 @media (min-width: 1440px) {
   .cover {
     .item {
+      // FIXME
       background-size: 100% !important;
     }
   }
