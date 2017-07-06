@@ -1,10 +1,12 @@
 $elementWidth: 300px;
 $buttonTextColor: white;
+$elementHeight: 41px;
 
 .mail-form {
   &__input {
     display: inline-block;
     vertical-align: middle;
+    height: $elementHeight;
   }
 
   &__button {
@@ -13,6 +15,7 @@ $buttonTextColor: white;
     background-color: #8c9af3;
     margin-left: 0;
     width: $elementWidth;
+    height: $elementHeight;
 
     &:hover {
       color: $buttonTextColor;
@@ -21,10 +24,20 @@ $buttonTextColor: white;
   }
 
   .form-group {
-    margin-bottom: 9px;
+    margin-bottom: 6px;
 
     .form-control {
       width: $elementWidth;
+    }
+  }
+}
+
+// ex) iPhone5/5S/5c/SE
+@media (max-width: 640px) {
+  .mail-form {
+    &__button,
+    &__input {
+      height: 41px;
     }
   }
 }

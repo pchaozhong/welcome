@@ -386,6 +386,16 @@ body {
       margin-bottom: 20px;
       width: 56%;
     }
+
+    .lead {
+      margin-bottom: $marginLeadBottomMobile;
+    }
+  }
+
+  .ico {
+    .lead {
+      margin-bottom: $marginLeadBottomMobile;
+    }
   }
 
   .footer {
@@ -400,6 +410,13 @@ body {
 @media (min-width: 640px) {
   .cover {
     height: 500px;
+  }
+
+  .service-information,
+  .ico {
+    .lead {
+      margin-bottom: $marginLeadBottomMobile;
+    }
   }
 }
 
