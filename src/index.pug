@@ -146,6 +146,18 @@ body
           +team_member_sns('sota.ishii', 'sot528')
           .team__content
             | #{team.profile.ishii.body}
+        include mixin/team_member
+      .row
+        .col-lg-4
+          +team_member(team.profile.erichin.name, 'Communication / Engineering')(src='/img/erichin.jpg')
+          +team_member_sns('', '')
+          .team__content
+            | #{team.profile.erichin.body}
+        .col-lg-4
+          +team_member(team.profile.kamei.name, 'Regal')(src='/img/kamei.jpg')
+          +team_member_sns('', '')
+          .team__content
+            | #{team.profile.kamei.body}
 
   // Footer
   include includes/footer
