@@ -146,7 +146,6 @@ body
           +team_member_sns('sota.ishii', 'sot528')
           .team__content
             | #{team.profile.ishii.body}
-        include mixin/team_member
       .row
         .col-lg-4
           +team_member(team.profile.erichin.name, 'Communication / Engineering')(src='/img/erichin.jpg')
@@ -155,7 +154,8 @@ body
             | #{team.profile.erichin.body}
         .col-lg-4
           +team_member(team.profile.kamei.name, 'Regal department')(src='/img/kamei.jpg')
-          +team_member_fb('https://www.facebook.com/tatsuhiko.kamei.9')
+          p.team__sns-link
+            +team_member_fb('tatsuhiko.kamei.9')
           .team__content
             | #{team.profile.kamei.body}
 
