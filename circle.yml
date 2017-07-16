@@ -21,12 +21,10 @@ test:
     - yarn eslint ./src/js
 
 deployment:
-  staging:
+  production_and_staging:
     branch: master
     commands:
-      - yarn install:production
-      - yarn s3sync:staging
-      - yarn deploy:production
+      - yarn deploy:ci-production-and-staging
   develop:
     branch: /.*/
     commands:

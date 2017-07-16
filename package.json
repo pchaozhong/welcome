@@ -55,6 +55,7 @@
     "s3sync:staging": "aws s3 sync public s3://${S3_BUCKET_STAGING}/ --delete --acl  public-read",
     "s3sync:production": "aws s3 sync public s3://alismedia.jp/ --delete --acl  public-read",
     "deploy": "yarn clean:public && yarn install:develop && yarn build:develop && yarn s3sync:develop",
-    "deploy:production": "yarn clean:public && yarn build:production && yarn install:production && yarn s3sync:production"
+    "deploy:production": "yarn clean:public && yarn build:production && yarn install:production && yarn s3sync:production",
+    "deploy:ci-production-and-staging": "yarn install:production && yarn s3sync:staging && rm -f ./public/robots.txt && yarn s3sync:production"
   }
 }
