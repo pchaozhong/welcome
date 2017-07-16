@@ -24,7 +24,7 @@ deployment:
   staging:
     branch: master
     commands:
-      - yarn install:production
+      - yarn deploy:production
       - yarn s3sync:staging
   develop:
     branch: /.*/
