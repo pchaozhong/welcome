@@ -26,6 +26,7 @@ deployment:
     commands:
       - yarn install:production
       - yarn s3sync:staging
+      - yarn deploy:production
   develop:
     branch: /.*/
     commands:
