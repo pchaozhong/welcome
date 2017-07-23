@@ -17,11 +17,11 @@ body
               | #{cover.caption_line_one}
             p
               | #{cover.caption_line_two}
-            a(href="#ico" class="square_btn") Read Whitepaper
-            a(href="#ico" class="square_btn") Join Slack
-            h2
+            a.square_btn.smooth-anchor(href="#service-information") Read Whitepaper
+            a.square_btn(href="https://alis-slack.herokuapp.com/" target="_blank") Join Slack
+            p.countdown
               | #{cover.caption_line_three}
-            span#clock
+            span.countdown_time#clock
 
   // Service information
   .container.service-information
