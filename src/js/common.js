@@ -15,7 +15,7 @@ $(function () {
 });
 
 // カウントダウンの時計
-const icoStartDate = '2017/09/01';
+const icoStartDate = moment("2017-09-01 02:00", "UTC")
 $('#clock').countdown(icoStartDate, function(event) {
   $(this).html(event.strftime('%D D %H H %M M %S S'));
 });
