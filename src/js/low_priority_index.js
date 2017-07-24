@@ -11,3 +11,4 @@ import 'jquery-countdown'
 import '../js/common'
 import 'bootstrap-social';
 import '../lib/ie10-viewport-bug-workaround';
+import 'moment'
