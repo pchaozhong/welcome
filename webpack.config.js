@@ -40,7 +40,8 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin(),
     new webpack.ProvidePlugin({
       $: 'jquery',
-      jQuery: 'jquery'
+      jQuery: 'jquery',
+      moment: 'moment',
     }),
     new CopyWebpackPlugin(
       [

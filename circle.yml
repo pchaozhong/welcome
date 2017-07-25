@@ -7,6 +7,7 @@ machine:
 
 dependencies:
   override:
+    - yarn run clean:generates
     - yarn
   cache_directories:
       - ~/.cache/yarn

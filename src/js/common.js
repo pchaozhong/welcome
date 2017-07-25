@@ -1,4 +1,4 @@
-/*globals $ particlesJS */
+/*globals $ particlesJS moment */
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
 // スクロールをスムーズに
@@ -12,6 +12,12 @@ $(function () {
     $('body,html').animate({scrollTop: position}, speed, 'swing');
     return false;
   });
+});
+
+// カウントダウンの時計
+const icoStartDate = moment("2017-09-01T02:00:00Z");
+$('#clock').countdown(icoStartDate.toDate(), function (event) {
+  $(this).html(event.strftime('%D D %H H %M M %S S'));
 });
 
 // カバーのビデオボタンマウスオーバーで色を変更

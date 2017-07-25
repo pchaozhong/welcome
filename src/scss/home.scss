@@ -84,6 +84,31 @@ body {
       }
     }
   }
+
+  &__square-btn {
+    display: inline-block;
+    padding: 0.55em;
+    height: $buttonHeight;
+    text-decoration: none;
+    margin: 10px 30px;
+    color: $buttonLightBlueColor;
+    width: 200px;
+    border: solid 2px $buttonLightBlueColor;
+    border-radius: 3px;
+    transition: .4s;
+
+    &:hover {
+      background: $buttonLightBlueColor;
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__countdown-caption{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight:bold;
+  }
 }
 
 .carousel-inner {
@@ -378,9 +403,13 @@ body {
       position: inherit;
       right: 20%;
       left: 20%;
-      margin-top: 67px;
+      margin-top: 26px;
       margin-bottom: 0;
       padding-top: 0;
+    }
+
+    h2{
+      font-size: 24px;
     }
   }
 
@@ -444,8 +473,7 @@ body {
       padding-bottom: 80px;
 
       p {
-        margin-bottom: 20px;
-        font-size: 21px;
+        font-size: 16px;
         line-height: 1.4;
       }
     }
