@@ -1,4 +1,4 @@
-/*globals $ particlesJS */
+/*globals $ particlesJS moment */
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
 // スクロールをスムーズに
