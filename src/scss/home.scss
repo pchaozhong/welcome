@@ -91,14 +91,14 @@ body {
     height: $buttonHeight;
     text-decoration: none;
     margin: 10px 30px;
-    color: $textLightBlueColor;
+    color: $buttonLightBlueColor;
     width: 200px;
-    border: solid 2px $textLightBlueColor;
+    border: solid 2px $buttonLightBlueColor;
     border-radius: 3px;
     transition: .4s;
 
     &:hover {
-      background: $textLightBlueColor;
+      background: $buttonLightBlueColor;
       color: white;
       text-decoration: none;
     }
