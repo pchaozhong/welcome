@@ -14,11 +14,11 @@ navbar:
 cover:
   caption_line_one: 有效筛选高质量信息
   caption_line_two: 日本第一家使用区块链技术的的社交媒体平台
-  caption_line_three: 虚拟货币将于9月1日02:00(UTC)开发发售
+  caption_line_three: 虚拟货币将于9月1日02:00(UTC)开始发售
 service_information:
   header: What is ALIS Project
   body: |
-    ALIS是可以让用户迅速获取高可信度内容和作者，同时可以获得报酬的社交媒体话平台。我们受启发于提供类似服务的STEEM(https://steem.io)（目前已获得数百亿日元估值），
+    ALIS是可以让用户迅速获取高可信度内容和作者，同时可以获得报酬的社交媒体平台。我们受启发于提供类似服务的STEEM(https://steem.io)（目前已获得数百亿日元估值），
     把在日本提供更为直观的社交媒体平台作为使命。ALIS的目标是让更多困惑于铺天盖地的广告内容，营销软文，以及低可信度信息的用户得到解放。
     目前ALIS项目处于白皮书的制作阶段。
 
@@ -44,7 +44,7 @@ about_japan:
   media_quality:
     header: 低质量的媒体信息大爆炸
     body: |
-      在今天的日本社会，大量的低质量，低信赖度的信息的问题已经成社会新闻焦点之一。对以获取廉价点击量为目的的信息的过滤工具日渐成为诉求。
+      今天的日本社会，大量的低质量，低信赖度的信息的问题已经成社会新闻焦点之一。对以获取廉价点击量为目的的信息过滤工具日渐成为社会诉求。
   technology:
     header: 对于区块链技术的关注
     body: |
