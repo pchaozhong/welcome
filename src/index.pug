@@ -31,7 +31,10 @@ body
         h2.service-information__heading
           | #{service_information.header}
         .lead
-          | #{service_information.body}
+          | #{service_information.body1}
+        a.service-information__square-btn(href="https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf") Read Whitepaper
+        .lead
+          | #{service_information.body2}
         p
           +mail_form
 
