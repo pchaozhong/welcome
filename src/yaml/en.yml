@@ -27,7 +27,7 @@ service_information:
     Please read our whitepaper for further infromation.
   button_whitepaper: Read Whitepapaer
   body2: |
-    If you wish to receive our latest information, please register your e-mail address with the button below.
+    If you wish to receive latest information, please register your e-mail address with the button below.
   button: Register for further information
 features:
   header: Features
