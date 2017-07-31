@@ -145,6 +145,26 @@ body {
     margin-bottom: 20px;
     width: 300px;
   }
+
+  &__square-btn {
+    display: inline-block;
+    padding: 0.7em;
+    height: $buttonHeight;
+    text-decoration: none;
+    margin: 10px 30px;
+    color: white;
+    background-color: $buttonPurpleColor;
+    width: 200px;
+    border: 0;
+    border-radius: 3px;
+    transition: .4s;
+
+    &:hover {
+      background: $buttonhoverPurpleColor;
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
 /* Features
@@ -419,9 +439,9 @@ body {
       margin-bottom: 20px;
       width: 56%;
     }
-
-    .lead {
-      margin-bottom: $marginLeadBottomMobile;
+    .lead{
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 
@@ -483,7 +503,7 @@ body {
     .lead {
       font-size: $subTextSize;
       line-height: $subTextLineHeight;
-      margin: 0 auto 48px;
+      margin: 20px auto;
       color: $textDarkGrayColor;
     }
   }
