@@ -427,6 +427,12 @@ body {
     .navbar-collapse {
       border-top: 0;
     }
+
+    .nav{
+      &__language{
+        margin-top: 5px;
+      }
+    }
   }
 
   .cover {
