@@ -28,7 +28,7 @@ body {
   .nav {
     float: right;
     font-size: 18px;
-    margin-top: 4px;
+    margin-top: 16px;
     margin-right: -5px;
 
     li {
@@ -38,10 +38,19 @@ body {
         padding-left: 4px;
         color: white;
       }
+
+    }
+
+    &__whitepaper{
+      margin-right: -13px;
+    }
+
+    &__whitepaper_end{
+      margin-right: 20px;
     }
 
     &__language {
-      margin-top: 9px;
+      margin-top: -5px;
       color: gray;
     }
   }
