@@ -32,7 +32,9 @@ body {
     margin-right: -5px;
 
     li {
-      a {
+      a,
+      span {
+        display: inline;
         padding-left: 4px;
         color: white;
       }
