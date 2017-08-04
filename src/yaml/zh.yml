@@ -5,7 +5,11 @@ mail_form:
   place_holder: Enter your email
   button: Subscribe
 navbar:
-  whitepaper: Whitepaper
+  whitepaper: Whitepaper(
+  whitepaper_en: en
+  whitepaper_mid:  /
+  whitepaper_ja: ja
+  whitepaper_end:  )
   roadmap: Roadmap
   ico: ICO
   team: Team
