@@ -25,6 +25,10 @@ body {
     }
   }
 
+  &__sns-links__link{
+    margin-right: 40px;
+  }
+
   .nav {
     float: right;
     font-size: 18px;
@@ -428,9 +432,13 @@ body {
       border-top: 0;
     }
 
+    &__sns-links__link{
+      margin-right: 30px;
+    }
+
     .nav{
       &__language{
-        margin-top: 5px;
+        margin-top: 15px;
       }
     }
   }
