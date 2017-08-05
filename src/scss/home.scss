@@ -586,12 +586,22 @@ body {
 @media (max-width: 991px) {
   .navbar{
     float: right;
+    padding-left: 0;
+    padding-right: 0;
+
     .navbar-collapse {
       border-top: 0;
     }
 
-    &__sns-links__link{
-      margin-right: 30px;
+    .nav{
+      &__sns-links__link{
+        margin-right: 30px;
+      }
+
+      &__language{
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
     }
   }
 
