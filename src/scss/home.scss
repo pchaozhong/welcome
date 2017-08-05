@@ -1,4 +1,4 @@
-/* GLOBAL STYLES
+ /* GLOBAL STYLES
 -------------------------------------------------- */
 @import 'common';
 
@@ -23,6 +23,10 @@ body {
       box-shadow: none;
       -webkit-box-shadow: none;
     }
+  }
+
+  &__sns-links__link{
+    margin-right: 40px;
   }
 
   .nav {
@@ -428,9 +432,13 @@ body {
       border-top: 0;
     }
 
+    &__sns-links__link{
+      margin-right: 30px;
+    }
+
     .nav{
       &__language{
-        margin-top: 5px;
+        margin-top: 15px;
       }
     }
   }
@@ -572,6 +580,63 @@ body {
       font-size: 40px;
       margin-top: 70px;
     }
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar{
+    float: right;
+    padding-left: 0;
+    padding-right: 0;
+
+    .navbar-collapse {
+      border-top: 0;
+    }
+
+    .nav{
+
+      &__language{
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 0;
+  }
+
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-nav {
+    float: right!important;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block!important;
+  }
+
+  .collapsing {
+    overflow: hidden!important;
   }
 }
 
