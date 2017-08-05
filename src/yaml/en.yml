@@ -7,7 +7,7 @@ mail_form:
 navbar:
   whitepaper: Whitepaper(
   whitepaper_en: en
-  whitepaper_mid:  / 
+  whitepaper_mid:  /
   whitepaper_ja: ja
   whitepaper_end:  )
   roadmap: Roadmap
@@ -72,7 +72,7 @@ about_japan:
 ico:
   header: ICO
   body: |
-    To realize our vision, we are planning to have a crowdsale at the end of August 2017.
+    To realize our vision, we are planning to have a crowdsale at September 1st, 2017 02:00(UTC).
     You will be able to exchange Ethereum to our unique ALIS tokens.
     If you would like to receive more information about ICO and the latest information about our project,
     please register your e-mail address at the button below.
