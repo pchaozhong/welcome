@@ -5,7 +5,11 @@ mail_form:
   place_holder: Enter your email
   button: Subscribe
 navbar:
-  whitepaper: Whitepaper
+  whitepaper: Whitepaper(
+  whitepaper_en: en
+  whitepaper_mid:  /
+  whitepaper_ja: ja
+  whitepaper_end:  )
   roadmap: Roadmap
   ico: ICO
   team: Team
@@ -17,11 +21,13 @@ cover:
   caption_line_three: 虚拟货币将于9月1日02:00(UTC)开始发售
 service_information:
   header: What is ALIS Project
-  body: |
+  body1: |
     ALIS是可以让用户迅速获取高可信度内容和作者，同时可以获得报酬的社交媒体平台。我们受启发于提供类似服务的STEEM(https://steem.io)（目前已获得数百亿日元估值），
     把在日本提供更为直观的社交媒体平台作为使命。ALIS的目标是让更多困惑于铺天盖地的广告内容，营销软文，以及低可信度信息的用户得到解放。
-    目前ALIS项目处于白皮书的制作阶段。
+    目前ALIS项目处于白皮书的制作阶段。想了解更多的信息请参阅我们的白皮书
 
+  button_whitepaper: Read Whitepapaer
+  body2: |
     如果您希望获取最新情报，请通过下方的按钮注册您的邮箱。
   button: 注册
 features:
