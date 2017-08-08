@@ -13,7 +13,7 @@ navbar:
   language: 语言..
 cover:
   caption_line_one: 有效筛选高质量信息
-  caption_line_two: 日本第一家使用区块链技术的社交媒体平台
+  caption_line_two: 日本第一个基于区块链技术的社交媒体平台
   caption_line_three: 代币将于9月1日02:00(UTC)开始发售
 service_information:
   header: What is ALIS Project
@@ -29,11 +29,11 @@ features:
   token:
     header: 发掘高质量信息
     body: |
-      如果用户所提供的内容和对于其他内容的评价能够得到认可，就可以获得相应的ALIS虚拟货币。同Ethereum和STEEM一样，ALIS虚拟币具有交易价值。
+      如果用户所提供的内容和对于其他内容的评价能够得到认可，就可以获得相应的ALIS代币。同Ethereum和STEEM一样，ALIS虚拟币具有交易价值。
   platform:
     header: 平台价值的回馈
     body: |
-      随着ALIS平台认可程度的提升，ALIS虚拟货币也会随之升值。以这种方式将用户创造的价值回馈给用户。
+      随着ALIS平台认可程度的提升，ALIS代币也会随之升值。以这种方式将用户创造的价值回馈给用户。
       STEEM(https://steem.io)已经构建了上述"生态系统"，并获得了数百亿日元的估值。
   technology:
     header: 高可信度，低成本，两不误
@@ -56,7 +56,7 @@ about_japan:
 ico:
   header: ico
   body: |
-    为了实现我们的愿景，预定将于2017年8月实现云端销售。我们将独立发行能够与Ethereum交换的ALIS虚拟货币。
+    为了实现我们的愿景，预定将于2017年8月实现云端销售。我们将独立发行能够与Ethereum交换的ALIS代币。
     如果您想获得ALIS的ICO以及项目最新情报，请通过下方的按钮注册您的邮箱。
   button: 注册
 technology:
