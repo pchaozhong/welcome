@@ -4,15 +4,26 @@ block links
   #navbar.navbar-collapse.collapse
     ul.nav.navbar-nav
       li
-        a.smooth-anchor(href='#service-information') #{navbar.whitepaper}
+        a.nav__whitepaper #{navbar.whitepaper}
+        a.nav__whitepaper(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf', target="blank") #{navbar.whitepaper_en}
+        span #{navbar.whitepaper_mid}
+        a.nav__whitepaper(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf', target="blank") #{navbar.whitepaper_ja}
+        span #{navbar.whitepaper_mid}
+        a.nav__whitepaper(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_zh.pdf', target="blank") #{navbar.whitepaper_zh}
+        span.nav__whitepaper_end #{navbar.whitepaper_end}
       li
-        a.smooth-anchor(href='https://trello.com/b/XH5jh4DT/alis-public-roadmap', target="_blank") #{navbar.roadmap}
+        a.smooth-anchor(href='https://trello.com/b/XH5jh4DT/alis-public-roadmap', target="blank") #{navbar.roadmap}
       li
         a.smooth-anchor(href='#ico') #{navbar.ico}
       li
         a.smooth-anchor(href='#team') #{navbar.team}
       li
         a.smooth-anchor(href='#meetus') #{navbar.meetus}
+      li
+        a.btn.btn-social-icon.btn-lg.navbar__sns-links__link(href='https://twitter.com/ALIS_media', target='blank')
+          i.fa.fa-twitter
+        a.btn.btn-social-icon.btn-lg.navbar__sns-links__link(href='https://alis-slack.herokuapp.com/', target='blank')
+          i.fa.fa-slack
       li
         select.form-control.nav__language(onchange="location = this.options[this.selectedIndex].value;")
           option #{navbar.language}
