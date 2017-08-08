@@ -152,8 +152,13 @@ body
           +team_member(team.profile.kamei.name, 'Regal department')(src='/img/kamei.jpg')
           p.team__sns-link
             +team_member_fb('tatsuhiko.kamei.9')
+            .team__content
+              | #{team.profile.kamei.body}
+        .col-lg-4
+          +team_member(team.profile.nakamura.name, 'Media and Mass communication')(src='/img/nakamura.jpg')
+          +team_member_sns('cafekenta?fref=ts', 'cafekenta')
           .team__content
-            | #{team.profile.kamei.body}
+            | #{team.profile.nakamura.body}
 
   // Footer
   #meetus
