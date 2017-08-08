@@ -17,7 +17,7 @@ navbar:
   meetus: Meet us
   language: 言語..
 cover:
-  caption_line_one: 報酬によって信頼できる記事と人々を明らかにする
+  caption_line_one: 信頼できる記事と人々を明らかにする全く新しい報酬システム
   caption_line_two: ALISは日本初のブロックチェーン技術を用いたソーシャルメディアプラットフォームです
   caption_line_three: ALISのトークンセールは9月1日 11:00（日本時間）にスタートします
 service_information:
@@ -25,7 +25,7 @@ service_information:
   body1: |
     ALISは信頼性の高い情報・人に素早く出会え、
     誰もが報酬を得ることができるソーシャルメディアプラットフォームです。
-    私たちは類似サービスのSTEEM(https://steem.io)が数百億の評価を得ていることに感銘をうけ、
+    私たちは類似サービスのSTEEM(https://steem.io)が300億円以上の評価を得ていることに感銘をうけ、
     より分かりやすい形のメディアを日本に作ることをミッションにしています。
     従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報に
     うんざりしている人々を解放することがALISの目的です。
@@ -45,7 +45,7 @@ features:
     header: プラットフォーム価値の還元
     body: |
       ALISプラットフォームが評価されるほどALISトークンの価値も向上し、貢献した人々に還元されます。
-      すでにSTEEM(https://steem.io)が上述のエコシステムを構築しており、300百億以上の評価を得ています。
+      すでにSTEEM(https://steem.io)が上述のエコシステムを構築しており、300億円以上の評価を得ています。
   technology:
     header: 高信頼・低コストの両立
     body: |
