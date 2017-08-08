@@ -16,6 +16,7 @@ $elementHeight: 41px;
     margin-left: 0;
     width: $elementWidth;
     height: $elementHeight;
+    transition: .4s;
 
     &:hover {
       color: $buttonTextColor;

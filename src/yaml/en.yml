@@ -5,7 +5,12 @@ mail_form:
   place_holder: Enter your email
   button: Subscribe
 navbar:
-  whitepaper: Whitepaper
+  whitepaper: Whitepaper(
+  whitepaper_en: en
+  whitepaper_ja: ja
+  whitepaper_zh: zh
+  whitepaper_mid:  /
+  whitepaper_end:  )
   roadmap: Roadmap
   ico: ICO
   team: Team
@@ -17,15 +22,17 @@ cover:
   caption_line_three: Token Sale Begins in Sep 1st 02:00(UTC)
 service_information:
   header: What is ALIS?
-  body: |
+  body1: |
     ALIS is a social media platform which provides our customers with
     reliable information from experts in no time. We were inspired
     by STEEM (https://steem.io) and their billions of evaluations
     to create a media platform specialized for the Japanese market.
     Our mission is to filter through the myriad of advertising and
     stealth marketing campaigns. Our goal is to provide more reliable information than traditional media outlets.
-    We are now in the process of releasing our white paper. If you wish to receive our latest information,
-    please register your e-mail address with the button below.
+    Please read our whitepaper for further infromation.
+  button_whitepaper: Read Whitepapaer
+  body2: |
+    If you wish to receive latest information, please register your e-mail address with the button below.
   button: Register for further information
 features:
   header: Features
@@ -66,7 +73,7 @@ about_japan:
 ico:
   header: ICO
   body: |
-    To realize our vision, we are planning to have a crowdsale at the end of August 2017.
+    To realize our vision, we are planning to have a crowdsale at September 1st, 2017 02:00(UTC).
     You will be able to exchange Ethereum to our unique ALIS tokens.
     If you would like to receive more information about ICO and the latest information about our project,
     please register your e-mail address at the button below.
