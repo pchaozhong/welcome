@@ -132,7 +132,13 @@ team:
     kamei:
       name: Tatsuhiko Kamei
       body: |
-        Kamei graduated from Japan’s most prestigious university, the University of Tokyo.
-        In addition to the ALIS project, he currently works for Recruit Co., Ltd. as a member of the legal staff.
-        He handles different fields such as IT, web services,
-        marketing, human resource and etc. He specializes in the legal affairs of new business developments.
+        Kamei graduated from Japan’s most prestigious university, the University of Tokyo.In addition to the ALIS project,
+        he currently works for Recruit Co., Ltd. as a member of the legal staff.He handles different fields such as IT,
+        web services, marketing, human resource and etc. He specializes in the legal affairs of new business developments.
+    nakamura:
+      name: Kenta Nakamura
+      body: |
+        Nakamura is President of Japan Direction Association. Huge success as a Media Director in various fields,
+        involved in projects such as production of BITA DIGIMA Lab and development of natural-language engines.
+        He is also known as a Growth Consult for Kaizen Platform.
+        Major publications include "Web Director's Textbook", "Latest Practice for Web Direction".
