@@ -123,11 +123,12 @@ team:
     erichin:
       name: Bato Erichin
       body: |
-        Erichin is a graduate from Tsinghua University, majored in Thermal Engineering. He received master's degree
-        in the Chinese Academy of Science, focus on supercomputing base large-scale parallel CFD.
-        After graduation in 2014, he joined Recruit Co., Ltd., and now is a full stack engineer. He has skills such as iOS, Android,
-        frontend, backend and UI/UX design.
-        He also has a role as a bridge of communication for our Chinese user on Weibo, Wechat, and other famous SNS in China.
+        Bato graduated from Tsinghua University with a degree in Thermal Engineering. He also received a master's degree
+        from the Chinese Academy of Science, with a focus on supercomputing base large-scale parallel CFD.
+        After graduating in 2014, he joined Recruit Co., Ltd. and now is a full stack engineer. He is experienced
+        in iOS, Android, frontend, backend and UI/UX design.
+        He also plays the role as the bridge of communication for our Chinese users on Weibo, Wechat, and other
+        famous SNS in China.
     kamei:
       name: Tatsuhiko Kamei
       body: |
