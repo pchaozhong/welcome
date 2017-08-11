@@ -111,17 +111,19 @@ body
             | #{ico.body1}
             br
             | #{ico.body2}
+            br
+            | #{ico.body3}
 
       .row.ico__row
         include mixin/ico_schedule
         .col-md-3
-          +ico_schedule(1, 3000, ico.schedule.week1.from, ico.schedule.week1.to, 'arrow-right')
+          +ico_schedule(1, 2900, ico.schedule.week1.from, ico.schedule.week1.to, 'arrow-right')
         .col-md-3
-          +ico_schedule(2, 2700, ico.schedule.week2.from, ico.schedule.week2.to, 'arrow-right')
+          +ico_schedule(2, 2600, ico.schedule.week2.from, ico.schedule.week2.to, 'arrow-right')
         .col-md-3
-          +ico_schedule(3, 2400, ico.schedule.week3.from, ico.schedule.week3.to, 'arrow-right')
+          +ico_schedule(3, 2300, ico.schedule.week3.from, ico.schedule.week3.to, 'arrow-right')
         .col-md-3
-          +ico_schedule(4, 2100, ico.schedule.week4.from, ico.schedule.week4.to, 'star')
+          +ico_schedule(4, 2000, ico.schedule.week4.from, ico.schedule.week4.to, 'star')
 
       .row.ico__row
         .col-md-12
@@ -142,8 +144,11 @@ body
                   | #{ico.information.row2.right}
             ul.ico__information__caption
               li
-                | #{ico.information.caption}
-
+                | #{ico.information.caption1}
+              li
+                | #{ico.information.caption2}
+              li
+                | #{ico.information.caption3}
       .row.ico__row
         .col-md-12
           a.ico__join-slack(href="https://alis-slack.herokuapp.com/" target="_blank")
