@@ -72,31 +72,34 @@ ico:
   # TODO
   header1: ICO
   header2: INITIAL PUBLIC OFFERING
-  body1: The ALIS token sale begins on Sep 1st, 02:00 UTC.
-  body2: ALIS tokens will be offered in 4 price tiers.
+  body1: ALISのトークンセールは2017年9月1日11時（日本時間）よりスタートします。
+  body2: また、ALISではNEO上でのクラウドセールも計画中です。
+  body3: Ethereumとの交換によるトークンセールについては、4段階の価格に分かれています。
   schedule:
     week1:
       from: Sep 1st, 02:00 UTC
-      to: Sep 7th, 01:59 UTC
+      to: Sep 8th, 01:59 UTC
     week2:
-      from: Sep 7th, 02:00 UTC
-      to: Sep 14th, 01:59 UTC
+      from: Sep 8th, 02:00 UTC
+      to: Sep 15th, 01:59 UTC
     week3:
-      from: Sep 14th, 02:00 UTC
-      to: Sep 21th, 01:59 UTC
+      from: Sep 15th, 02:00 UTC
+      to: Sep 22th, 01:59 UTC
     week4:
-      from: Sep 21th, 02:00 UTC
-      to: Sep 28th, 01:59 UTC
+      from: Sep 22th, 02:00 UTC
+      to: Sep 29th, 01:59 UTC
   information:
     header: Information
     row1:
-      left: 'Fund min cap: 14,000 ETH'
-      right: 'Accept Token: ETH'
+      left: '最低調達金額: 350万ドル（ ≒ 11,666 ETH )'
+      right: 'Accept Token: ETH, (NEO) *'
     row2:
-      left: 'Fund max Cap: 1200,00 ETH'
-      right: 'Max ALIS supply: 500,000,000 ALIS'
-    caption: We will back your ETH token if we cannot raise 14,000 ETH.
-  button: Register for further information
+      left: '最高調達金額: 3000万ドル（ ≒ 100,000 ETH )'
+      right: '最大供給ALISトークン数: 250,000,000 ALIS'
+    caption1: NEO上でのトークンセールを計画しておりますので、詳細が決まり次第お知らせいたします。
+    caption2: 最低および最高調達金額は、NEO上でのトークンセールの詳細によって変更される可能性があります。
+    caption3: 350万ドルを集められなかった場合、すべてのEthereumトークンを返却いたします。
+  button: JOIN SLACK
 technology:
   header: Technology
   body: |
