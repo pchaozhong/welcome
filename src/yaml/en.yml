@@ -88,7 +88,16 @@ ico:
     week4:
       from: Sep 21th, 02:00 UTC
       to: Sep 28th, 01:59 UTC
-  button: Register for further information
+  information:
+    header: Information
+    row1:
+      left: 'Fund min cap: 14,000 ETH'
+      right: 'Accept Token: ETH'
+    row2:
+      left: 'Fund max Cap: 1200,00 ETH'
+      right: 'Max ALIS supply: 500,000,000 ALIS'
+    caption: We will back your ETH token if we cannot raise 14,000 ETH.
+  button: JOIN SLACK
 technology:
   header: Technology
   body: |

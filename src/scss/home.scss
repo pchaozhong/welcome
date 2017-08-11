@@ -373,11 +373,46 @@ body {
       margin-bottom: 24px;
     }
 
-    &__cap {
+    &__row {
       padding: 10px 20px;
       margin-bottom: 6px;
+      height: 50px;
       background-color: rgba(146, 215, 255, 0.17);
       font-size: 20px;
+
+      &--right {
+        text-align: right;
+      }
+    }
+
+    &__caption {
+      margin-top: 12px;
+      padding-left: 20px;
+      font-size: 16px;
+      list-style: none;
+
+      li:before {
+        content: "*";
+        color: #00b0f0;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__join-slack {
+    display: inline-block;
+    background-color: #00b0f0;
+    margin-top: 44px;
+    margin-bottom: 90px;
+    padding-top: 14px;
+    width: 305px;
+    height: 58px;
+    color: white;
+    font-size: 20px;
+
+    &:hover, &:visited {
+      color: white;
+      text-decoration: none;
     }
   }
 }

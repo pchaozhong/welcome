@@ -127,20 +127,27 @@ body
         .col-md-12
           .ico__information
             h3.ico__information__heading
-              | Information :
-            .ico__information__cap
+              | #{ico.information.header} :
+            .ico__information__row
               .row
-                 .col-
-              | Fund min Cap: 14,000 ETH
-              | Accept Token: ETH
-            .ico__information__cap
-              | Fund max Cap: 1200,00 ETH
-              | Max ALIS supply: 500,000,000 ALIS
-            .info
-              | * We will back your ETH token if we cannot raise 14,000 ETH.
-            a
-              | JOIN SLACK
+                .col-sm-7.ico__information__row--left
+                  | #{ico.information.row1.left}
+                .col-sm-5.ico__information__row--right
+                  | #{ico.information.row1.right}
+            .ico__information__row
+              .row
+                .col-sm-7.ico__information__row--left
+                  | #{ico.information.row2.left}
+                .col-sm-5.ico__information__row--right
+                  | #{ico.information.row2.right}
+            ul.ico__information__caption
+              li
+                | #{ico.information.caption}
 
+      .row.ico__row
+        .col-md-12
+          a.ico__join-slack(href="https://alis-slack.herokuapp.com/" target="_blank")
+            | #{ico.button}
 
   // Technology
   .container.technology
