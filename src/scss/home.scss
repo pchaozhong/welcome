@@ -278,22 +278,21 @@ body {
 
 /*noinspection ALL*/
 .ico {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url("/img/ico-background.png");
-  color: $textLightGrayColor;
+  color: white;
   width: auto;
-  height: 614px;
 
   .col-md-12 {
-    margin-bottom: 70px;
     text-align: center;
   }
 
   &__heading {
     margin-bottom: 16px;
-    color: white;
+
+    em {
+      font-weight: bold;
+      font-style: normal;
+    }
   }
 
   &__logo {
@@ -301,7 +300,88 @@ body {
     margin-bottom: 20px;
     width: 300px;
   }
+
+  &__schedule {
+    border: 1px solid rgba(217, 217, 217, 0.8);
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+
+    &__heading {
+      border-bottom: 1px solid rgba(217, 217, 217, 0.8);
+      background-color: rgba(146, 215, 255, 0.17);
+      height: 77px;
+      padding-top: 10px;
+      font-size: 20px;
+
+      font-weight: normal;
+
+      strong {
+        color: #ff8103;
+      }
+    }
+
+    &__body {
+      background-color: #374269;
+      font-weight: normal;
+      padding-top: 18px;
+
+      &__section {
+        &--from {
+          margin-bottom: 14px;
+        }
+
+        &--to {
+          margin-bottom: 36px;
+        }
+      }
+
+      &__heading {
+        margin: 0;
+        color: #8d97f6;
+        font-size: 16px;
+      }
+
+      &__datetime {
+        margin-top: 4px;
+        font-size: 18px
+      }
+    }
+
+    &__icon {
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      right: 0;
+
+      i {
+        background-color: #00b0f0;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 2.1;
+      }
+    }
+  }
+
+  &__information {
+    text-align: left;
+
+    &__heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+
+    &__cap {
+      padding: 10px 20px;
+      margin-bottom: 6px;
+      background-color: rgba(146, 215, 255, 0.17);
+      font-size: 20px;
+    }
+  }
 }
+
 
 /* Technology
 -------------------------------------------------- */
@@ -319,7 +399,6 @@ body {
     margin-bottom: 16px;
     color: $textDarkBlueColor;
   }
-
   &__logo {
     margin-top: 32px;
     margin-bottom: 44px;
@@ -562,10 +641,10 @@ body {
 
   .ico {
     .lead {
-      font-size: $subTextSize;
+      font-size: 18px;
       line-height: $subTextLineHeight;
       margin: 0 auto 48px;
-      color: $textLightGrayColor;
+      color: white;
     }
   }
 

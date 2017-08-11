@@ -69,11 +69,24 @@ about_japan:
       技術後進国でありながらも、日本における仮想通貨への関心はますます高まっています。
       日本において実用的な仮想通貨の登場が待望されています。
 ico:
-  header: ICO
-  body: |
-    私たちはヴィジョンの実現のため、2017年9月1日にクラウドセールを実施予定です。
-    独自トークンである仮想通貨ALISを我々が発行し、Ethereumと交換することができます。
-    ALISのICOおよびプロジェクト最新情報の通知をご希望の方は下記ボタンよりご登録ください。
+  # TODO
+  header1: ICO
+  header2: INITIAL PUBLIC OFFERING
+  body1: The ALIS token sale begins on Sep 1st, 02:00 UTC.
+  body2: ALIS tokens will be offered in 4 price tiers.
+  schedule:
+    week1:
+      from: Sep 1st, 02:00 UTC
+      to: Sep 7th, 01:59 UTC
+    week2:
+      from: Sep 7th, 02:00 UTC
+      to: Sep 14th, 01:59 UTC
+    week3:
+      from: Sep 14th, 02:00 UTC
+      to: Sep 21th, 01:59 UTC
+    week4:
+      from: Sep 21th, 02:00 UTC
+      to: Sep 28th, 01:59 UTC
   button: Register for further information
 technology:
   header: Technology

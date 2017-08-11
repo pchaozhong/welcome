@@ -61,10 +61,24 @@ about_japan:
     body: |
       虽然在技术上相对滞后，虚拟货币在日本得到越来越多的关注。实现虚拟货币的实用化在日本已被期待已久。
 ico:
-  header: ico
-  body: |
-    为了实现我们的愿景，预定将于2017年9月1日02:00(UTC)开始云端销售。我们将独立发行能够与Ethereum交换的ALIS代币。
-    如果您想获得ALIS的ICO以及项目最新情报，请通过下方的按钮注册您的邮箱。
+  # TODO
+  header1: ICO
+  header2: INITIAL PUBLIC OFFERING
+  body1: The ALIS token sale begins on Sep 1st, 02:00 UTC.
+  body2: ALIS tokens will be offered in 4 price tiers.
+  schedule:
+    week1:
+      from: Sep 1st, 02:00 UTC
+      to: Sep 7th, 01:59 UTC
+    week2:
+      from: Sep 7th, 02:00 UTC
+      to: Sep 14th, 01:59 UTC
+    week3:
+      from: Sep 14th, 02:00 UTC
+      to: Sep 21th, 01:59 UTC
+    week4:
+      from: Sep 21th, 02:00 UTC
+      to: Sep 28th, 01:59 UTC
   button: 注册
 technology:
   header: Technology

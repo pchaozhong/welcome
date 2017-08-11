@@ -97,16 +97,50 @@ body
         img.about-japan-image.img-responsive.center-block(src='/img/japan-market.png', alt='market')
 
   // ICO
-  .container.ico#ico
-    .row.ico__row
-      .col-md-12
-        h2.ico__heading
-          | #{ico.header}
-        img.technology__logo(src='/img/ico.png', alt='ICO')
-        .lead
-          | #{ico.body}
-        p
-          +mail_form
+  .ico
+    .container#ico
+      .row.ico__row
+        .col-md-12
+          h2.ico__heading
+            | #{ico.header1}
+            = ' '
+            em
+              | (#{ico.header2})
+          img.technology__logo(src='/img/ico.png', alt='ICO')
+          .lead
+            | #{ico.body1}
+            br
+            | #{ico.body2}
+
+      .row.ico__row
+        include mixin/ico_schedule
+        .col-md-3
+          +ico_schedule(1, 3000, ico.schedule.week1.from, ico.schedule.week1.to, 'arrow-right')
+        .col-md-3
+          +ico_schedule(2, 2700, ico.schedule.week2.from, ico.schedule.week2.to, 'arrow-right')
+        .col-md-3
+          +ico_schedule(3, 2400, ico.schedule.week3.from, ico.schedule.week3.to, 'arrow-right')
+        .col-md-3
+          +ico_schedule(4, 2100, ico.schedule.week4.from, ico.schedule.week4.to, 'star')
+
+      .row.ico__row
+        .col-md-12
+          .ico__information
+            h3.ico__information__heading
+              | Information :
+            .ico__information__cap
+              .row
+                 .col-
+              | Fund min Cap: 14,000 ETH
+              | Accept Token: ETH
+            .ico__information__cap
+              | Fund max Cap: 1200,00 ETH
+              | Max ALIS supply: 500,000,000 ALIS
+            .info
+              | * We will back your ETH token if we cannot raise 14,000 ETH.
+            a
+              | JOIN SLACK
+
 
   // Technology
   .container.technology
