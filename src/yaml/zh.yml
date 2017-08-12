@@ -61,11 +61,35 @@ about_japan:
     body: |
       虽然在技术上相对滞后，虚拟货币在日本得到越来越多的关注。实现虚拟货币的实用化在日本已被期待已久。
 ico:
-  header: ico
-  body: |
-    为了实现我们的愿景，预定将于2017年9月1日02:00(UTC)开始云端销售。我们将独立发行能够与Ethereum交换的ALIS代币。
-    如果您想获得ALIS的ICO以及项目最新情报，请通过下方的按钮注册您的邮箱。
-  button: 注册
+  header: ICO
+  body1: The ALIS token sale on Ethereum begins on Sep 1st, 02:00 UTC.
+  body2: We will also plan to launch tokensale on NEO, please wait for further information.
+  body3: ALIS tokens on Ethereum will be offered in 4 price tiers.
+  schedule:
+    week1:
+      from: Sep 1st, 02:00 UTC
+      to: Sep 8th, 01:59 UTC
+    week2:
+      from: Sep 8th, 02:00 UTC
+      to: Sep 15th, 01:59 UTC
+    week3:
+      from: Sep 15th, 02:00 UTC
+      to: Sep 22th, 01:59 UTC
+    week4:
+      from: Sep 22th, 02:00 UTC
+      to: Sep 29th, 01:59 UTC
+  information:
+    header: Information
+    row1:
+      left: 'Fund min cap: $3.5million ( ≒ 11,666 ETH )'
+      right: 'Accept Token: ETH, (NEO) *'
+    row2:
+      left: 'Fund max Cap: $30million ( ≒ 100,000 ETH )'
+      right: 'Max ALIS supply: 250,000,000 ALIS'
+    caption1: We are planning to launch ALIS token on NEO as well and the details will be here near future.
+    caption2: The min and max cap of ETH will be changed when we decide the details of ICO on NEO.
+    caption3: We will also back your ETH token if we cannot raise $3.5million.
+  button: JOIN SLACK
 technology:
   header: Technology
   body: |

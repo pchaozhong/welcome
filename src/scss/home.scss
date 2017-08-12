@@ -278,22 +278,21 @@ body {
 
 /*noinspection ALL*/
 .ico {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url("/img/ico-background.png");
-  color: $textLightGrayColor;
+  color: white;
   width: auto;
-  height: 614px;
 
   .col-md-12 {
-    margin-bottom: 70px;
     text-align: center;
   }
 
   &__heading {
     margin-bottom: 16px;
-    color: white;
+
+    em {
+      font-weight: bold;
+      font-style: normal;
+    }
   }
 
   &__logo {
@@ -301,7 +300,119 @@ body {
     margin-bottom: 20px;
     width: 300px;
   }
+
+  &__schedule {
+    border: 1px solid rgba(217, 217, 217, 0.8);
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+
+    &__heading {
+      border-bottom: 1px solid rgba(217, 217, 217, 0.8);
+      background-color: rgba(146, 215, 255, 0.17);
+      height: 77px;
+      padding-top: 10px;
+      font-size: 20px;
+
+      font-weight: normal;
+
+      strong {
+        color: #ff8103;
+      }
+    }
+
+    &__body {
+      background-color: #374269;
+      font-weight: normal;
+      padding-top: 18px;
+      padding-bottom: 36px;
+
+      &__section {
+        &--from {
+          margin-bottom: 14px;
+        }
+      }
+
+      &__heading {
+        margin: 0;
+        color: #8d97f6;
+        font-size: 16px;
+      }
+
+      &__datetime {
+        margin-top: 4px;
+        font-size: 18px
+      }
+    }
+
+    &__icon {
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      right: 0;
+
+      i {
+        background-color: #00b0f0;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 2.1;
+      }
+    }
+  }
+
+  &__information {
+    text-align: left;
+
+    &__heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+
+    &__row {
+      padding: 10px 20px;
+      margin-bottom: 6px;
+      background-color: rgba(146, 215, 255, 0.17);
+      font-size: 20px;
+
+      &--right {
+        text-align: right;
+      }
+    }
+
+    &__caption {
+      margin-top: 12px;
+      padding-left: 20px;
+      font-size: 16px;
+      list-style: none;
+
+      li:before {
+        content: "*";
+        color: #00b0f0;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__join-slack {
+    display: inline-block;
+    background-color: #00b0f0;
+    margin-top: 44px;
+    margin-bottom: 90px;
+    padding-top: 14px;
+    width: 305px;
+    height: 58px;
+    color: white;
+    font-size: 20px;
+
+    &:hover, &:visited {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
+
 
 /* Technology
 -------------------------------------------------- */
@@ -319,7 +430,6 @@ body {
     margin-bottom: 16px;
     color: $textDarkBlueColor;
   }
-
   &__logo {
     margin-top: 32px;
     margin-bottom: 44px;
@@ -471,8 +581,58 @@ body {
   }
 
   .ico {
+    &__heading {
+      font-size: 20px;
+    }
+
     .lead {
       margin-bottom: $marginLeadBottomMobile;
+      font-size: 13px;
+    }
+
+    &__schedule {
+      &__heading {
+        font-size: 18px;
+        height: 70px;
+      }
+
+      &__body__heading {
+        font-size: 14px;
+      }
+
+      &__body__datetime {
+        font-size: 16px;
+      }
+
+      &__schedule__icon {
+        i {
+          height: 36px;
+          width: 36px;
+        }
+      }
+    }
+
+    &__information {
+      &__heading {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      &__row {
+        font-size: 14px;
+      }
+
+      &__caption {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 15px;
+        padding-left: 0;
+      }
+    }
+
+    &__join-slack {
+      margin-top: 20px;
+      margin-bottom: 70px;
     }
   }
 
@@ -562,10 +722,10 @@ body {
 
   .ico {
     .lead {
-      font-size: $subTextSize;
+      font-size: 18px;
       line-height: $subTextLineHeight;
       margin: 0 auto 48px;
-      color: $textLightGrayColor;
+      color: white;
     }
   }
 

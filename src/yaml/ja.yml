@@ -69,12 +69,36 @@ about_japan:
       技術後進国でありながらも、日本における仮想通貨への関心はますます高まっています。
       日本において実用的な仮想通貨の登場が待望されています。
 ico:
+  # TODO
   header: ICO
-  body: |
-    私たちはヴィジョンの実現のため、2017年9月1日にクラウドセールを実施予定です。
-    独自トークンである仮想通貨ALISを我々が発行し、Ethereumと交換することができます。
-    ALISのICOおよびプロジェクト最新情報の通知をご希望の方は下記ボタンよりご登録ください。
-  button: Register for further information
+  body1: ALISのトークンセールは2017年9月1日11時（日本時間）よりスタートします。
+  body2: また、ALISではNEO上でのクラウドセールも計画中です。
+  body3: Ethereumとの交換によるトークンセールについては、4段階の価格に分かれています。
+  schedule:
+    week1:
+      from: Sep 1st, 02:00 UTC
+      to: Sep 8th, 01:59 UTC
+    week2:
+      from: Sep 8th, 02:00 UTC
+      to: Sep 15th, 01:59 UTC
+    week3:
+      from: Sep 15th, 02:00 UTC
+      to: Sep 22th, 01:59 UTC
+    week4:
+      from: Sep 22th, 02:00 UTC
+      to: Sep 29th, 01:59 UTC
+  information:
+    header: Information
+    row1:
+      left: '最低調達金額: 350万ドル（ ≒ 11,666 ETH )'
+      right: 'Accept Token: ETH, (NEO) *'
+    row2:
+      left: '最高調達金額: 3000万ドル（ ≒ 100,000 ETH )'
+      right: '最大供給ALISトークン数: 250,000,000 ALIS'
+    caption1: NEO上でのトークンセールを計画しておりますので、詳細が決まり次第お知らせいたします。
+    caption2: 最低および最高調達金額は、NEO上でのトークンセールの詳細によって変更される可能性があります。
+    caption3: 350万ドルを集められなかった場合、すべてのEthereumトークンを返却いたします。
+  button: JOIN SLACK
 technology:
   header: Technology
   body: |

@@ -72,12 +72,34 @@ about_japan:
       and have high expectations of crypto currency. Japan is need of a  practical virtual currency.
 ico:
   header: ICO
-  body: |
-    To realize our vision, we are planning to have a crowdsale at September 1st, 2017 02:00(UTC).
-    You will be able to exchange Ethereum to our unique ALIS tokens.
-    If you would like to receive more information about ICO and the latest information about our project,
-    please register your e-mail address at the button below.
-  button: Register for further information
+  body1: The ALIS token sale on Ethereum begins on Sep 1st, 02:00 UTC.
+  body2: We will also plan to launch tokensale on NEO, please wait for further information.
+  body3: ALIS tokens on Ethereum will be offered in 4 price tiers.
+  schedule:
+    week1:
+      from: Sep 1st, 02:00 UTC
+      to: Sep 8th, 01:59 UTC
+    week2:
+      from: Sep 8th, 02:00 UTC
+      to: Sep 15th, 01:59 UTC
+    week3:
+      from: Sep 15th, 02:00 UTC
+      to: Sep 22th, 01:59 UTC
+    week4:
+      from: Sep 22th, 02:00 UTC
+      to: Sep 29th, 01:59 UTC
+  information:
+    header: Information
+    row1:
+      left: 'Fund min cap: $3.5million ( ≒ 11,666 ETH )'
+      right: 'Accept Token: ETH, (NEO) *'
+    row2:
+      left: 'Fund max Cap: $30million ( ≒ 100,000 ETH )'
+      right: 'Max ALIS supply: 250,000,000 ALIS'
+    caption1: We are planning to launch ALIS token on NEO as well and the details will be here near future.
+    caption2: The min and max cap of ETH will be changed when we decide the details of ICO on NEO.
+    caption3: We will also back your ETH token if we cannot raise $3.5million.
+  button: JOIN SLACK
 technology:
   header: Technology
   body: |
