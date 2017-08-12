@@ -61,8 +61,7 @@ about_japan:
     body: |
       虽然在技术上相对滞后，虚拟货币在日本得到越来越多的关注。实现虚拟货币的实用化在日本已被期待已久。
 ico:
-  header1: ICO
-  header2: INITIAL PUBLIC OFFERING
+  header: ICO
   body1: The ALIS token sale on Ethereum begins on Sep 1st, 02:00 UTC.
   body2: We will also plan to launch tokensale on NEO, please wait for further information.
   body3: ALIS tokens on Ethereum will be offered in 4 price tiers.

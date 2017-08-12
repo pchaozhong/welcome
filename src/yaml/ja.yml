@@ -70,8 +70,7 @@ about_japan:
       日本において実用的な仮想通貨の登場が待望されています。
 ico:
   # TODO
-  header1: ICO
-  header2: INITIAL PUBLIC OFFERING
+  header: ICO
   body1: ALISのトークンセールは2017年9月1日11時（日本時間）よりスタートします。
   body2: また、ALISではNEO上でのクラウドセールも計画中です。
   body3: Ethereumとの交換によるトークンセールについては、4段階の価格に分かれています。
