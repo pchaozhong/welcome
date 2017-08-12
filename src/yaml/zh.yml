@@ -82,12 +82,12 @@ ico:
     header: Information
     row1:
       left: '最低筹集金额: 350万美元 ( ≒ 11,666 ETH )'
-      right: '支持代币: ETH, (NEO) *'
+      right: '支持代币: ETH'
     row2:
       left: '最高筹集金额: 3000万美元 ( ≒ 100,000 ETH )'
       right: 'ALIS代币最大供应数: 250,000,000 ALIS'
     caption1: 我们也在计划使用NEO实施ICO，更多详情将在后续公布。
-    caption2: 最低和最高筹集金额，将根据我们在NEO实施ICO的具体细节作出相应调整。
+    caption2: 最低和最高筹集金额，有可能在ETH的值突然变化时发生变化的可能性。
     caption3: 如果没有达成最低筹集金额，350万美元，我们将返还您的ETH代币。
   button: JOIN SLACK
 technology:

@@ -92,12 +92,12 @@ ico:
     header: Information
     row1:
       left: 'Fund min cap: $3.5million ( ≒ 11,666 ETH )'
-      right: 'Accept Token: ETH, (NEO) *'
+      right: 'Accept Token: ETH'
     row2:
       left: 'Fund max Cap: $30million ( ≒ 100,000 ETH )'
       right: 'Max ALIS supply: 250,000,000 ALIS'
     caption1: We are planning to launch ALIS token on NEO as well and the details will be here near future.
-    caption2: The min and max cap of ETH will be changed when we decide the details of ICO on NEO.
+    caption2: The min and max cap of ETH will be changed when the price of ETH is changed radically.
     caption3: We will also back your ETH token if we cannot raise $3.5million.
   button: JOIN SLACK
 technology:
