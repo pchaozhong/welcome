@@ -2,8 +2,8 @@ meta:
   title: 'TODO'
   description: 'TODO'
 mail_form:
-  place_holder: Enter your email
-  button: Subscribe
+  place_holder: 输入您的邮箱
+  button: 提交
 navbar:
   whitepaper: Whitepaper(
   whitepaper_en: en
@@ -62,33 +62,33 @@ about_japan:
       虽然在技术上相对滞后，虚拟货币在日本得到越来越多的关注。实现虚拟货币的实用化在日本已被期待已久。
 ico:
   header: ICO
-  body1: The ALIS token sale on Ethereum begins on Sep 1st, 02:00 UTC.
-  body2: We will also plan to launch tokensale on NEO, please wait for further information.
-  body3: ALIS tokens on Ethereum will be offered in 4 price tiers.
+  body1: ALIS代币将于9月1日2:00（UTC）开始发售。
+  body2: 我们也在计划使用NEO实施ICO，更多详情将在后续公布。
+  body3: 关于ALIS代币的发售价格，将分为以下四个阶段。
   schedule:
     week1:
-      from: Sep 1st, 02:00 UTC
-      to: Sep 8th, 01:59 UTC
+      from: 9月1日, 02:00 UTC
+      to: 9月8日, 01:59 UTC
     week2:
-      from: Sep 8th, 02:00 UTC
-      to: Sep 15th, 01:59 UTC
+      from: 9月8日, 02:00 UTC
+      to: 9月15日, 01:59 UTC
     week3:
-      from: Sep 15th, 02:00 UTC
-      to: Sep 22th, 01:59 UTC
+      from: 9月15日, 02:00 UTC
+      to: 9月22日, 01:59 UTC
     week4:
-      from: Sep 22th, 02:00 UTC
-      to: Sep 29th, 01:59 UTC
+      from: 9月22日, 02:00 UTC
+      to: 9月29日, 01:59 UTC
   information:
     header: Information
     row1:
-      left: 'Fund min cap: $3.5million ( ≒ 11,666 ETH )'
-      right: 'Accept Token: ETH, (NEO) *'
+      left: '最低筹集金额: 350万美元 ( ≒ 11,666 ETH )'
+      right: '支持代币: ETH, (NEO) *'
     row2:
-      left: 'Fund max Cap: $30million ( ≒ 100,000 ETH )'
-      right: 'Max ALIS supply: 250,000,000 ALIS'
-    caption1: We are planning to launch ALIS token on NEO as well and the details will be here near future.
-    caption2: The min and max cap of ETH will be changed when we decide the details of ICO on NEO.
-    caption3: We will also back your ETH token if we cannot raise $3.5million.
+      left: '最高筹集金额: 3000万美元 ( ≒ 100,000 ETH )'
+      right: 'ALIS代币最大供应数: 250,000,000 ALIS'
+    caption1: 我们也在计划使用NEO实施ICO，更多详情将在后续公布。
+    caption2: 最低和最高筹集金额，将根据我们在NEO实施ICO的具体细节作出相应调整。
+    caption3: 如果没有达成最低筹集金额，350万美元，我们将返还您的ETH代币。
   button: JOIN SLACK
 technology:
   header: Technology
