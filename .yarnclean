@@ -36,7 +36,3 @@ Gruntfile.js
 .yarn-metadata.json
 .*.yml
 *.yml
-
-# misc
-*.gz
-*.md

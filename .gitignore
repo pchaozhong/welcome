@@ -3,6 +3,7 @@ public
 !public/.gitkeep
 .s3cfg
 .DS_Store
+.yarnclean
 
 # For JetBrains IDE
 .idea
