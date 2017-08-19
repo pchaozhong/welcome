@@ -35,22 +35,23 @@ body {
     margin-top: 16px;
     margin-right: -5px;
 
-    li {
-      a,
-      span {
+    > li {
+      > a {
         display: inline;
         padding-left: 4px;
         color: white;
       }
-
     }
 
-    &__whitepaper{
-      margin-right: -13px;
-    }
+    .dropdown-menu{
+      a {
+        color: #444c76;
 
-    &__whitepaper_end{
-      margin-right: 20px;
+        &:hover {
+          background-color: #444c76;
+          color: white;
+        }
+      }
     }
 
     &__language {

@@ -4,13 +4,18 @@ block links
   #navbar.navbar-collapse.collapse
     ul.nav.navbar-nav
       li
-        a.nav__whitepaper #{navbar.whitepaper}
-        a.nav__whitepaper(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf', target="blank") #{navbar.whitepaper_en}
-        span #{navbar.whitepaper_mid}
-        a.nav__whitepaper(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf', target="blank") #{navbar.whitepaper_ja}
-        span #{navbar.whitepaper_mid}
-        a.nav__whitepaper(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_zh.pdf', target="blank") #{navbar.whitepaper_zh}
-        span.nav__whitepaper_end #{navbar.whitepaper_end}
+        a.smooth-anchor(href='#introduction') #{navbar.introduction}
+      li.dropdown.nav__whitepaper
+        a(href='#' data-toggle="dropdown")
+          | #{navbar.whitepaper}
+          span.caret
+        ul.dropdown-menu
+          li
+            a(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf', target="blank") English
+          li
+            a(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf', target="blank") 日本語
+          li
+            a(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_zh.pdf', target="blank") 中文
       li
         a.smooth-anchor(href='https://trello.com/b/XH5jh4DT/alis-public-roadmap', target="blank") #{navbar.roadmap}
       li
