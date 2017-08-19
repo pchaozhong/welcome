@@ -5,12 +5,8 @@ mail_form:
   place_holder: 输入您的邮箱
   button: 提交
 navbar:
-  whitepaper: Whitepaper(
-  whitepaper_en: en
-  whitepaper_ja: ja
-  whitepaper_zh: zh
-  whitepaper_mid:  /
-  whitepaper_end:  )
+  introduction: Introduction
+  whitepaper: Whitepaper
   roadmap: Roadmap
   ico: ICO
   team: Team
