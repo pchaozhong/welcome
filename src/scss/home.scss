@@ -45,10 +45,10 @@ body {
 
     .dropdown-menu{
       a {
-        color: #444c76;
+        color: $textDarkBlueColor;
 
         &:hover {
-          background-color: #444c76;
+          background-color: $textDarkBlueColor;
           color: white;
         }
       }
