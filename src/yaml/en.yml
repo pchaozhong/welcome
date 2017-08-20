@@ -115,6 +115,9 @@ technology:
     We are also in the process of creating DApp (Distributed Application) for the purpose of ALIS's platform.
     The code will be designed and maintained
     with thorough testing. We are also planning to display everything on github as an open source code.
+subscribe_form:
+  body: |
+    Register your e-mail address to get latest information
 team:
   header: Team
   profile:

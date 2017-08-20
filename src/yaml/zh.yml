@@ -98,6 +98,9 @@ ico:
     caption2: ETH的最低以及最高交易量，在ETH的价格发生急剧波动时有可能作出调整。
     caption3: 如果没有达成最低筹集金额，350万美元，我们将返还您的ETH代币。
   button: JOIN SLACK
+subscribe_form:
+  body: |
+    如果您希望获取最新情报，请通过下方的按钮注册您的邮箱
 technology:
   header: Technology
   body: |

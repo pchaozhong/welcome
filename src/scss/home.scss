@@ -490,6 +490,46 @@ body {
   }
 }
 
+/* Subscribe form
+-------------------------------------------------- */
+
+.subscribe-form {
+  .col-md-12 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .lead{
+    color: $textDarkBlueColor;
+  }
+
+  &__heading {
+    margin-bottom: 36px;
+    color: $textDarkBlueColor;
+  }
+
+  &__square-btn {
+    display: inline-block;
+    padding: 0.7em;
+    height: $buttonHeight;
+    text-decoration: none;
+    margin: 10px 30px;
+    color: white;
+    background-color: $buttonPurpleColor;
+    width: 200px;
+    border: 0;
+    border-radius: 3px;
+    transition: .4s;
+
+    &:hover {
+      background: $buttonhoverPurpleColor;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
 /* Team
 -------------------------------------------------- */
 
