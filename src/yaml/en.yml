@@ -12,10 +12,21 @@ navbar:
   team: Team
   meetus: Meet us
   language: Language..
+whitepaper:
+  url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
+icointroduction:
+  url: https://medium.com/@alismedia/how-to-buy-alis-using-myetherwallet-2dba7a67117c
 cover:
   caption_line_one: A Rewards System to Distinguish Trustworthy Articles
-  caption_line_two: ALIS is Japan's First Social Media Platform Using Blockchain Technology
-  caption_line_three: Token Sale Begins in Sep 1st 02:00(UTC)
+  caption_line_two:
+    before: "ALIS is "
+    japan: Japan's
+    after: " First Social Media Platform Using Blockchain Technology"
+  countdown:
+    header: TOKEN SALE WILL LIVE SOON!
+    body: Start in September 1st, 02:00 (UTC)
+  instruction: ICO Participation Instructions (Medium)
+  learn_more: LEARN MORE
 service_information:
   header: What is ALIS?
   body1: |
