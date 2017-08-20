@@ -12,6 +12,8 @@ navbar:
   team: Team
   meetus: Meet us
   language: 言語..
+whitepaper:
+  url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf
 cover:
   caption_line_one: 信頼できる記事と人々を明らかにする全く新しい報酬システム
   caption_line_two:

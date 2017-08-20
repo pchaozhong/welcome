@@ -12,6 +12,8 @@ navbar:
   team: Team
   meetus: Meet us
   language: 语言..
+whitepaper:
+  url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_zh.pdf
 cover:
   caption_line_one: 通过奖励机制有效筛选高质量信息和权威作者的系统
   caption_line_two:
