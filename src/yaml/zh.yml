@@ -14,6 +14,8 @@ navbar:
   language: 语言..
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_zh.pdf
+icointroduction:
+  url: https://medium.com/@alismedia/how-to-buy-alis-using-myetherwallet-2dba7a67117c
 cover:
   caption_line_one: 通过奖励机制有效筛选高质量信息和权威作者的系统
   caption_line_two:
