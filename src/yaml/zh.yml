@@ -14,8 +14,15 @@ navbar:
   language: 语言..
 cover:
   caption_line_one: 通过奖励机制有效筛选高质量信息和权威作者的系统
-  caption_line_two: 日本第一个基于区块链技术的社交媒体平台
-  caption_line_three: 代币将于9月1日10:00（北京时间）开始发售
+  caption_line_two:
+    before: ''
+    japan: 日本
+    after: 第一个基于区块链技术的社交媒体平台
+  countdown:
+    header: TOKEN SALE WILL LIVE SOON! # TODO: localization
+    body: 代币将于9月1日10:00（北京时间）开始发售
+  instruction: ICO Participation Instructions (Medium) # TODO: localization
+  learn_more: LEARN MORE # TODO: localization
 service_information:
   header: What is ALIS Project
   body1: |

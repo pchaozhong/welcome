@@ -14,8 +14,15 @@ navbar:
   language: 言語..
 cover:
   caption_line_one: 信頼できる記事と人々を明らかにする全く新しい報酬システム
-  caption_line_two: ALISは日本初のブロックチェーン技術を用いたソーシャルメディアプラットフォームです
-  caption_line_three: ALISのトークンセールは9月1日 11:00（日本時間）にスタートします
+  caption_line_two:
+    before: ALISは
+    japan: 日本
+    after: 初のブロックチェーン技術を用いたソーシャルメディアプラットフォームです
+  countdown:
+    header: TOKEN SALE WILL LIVE SOON! # TODO: localization
+    body: ALISのトークンセールは9月1日 11:00（日本時間）にスタートします
+  instruction: ICO Participation Instructions (Medium) # TODO: localization
+  learn_more: LEARN MORE # TODO: localization
 service_information:
   header: What is ALIS?
   body1: |
