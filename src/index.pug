@@ -201,6 +201,16 @@ body
         .lead
           | #{technology.body}
 
+  // Subscribe form
+  .container.subscribe-form
+    .row
+      .col-md-12
+        h2.subscribe-form__heading
+        .lead
+          | #{subscribe_form.body}
+        p
+          +mail_form
+
   // Team
   .team
     .container#team
