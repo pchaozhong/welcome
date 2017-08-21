@@ -21,34 +21,48 @@ body
                   | #{cover.caption_line_two.before}
                   em #{cover.caption_line_two.japan}
                   | #{cover.caption_line_two.after}
-                a.cover__square-btn(href=whitepaper.url target="_blank") Read Whitepaper
-                a.cover__square-btn(href="https://alis-slack.herokuapp.com/" target="_blank") Join Slack
+
+          .row.cover__countdown-heading
+            h2
+              | #{cover.countdown.header}
+            p.cover__countdown-heading__caption
+              | #{cover.countdown.body}
+
+          .row.cover__countdown-timer#countdown-timer
+            .col-xs-4
+              .cover__rate
+                | WEEK 1
+                br
+                | 1 ETH =
+                = ' '
+                strong 2900
+                = ' '
+                | ALIS
+              .cover__bonus-rate
+                | BONUS RATE
+                i.fa.fa-question-circle
+
+            .col-xs-2
+              .cover__countdown-timer__number#countdown-timer-days
+              .cover__countdown-timer__unit
+                | Days
+            .col-xs-2
+              .cover__countdown-timer__number#countdown-timer-hours
+              .cover__countdown-timer__unit
+                | Hours
+            .col-xs-2
+              .cover__countdown-timer__number#countdown-timer-minutes
+              .cover__countdown-timer__unit
+                | Minutes
+            .col-xs-2
+              .cover__countdown-timer__number#countdown-timer-seconds
+              .cover__countdown-timer__unit
+                | Seconds
 
           .row
-            .col-md-8.col-md-offset-2
-              .cover__countdown
-                h2
-                  | #{cover.countdown.header}
-                p.cover__countdown__caption
-                  | #{cover.countdown.body}
-
-                .row.cover__countdown__timer#countdown-timer
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-days
-                    .cover__countdown__timer__unit
-                      | Days
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-hours
-                    .cover__countdown__timer__unit
-                      | Hours
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-minutes
-                    .cover__countdown__timer__unit
-                      | Minutes
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-seconds
-                    .cover__countdown__timer__unit
-                      | Seconds
+            .col-md-12
+              .cover__next-rate
+                | Before Week 2 1eth = 2500 ALIS
 
           .row
             .col-md-12
@@ -62,6 +76,7 @@ body
             .col-md-12
               a.smooth-anchor(href='#ico')
                 | #{cover.learn_more}
+              //a.cover__square-btn(href="https://alis-slack.herokuapp.com/" target="_blank") Join Slack
 
   // Service information
   .container.service-information

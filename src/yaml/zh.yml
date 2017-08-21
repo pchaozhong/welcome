@@ -23,8 +23,8 @@ cover:
     japan: 日本
     after: 第一个基于区块链技术的社交媒体平台
   countdown:
-    header: TOKEN SALE WILL LIVE SOON! # TODO: localization
-    body: 代币将于9月1日10:00（北京时间）开始发售
+    header: TOKEN SALE IS LIVE SOON! # TODO: localization
+    body: End in September 29th, 02:00 (UTC) # TODO: localization
   instruction: ICO Participation Instructions (Medium) # TODO: localization
   learn_more: LEARN MORE # TODO: localization
 service_information:
