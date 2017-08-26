@@ -38,31 +38,38 @@ body
                 strong 2900
                 = ' '
                 | ALIS
-              .cover__bonus-rate
-                | BONUS RATE
-                i.fa.fa-question-circle
+              //-
+                .cover__bonus-rate
+                  | BONUS RATE
+                  i.fa.fa-question-circle
 
             .col-xs-2
-              .cover__countdown-timer__number#countdown-timer-days
-              .cover__countdown-timer__unit
-                | Days
+              div
+                .cover__countdown-timer__number#countdown-timer-days
+                .cover__countdown-timer__unit
+                  | Days
             .col-xs-2
-              .cover__countdown-timer__number#countdown-timer-hours
-              .cover__countdown-timer__unit
-                | Hours
+              div
+                .cover__countdown-timer__number#countdown-timer-hours
+                .cover__countdown-timer__unit
+                  | Hours
             .col-xs-2
-              .cover__countdown-timer__number#countdown-timer-minutes
-              .cover__countdown-timer__unit
-                | Minutes
+              div
+                .cover__countdown-timer__number#countdown-timer-minutes
+                .cover__countdown-timer__unit
+                  | Minutes
             .col-xs-2
-              .cover__countdown-timer__number#countdown-timer-seconds
-              .cover__countdown-timer__unit
-                | Seconds
+              div
+                .cover__countdown-timer__number#countdown-timer-seconds
+                .cover__countdown-timer__unit
+                  | Seconds
 
           .row
-            .col-md-12
+            .col-sm-6.col-sm-offset-6
               .cover__next-rate
-                | Before Week 2 1eth = 2500 ALIS
+                | #{cover.next_rate.before}
+                strong 2600
+                | #{cover.next_rate.after}
 
           .row
             .col-md-12
@@ -72,11 +79,24 @@ body
                   span
                     | #{cover.instruction}
 
-          .row.cover__learn-more
+          .row
             .col-md-12
-              a.smooth-anchor(href='#ico')
-                | #{cover.learn_more}
-              //a.cover__square-btn(href="https://alis-slack.herokuapp.com/" target="_blank") Join Slack
+              .cover__tac
+                input(type="checkbox")#tac-checkbox
+                | #{cover.tac.before}
+                a(href="#" data-toggle="modal" data-target=".tac-modal" data-keyboard="true")
+                  | #{cover.tac.link}
+                | #{cover.tac.after}
+
+          .row.cover__contribute
+            .col-md-12
+              button.disabled#contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
+                | #{cover.contribute}
+
+          .row.cover__slack
+            .col-md-12
+              a(href="https://alis-slack.herokuapp.com/" target="_blank")
+                | #{cover.slack}
 
   // Service information
   .container.service-information
@@ -271,6 +291,81 @@ body
   // Footer
   #meetus
   include includes/footer
+
+  // tac
+  .modal.fade.tac-modal(tabindex="-1")
+    .modal-dialog.modal-lg
+      .modal-content
+        .modal-header
+          button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+            span(aria-hidden="true") &times;
+          h4 #{tac.heading}
+        .modal-body
+          h4 #{tac.subheading1}
+          h5 #{tac.subheading2}
+
+          h5 #{tac.introduction.heading}
+          p #{tac.introduction.body}
+
+          h5 #{tac.token_creation.heading}
+          p #{tac.token_creation.body}
+
+          h5 #{tac.blockcat_platform_execution.heading}
+          p #{tac.blockcat_platform_execution.body}
+
+          h5 #{tac.user_wallet_safety.heading}
+          p #{tac.user_wallet_safety.body}
+
+          h5 #{tac.risks.heading}
+          p #{tac.risks.body}
+
+          h5 #{tac.taxation.heading}
+          p #{tac.taxation.body}
+
+          h5 #{tac.liability.heading}
+          p #{tac.liability.body}
+
+          h5 #{tac.miscellaneous.heading}
+          p #{tac.miscellaneous.body}
+        .modal-footer
+          button.btn.btn-default(type="button" data-dismiss="modal") #{tac.close}
+
+  // contirubte
+  .modal.fade.contribute-modal(tabindex="-1")
+    .modal-dialog.modal-lg
+      .modal-content
+        .modal-header
+          button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+            span(aria-hidden="true") &times;
+          h4 #{contribute.heading}
+        .modal-body
+          .contribute-modal__header
+            h5 #{contribute.contact_address.heading}
+          p DUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMY
+
+          .contribute-modal__header
+            h5 #{contribute.sugg_gas_limit.heading}
+          p 200000
+
+          .contribute-modal__header
+            h5 #{contribute.notes.heading}
+          ul
+            li #{contribute.notes.note1}
+            li
+              strong #{contribute.notes.note2.main}
+              | #{contribute.notes.note2.example}
+            li #{contribute.notes.note3}
+            li #{contribute.notes.note4}
+            li #{contribute.notes.note5}
+
+          .contribute-modal__introduction
+            a(href=icointroduction.url target="_blank")
+              i.fa.fa-file
+              span
+                | #{cover.instruction}
+
+        .modal-footer
+          button.btn.btn-default(type="button" data-dismiss="modal") #{contribute.close}
 
   // Video modal
   #video-modal

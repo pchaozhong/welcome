@@ -99,25 +99,6 @@ body {
     }
   }
 
-  &__square-btn {
-    display: inline-block;
-    padding: 0.55em;
-    height: $buttonHeight;
-    text-decoration: none;
-    margin: 10px 30px;
-    color: white;
-    width: 200px;
-    border: solid 2px $buttonLightBlueColor;
-    border-radius: 3px;
-    transition: .4s;
-
-    &:hover {
-      background: $buttonLightBlueColor;
-      color: white;
-      text-decoration: none;
-    }
-  }
-
   &__countdown-heading {
     color: white;
     text-align: center;
@@ -145,16 +126,22 @@ body {
       height: 100%;
     }
 
+    .col-xs-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .col-xs-4 {
       border-right: 1px solid #4c527b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       strong {
         color: $textHighlightColor;
       }
     }
-  }
-
-  &__rate {
   }
 
   &__bonus-rate {
@@ -164,7 +151,22 @@ body {
   }
 
   &__next-rate {
-    text-align: right;
+    strong {
+      color: $textHighlightColor;
+    }
+  }
+
+  &__tac {
+    text-align: center;
+
+    input {
+      margin-right: 5px;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
   }
 
   &__instruction {
@@ -187,18 +189,41 @@ body {
     }
   }
 
-  &__learn-more {
+  &__contribute {
+    text-align: center;
+
+    button {
+      display: inline-block;
+      background-color: #00b0f0;
+      width: 225px;
+      height: 46px;
+      color: white;
+      border: none;
+
+      &:hover {
+        color: white;
+      }
+
+      &.disabled {
+        background-color: gray;
+      }
+    }
+  }
+
+  &__slack {
     text-align: center;
 
     a {
       display: inline-block;
-      background-color: #00b0f0;
-      padding-top: 12px;
-      width: 225px;
-      height: 46px;
+      background-color: $buttonPurpleColor;
+      padding-top: 10px;
+      width: 160px;
+      height: 38px;
       color: white;
+      transition: .4s;
 
-      &:hover, &:visited {
+      &:hover {
+        background-color: $buttonhoverPurpleColor;
         color: white;
         text-decoration: none;
       }
@@ -647,6 +672,104 @@ body {
   }
 }
 
+ /* TAC modal
+ -------------------------------------------------- */
+
+.tac-modal {
+  .modal-body {
+    h4 {
+      font-weight: bold;
+    }
+  }
+}
+
+ /* TAC modal
+ -------------------------------------------------- */
+
+.contribute-modal {
+  .modal-header {
+    text-align: center;
+    border: none;
+
+    h4 {
+      font-weight: bold;
+      color: $textDarkBlueColor;
+    }
+  }
+
+  &__header {
+    text-align: center;
+    position: relative;
+    margin-top: 24px;
+
+    &:before {
+      content: "";
+      display:inline-block;
+      width: 100%;
+      height:1px;
+      background-color: $textDarkBlueColor;
+      position: absolute;
+      top: 20px;
+      left: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    h5 {
+      text-align: center;
+      background-color: $textDarkBlueColor;
+      color: white;
+      font-weight: bold;
+      padding-top: 14px;
+      width: 240px;
+      height: 40px;
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+
+  p {
+    margin-top: 16px;
+    text-align: center;
+    color: darkred;
+    font-size: 16px;
+    word-wrap: break-word;
+  }
+
+  ul {
+    margin-top: 16px;
+    color: $textDarkGrayColor;
+    font-size: 16px;
+
+    li {
+      margin-top: 4px;
+    }
+
+    strong {
+      color: darkred;
+      font-weight: bold;
+    }
+  }
+
+  &__introduction {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+
+    i {
+      margin-right: 4px;
+    }
+  }
+
+  .modal-footer {
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+  }
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -654,12 +777,92 @@ body {
 @media (min-width: 320px) {
   .cover {
     height: 680px;
+
+    &__countdown-heading {
+      margin-top: 24px;
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+
+    &__countdown-timer {
+      margin: 12px 0 0;
+      font-size: 14px;
+      height: 80px;
+
+      &__number {
+        font-size: 24px;
+      }
+
+      &__unit {
+        font-size: 10px;
+      }
+    }
+
+    &__rate {
+      font-size: 12px;
+      align-items: center;
+    }
+
+    &__next-rate {
+      font-size: 12px;
+      margin-top: 4px;
+      margin-right: 10px;
+      text-align: right;
+    }
+
+    &__instruction {
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    &__tac {
+      margin-top: 16px;
+    }
+
+    &__contribute {
+      button {
+        margin-top: 24px;
+        font-size: 16px;
+      }
+    }
+
+    &__slack {
+      margin-top: 24px;
+
+      a {
+        font-size: 14px;
+      }
+    }
   }
 }
 
 @media (min-width: 375px) {
   .cover {
-    height: 540px;
+    &__caption {
+      padding-top: 26px;
+    }
+
+    &__countdown-timer {
+      height: 90px;
+
+      &__number {
+        font-size: 28px;
+      }
+
+      &__unit {
+        font-size: 12px;
+      }
+    }
+
+    &__rate {
+      font-size: 14px;
+    }
+
+    &__next-rate {
+      font-size: 14px;
+    }
   }
 }
 
@@ -681,52 +884,6 @@ body {
     .nav{
       &__language{
         margin-top: 15px;
-      }
-    }
-  }
-
-  .cover {
-    &__caption {
-      padding-top: 8px;
-
-      h2 {
-        font-size: 24px;
-      }
-    }
-
-    &__square-btn {
-      width: 150px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-    &__countdown {
-      padding: 14px 32px 14px;
-      margin-top: 10px;
-      font-size: 14px;
-
-      h2 {
-        font-size: 16px;
-      }
-
-      &__timer {
-        margin-top: 10px;
-
-        &__number {
-          font-size: 28px;
-        }
-      }
-    }
-
-    &__instruction {
-      margin-top: 24px;
-      font-size: 14px;
-    }
-
-    &__learn-more {
-      a {
-        margin-top: 32px;
-        font-size: 16px;
       }
     }
   }
@@ -810,37 +967,38 @@ body {
 
 @media (min-width: 640px) {
   .cover {
-    height: 560px;
-
     &__caption {
       padding-top: 26px;
     }
 
-    &__countdown {
-      padding: 20px 32px 20px;
-      font-size: 14px;
+    &__countdown-heading {
+      margin-top: 15px;
 
       h2 {
-        font-size: 16px;
-      }
-
-      &__timer {
-        &__number {
-          font-size: 32px;
-        }
+        font-size: 20px;
       }
     }
 
-    &__instruction {
-      margin-top: 14px;
-      font-size: 14px;
+    &__countdown-timer {
+      margin: 24px 20px 0;
+      height: 108px;
+
+      &__number {
+        font-size: 32px;
+      }
+
+      &__unit {
+        font-size: 14px;
+      }
     }
 
-    &__learn-more {
-      a {
-        margin-top: 24px;
-        font-size: 16px;
-      }
+    &__rate {
+      font-size: 16px;
+    }
+
+    &__next-rate {
+      margin-right: 30px;
+      font-size: 16px;
     }
   }
 
@@ -867,8 +1025,6 @@ body {
     height: 680px;
 
     &__caption {
-     padding-top: 36px;
-
       p {
         font-size: 16px;
         line-height: 1.4;
@@ -876,33 +1032,12 @@ body {
       }
     }
 
-    &__countdown-heading {
-      margin-top: 24px;
-
-      h2 {
-        font-size: 22px;
-      }
-    }
-
     &__countdown-timer {
-      margin: 28px 210px 0;
-      font-size: 16px;
+      margin: 28px 20px 0;
       height: 108px;
 
       &__number {
         font-size: 36px;
-      }
-
-      &__unit {
-        font-size: 14px;
-      }
-
-      .col-xs-2 {
-        padding: 16px 12px 0;
-      }
-
-      .col-xs-4 {
-        padding: 12px;
       }
     }
 
@@ -910,26 +1045,13 @@ body {
       font-size: 20px;
     }
 
-    &__bonus-rate {
-      margin-top: 5px;
-      font-size: 14px;
-
-      i {
-        margin-left: 10px;
-        font-size: 18px;
-      }
-    }
-
     &__instruction {
-      margin-top: 14px;
+      margin-top: 32px;
       font-size: 16px;
     }
 
-    &__learn-more {
-      a {
-        margin-top: 32px;
-        font-size: 16px;
-      }
+    &__tac {
+      margin-top: 14px;
     }
   }
 
@@ -1068,7 +1190,15 @@ body {
 @media (min-width: 992px) {
   .cover {
     &__caption {
-      padding-top: 50px;
+      padding-top: 36px;
+    }
+
+    &__countdown-timer {
+      margin: 28px 110px 0;
+    }
+
+    &__next-rate {
+      text-align: left;
     }
   }
 
@@ -1087,6 +1217,14 @@ body {
   .ico {
     .lead {
       width: 800px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cover {
+    &__countdown-timer {
+      margin: 28px 210px 0;
     }
   }
 }

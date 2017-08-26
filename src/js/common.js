@@ -30,6 +30,15 @@ $(function() {
   });
 });
 
+// CONTRIBUTEボタンの活性/非活性切り替え
+$(function() {
+  const $contributeButton = $('#contribute-button');
+  $('#tac-checkbox').change(function() {
+    const disabled = !$(this).is(':checked');
+    $contributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
+  });
+});
+
 // カバーのビデオボタンマウスオーバーで色を変更
 $(function () {
   $("#cover-button").mouseover(function () {
