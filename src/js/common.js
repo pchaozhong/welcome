@@ -45,13 +45,13 @@ $(function() {
 
 // カウントダウンの時計
 $(function() {
-  const icoStartDate = moment("2017-09-01T02:00:00Z");
+  const icoEndDate = WEEKEND_DATES[WEEKEND_DATES.length - 1];
   const $daysContainer = $('#countdown-timer-days');
   const $hoursContainer = $('#countdown-timer-hours');
   const $minutesContainer = $('#countdown-timer-minutes');
   const $secondsContainer = $('#countdown-timer-seconds');
 
-  $('#countdown-timer').countdown(icoStartDate.toDate(), function (event) {
+  $('#countdown-timer').countdown(icoEndDate.toDate(), function (event) {
     $daysContainer.text(event.offset.totalDays);
     $hoursContainer.text(event.offset.hours);
     $minutesContainer.text(event.offset.minutes);
