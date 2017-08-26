@@ -31,11 +31,13 @@ body
           .row.cover__countdown-timer#countdown-timer
             .col-xs-4
               .cover__rate
-                | WEEK 1
+                | WEEK
+                = ' '
+                span#cover-current-weeknum
                 br
                 | 1 ETH =
                 = ' '
-                strong 2900
+                strong#cover-current-rate
                 = ' '
                 | ALIS
 
@@ -65,7 +67,9 @@ body
               .cover__notice
                 .cover__next-rate
                   | #{cover.next_rate.before}
-                  strong 2600
+                  stront#cover-next-weeknum
+                  | #{cover.next_rate.middle}
+                  strong#cover-next-rate
                   | #{cover.next_rate.after}
                 .cover__bonus-rate
                   a.smooth-anchor(href='#ico')

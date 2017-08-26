@@ -26,7 +26,8 @@ cover:
     header: TOKEN SALE WILL IS LIVE!
     body: ALISのトークンセールは9月1日 11:00（日本時間）にスタートします
   next_rate:
-    before: "Before Week 2 1eth = "
+    before: "Before Week "
+    middle: " 1eth = "
     after: " ALIS"
   instruction: ICOへの参加方法 (Medium)
   tac:

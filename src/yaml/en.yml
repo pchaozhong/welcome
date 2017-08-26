@@ -26,7 +26,8 @@ cover:
     header: TOKEN SALE IS LIVE!
     body: End in September 29th, 02:00 (UTC)
   next_rate:
-    before: "Before Week 2 1eth = "
+    before: "Before Week "
+    middle: " 1eth = "
     after: " ALIS"
   instruction: ICO Participation Instructions (Medium)
   tac:

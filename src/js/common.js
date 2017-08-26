@@ -14,6 +14,35 @@ $(function () {
   });
 });
 
+// 価格の自動更新
+const PRICE_TABLE = [2900, 2600, 2300, 2000];
+const WEEKEND_DATES = [
+  '2017-09-08T01:59:59Z',
+  '2017-09-15T01:59:59Z',
+  '2017-09-22T01:59:59Z',
+  '2017-09-29T01:59:59Z',
+].map((weekendDates) => moment(weekendDates));
+
+$(function() {
+  const currentDate = new Date();
+
+  for (let i = 0; i < WEEKEND_DATES.length; i++) {
+    if (currentDate <= WEEKEND_DATES[i]) {
+      $('#cover-current-weeknum').text(i + 1);
+      $('#cover-current-rate').text(PRICE_TABLE[i]);
+
+      if (i < 3) {
+        $('#cover-next-weeknum').text(i + 2);
+        $('#cover-next-rate').text(PRICE_TABLE[i + 1]);
+      } else {
+        $('.cover__notice').remove();
+      }
+
+      break;
+    }
+  }
+});
+
 // カウントダウンの時計
 $(function() {
   const icoStartDate = moment("2017-09-01T02:00:00Z");
