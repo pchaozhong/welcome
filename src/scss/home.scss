@@ -144,13 +144,12 @@ body {
     }
   }
 
-  &__bonus-rate {
-    i {
-      color: black;
+  &__notice {
+    a {
+      color: white;
+      text-decoration: underline;
     }
-  }
 
-  &__next-rate {
     strong {
       color: $textHighlightColor;
     }
@@ -500,20 +499,77 @@ body {
     }
   }
 
-  &__join-slack {
-    display: inline-block;
-    background-color: #00b0f0;
-    margin-top: 44px;
-    margin-bottom: 90px;
-    padding-top: 14px;
-    width: 305px;
-    height: 58px;
-    color: white;
-    font-size: 20px;
+  &__tac {
+    text-align: center;
 
-    &:hover, &:visited {
+    input {
+      margin-right: 5px;
+    }
+
+    a {
       color: white;
-      text-decoration: none;
+      text-decoration: underline;
+    }
+  }
+
+  &__instruction {
+    text-align: center;
+    color: white;
+
+    a {
+      img {
+        margin-right: 12px;
+        vertical-align: bottom;
+      }
+
+      span {
+        color: white;
+      }
+
+      &:visited {
+        text-decoration-color: white;
+      }
+    }
+  }
+
+  &__contribute {
+    text-align: center;
+
+    button {
+      display: inline-block;
+      background-color: #00b0f0;
+      width: 225px;
+      height: 46px;
+      color: white;
+      border: none;
+
+      &:hover {
+        color: white;
+      }
+
+      &.disabled {
+        background-color: gray;
+      }
+    }
+  }
+
+  &__slack {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      background-color: $buttonPurpleColor;
+      padding-top: 10px;
+      width: 160px;
+      height: 38px;
+      color: white;
+      transition: .4s;
+
+      &:hover {
+        background-color: $buttonhoverPurpleColor;
+        color: white;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -805,7 +861,7 @@ body {
       align-items: center;
     }
 
-    &__next-rate {
+    &__notice {
       font-size: 12px;
       margin-top: 4px;
       margin-right: 10px;
@@ -813,7 +869,7 @@ body {
     }
 
     &__instruction {
-      margin-top: 30px;
+      margin-top: 14px;
       font-size: 14px;
     }
 
@@ -823,13 +879,39 @@ body {
 
     &__contribute {
       button {
-        margin-top: 24px;
+        margin-top: 18px;
         font-size: 16px;
       }
     }
 
     &__slack {
-      margin-top: 24px;
+      margin-top: 18px;
+
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .ico {
+    &__instruction {
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    &__tac {
+      margin-top: 14px;
+    }
+
+    &__contribute {
+      button {
+        margin-top: 18px;
+        font-size: 16px;
+      }
+    }
+
+    &__slack {
+      margin: 18px 0 36px;
 
       a {
         font-size: 14px;
@@ -860,8 +942,34 @@ body {
       font-size: 14px;
     }
 
-    &__next-rate {
+    &__notice {
       font-size: 14px;
+    }
+
+    &__instruction {
+      margin-top: 30px;
+    }
+
+    &__contribute {
+      button {
+        margin-top: 24px;
+      }
+    }
+
+    &__slack {
+      margin: 24px;
+    }
+  }
+
+  .ico {
+    &__contribute {
+      button {
+        margin-top: 24px;
+      }
+    }
+
+    &__slack {
+      margin: 24px 0 48px;
     }
   }
 }
@@ -949,11 +1057,6 @@ body {
         padding-left: 0;
       }
     }
-
-    &__join-slack {
-      margin-top: 20px;
-      margin-bottom: 70px;
-    }
   }
 
   .footer {
@@ -996,7 +1099,7 @@ body {
       font-size: 16px;
     }
 
-    &__next-rate {
+    &__notice {
       margin-right: 30px;
       font-size: 16px;
     }
@@ -1098,6 +1201,15 @@ body {
       margin: 0 auto 48px;
       color: white;
     }
+
+    &__instruction {
+      margin-top: 32px;
+      font-size: 16px;
+    }
+
+    &__tac {
+      margin-top: 14px;
+    }
   }
 
   .service-information,
@@ -1197,8 +1309,8 @@ body {
       margin: 28px 110px 0;
     }
 
-    &__next-rate {
-      text-align: left;
+    &__notice {
+      margin-right: 130px;
     }
   }
 
@@ -1225,6 +1337,10 @@ body {
   .cover {
     &__countdown-timer {
       margin: 28px 210px 0;
+    }
+
+    &__notice {
+      margin-right: 230px;
     }
   }
 }

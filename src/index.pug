@@ -38,10 +38,6 @@ body
                 strong 2900
                 = ' '
                 | ALIS
-              //-
-                .cover__bonus-rate
-                  | BONUS RATE
-                  i.fa.fa-question-circle
 
             .col-xs-2
               div
@@ -66,10 +62,15 @@ body
 
           .row
             .col-sm-6.col-sm-offset-6
-              .cover__next-rate
-                | #{cover.next_rate.before}
-                strong 2600
-                | #{cover.next_rate.after}
+              .cover__notice
+                .cover__next-rate
+                  | #{cover.next_rate.before}
+                  strong 2600
+                  | #{cover.next_rate.after}
+                .cover__bonus-rate
+                  a.smooth-anchor(href='#ico')
+                    | BONUS RATE
+                    i.fa.fa-question-circle
 
           .row
             .col-md-12
@@ -82,7 +83,7 @@ body
           .row
             .col-md-12
               .cover__tac
-                input(type="checkbox")#tac-checkbox
+                input(type="checkbox")#cover-tac-checkbox
                 | #{cover.tac.before}
                 a(href="#" data-toggle="modal" data-target=".tac-modal" data-keyboard="true")
                   | #{cover.tac.link}
@@ -90,7 +91,7 @@ body
 
           .row.cover__contribute
             .col-md-12
-              button.disabled#contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
+              button.disabled#cover-contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
                 | #{cover.contribute}
 
           .row.cover__slack
@@ -223,8 +224,30 @@ body
                 | #{ico.information.caption3}
       .row.ico__row
         .col-md-12
-          a.ico__join-slack(href="https://alis-slack.herokuapp.com/" target="_blank")
-            | #{ico.button}
+          .ico__instruction
+            a(href=icointroduction.url target="_blank")
+              img(src="/img/icon-files.png")
+              span
+                | #{cover.instruction}
+
+      .row.ico__row
+        .col-md-12
+          .ico__tac
+            input(type="checkbox")#ico-tac-checkbox
+            | #{cover.tac.before}
+            a(href="#" data-toggle="modal" data-target=".tac-modal" data-keyboard="true")
+              | #{cover.tac.link}
+            | #{cover.tac.after}
+
+      .row.ico__row
+        .col-md-12.ico__contribute
+          button.disabled#ico-contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
+            | #{cover.contribute}
+
+      .row.ico__row
+        .col-md-12.ico__slack
+          a(href="https://alis-slack.herokuapp.com/" target="_blank")
+            | #{cover.slack}
 
   // Technology
   .container.technology
