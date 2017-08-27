@@ -14,6 +14,7 @@ $(function () {
   });
 });
 
+// カウントダウンの時計
 // 価格の自動更新
 const PRICE_TABLE = [2900, 2600, 2300, 2000];
 const WEEKEND_DATES = [
@@ -25,6 +26,10 @@ const WEEKEND_DATES = [
 
 $(function() {
   const currentDate = new Date();
+  const $daysContainer = $('#countdown-timer-days');
+  const $hoursContainer = $('#countdown-timer-hours');
+  const $minutesContainer = $('#countdown-timer-minutes');
+  const $secondsContainer = $('#countdown-timer-seconds');
 
   for (let i = 0; i < WEEKEND_DATES.length; i++) {
     if (currentDate <= WEEKEND_DATES[i]) {
@@ -38,25 +43,16 @@ $(function() {
         $('.cover__notice').remove();
       }
 
+      $('#countdown-timer').countdown(WEEKEND_DATES[i].toDate(), function (event) {
+        $daysContainer.text(event.offset.totalDays);
+        $hoursContainer.text(event.offset.hours);
+        $minutesContainer.text(event.offset.minutes);
+        $secondsContainer.text(event.offset.seconds);
+      });
+
       break;
     }
   }
-});
-
-// カウントダウンの時計
-$(function() {
-  const icoEndDate = WEEKEND_DATES[WEEKEND_DATES.length - 1];
-  const $daysContainer = $('#countdown-timer-days');
-  const $hoursContainer = $('#countdown-timer-hours');
-  const $minutesContainer = $('#countdown-timer-minutes');
-  const $secondsContainer = $('#countdown-timer-seconds');
-
-  $('#countdown-timer').countdown(icoEndDate.toDate(), function (event) {
-    $daysContainer.text(event.offset.totalDays);
-    $hoursContainer.text(event.offset.hours);
-    $minutesContainer.text(event.offset.minutes);
-    $secondsContainer.text(event.offset.seconds);
-  });
 });
 
 // CONTRIBUTEボタンの活性/非活性切り替え
