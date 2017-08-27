@@ -32,7 +32,7 @@ cover:
   instruction: ICOへの参加方法 (Medium)
   tac:
     before: "I agree with "
-    link: the terms and conditions
+    link: the terms of services
     after: " and I'm not the NewYork City Citizen. "
   contribute: CONTRIBUTE IN ETHER
   slack: JOIN SLACK
