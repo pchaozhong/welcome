@@ -253,7 +253,7 @@ tac:
       ALIS may refund ETH related to Tokens Users purchased after Token Sale according to Terms of Token Sale. In that case, Users accept that refund and return Tokens to ALIS (less bank charges and transaction fees for ETH because Tokens should be transferred.). Thereafter, ALIS shall have no obligation to deliver any Tokens to you pursuant to these Terms. ALIS is not responsible for any delays, losses, costs, expenses, or other issues relating to or arising from an incomplete or
       inaccurate Refund Address provided by you to ALIS.
   cancellation:
-    heading: CANCELLATION
+    heading: CANCELLATIONS
     body: |
       ALL TOKEN PURCHASES FROM ALIS ARE FINAL, AND THERE ARE NO REFUNDS OR CANCELLATIONS, EXCEPT AS EXPRESSLY PROVIDED IN THESE TERMS OR AS MAY BE REQUIRED BY APPLICABLE LAW OR REGULATION.
   investmentnotice:
@@ -265,7 +265,7 @@ tac:
     body: |
       We grant you a limited, nonexclusive, nontransferable license (“License”) to access and use our Platform, Sites and Services. This License is subject to these Terms. Any other use of the Services not expressly permitted by these Terms is prohibited. All rights in the Sites, related Sites or the Platform are reserved by ALIS and our licensors, including that to any content or functionality as presented on the Sites, related Sites or the Platform. “ALIS,” “ALISMEDIA.jp”,
       all logos related to Services or displayed on the Sites are trademarks or registered marks of ALIS or its affiliates. You will not redistribute, claim ownership, license, deconstruct, reverse engineer, alter, incorporate into any other works or websites, or otherwise exploit any such content or functionality without prior express written consent of ALIS.
-  temination:
+  termination:
     heading: Termination
     body: |
       We may terminate or suspend your License to our Services without prior notice or liability for any reason whatsoever, including (but not limited to) if you breach the Terms. Nothing in these Terms or in any other communication or action by ALIS or our employees, agents or representatives should be taken as a waiver of any legal remedies available for any event causing termination.
@@ -273,11 +273,13 @@ tac:
   linkstotoherwebsites:
     heading: Links to Other Web Sites
     body: |
-      ALIS or other users may provide links to third-party web sites or services that are not owned or controlled by ALIS. ALIS has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that ALIS shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or detrimental reliance on any information, content, goods or services available on or through any such web sites or services. ALIS is not liable for any loss or damage incurred as a result of interacting with any third party content on our Sites.
+      ALIS or other users may provide links to third-party web sites or services that are not owned or controlled by ALIS. ALIS has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that ALIS shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or detrimental reliance on any
+      information, content, goods or services available on or through any such web sites or services. ALIS is not liable for any loss or damage incurred as a result of interacting with any third party content on our Sites.
   copyright:
     heading: Copyright of Communications In Connection With Our Services
     body: |
-      You agree that any materials, information or communications transmitted between the User and ALIS in any form, or between the User and any other ALIS user via our Platform, are non-confidential and will become the sole, exclusive property of ALIS. ALIS will own all intellectual property rights to such communications or materials, and can use or disseminate them in a completely unrestricted fashion for any legal purpose, commercial or otherwise, without notifying or compensating you. You hereby waive any right to litigation or recovery for perceived damages caused by the use of this information as is permissible by law.
+      You agree that any materials, information or communications transmitted between the User and ALIS in any form, or between the User and any other ALIS user via our Platform, are non-confidential and will become the sole, exclusive property of ALIS. ALIS will own all intellectual property rights to such communications or materials, and can use or disseminate them in a completely unrestricted fashion for any legal purpose, commercial or otherwise, without notifying or compensating you. You
+      hereby waive any right to litigation or recovery for perceived damages caused by the use of this information as is permissible by law.
   indemnification:
     heading: Indemnification
     body: |
@@ -289,11 +291,13 @@ tac:
   applicablelaw:
     heading: Applicable Law and Jurisdiction
     body: |
-      The validity, interpretation, construction and performance of these Terms, and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of Japan, without giving effect to principles of conflicts of law. All disputes relating to this service shall be submitted to the exclusive jurisdiction of the Tokyo District Court as the court of first instance. The language of the disputes shall be Japanese.
+      The validity, interpretation, construction and performance of these Terms, and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of Japan, without giving effect to principles of conflicts of law. All disputes relating to this service shall be submitted to the exclusive jurisdiction of the Tokyo District Court as the court of first instance. The language of the disputes
+      shall be Japanese.
   noclassarbitration:
     heading: No Class Arbitration, Class Action or Representative Actions
     body: |
-      Any dispute arising out of or related to this Agreement is personal to you and the ALIS and will be resolved solely through individual judicial action and will not be brought as a class arbitration, class action or any other type of representative proceeding. There will be no class arbitration or arbitration in which an individual attempts to resolve a dispute as a representative of another individual or group of individuals. Further, a Dispute cannot be brought as a class or other type of representative action, whether within or outside of arbitration, or on behalf of any other individual or group of individuals.
+      Any dispute arising out of or related to this Agreement is personal to you and the ALIS and will be resolved solely through individual judicial action and will not be brought as a class arbitration, class action or any other type of representative proceeding. There will be no class arbitration or arbitration in which an individual attempts to resolve a dispute as a representative of another individual or group of individuals. Further, a Dispute cannot be brought as a class or other type
+      of representative action, whether within or outside of arbitration, or on behalf of any other individual or group of individuals.
   relationship:
     heading: Relationship
     body: |
