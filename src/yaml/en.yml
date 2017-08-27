@@ -212,7 +212,7 @@ tac:
       •	reverse engineer or otherwise improperly access any of the Sites’ or the Platforms underlying code or technical mechanisms;
       •	cause damage to the Sites or ALIS through any means, including (but not limited to) through the use of hacking, malware, viruses, illegitimate credentials, phishing, brute force attacks, SQL exploits, impersonation, spoofing, or any other method of detrimentally intercepting, interrupting, or damaging any information or functionality related to the Sites.
       You also agree not to transfer access to your Account (as defined below) or any other rights granted to you by these Terms.
-  blockcat_platform_execution:
+  registrationandaccount:
     heading: Registration and Account
     body: |
       The use of our Services requires you to create an wallet account on Ethereum (“Account”). You warrant and represent that all
