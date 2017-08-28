@@ -16,13 +16,14 @@ $(function () {
 
 // カウントダウンの時計
 // 価格の自動更新
-const PRICE_TABLE = [2900, 2600, 2300, 2000];
-const WEEKEND_DATES = [
+const PRICE_TABLE = [0, 2900, 2600, 2300, 2000];
+const TERM_END_DATE_TIMES = [
+  '2017-09-01T01:59:59Z',
   '2017-09-08T01:59:59Z',
   '2017-09-15T01:59:59Z',
   '2017-09-22T01:59:59Z',
   '2017-09-29T01:59:59Z',
-].map((weekendDates) => moment(weekendDates));
+].map((termEndDateTimes) => moment(termEndDateTimes));
 
 $(function() {
   const currentDate = new Date();
@@ -31,19 +32,19 @@ $(function() {
   const $minutesContainer = $('#countdown-timer-minutes');
   const $secondsContainer = $('#countdown-timer-seconds');
 
-  for (let i = 0; i < WEEKEND_DATES.length; i++) {
-    if (currentDate <= WEEKEND_DATES[i]) {
-      $('#cover-current-weeknum').text(i + 1);
+  for (let i = 0; i < TERM_END_DATE_TIMES.length; i++) {
+    if (currentDate <= TERM_END_DATE_TIMES[i]) {
+      $('#cover-current-term').text(i + 1);
       $('#cover-current-rate').text(PRICE_TABLE[i]);
 
       if (i < 3) {
-        $('#cover-next-weeknum').text(i + 2);
+        $('#cover-next-term').text(i + 2);
         $('#cover-next-rate').text(PRICE_TABLE[i + 1]);
       } else {
         $('.cover__notice').remove();
       }
 
-      $('#countdown-timer').countdown(WEEKEND_DATES[i].toDate(), function (event) {
+      $('#countdown-timer').countdown(TERM_END_DATE_TIMES[i].toDate(), function (event) {
         $daysContainer.text(event.offset.totalDays);
         $hoursContainer.text(event.offset.hours);
         $minutesContainer.text(event.offset.minutes);
