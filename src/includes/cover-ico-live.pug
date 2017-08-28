@@ -1,94 +1,95 @@
-// TODO: "carousel-inner" のclassを除却
-.carousel-inner
-  .item.active#cover-particles
-    .container
-      .row
-        .col-md-12
-          .cover__caption
-            h2
-              | #{cover.caption_line_one}
-            p
-              | #{cover.caption_line_two.before}
-              em #{cover.caption_line_two.japan}
-              | #{cover.caption_line_two.after}
+#cover.cover
+  // TODO: "carousel-inner" のclassを除却
+  .carousel-inner
+    .item.active#cover-particles
+      .container
+        .row
+          .col-md-12
+            .cover__caption
+              h2
+                | #{cover.caption_line_one}
+              p
+                | #{cover.caption_line_two.before}
+                em #{cover.caption_line_two.japan}
+                | #{cover.caption_line_two.after}
 
-      .row.cover__countdown-heading
-        h2
-          | #{cover.countdown.header}
-        p.cover__countdown-heading__caption
-          | #{cover.countdown.body}
+        .row.cover__countdown-heading
+          h2
+            | #{cover.countdown.header}
+          p.cover__countdown-heading__caption
+            | #{cover.countdown.body}
 
-      .row.cover__countdown-timer#countdown-timer
-        .col-xs-4
-          .cover__rate
-            | WEEK
-            = ' '
-            span#cover-current-term
-            br
-            | 1 ETH =
-            = ' '
-            strong#cover-current-rate
-            = ' '
-            | ALIS
+        .row.cover__countdown-timer#countdown-timer
+          .col-xs-4
+            .cover__rate
+              | WEEK
+              = ' '
+              span#cover-current-term
+              br
+              | 1 ETH =
+              = ' '
+              strong#cover-current-rate
+              = ' '
+              | ALIS
 
-        .col-xs-2
-          div
-            .cover__countdown-timer__number#countdown-timer-days
-            .cover__countdown-timer__unit
-              | Days
-        .col-xs-2
-          div
-            .cover__countdown-timer__number#countdown-timer-hours
-            .cover__countdown-timer__unit
-              | Hours
-        .col-xs-2
-          div
-            .cover__countdown-timer__number#countdown-timer-minutes
-            .cover__countdown-timer__unit
-              | Minutes
-        .col-xs-2
-          div
-            .cover__countdown-timer__number#countdown-timer-seconds
-            .cover__countdown-timer__unit
-              | Seconds
+          .col-xs-2
+            div
+              .cover__countdown-timer__number#countdown-timer-days
+              .cover__countdown-timer__unit
+                | Days
+          .col-xs-2
+            div
+              .cover__countdown-timer__number#countdown-timer-hours
+              .cover__countdown-timer__unit
+                | Hours
+          .col-xs-2
+            div
+              .cover__countdown-timer__number#countdown-timer-minutes
+              .cover__countdown-timer__unit
+                | Minutes
+          .col-xs-2
+            div
+              .cover__countdown-timer__number#countdown-timer-seconds
+              .cover__countdown-timer__unit
+                | Seconds
 
-      .row
-        .col-sm-6.col-sm-offset-6
-          .cover__notice
-            .cover__next-rate
-              | #{cover.next_rate.before}
-              stront#cover-next-term
-              | #{cover.next_rate.middle}
-              strong#cover-next-rate
-              | #{cover.next_rate.after}
-            .cover__bonus-rate
-              a.smooth-anchor(href='#ico')
-                | BONUS RATE
-                i.fa.fa-question-circle
+        .row
+          .col-sm-6.col-sm-offset-6
+            .cover__notice
+              .cover__next-rate
+                | #{cover.next_rate.before}
+                stront#cover-next-term
+                | #{cover.next_rate.middle}
+                strong#cover-next-rate
+                | #{cover.next_rate.after}
+              .cover__bonus-rate
+                a.smooth-anchor(href='#ico')
+                  | BONUS RATE
+                  i.fa.fa-question-circle
 
-      .row
-        .col-md-12
-          .cover__instruction
-            a(href=icointroduction.url target="_blank")
-              img(src="/img/icon-files.png")
-              span
-                | #{cover.instruction}
+        .row
+          .col-md-12
+            .cover__instruction
+              a(href=icointroduction.url target="_blank")
+                img(src="/img/icon-files.png")
+                span
+                  | #{cover.instruction}
 
-      .row
-        .col-md-12
-          .cover__tac
-            input(type="checkbox")#cover-tac-checkbox
-            | #{cover.tac.before}
-            a(href="#" data-toggle="modal" data-target=".tac-modal" data-keyboard="true")
-              | #{cover.tac.link}
-            | #{cover.tac.after}
+        .row
+          .col-md-12
+            .cover__tac
+              input(type="checkbox")#cover-tac-checkbox
+              | #{cover.tac.before}
+              a(href="#" data-toggle="modal" data-target=".tac-modal" data-keyboard="true")
+                | #{cover.tac.link}
+              | #{cover.tac.after}
 
-      .row.cover__contribute
-        .col-md-12
-          button.disabled#cover-contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
-            | #{cover.contribute}
+        .row.cover__contribute
+          .col-md-12
+            button.disabled#cover-contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
+              | #{cover.contribute}
 
-      .row.cover__slack
-        .col-md-12
-          a(href="https://alis-slack.herokuapp.com/" target="_blank")
-            | #{cover.slack}
+        .row.cover__slack
+          .col-md-12
+            a(href="https://alis-slack.herokuapp.com/" target="_blank")
+              | #{cover.slack}

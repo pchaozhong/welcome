@@ -23,8 +23,11 @@ cover:
     japan: 日本
     after: 初のブロックチェーン技術を用いたソーシャルメディアプラットフォームです
   countdown:
+    header_until_ico: TOKEN SALE WILL LIVE SOON!
+    body_until_ico: ALISのトークンセールは9月1日 11:00（日本時間）にスタートします
     header: TOKEN SALE WILL IS LIVE!
     body: ALISのトークンセールは9月1日 11:00（日本時間）にスタートします
+  learn_more: LEARN MORE
   next_rate:
     before: "Before Week "
     middle: " 1eth = "

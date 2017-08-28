@@ -1,0 +1,55 @@
+#cover.cover-until-ico
+  // TODO: "carousel-inner" のclassを除却
+  .carousel-inner
+   .item.active#cover-particles
+     .container
+       .row
+         .col-md-12
+           .cover-until-ico__caption
+             h2
+               | #{cover.caption_line_one}
+             p
+               | #{cover.caption_line_two.before}
+               em #{cover.caption_line_two.japan}
+               | #{cover.caption_line_two.after}
+             a.cover-until-ico__square-btn(href=whitepaper.url target="_blank") Read Whitepaper
+             a.cover-until-ico__square-btn(href="https://alis-slack.herokuapp.com/" target="_blank") Join Slack
+
+       .row
+         .col-md-8.col-md-offset-2
+           .cover-until-ico__countdown
+             h2
+               | #{cover.countdown.header_until_ico}
+             p.cover-until-ico__countdown__caption
+               | #{cover.countdown.body_until_ico}
+
+             .row.cover-until-ico__countdown-timer#countdown-timer
+               .col-xs-3
+                 .cover-until-ico__countdown-timer__number#countdown-timer-days
+                 .cover-until-ico__countdown-timer__unit
+                   | Days
+               .col-xs-3
+                 .cover-until-ico__countdown-timer__number#countdown-timer-hours
+                 .cover-until-ico__countdown-timer__unit
+                   | Hours
+               .col-xs-3
+                 .cover-until-ico__countdown-timer__number#countdown-timer-minutes
+                 .cover-until-ico__countdown-timer__unit
+                   | Minutes
+               .col-xs-3
+                 .cover-until-ico__countdown-timer__number#countdown-timer-seconds
+                 .cover-until-ico__countdown-timer__unit
+                   | Seconds
+
+       .row
+         .col-md-12
+           .cover-until-ico__instruction
+             a(href=icointroduction.url target="_blank")
+               img(src="/img/icon-files.png")
+               span
+                 | #{cover.instruction}
+
+       .row.cover-until-ico__learn-more
+         .col-md-12
+           a.smooth-anchor(href='#ico')
+             | #{cover.learn_more}
