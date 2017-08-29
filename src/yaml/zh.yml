@@ -25,19 +25,19 @@ cover:
   countdown:
     header_until_ico: 代币发售即将开始!
     body_until_ico: 代币将于9月1日10:00（北京时间）开始发售
-    header: TOKEN SALE IS LIVE SOON! # TODO: localization
-    body: End in September 29th, 02:00 (UTC) # TODO: localization
+    header: 请加入我们！
+    body: 代币发售将于9月29日10:00（北京时间）结束
   learn_more: LEARN MORE
   next_rate:
     before: "Before Week "
     middle: " 1eth = "
     after: " ALIS"
-  instruction: ICO Participation Instructions (Medium) # TODO: localization
+  instruction: ICO 参与教程 (Medium)
   tac:
-    before: "I agree with "
-    link: the terms of services
-    after: " and I'm not the NewYork City Citizen. "
-  contribute: CONTRIBUTE IN ETHER
+    before: 我同意
+    link: 服务条款
+    after: 并且我不是纽约市民
+  contribute: 我要支持
   slack: JOIN SLACK
 service_information:
   header: What is ALIS Project
@@ -296,18 +296,18 @@ tac:
       If there is any contradiction between what the English language version of the Terms says and Japanese language version says, then the Japanese language version shall take precedence.
   close: Close
 contribute:
-  heading: ALIS token purchase Instructions
+  heading: ALIS代币购买方法
   contact_address:
-    heading: ETH ICO Contract Address
+    heading: 以太坊（ETH）合约地址
   sugg_gas_limit:
-    heading: Sugg. Gas Limit
+    heading: GAS推荐值
   notes:
-    heading: Notes
-    note1: Ethereum address must be from an ERC20 compatibe wallet(such as MyEtherWallet, Party, and Metamask).
+    heading: 注意
+    note1: 必须通过支持以太坊（ETH）ERC20 标准的钱包购买(比如：MyEtherWallet, Party, 或者Metamask).
     note2:
-      main: DO NOT SEND FROM EXCHANGES
-      example: (such as coincheck, poloniex, bittrex, and Kraken).
-    note3: Your ALIS tokens will be delivered to this address.
-    note4: You'll instantly get ALIS tokens ,but will be enable to transfer only after successsful crowdsale.
-    note5: Don't send another ETH Address. We won't issue another ETH Address.
-  close: Close
+      main: 绝对不要从交易所直接向合约地址转入以太坊（ETH）
+      example: (coincheck, poloniex, bittrex,和 Kraken 等)。
+    note3: ALIS代币将直接转入您购买时所使用的以太坊（ETH）地址。
+    note4: 买的ALIS代币将在数分钟之内反应到您的以太坊（ETH）地址，确认方法请参阅《ICO参与教程》第三步。
+    note5: ALIS只有唯一上述所表示的合约地址，请不要转入其他任何地址。
+  close: 关闭
