@@ -1638,7 +1638,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  .cover {
+  .cover, .cover-until-ico {
     .item {
       // FIXME
       background-size: 100% !important;
