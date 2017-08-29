@@ -7,8 +7,11 @@ body
   include mixin/mail_form
 
   // Cover
-  //include includes/cover-ico-live
-  include includes/cover-until-ico
+  // 1 Sept. 2017 02:00 UTC = 1504231200(UNIX Timestamp)
+  - icoStarted = Math.floor((new Date()).getTime() / 1000) >= 1504231200
+  case icoStarted
+    when false: include includes/cover-until-ico
+    when true: include includes/cover-ico-live
 
   // Service information
   .container.service-information

@@ -34,11 +34,11 @@ $(function() {
 
   for (let i = 0; i < TERM_END_DATE_TIMES.length; i++) {
     if (currentDate <= TERM_END_DATE_TIMES[i]) {
-      $('#cover-current-term').text(i + 1);
+      $('#cover-current-term').text(i);
       $('#cover-current-rate').text(PRICE_TABLE[i]);
 
       if (i < 3) {
-        $('#cover-next-term').text(i + 2);
+        $('#cover-next-term').text(i + 1);
         $('#cover-next-rate').text(PRICE_TABLE[i + 1]);
       } else {
         $('.cover__notice').remove();
