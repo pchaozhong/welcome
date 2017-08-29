@@ -131,11 +131,11 @@ body {
     &__caption {
       margin: 5px 0 0;
     }
+  }
 
-    &__timer {
-      &__number {
-        font-weight: bold;
-      }
+  &__countdown-timer {
+    &__number {
+      font-weight: bold;
     }
   }
 
@@ -1380,13 +1380,13 @@ body {
       h2 {
         font-size: 22px;
       }
+    }
 
-      &__timer {
-        margin-top: 20px;
+    &__countdown-timer {
+      margin-top: 20px;
 
-        &__number {
-          font-size: 44px;
-        }
+      &__number {
+        font-size: 44px;
       }
     }
 
