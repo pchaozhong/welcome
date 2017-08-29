@@ -25,14 +25,14 @@ cover:
   countdown:
     header_until_ico: 代币发售即将开始!
     body_until_ico: 代币将于9月1日10:00（北京时间）开始发售
-    header: 请加入我们！
-    body: 代币发售将于9月29日10:00（北京时间）结束
-  learn_more: LEARN MORE
+    header: 代币发售即将开始!
+    body: 代币将于9月1日10:00（北京时间）开始发售
+  learn_more: 了解更多
   next_rate:
     before: "Before Week "
     middle: " 1eth = "
     after: " ALIS"
-  instruction: ICO 参与教程 (Medium)
+  instruction: ICO参与教程 (Medium)
   tac:
     before: 我同意
     link: 服务条款
