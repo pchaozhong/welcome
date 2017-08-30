@@ -7,61 +7,8 @@ body
   include mixin/mail_form
 
   // Cover
-  #cover.cover
-    // TODO: "carousel-inner" のclassを除却
-    .carousel-inner
-      .item.active#cover-particles
-        .container
-          .row
-            .col-md-12
-              .cover__caption
-                h2
-                  | #{cover.caption_line_one}
-                p
-                  | #{cover.caption_line_two.before}
-                  em #{cover.caption_line_two.japan}
-                  | #{cover.caption_line_two.after}
-                a.cover__square-btn(href=whitepaper.url target="_blank") Read Whitepaper
-                a.cover__square-btn(href="https://alis-slack.herokuapp.com/" target="_blank") Join Slack
-
-          .row
-            .col-md-8.col-md-offset-2
-              .cover__countdown
-                h2
-                  | #{cover.countdown.header}
-                p.cover__countdown__caption
-                  | #{cover.countdown.body}
-
-                .row.cover__countdown__timer#countdown-timer
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-days
-                    .cover__countdown__timer__unit
-                      | Days
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-hours
-                    .cover__countdown__timer__unit
-                      | Hours
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-minutes
-                    .cover__countdown__timer__unit
-                      | Minutes
-                  .col-xs-3
-                    .cover__countdown__timer__number#countdown-timer-seconds
-                    .cover__countdown__timer__unit
-                      | Seconds
-
-          .row
-            .col-md-12
-              .cover__instruction
-                a(href=icointroduction.url target="_blank")
-                  img(src="/img/icon-files.png")
-                  span
-                    | #{cover.instruction}
-
-          .row.cover__learn-more
-            .col-md-12
-              a.smooth-anchor(href='#ico')
-                | #{cover.learn_more}
+  include includes/cover-until-ico
+  include includes/cover-ico-live
 
   // Service information
   .container.service-information
@@ -201,10 +148,33 @@ body
                 | #{ico.information.caption2}
               li
                 | #{ico.information.caption3}
-      .row.ico__row
-        .col-md-12
-          a.ico__join-slack(href="https://alis-slack.herokuapp.com/" target="_blank")
-            | #{ico.button}
+      span#ico-live.ico__forms--live
+        .row.ico__row
+          .col-md-12
+            .ico__instruction
+              a(href=icointroduction.url target="_blank")
+                img(src="/img/icon-files.png")
+                span
+                  | #{cover.instruction}
+
+        .row.ico__row
+          .col-md-12
+            .ico__tac
+              input(type="checkbox")#ico-tac-checkbox
+              | #{cover.tac.before}
+              a(href="#" data-toggle="modal" data-target=".tac-modal" data-keyboard="true")
+                | #{cover.tac.link}
+              | #{cover.tac.after}
+
+        .row.ico__row
+          .col-md-12.ico__contribute
+            button.disabled#ico-contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
+              | #{cover.contribute}
+
+        .row.ico__row
+          .col-md-12.ico__slack
+            a(href="https://alis-slack.herokuapp.com/" target="_blank")
+              | #{cover.slack}
 
   // Technology
   .container.technology
@@ -271,6 +241,133 @@ body
   // Footer
   #meetus
   include includes/footer
+
+  // tac
+  .modal.fade.tac-modal(tabindex="-1")
+    .modal-dialog.modal-lg
+      .modal-content
+        .modal-header
+          button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+            span(aria-hidden="true") &times;
+          h4 #{tac.heading}
+        .modal-body
+          h4 #{tac.subheading1}
+          h5 #{tac.subheading2}
+
+          h5 #{tac.introduction.heading}
+          p #{tac.introduction.body}
+
+          h5 #{tac.token_creation.heading}
+          p #{tac.token_creation.body}
+
+          h5 #{tac.registrationandaccount.heading}
+          p #{tac.registrationandaccount.body}
+
+          h5 #{tac.user_wallet_safety.heading}
+          p #{tac.user_wallet_safety.body}
+
+          h5 #{tac.risks.heading}
+          p #{tac.risks.body}
+
+          h5 #{tac.taxation.heading}
+          p #{tac.taxation.body}
+
+          h5 #{tac.liability.heading}
+          p #{tac.liability.body}
+
+          h5 #{tac.miscellaneous.heading}
+          p #{tac.miscellaneous.body}
+
+          h5 #{tac.cancellation.heading}
+          p #{tac.cancellation.body}
+
+          h5 #{tac.investmentnotice.heading}
+          p #{tac.investmentnotice.body}
+
+          h5 #{tac.license.heading}
+          p #{tac.license.body}
+
+          h5 #{tac.termination.heading}
+          p #{tac.termination.body}
+
+          h5 #{tac.linkstotoherwebsites.heading}
+          p #{tac.linkstotoherwebsites.body}
+
+          h5 #{tac.copyright.heading}
+          p #{tac.copyright.body}
+
+          h5 #{tac.indemnification.heading}
+          p #{tac.indemnification.body}
+
+          h5 #{tac.disclaimer.heading}
+          p #{tac.disclaimer.body}
+
+          h5 #{tac.applicablelaw.heading}
+          p #{tac.applicablelaw.body}
+
+          h5 #{tac.noclassarbitration.heading}
+          p #{tac.noclassarbitration.body}
+
+          h5 #{tac.relationship.heading}
+          p #{tac.relationship.body}
+
+          h5 #{tac.survivalandseverability.heading}
+          p #{tac.survivalandseverability.body}
+
+          h5 #{tac.integration.heading}
+          p #{tac.integration.body}
+
+          h5 #{tac.actofgod.heading}
+          p #{tac.actofgod.body}
+
+          h5 #{tac.languageterm.heading}
+          p #{tac.languageterm.body}
+
+        .modal-footer
+          button.btn.btn-default(type="button" data-dismiss="modal") #{tac.close}
+
+  // contirubte
+  .modal.fade.contribute-modal(tabindex="-1")
+    .modal-dialog.modal-lg
+      .modal-content
+        .modal-header
+          button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+            span(aria-hidden="true") &times;
+          h4 #{contribute.heading}
+        .modal-body
+          .contribute-modal__header
+            h5 #{contribute.contact_address.heading}
+          // Don't send ETH until 1 Sep 2017 2:00(UTC)!
+          // Transaction will fail and you lose transaction fee.
+          // 2017/09/01 日本時間11:00AM まではETHを送らないでください!
+          // トランザクションは失敗し、手数料を失います。
+          // 请不要发送ETH，直到2017/09/01！
+          // 失败并失去佣金
+          p 0xeb31a3E0D93Cb2C89eDD68D57710361d76Ce5bF1
+
+          .contribute-modal__header
+            h5 #{contribute.sugg_gas_limit.heading}
+          p 200000
+
+          .contribute-modal__header
+            h5 #{contribute.notes.heading}
+          ul
+            li #{contribute.notes.note1}
+            li
+              strong #{contribute.notes.note2.main}
+              | #{contribute.notes.note2.example}
+            li #{contribute.notes.note3}
+            li #{contribute.notes.note4}
+            li #{contribute.notes.note5}
+
+          .contribute-modal__introduction
+            a(href=icointroduction.url target="_blank")
+              i.fa.fa-file
+              span
+                | #{cover.instruction}
+
+        .modal-footer
+          button.btn.btn-default(type="button" data-dismiss="modal") #{contribute.close}
 
   // Video modal
   #video-modal

@@ -1,4 +1,4 @@
-/*globals $ particlesJS moment */
+/*globals $ particlesJS */
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
 // スクロールをスムーズに
@@ -14,19 +14,18 @@ $(function () {
   });
 });
 
-// カウントダウンの時計
+// CONTRIBUTEボタンの活性/非活性切り替え
 $(function() {
-  const icoStartDate = moment("2017-09-01T02:00:00Z");
-  const $daysContainer = $('#countdown-timer-days');
-  const $hoursContainer = $('#countdown-timer-hours');
-  const $minutesContainer = $('#countdown-timer-minutes');
-  const $secondsContainer = $('#countdown-timer-seconds');
+  const $coverContributeButton = $('#cover-contribute-button');
+  $('#cover-tac-checkbox').change(function() {
+    const disabled = !$(this).is(':checked');
+    $coverContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
+  });
 
-  $('#countdown-timer').countdown(icoStartDate.toDate(), function (event) {
-    $daysContainer.text(event.offset.totalDays);
-    $hoursContainer.text(event.offset.hours);
-    $minutesContainer.text(event.offset.minutes);
-    $secondsContainer.text(event.offset.seconds);
+  const $icoContributeButton = $('#ico-contribute-button');
+  $('#ico-tac-checkbox').change(function() {
+    const disabled = !$(this).is(':checked');
+    $icoContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
   });
 });
 

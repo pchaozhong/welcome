@@ -23,10 +23,22 @@ cover:
     japan: Japan's
     after: " First Social Media Platform Using Blockchain Technology"
   countdown:
-    header: TOKEN SALE WILL LIVE SOON!
-    body: Start in September 1st, 02:00 (UTC)
-  instruction: ICO Participation Instructions (Medium)
+    header_until_ico: TOKEN SALE WILL LIVE SOON!
+    body_until_ico: Start in September 1st, 02:00 (UTC)
+    header: Join our Tokensale Now!
+    body: End in September 29th, 02:00 (UTC)
   learn_more: LEARN MORE
+  next_rate:
+    before: "Before Week "
+    middle: " 1ETH = "
+    after: " ALIS"
+  instruction: ICO Participation Instructions (Medium)
+  tac:
+    before: "I agree with "
+    link: the terms of services
+    after: " and I'm not the New York City Citizen. "
+  contribute: CONTRIBUTE IN ETHER
+  slack: JOIN SLACK
 service_information:
   header: What is ALIS?
   body1: |
@@ -103,7 +115,7 @@ ico:
     row2:
       left: 'Fund max Cap: $30million ( ≒ 100,000 ETH )'
       right: 'Max ALIS supply: 250,000,000 ALIS'
-    caption1: We are planning to launch ALIS token on NEO as well and the details will be here near future.
+    caption1: We are now talking with NEO team how to cooperate with NEO. The details will be here near future.
     caption2: The min and max cap of ETH will be changed when the price of ETH is changed radically.
     caption3: We will also back your ETH token if we cannot raise $3.5million.
   button: JOIN SLACK
@@ -174,3 +186,155 @@ team:
         involved in projects such as production of BITA DIGIMA Lab and development of natural-language engines.
         He is also known as a Growth Consult for Kaizen Platform.
         Major publications include "Web Director's Textbook", "Latest Practice for Web Direction".
+tac:
+  heading: TERMS OF SERVICES
+  subheading1: Last updated Sep 1, 2017
+  subheading2:
+  introduction:
+    heading: Introduction
+    body: |
+      This document acts as an agreed upon Terms of Service (“Terms“, “Terms of Service“) between you (the “User“ or “you“) and
+      ALIS HONGKONG LIMITED (“ALIS”) related to Initial Coin Offering that ALIS conducting (“ICO“). You accept these Terms
+      when you use ALIS services or any other features, technologies or functionalities offered by ALIS on ALIS web-site at
+      http://alismedia.jp and related web-sites (collectively, the “Sites”) or through any other means (collectively, “Services“)
+      related to ICO. The terms “us“, “we“, or “our“ refer to ALIS.Your access to and use of the Service is conditioned on your acceptance
+      of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+      We will provide notice of any amendment to these Terms by posting any revised terms to the Sites and updating the “Last updated”
+      field above accordingly or by any other method we deem appropriate. We are not obligated to provide notice in any other method
+      beyond these. Any change to these Terms will be effective immediately upon such notice and apply to any ongoing or subsequent use of the Sites, Services, or Platform.ALIS provides online features (the “Platform”) to allow users to purchase ALIS Tokens (“Tokens”). By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.
+  status_of_these_terms:
+    heading: Qualifications of User in Order to Use the Sites
+    body: |
+      The User represents and warrants that you are at least eighteen (18) years of age, are legally entitled to use the internet and services like those provided by ALIS (according to the laws Japan and any relevant jurisdiction in which you reside), and have not had your right to use our service previously suspended or revoked by us.
+  token_creation:
+    heading: Illegal and Prohibited Use
+    body: |
+      The User represents and warrants that you will not use the Sites or Platform for any criminal, illegal, or otherwise prohibited use, including (but not limited to) activities related to money-laundering, drug trafficking, human trafficking, weapon trafficking, terrorism, securities fraud, or tax evasion. You represent and warrant that you will not use our platform to assist any other party in such illegal activity.
+      The User represents and warrants that you will not in any way use the Platform or Services to
+      •	distribute spam, junk communications or chain letters;
+      •	reverse engineer or otherwise improperly access any of the Sites’ or the Platforms underlying code or technical mechanisms;
+      •	cause damage to the Sites or ALIS through any means, including (but not limited to) through the use of hacking, malware, viruses, illegitimate credentials, phishing, brute force attacks, SQL exploits, impersonation, spoofing, or any other method of detrimentally intercepting, interrupting, or damaging any information or functionality related to the Sites.
+      You also agree not to transfer access to your Account (as defined below) or any other rights granted to you by these Terms.
+  registrationandaccount:
+    heading: Registration and Account
+    body: |
+      The use of our Services requires you to create an wallet account on Ethereum (“Account”). You warrant and represent that all
+      information provided when creating such an Account is current, complete, and accurate. You agree to promptly change any
+      information that would cause the information provided upon your Account’s creation to no longer be current, complete or accurate.
+      You also warrant and represent that you understand that no Service will be fully provided until we confirm email address in a manner deemed suitable by us.
+      You agree that you exclusively will access and use your Account, and may not transfer the right of its use or disclose any
+      log-in credentials to a third party without our written consent. You agree to take full responsibility for any activity that occurs through the use of your account, and cannot transfer this obligation to any third party. You agree to notify ALIS in the event that you discover or suspect any security breaches or vulnerabilities related to the Sites, Services or Platform.
+      Each User is responsible for their own Account, You shall not share passwords or identifying information with any other party.
+      No accounts are to be created by Agents acting on behalf of another party.
+      [NOTICE] USERS IN STATE OF NEW YORK MAY NOT USE SERVICES OR PLATFORM.
+  user_wallet_safety:
+    heading: Damages Caused by Vulnerabilities Inherent in the Internet or in Blockchain
+    body: |
+      Use of the internet is known to not be one-hundred percent secure. You agree that ALIS is not responsible whatsoever for any damages caused by the interception, loss or alteration to any information sent over the internet. While ALIS will take reasonable steps to ensure the security and privacy of any information transmitted during your use of our Services, in no event will any such information be considered “confidential”
+      or will its disclosure to a third party, accidental or otherwise, cause liability against ALIS, even if it occurs as a result of our negligence.
+      ALIS takes every reasonable precaution to prevent and mitigate attacks. However, these problems still may occur from time to time for reasons that are out of our control. If ALIS believes a Token active on the Platform has been compromised or is under attack, ALIS reserves the right to immediately stop all Services related to such Token. If it is determined that such an attack caused an associated Token to rapidly lose value or otherwise cause or threaten to cause damage to the Platform,
+      the Sites, or other users, ALIS may immediately discontinue all activity regarding such Token entirely at its discretion. Resolution concerning deposits, withdrawals, Account balances, Services or other disputes related to an attacked Token will be determined on a case-by-case basis. ALIS makes no representation and does not warrant the safety of the Platform and is not liable for any lost value or stolen property, regardless of whether ALIS was negligent in providing appropriate security.
+  risks:
+    heading: No Legal, Financial or Investing Advice
+    body: |
+      ALIS Does Not Provide Legal, Financial or Investing Advice. In no way should our providing of Services be considered legal, financial, investing advice or any other kind of specialized or expert advice on which the User might detrimentally depend, causing liability against ALIS. In using the Platform, you represent and warrant that you have sought any legal, financial, investment or otherwise specialized advice from an expert qualified to provide such counsel, or else you have the
+      sufficient knowledge and sophistication to evaluate the risks and merits associated with Blockchain and/or Token management and offerings and to competently use our Services. We give no warranty regarding the suitability of any Tokens or other assets acquired using our Platform and assume no fiduciary duties to you.
+      The User represents and warrants you understand that any recommendations or commentary made by ALIS or its employees or other users should be considered generalized in nature, and you should use your own judgment or seek the advice of an expert before taking any action regardless of such statement. We give no assurance as to the accuracy or completeness of any such statement.
+  taxation:
+    heading: Purchase of Tokens
+    body: |
+      The User shall transfer Ethereum tokens (“ETH”) to our smart contract address to purchase Tokens. Your funds will appear in your Account depending on the processing time of the transaction, which is out of control of ALIS. Once the transferred funds are available in your Account, you may use them to purchase Tokens. However, the mere transfer of funds to your Account does not represent the purchase of Tokens. Tokens can only be purchased during the official token sale by accepting
+      the respective Terms of Token Sale. ALIS may also refund all or a portion of ETH transferred by you from your Account, according to Terms or Terms of Token Sale. The refund will be made in the same form as a payment received from you (less bank charges and transaction fees for ETH because Tokens should be transferred.).
+  liability:
+    heading: Distribution of Tokens
+    body: |
+      Tokens purchased by the User will be issued according to the respective Terms of Token Sale. Tokens will be available in your Account until you transfer them outside of the Platform. You shall be responsible for implementing reasonable measures for securing the wallet, vault or other storage mechanism your decide to use to receive and hold Tokens outside of your Account, including any requisite private key(s) or other credentials necessary to access such storage mechanism(s).
+      If your private key(s) or other access credentials are lost, you may lose access to the purchased tokens. ALIS shall not be responsible for any such losses.
+  miscellaneous:
+    heading: Refunds of Tokens
+    body: |
+      ALIS may refund ETH related to Tokens Users purchased after Token Sale according to Terms of Token Sale. In that case, Users accept that refund and return Tokens to ALIS (less bank charges and transaction fees for ETH because Tokens should be transferred.). Thereafter, ALIS shall have no obligation to deliver any Tokens to you pursuant to these Terms. ALIS is not responsible for any delays, losses, costs, expenses, or other issues relating to or arising from an incomplete or
+      inaccurate Refund Address provided by you to ALIS.
+  cancellation:
+    heading: CANCELLATIONS
+    body: |
+      ALL TOKEN PURCHASES FROM ALIS ARE FINAL, AND THERE ARE NO REFUNDS OR CANCELLATIONS, EXCEPT AS EXPRESSLY PROVIDED IN THESE TERMS OR AS MAY BE REQUIRED BY APPLICABLE LAW OR REGULATION.
+  investmentnotice:
+    heading: INVESTMENT NOTICE
+    body: |
+      IN THESE TERMS, ICO MEANS PURCHASING TOKENS. AT NO TIME, MEANS THE PURCHASE OF TOKENS AN INVESTMENT. THE PURCHASE OF TOKENS IS A TRANSACTION AND DOES NOT AMOUNT TO OWNERSHIP, LENDING, OR CASH STYLE INVESTMENTS. ALIS IS NOT REGULATED BY ANY FINANCIAL BODY AND DOES NOT PROVIDE INVESTMENT OPPORTUNITIES, ADVICE, OR OPTIONS.
+  license:
+    heading: License
+    body: |
+      We grant you a limited, nonexclusive, nontransferable license (“License”) to access and use our Platform, Sites and Services. This License is subject to these Terms. Any other use of the Services not expressly permitted by these Terms is prohibited. All rights in the Sites, related Sites or the Platform are reserved by ALIS and our licensors, including that to any content or functionality as presented on the Sites, related Sites or the Platform. “ALIS,” “ALISMEDIA.jp”,
+      all logos related to Services or displayed on the Sites are trademarks or registered marks of ALIS or its affiliates. You will not redistribute, claim ownership, license, deconstruct, reverse engineer, alter, incorporate into any other works or websites, or otherwise exploit any such content or functionality without prior express written consent of ALIS.
+  termination:
+    heading: Termination
+    body: |
+      We may terminate or suspend your License to our Services without prior notice or liability for any reason whatsoever, including (but not limited to) if you breach the Terms. Nothing in these Terms or in any other communication or action by ALIS or our employees, agents or representatives should be taken as a waiver of any legal remedies available for any event causing termination.
+      All provisions of the Terms which by their nature should survive termination shall survive termination, including (but not limited to) ownership provisions, disclaimers or limitations of obligations or liability, and indemnity.
+  linkstotoherwebsites:
+    heading: Links to Other Web Sites
+    body: |
+      ALIS or other users may provide links to third-party web sites or services that are not owned or controlled by ALIS. ALIS has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that ALIS shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or detrimental reliance on any
+      information, content, goods or services available on or through any such web sites or services. ALIS is not liable for any loss or damage incurred as a result of interacting with any third party content on our Sites.
+  copyright:
+    heading: Copyright of Communications In Connection With Our Services
+    body: |
+      You agree that any materials, information or communications transmitted between the User and ALIS in any form, or between the User and any other ALIS user via our Platform, are non-confidential and will become the sole, exclusive property of ALIS. ALIS will own all intellectual property rights to such communications or materials, and can use or disseminate them in a completely unrestricted fashion for any legal purpose, commercial or otherwise, without notifying or compensating you. You
+      hereby waive any right to litigation or recovery for perceived damages caused by the use of this information as is permissible by law.
+  indemnification:
+    heading: Indemnification
+    body: |
+      You agree to indemnify, exculpate and hold ALIS, its representatives, affiliates, employees and service providers harmless from any claim or demand permissible by law arising out of or related to the use of these Services, including any breach by you of these Terms or violation of any law, rule, or rights of a third party. You agree to pay for any legal fees or other costs that incurred ALIS or any other indemnified parties as a result of your actions.
+  disclaimer:
+    heading: Disclaimer of Warrants and Guarantees
+    body: |
+      ALIS does not guarantee any level of performance or the continued, uninterrupted availability of our Services. We do not guarantee the accuracy of any information provided on the Sites. We hereby disclaim all warrants and guarantees that not expressly made in these Terms.
+  applicablelaw:
+    heading: Applicable Law and Jurisdiction
+    body: |
+      The validity, interpretation, construction and performance of these Terms, and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of Japan, without giving effect to principles of conflicts of law. All disputes relating to this service shall be submitted to the exclusive jurisdiction of the Tokyo District Court as the court of first instance. The language of the disputes
+      shall be Japanese.
+  noclassarbitration:
+    heading: No Class Arbitration, Class Action or Representative Actions
+    body: |
+      Any dispute arising out of or related to this Agreement is personal to you and the ALIS and will be resolved solely through individual judicial action and will not be brought as a class arbitration, class action or any other type of representative proceeding. There will be no class arbitration or arbitration in which an individual attempts to resolve a dispute as a representative of another individual or group of individuals. Further, a Dispute cannot be brought as a class or other type
+      of representative action, whether within or outside of arbitration, or on behalf of any other individual or group of individuals.
+  relationship:
+    heading: Relationship
+    body: |
+      At no time are these Terms of Service designed to create a Partnership. The User and ALIS are entering into this agreement and at no time does it constitute the creation of a partnership, agency, or other business relationship in which the Parties can legally bind each other.
+  survivalandseverability:
+    heading: Survival and Severability
+    body: |
+      Any portion of these Terms that reasonably should survive the termination of your License or any other agreement is hereby agreed to do so. If any provision of these terms is deemed illegal, invalid or otherwise invalid for any reason, then that provision will be severed and the rest of these Terms will remain intact and enforceable.
+  integration:
+    heading: Integration
+    body: |
+      Our failure to exercise or enforce any rights or provisions of these Terms does not constitute a waiver of those rights or provisions. These Terms represent the entire and complete agreement between the User and ALIS, including any future modification of these Terms, superseding any prior agreements or communications between you and us. Any ambiguities in these Terms shall be construed in the light most favorable to ALIS.
+  actofgod:
+    heading: Act of God
+    body: |
+      ALIS’ performance under these Terms shall be excused if the failure of such performance is caused by forces beyond its reasonable control. This includes (but is not limited to) acts of God, acts of any government, war or civil unrest, severe weather, fire, natural disasters, political embargos, terrorism, power or equipment failure, industrial or labor disputes or controversies, acts of any third party, or blockchain failures.
+  languageterm:
+    heading: Language
+    body: |
+      If there is any contradiction between what the English language version of the Terms says and Japanese language version says, then the Japanese language version shall take precedence.
+  close: Close
+contribute:
+  heading: ALIS token purchase Instructions
+  contact_address:
+    heading: ETH ICO Contract Address
+  sugg_gas_limit:
+    heading: Sugg. Gas Limit
+  notes:
+    heading: Notes
+    note1: Ethereum address must be from an ERC20 compatibe wallet(such as MyEtherWallet, Parity, and Metamask).
+    note2:
+      main: DO NOT SEND FROM EXCHANGES
+      example: (such as coincheck, poloniex, bittrex, and Kraken).
+    note3: Your ALIS tokens will be delivered to this address.
+    note4: You'll instantly get ALIS tokens, but should register the inofrmation of ALIS token on wallet. Please read the STEP3 of below link.
+    note5: Don't send another ETH Address. We won't issue another ETH Address.
+  close: Close

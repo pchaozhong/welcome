@@ -71,8 +71,8 @@ body {
 
 /* Cover
 -------------------------------------------------- */
-
-.cover {
+.cover-until-ico {
+  display: none;
   position: relative;
   height: 400px;
   margin-bottom: 60px;
@@ -132,11 +132,11 @@ body {
     &__caption {
       margin: 5px 0 0;
     }
+  }
 
-    &__timer {
-      &__number {
-        font-weight: bold;
-      }
+  &__countdown-timer {
+    &__number {
+      font-weight: bold;
     }
   }
 
@@ -172,6 +172,165 @@ body {
       color: white;
 
       &:hover, &:visited {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.cover {
+  display: none;
+  position: relative;
+  height: 400px;
+  margin-bottom: 60px;
+  color: white;
+
+  &__caption {
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+
+    em {
+      font-style: normal;
+      color: $textHighlightColor;
+    }
+
+    &__btn {
+      fill: $brandColor;
+      width: $coverVideoButtonSize;
+
+      &_hover {
+        fill: white;
+        cursor: pointer;
+        width: $coverVideoButtonSize;
+      }
+    }
+  }
+
+  &__countdown-heading {
+    color: white;
+    text-align: center;
+
+    h2 {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    &__caption {
+      margin: 5px 0 0;
+    }
+  }
+
+  &__countdown-timer {
+    text-align: center;
+    background-color: rgba(56, 57, 79, 0.5);
+    border-radius: 5px;
+
+    &__number {
+      font-weight: bold;
+    }
+
+    > div {
+      height: 100%;
+    }
+
+    .col-xs-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .col-xs-4 {
+      border-right: 1px solid #4c527b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      strong {
+        color: $textHighlightColor;
+      }
+    }
+  }
+
+  &__notice {
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    strong {
+      color: $textHighlightColor;
+    }
+  }
+
+  &__tac {
+    text-align: center;
+
+    input {
+      margin-right: 5px;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  &__instruction {
+    text-align: center;
+    color: white;
+
+    a {
+      img {
+        margin-right: 12px;
+        vertical-align: bottom;
+      }
+
+      span {
+        color: white;
+      }
+
+      &:visited {
+        text-decoration-color: white;
+      }
+    }
+  }
+
+  &__contribute {
+    text-align: center;
+
+    button {
+      display: inline-block;
+      background-color: #00b0f0;
+      width: 225px;
+      height: 46px;
+      color: white;
+      border: none;
+
+      &:hover {
+        color: white;
+      }
+
+      &.disabled {
+        background-color: gray;
+      }
+    }
+  }
+
+  &__slack {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      background-color: $buttonPurpleColor;
+      padding-top: 10px;
+      width: 160px;
+      height: 38px;
+      color: white;
+      transition: .4s;
+
+      &:hover {
+        background-color: $buttonhoverPurpleColor;
         color: white;
         text-decoration: none;
       }
@@ -349,6 +508,7 @@ body {
   background-image: url("/img/ico-background.png");
   color: white;
   width: auto;
+  padding-bottom: 44px;
 
   .col-md-12 {
     text-align: center;
@@ -459,6 +619,84 @@ body {
         content: "*";
         color: #00b0f0;
         margin-right: 5px;
+      }
+    }
+  }
+
+  &__forms--live {
+    display: none;
+  }
+
+  &__tac {
+    text-align: center;
+
+    input {
+      margin-right: 5px;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  &__instruction {
+    text-align: center;
+    color: white;
+
+    a {
+      img {
+        margin-right: 12px;
+        vertical-align: bottom;
+      }
+
+      span {
+        color: white;
+      }
+
+      &:visited {
+        text-decoration-color: white;
+      }
+    }
+  }
+
+  &__contribute {
+    text-align: center;
+
+    button {
+      display: inline-block;
+      background-color: #00b0f0;
+      width: 225px;
+      height: 46px;
+      color: white;
+      border: none;
+
+      &:hover {
+        color: white;
+      }
+
+      &.disabled {
+        background-color: gray;
+      }
+    }
+  }
+
+  &__slack {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      background-color: $buttonPurpleColor;
+      padding-top: 10px;
+      width: 160px;
+      height: 38px;
+      color: white;
+      transition: .4s;
+
+      &:hover {
+        background-color: $buttonhoverPurpleColor;
+        color: white;
+        text-decoration: none;
       }
     }
   }
@@ -635,19 +873,257 @@ body {
   }
 }
 
+ /* TAC modal
+ -------------------------------------------------- */
+
+.tac-modal {
+  .modal-body {
+    h4 {
+      font-weight: bold;
+    }
+  }
+}
+
+ /* TAC modal
+ -------------------------------------------------- */
+
+.contribute-modal {
+  .modal-header {
+    text-align: center;
+    border: none;
+
+    h4 {
+      font-weight: bold;
+      color: $textDarkBlueColor;
+    }
+  }
+
+  &__header {
+    text-align: center;
+    position: relative;
+    margin-top: 24px;
+
+    &:before {
+      content: "";
+      display:inline-block;
+      width: 100%;
+      height:1px;
+      background-color: $textDarkBlueColor;
+      position: absolute;
+      top: 20px;
+      left: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    h5 {
+      text-align: center;
+      background-color: $textDarkBlueColor;
+      color: white;
+      font-weight: bold;
+      padding-top: 14px;
+      width: 240px;
+      height: 40px;
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+
+  p {
+    margin-top: 16px;
+    text-align: center;
+    color: darkred;
+    font-size: 16px;
+    word-wrap: break-word;
+  }
+
+  ul {
+    margin-top: 16px;
+    color: $textDarkGrayColor;
+    font-size: 16px;
+
+    li {
+      margin-top: 4px;
+    }
+
+    strong {
+      color: darkred;
+      font-weight: bold;
+    }
+  }
+
+  &__introduction {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+
+    i {
+      margin-right: 4px;
+    }
+  }
+
+  .modal-footer {
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+  }
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 // ex) iPhone5/5S/5c/SE
 @media (min-width: 320px) {
+  .cover-until-ico {
+    height: 680px;
+  }
+
   .cover {
     height: 680px;
+
+    &__countdown-heading {
+      margin-top: 24px;
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+
+    &__countdown-timer {
+      margin: 12px 0 0;
+      font-size: 14px;
+      height: 80px;
+
+      &__number {
+        font-size: 24px;
+      }
+
+      &__unit {
+        font-size: 10px;
+      }
+    }
+
+    &__rate {
+      font-size: 12px;
+      align-items: center;
+    }
+
+    &__notice {
+      font-size: 12px;
+      margin-top: 4px;
+      margin-right: 10px;
+      text-align: right;
+    }
+
+    &__instruction {
+      margin-top: 14px;
+      font-size: 14px;
+    }
+
+    &__tac {
+      margin-top: 16px;
+    }
+
+    &__contribute {
+      button {
+        margin-top: 18px;
+        font-size: 16px;
+      }
+    }
+
+    &__slack {
+      margin-top: 18px;
+
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .ico {
+    &__instruction {
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    &__tac {
+      margin-top: 14px;
+    }
+
+    &__contribute {
+      button {
+        margin-top: 18px;
+        font-size: 16px;
+      }
+    }
+
+    &__slack {
+      margin: 18px 0 36px;
+
+      a {
+        font-size: 14px;
+      }
+    }
   }
 }
 
 @media (min-width: 375px) {
-  .cover {
+  .cover-until-ico {
     height: 540px;
+  }
+
+  .cover {
+    &__caption {
+      padding-top: 26px;
+    }
+
+    &__countdown-timer {
+      height: 90px;
+
+      &__number {
+        font-size: 28px;
+      }
+
+      &__unit {
+        font-size: 12px;
+      }
+    }
+
+    &__rate {
+      font-size: 14px;
+    }
+
+    &__notice {
+      font-size: 14px;
+    }
+
+    &__instruction {
+      margin-top: 30px;
+    }
+
+    &__contribute {
+      button {
+        margin-top: 24px;
+      }
+    }
+
+    &__slack {
+      margin: 24px;
+    }
+  }
+
+  .ico {
+    &__contribute {
+      button {
+        margin-top: 24px;
+      }
+    }
+
+    &__slack {
+      margin: 24px 0 48px;
+    }
   }
 }
 
@@ -673,7 +1149,7 @@ body {
     }
   }
 
-  .cover {
+  .cover-until-ico {
     &__caption {
       padding-top: 8px;
 
@@ -797,7 +1273,7 @@ body {
 }
 
 @media (min-width: 640px) {
-  .cover {
+  .cover-until-ico {
     height: 560px;
 
     &__caption {
@@ -835,6 +1311,42 @@ body {
     }
   }
 
+  .cover {
+    &__caption {
+      padding-top: 26px;
+    }
+
+    &__countdown-heading {
+      margin-top: 15px;
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    &__countdown-timer {
+      margin: 24px 20px 0;
+      height: 108px;
+
+      &__number {
+        font-size: 32px;
+      }
+
+      &__unit {
+        font-size: 14px;
+      }
+    }
+
+    &__rate {
+      font-size: 16px;
+    }
+
+    &__notice {
+      margin-right: 30px;
+      font-size: 16px;
+    }
+  }
+
   .service-information,
   .ico {
     .lead {
@@ -854,11 +1366,11 @@ body {
     }
   }
 
-  .cover {
+  .cover-until-ico {
     height: 680px;
 
     &__caption {
-     padding-top: 36px;
+      padding-top: 36px;
 
       p {
         font-size: 16px;
@@ -875,13 +1387,13 @@ body {
       h2 {
         font-size: 22px;
       }
+    }
 
-      &__timer {
-        margin-top: 20px;
+    &__countdown-timer {
+      margin-top: 20px;
 
-        &__number {
-          font-size: 44px;
-        }
+      &__number {
+        font-size: 44px;
       }
     }
 
@@ -895,6 +1407,40 @@ body {
         margin-top: 32px;
         font-size: 16px;
       }
+    }
+  }
+
+  .cover {
+    height: 680px;
+
+    &__caption {
+      p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin: 16px 0 20px;
+      }
+    }
+
+    &__countdown-timer {
+      margin: 28px 20px 0;
+      height: 108px;
+
+      &__number {
+        font-size: 36px;
+      }
+    }
+
+    &__rate {
+      font-size: 20px;
+    }
+
+    &__instruction {
+      margin-top: 32px;
+      font-size: 16px;
+    }
+
+    &__tac {
+      margin-top: 14px;
     }
   }
 
@@ -940,6 +1486,15 @@ body {
       line-height: $subTextLineHeight;
       margin: 0 auto 48px;
       color: white;
+    }
+
+    &__instruction {
+      margin-top: 32px;
+      font-size: 16px;
+    }
+
+    &__tac {
+      margin-top: 14px;
     }
   }
 
@@ -1031,9 +1586,23 @@ body {
 }
 
 @media (min-width: 992px) {
-  .cover {
+  .cover-until-ico {
     &__caption {
       padding-top: 50px;
+    }
+  }
+
+  .cover {
+    &__caption {
+      padding-top: 36px;
+    }
+
+    &__countdown-timer {
+      margin: 28px 110px 0;
+    }
+
+    &__notice {
+      margin-right: 130px;
     }
   }
 
@@ -1057,16 +1626,26 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .cover {
+  .cover-until-ico {
     &__caption {
       margin-left: 70px;
       margin-right: 70px;
     }
   }
+
+  .cover {
+    &__countdown-timer {
+      margin: 28px 210px 0;
+    }
+
+    &__notice {
+      margin-right: 230px;
+    }
+  }
 }
 
 @media (min-width: 1440px) {
-  .cover {
+  .cover, .cover-until-ico {
     .item {
       // FIXME
       background-size: 100% !important;
