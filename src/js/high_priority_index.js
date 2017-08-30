@@ -16,7 +16,12 @@ const TERM_END_DATE_TIMES = [
 
 // Change cover when ICO started.
 $(() => {
-  CURRENT_DATE <= BEFORE_ICO_END_DATE_TIME ? $('#cover-until-ico').show() : $('#cover').show();
+  if (CURRENT_DATE <= BEFORE_ICO_END_DATE_TIME) {
+    $('#cover-until-ico').show();
+  } else {
+    $('#cover').show();
+    $('#ico-live').show();
+  }
 });
 
 // ICOまで
@@ -36,6 +41,7 @@ $(() => {
       // ICO開始時
       $('#cover-until-ico').fadeOut(1200, () => {
         $('#cover').fadeIn('slow');
+        $('#ico-live').fadeIn('slow');
       });
     });
   }

@@ -508,6 +508,7 @@ body {
   background-image: url("/img/ico-background.png");
   color: white;
   width: auto;
+  padding-bottom: 44px;
 
   .col-md-12 {
     text-align: center;
@@ -620,6 +621,10 @@ body {
         margin-right: 5px;
       }
     }
+  }
+
+  &__forms--live {
+    display: none;
   }
 
   &__tac {
