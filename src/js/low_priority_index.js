@@ -7,7 +7,6 @@ import '../scss/mail-form.scss';
 // JS
 import 'bootstrap';
 import 'particles.js'
-import 'jquery-countdown'
 import '../js/common'
 import 'bootstrap-social';
 import '../lib/ie10-viewport-bug-workaround';

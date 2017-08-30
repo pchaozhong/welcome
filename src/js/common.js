@@ -1,4 +1,4 @@
-/*globals $ particlesJS moment */
+/*globals $ particlesJS */
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
 // スクロールをスムーズに
@@ -12,48 +12,6 @@ $(function () {
     $('body,html').animate({scrollTop: position}, speed, 'swing');
     return false;
   });
-});
-
-// カウントダウンの時計
-// 価格の自動更新
-const PRICE_TABLE = [0, 2900, 2600, 2300, 2000];
-const TERM_END_DATE_TIMES = [
-  '2017-09-01T01:59:59Z',
-  '2017-09-08T01:59:59Z',
-  '2017-09-15T01:59:59Z',
-  '2017-09-22T01:59:59Z',
-  '2017-09-29T01:59:59Z',
-].map((termEndDateTimes) => moment(termEndDateTimes));
-
-$(function() {
-  const currentDate = new Date();
-  const $daysContainer = $('#countdown-timer-days');
-  const $hoursContainer = $('#countdown-timer-hours');
-  const $minutesContainer = $('#countdown-timer-minutes');
-  const $secondsContainer = $('#countdown-timer-seconds');
-
-  for (let i = 0; i < TERM_END_DATE_TIMES.length; i++) {
-    if (currentDate <= TERM_END_DATE_TIMES[i]) {
-      $('#cover-current-term').text(i);
-      $('#cover-current-rate').text(PRICE_TABLE[i]);
-
-      if (i < 3) {
-        $('#cover-next-term').text(i + 1);
-        $('#cover-next-rate').text(PRICE_TABLE[i + 1]);
-      } else {
-        $('.cover__notice').remove();
-      }
-
-      $('#countdown-timer').countdown(TERM_END_DATE_TIMES[i].toDate(), function (event) {
-        $daysContainer.text(event.offset.totalDays);
-        $hoursContainer.text(event.offset.hours);
-        $minutesContainer.text(event.offset.minutes);
-        $secondsContainer.text(event.offset.seconds);
-      });
-
-      break;
-    }
-  }
 });
 
 // CONTRIBUTEボタンの活性/非活性切り替え
