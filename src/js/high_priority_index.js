@@ -32,6 +32,11 @@ $(() => {
       $hoursContainer.text(event.offset.hours);
       $minutesContainer.text(event.offset.minutes);
       $secondsContainer.text(event.offset.seconds);
+    }).on('finish.countdown', () => {
+      // ICO開始時
+      $('#cover-until-ico').fadeOut(1200, () => {
+        $('#cover').fadeIn('slow');
+      });
     });
   }
 });
