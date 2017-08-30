@@ -296,7 +296,7 @@ contribute:
     heading: 推奨ガスリミット
   notes:
     heading: 注意事項
-    note1: 必ずERC20準拠のトークンを扱えるウォレット(MyEtherWallet, Party, Metamaskなど)よりETHを送付してください.
+    note1: 必ずERC20準拠のトークンを扱えるウォレット(MyEtherWallet, Parity, Metamaskなど)よりETHを送付してください.
     note2:
       main: 絶対に取引所から直接ETHを上記アドレスに送らないようにしてください。
       example: (coincheck, bitflyer, poloniex, bittrex, Krakenなど。).

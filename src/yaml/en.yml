@@ -330,7 +330,7 @@ contribute:
     heading: Sugg. Gas Limit
   notes:
     heading: Notes
-    note1: Ethereum address must be from an ERC20 compatibe wallet(such as MyEtherWallet, Party, and Metamask).
+    note1: Ethereum address must be from an ERC20 compatibe wallet(such as MyEtherWallet, Parity, and Metamask).
     note2:
       main: DO NOT SEND FROM EXCHANGES
       example: (such as coincheck, poloniex, bittrex, and Kraken).

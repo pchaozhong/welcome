@@ -303,7 +303,7 @@ contribute:
     heading: GAS推荐值
   notes:
     heading: 注意
-    note1: 必须通过支持以太坊（ETH）ERC20 标准的钱包购买(比如：MyEtherWallet, Party, 或者Metamask).
+    note1: 必须通过支持以太坊（ETH）ERC20 标准的钱包购买(比如：MyEtherWallet, Parity, 或者Metamask).
     note2:
       main: 绝对不要从交易所直接向合约地址转入以太坊（ETH）
       example: (coincheck, poloniex, bittrex,和 Kraken 等)。
