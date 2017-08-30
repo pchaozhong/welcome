@@ -303,11 +303,12 @@ contribute:
     heading: GAS推荐值
   notes:
     heading: 注意
-    note1: 必须通过支持以太坊（ETH）ERC20 标准的钱包购买(比如：MyEtherWallet, Parity, 或者Metamask).
+    note1: 必须通过支持以太坊（ETH）ERC20 标准的钱包购买(MyEtherWallet, Parity, Metamask等)。除此之外的钱包无法购买ALIS代币。
     note2:
-      main: 绝对不要从交易所直接向合约地址转入以太坊（ETH）
-      example: (coincheck, poloniex, bittrex,和 Kraken 等)。
-    note3: ALIS代币将直接转入您购买时所使用的以太坊（ETH）地址。
+      main: 绝对不要从交易所直接向合约地址转入以太坊（ETH）。
+      example: 从交易所直接转入ETH将无法获得ALIS代币。这种情况下ALIS代币会转入交易所，情咨询交易所。
+    note3: ALIS代币将自动直接转入您购买时所使用的以太坊（ETH）地址。
     note4: 买的ALIS代币将在数分钟之内反应到您的以太坊（ETH）地址，确认方法请参阅《ICO参与教程》第三步。
     note5: ALIS只有唯一上述所表示的合约地址，请不要转入其他任何地址。
+    note6: 用户由于违反上述规则而造成的损失，我们将不承担任何责任。
   close: 关闭
