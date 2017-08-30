@@ -336,6 +336,12 @@ body
         .modal-body
           .contribute-modal__header
             h5 #{contribute.contact_address.heading}
+          // Don't send ETH until 1 Sep 2017 2:00(UTC)!
+          // Transaction will fail and you lose transaction fee.
+          // 2017/09/01 日本時間11:00AM まではETHを送らないでください!
+          // トランザクションは失敗し、手数料を失います。
+          // 请不要发送ETH，直到2017/09/01！
+          // 失败并失去佣金
           p 0xeb31a3E0D93Cb2C89eDD68D57710361d76Ce5bF1
 
           .contribute-modal__header
