@@ -912,6 +912,9 @@ body {
  -------------------------------------------------- */
 
 .contribute-modal {
+  overflow-y: auto;
+  max-height: 100%;
+
   .modal-header {
     text-align: center;
     border: none;
