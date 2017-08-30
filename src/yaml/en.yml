@@ -322,6 +322,9 @@ tac:
     body: |
       If there is any contradiction between what the English language version of the Terms says and Japanese language version says, then the Japanese language version shall take precedence.
   close: Close
+warning:
+  note1: DO NOT sent ETH from the exchange directly.
+  note2: Make sure to send ETH from wallet which conform ERC20 token. (MyEtherWallet, Parity, Metamask, and etc.)
 contribute:
   heading: ALIS token purchase Instructions
   contact_address:

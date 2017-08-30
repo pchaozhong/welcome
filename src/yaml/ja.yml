@@ -288,6 +288,9 @@ tac:
     body: |
       本利用規約の英語版と日本語版で相違や矛盾が発生する場合、日本語版が優先するものとします。
   close: Close
+warning:
+  note1: 絶対に取引所から直接ETHを送らないようにしてください。
+  note2: 必ずERC20準拠のトークンを扱えるウォレット(MyEtherWallet, Parity, Metamaskなど)よりETHを送付してください。
 contribute:
   heading: ALISトークンの購入方法
   contact_address:

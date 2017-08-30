@@ -884,7 +884,31 @@ body {
   }
 }
 
- /* TAC modal
+ /* Warning modal
+ -------------------------------------------------- */
+
+.warning-modal {
+  margin: 10% 10%;
+
+  &__messages {
+    font-size: large;
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button {
+    text-align: center;
+    width: 188px;
+    font-size: x-large;
+    margin-top: 17px;
+  }
+}
+
+ /* Contribute modal
  -------------------------------------------------- */
 
 .contribute-modal {
@@ -1621,6 +1645,12 @@ body {
   .ico {
     .lead {
       width: 800px;
+    }
+  }
+
+  .warning-modal {
+    &__messages {
+      font-size: xx-large;
     }
   }
 }

@@ -295,6 +295,9 @@ tac:
     body: |
       If there is any contradiction between what the English language version of the Terms says and Japanese language version says, then the Japanese language version shall take precedence.
   close: Close
+warning:
+  note1: 绝对不要从交易所直接址转入以太坊（ETH）。
+  note2: 必须通过支持以太坊（ETH）ERC20 标准的钱包购买(MyEtherWallet, Parity, Metamask等)。
 contribute:
   heading: ALIS代币购买方法
   contact_address:
