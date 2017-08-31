@@ -29,28 +29,6 @@ $(function() {
   });
 });
 
-// カバーのビデオボタンマウスオーバーで色を変更
-$(function () {
-  $("#cover-button").mouseover(function () {
-    $(this).toggleClass('cover__caption__btn cover__caption__btn_hover');
-  }).mouseout(function () {
-    $(this).toggleClass('cover__caption__btn cover__caption__btn_hover');
-  });
-});
-
-// カバーのビデオボタンクリックでビデオモーダル表示
-$(function () {
-  $("#cover-button").on('click', () => {
-    $.ajax('video-modal.html', {
-      timeout: 3000,
-      datatype: 'html'
-    }).then(function (data) {
-      let video_modal = $('#video-modal').html('');
-      $($.parseHTML(data)).appendTo(video_modal).modal();
-    })
-  });
-});
-
 // カバーの背景
 //noinspection ES6ModulesDependencies
 particlesJS.load('cover-particles', '/json/cover-particles.json');

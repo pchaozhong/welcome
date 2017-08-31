@@ -166,11 +166,12 @@ tac:
   introduction:
     heading: Introduction
     body: |
-      This document acts as an agreed upon Terms of Service (“Terms“, “Terms of Service“) between you (the “User“ or “you“) and
-      ALIS HONGKONG LIMITED (“ALIS”) related to Initial Coin Offering that ALIS conducting (“ICO“). You accept these Terms
-      when you use ALIS services or any other features, technologies or functionalities offered by ALIS on ALIS web-site at
-      http://alismedia.jp and related web-sites (collectively, the “Sites”) or through any other means (collectively, “Services“)
-      related to ICO. The terms “us“, “we“, or “our“ refer to ALIS.Your access to and use of the Service is conditioned on your acceptance
+      This document acts as an agreed upon Terms of Service (“Terms“, “Terms of Service“) between you (the “User“
+      or “you“) and ALIS Co., Ltd. (“ALIS”) related to Initial Coin Offering that ALIS conducting (“ICO“). You
+      accept these Terms when you use ALIS services or any other features, technologies or functionalities offered by
+      ALIS on ALIS web-site at https://alismedia.jp and related web-sites (collectively, the “Sites”) or through any
+      other means (collectively, “Services“) related to ICO. The terms “us“, “we“, or “our“ refer to ALIS.
+      Your access to and use of the Service is conditioned on your acceptance
       of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
       We will provide notice of any amendment to these Terms by posting any revised terms to the Sites and updating the “Last updated”
       field above accordingly or by any other method we deem appropriate. We are not obligated to provide notice in any other method
@@ -182,19 +183,16 @@ tac:
   token_creation:
     heading: Illegal and Prohibited Use
     body: |
-      The User represents and warrants that you will not use the Sites or Platform for any criminal, illegal, or otherwise prohibited use, including (but not limited to) activities related to money-laundering, drug trafficking, human trafficking, weapon trafficking, terrorism, securities fraud, or tax evasion. You represent and warrant that you will not use our platform to assist any other party in such illegal activity.
+      The User represents and warrants that you will not use the Services, the Sites or Platform for any criminal, illegal, or otherwise prohibited use, including (but not limited to) activities related to money-laundering, drug trafficking, human trafficking, weapon trafficking, terrorism, securities fraud, or tax evasion. You represent and warrant that you will not use our platform to assist any other party in such illegal activity.
       The User represents and warrants that you will not in any way use the Platform or Services to
       •	distribute spam, junk communications or chain letters;
       •	reverse engineer or otherwise improperly access any of the Sites’ or the Platforms underlying code or technical mechanisms;
       •	cause damage to the Sites or ALIS through any means, including (but not limited to) through the use of hacking, malware, viruses, illegitimate credentials, phishing, brute force attacks, SQL exploits, impersonation, spoofing, or any other method of detrimentally intercepting, interrupting, or damaging any information or functionality related to the Sites.
-      You also agree not to transfer access to your Account (as defined below) or any other rights granted to you by these Terms.
+      You also agree not to transfer access to your Account or any other rights granted to you by these Terms to a third party.
   registrationandaccount:
     heading: Registration and Account
     body: |
-      The use of our Services requires you to create an wallet account on Ethereum (“Account”). You warrant and represent that all
-      information provided when creating such an Account is current, complete, and accurate. You agree to promptly change any
-      information that would cause the information provided upon your Account’s creation to no longer be current, complete or accurate.
-      You also warrant and represent that you understand that no Service will be fully provided until we confirm email address in a manner deemed suitable by us.
+      The use of our Services requires you to create an wallet account on Ethereum (“Account”). You warrant and represent that all information provided when creating such an Account is current, complete, and accurate. You agree to promptly change any information that would cause the information provided upon your Account’s creation to no longer be current, complete or accurate.
       You agree that you exclusively will access and use your Account, and may not transfer the right of its use or disclose any
       log-in credentials to a third party without our written consent. You agree to take full responsibility for any activity that occurs through the use of your account, and cannot transfer this obligation to any third party. You agree to notify ALIS in the event that you discover or suspect any security breaches or vulnerabilities related to the Sites, Services or Platform.
       Each User is responsible for their own Account, You shall not share passwords or identifying information with any other party.
@@ -221,8 +219,7 @@ tac:
   liability:
     heading: Distribution of Tokens
     body: |
-      Tokens purchased by the User will be issued according to the respective Terms of Token Sale. Tokens will be available in your Account until you transfer them outside of the Platform. You shall be responsible for implementing reasonable measures for securing the wallet, vault or other storage mechanism your decide to use to receive and hold Tokens outside of your Account, including any requisite private key(s) or other credentials necessary to access such storage mechanism(s).
-      If your private key(s) or other access credentials are lost, you may lose access to the purchased tokens. ALIS shall not be responsible for any such losses.
+      Tokens purchased by the User will be issued according to the respective Terms of Token Sale. Tokens will be available in your Account until you transfer them outside of the Platform. You shall be responsible for implementing reasonable measures for securing the wallet, vault or other storage mechanism your decide to use to receive and hold Tokens outside of your Account, including any requisite private key(s) or other credentials necessary to access such storage mechanism(s). Although Tokens are not issued because you purchased them in a way other than the method specified by us, ALIS shall not be responsible for any such losses or damages. If your private key(s) or other access credentials are lost, you may lose access to the purchased tokens. ALIS shall not be responsible for any such losses.
   miscellaneous:
     heading: Refunds of Tokens
     body: |
@@ -252,14 +249,13 @@ tac:
       ALIS or other users may provide links to third-party web sites or services that are not owned or controlled by ALIS. ALIS has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that ALIS shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or detrimental reliance on any
       information, content, goods or services available on or through any such web sites or services. ALIS is not liable for any loss or damage incurred as a result of interacting with any third party content on our Sites.
   copyright:
-    heading: Copyright of Communications In Connection With Our Services
+    heading: Copyright of Our Services or Sites
     body: |
-      You agree that any materials, information or communications transmitted between the User and ALIS in any form, or between the User and any other ALIS user via our Platform, are non-confidential and will become the sole, exclusive property of ALIS. ALIS will own all intellectual property rights to such communications or materials, and can use or disseminate them in a completely unrestricted fashion for any legal purpose, commercial or otherwise, without notifying or compensating you. You
-      hereby waive any right to litigation or recovery for perceived damages caused by the use of this information as is permissible by law.
+      You agree that any materials or information in any form on our Services, Sites or Platform, will become the sole, exclusive property of ALIS. ALIS will own all intellectual property rights to such materials, and can use or disseminate them in a completely unrestricted fashion for any legal purpose, commercial or otherwise, without notifying or compensating you. You hereby waive any right to litigation or recovery for perceived damages caused by the use of this information as is permissible by law.
   indemnification:
     heading: Indemnification
     body: |
-      You agree to indemnify, exculpate and hold ALIS, its representatives, affiliates, employees and service providers harmless from any claim or demand permissible by law arising out of or related to the use of these Services, including any breach by you of these Terms or violation of any law, rule, or rights of a third party. You agree to pay for any legal fees or other costs that incurred ALIS or any other indemnified parties as a result of your actions.
+      You agree to indemnify, exculpate and hold ALIS, its representatives, affiliates, employees and service providers harmless from any claim or demand permissible by law arising out of or related to the use of these Services, including any breach by you of these Terms or violation of any law, rule, or rights of a third party. ALIS is not responsible for any damages, losses, costs, expenses, or other issues relating to or arising from a result of your actions. You agree to pay for any legal fees or other costs that incurred ALIS or any other indemnified parties as a result of your actions.
   disclaimer:
     heading: Disclaimer of Warrants and Guarantees
     body: |
