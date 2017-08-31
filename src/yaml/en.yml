@@ -321,6 +321,16 @@ tac:
     heading: Language
     body: |
       If there is any contradiction between what the English language version of the Terms says and Japanese language version says, then the Japanese language version shall take precedence.
+  notes:
+    heading: Notes
+    note1: Make sure to send ETH from wallet which conform ERC20 token. (MyEtherWallet, Parity, Metamask, and etc.) We CANNOT receive ETH from wallet which does not fulfill the requirement, therefore we CANNOT send ALIS tokens to your wallet even when ETH is sent.
+    note2:
+      main: DO NOT sent ETH from the exchange directly.
+      example: (ploniex, bittrex, Kraken, Coincheck, bitflyer, and etc.) You CANNOT receive ALIS tokens, when ETH is sent directly from the exchange. ALIS tokens will be sent to the exchange in such cases. Contact the exchange for details.
+    note3: ALIS tokens will be sent automatically to the address which ETH is sent from.
+    note4: ALIS tokens will be sent within few minutes, but you will need to register the wallet to see the ALIS tokens. Check the STEP 3 in link below.
+    note5: ONLY send your ETH to address written above. Other address DOES NOT EXIST.
+    note6: We will NOT be responsible for any loss caused by violations.
   close: Close
 warning:
   note1: DO NOT sent ETH from the exchange directly.
