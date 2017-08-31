@@ -164,7 +164,7 @@ body
 
         .row.ico__row
           .col-md-12.ico__contribute
-            button.disabled#ico-contribute-button(href="#" data-toggle="modal" data-target=".contribute-modal" disabled="disabled")
+            button.disabled#ico-contribute-button(href="#" data-toggle="modal" data-target=".warning-modal" disabled="disabled")
               | #{cover.contribute}
 
         .row.ico__row
@@ -322,6 +322,19 @@ body
         .modal-footer
           button.btn.btn-default(type="button" data-dismiss="modal") #{tac.close}
 
+  // warning
+  .modal.fade.warning-modal(tabindex="-1")
+    .alert.alert-danger.alert-dismissible.fade.in(role='alert')
+      p
+        ul.warning-modal__messages
+          li
+            strong #{warning.note1}
+          li #{warning.note2}
+      p.warning-modal__button-container
+        button.btn.btn-default.warning-modal__button(href="#" data-toggle="modal" data-target=".contribute-modal"
+        data-dismiss='modal')
+          | OK
+
   // contirubte
   .modal.fade.contribute-modal(tabindex="-1")
     .modal-dialog.modal-lg
@@ -355,6 +368,7 @@ body
             li #{contribute.notes.note3}
             li #{contribute.notes.note4}
             li #{contribute.notes.note5}
+            li #{contribute.notes.note6}
 
           .contribute-modal__introduction
             a(href=icointroduction.url target="_blank")
