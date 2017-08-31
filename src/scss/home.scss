@@ -871,6 +871,15 @@ body {
       color: #979797;
     }
   }
+
+  &__company {
+    margin-bottom: 0;
+  }
+
+  &__raw-link {
+    color: $textDarkGrayColor;
+    font-size: smaller;
+  }
 }
 
  /* TAC modal
@@ -995,6 +1004,27 @@ body {
     text-align: center;
     border: none;
     margin-top: 4px;
+  }
+}
+
+
+ /* raw modal
+ -------------------------------------------------- */
+
+.raw-modal {
+  margin: 10% 10%;
+  overflow-y: auto;
+  max-height: 100%;
+  color: $textDarkestGrayColor;
+
+  &__body {
+    text-align: left;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

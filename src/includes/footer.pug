@@ -15,10 +15,10 @@
         i.fa.fa-youtube
       a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://bitcointalk.org/index.php?topic=2102935', target='blank')
         i.glyphicon.glyphicon-bitcoin
-    p
+    p.footer__company
       | © ALIS Hong Kong LIMITED
     p
-      a(href="#" data-toggle="modal" data-target=".raw-modal" data-keyboard="true")
+      a.footer__raw-link(href="#" data-toggle="modal" data-target=".raw-modal" data-keyboard="true")
         | 特定商取引法に基づく表記
 
     // raw
@@ -30,7 +30,7 @@
               span(aria-hidden="true") &times;
             h4 特定商取引法に基づく表記
 
-          .modal-body
+          .modal-body.raw-modal__body
             ul
               li 販売業者: ALIS HONGKONG LIMITED
               li 代表責任者: 安 昌浩
@@ -54,5 +54,5 @@
                 | ただし、ICOにより350万ドルを集められなかった場合、すべてのEthereumトークンを返却いたします。
               li 返品手数料:  ETHの交換手数料
 
-          .modal-footer
-            button.btn.btn-default(type="button" data-dismiss="modal") foo
+          .modal-footer.raw-modal__footer
+            button.btn.btn-default(type="button" data-dismiss="modal") close
