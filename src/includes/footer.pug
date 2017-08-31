@@ -15,5 +15,44 @@
         i.fa.fa-youtube
       a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://bitcointalk.org/index.php?topic=2102935', target='blank')
         i.glyphicon.glyphicon-bitcoin
-    p
+    p.footer__company
       | © ALIS Hong Kong LIMITED
+    p
+      a.footer__raw-link(href="#" data-toggle="modal" data-target=".raw-modal" data-keyboard="true")
+        | 特定商取引法に基づく表記
+
+    // raw
+    .modal.fade.raw-modal(tabindex="-1")
+      .modal-dialog.modal-lg
+        .modal-content
+          .modal-header
+            button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+              span(aria-hidden="true") &times;
+            h4 特定商取引法に基づく表記
+
+          .modal-body.raw-modal__body
+            ul
+              li 販売業者: ALIS HONGKONG LIMITED
+              li 代表責任者: 安 昌浩
+              li
+                | 所在地:
+              li
+                |【本社】
+                | SHOP　328, 3/F 76-82 CASTLE PEAK RD KLN HONG KONG
+              li
+                |【日本事業所】
+                | 東京都渋谷区神南一丁目２０番７号川原ビル６階"
+              li ホームページURL:  https://alismedia.jp
+              li 販売価格・販売数量上限:  ホームページをご参照ください。
+              li 商品代金以外の必要料金:  ETHの交換手数料
+              li 申込みの有効期限:  ICO実施期間（２０１７年９月１日～２０１７年９月２９日）
+              li 引き渡し時期:  ご注文から速やかに送ります。
+              li お支払方法:  ETHによる
+              li
+                | 返品・交換・キャンセル等:
+                | ALIS交換後の返品・返却・キャンセル等はお受け致しかねます。
+                | ただし、ICOにより350万ドルを集められなかった場合、すべてのEthereumトークンを返却いたします。
+              li 返品手数料:  ETHの交換手数料
+
+          .modal-footer.raw-modal__footer
+            button.btn.btn-default(type="button" data-dismiss="modal") close
