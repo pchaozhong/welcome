@@ -109,14 +109,14 @@ ico:
   information:
     header: Information
     row1:
-      left: '最低調達金額: 350万ドル（ ≒ 11,666 ETH )'
+      left: '最低調達金額: 11,666ETH'
       right: 'Accept Token: ETH'
     row2:
       left: '最高調達金額: 3000万ドル（ ≒ 100,000 ETH )'
       right: '最大供給ALISトークン数: 250,000,000 ALIS'
     caption1: NEO上でのトークンセールを計画しておりますので、詳細が決まり次第お知らせいたします。
     caption2: ETHの最低および最高調達量は、ETHの急激な価額変動が発生した場合変更される可能性があります。
-    caption3: 350万ドルを集められなかった場合、すべてのEthereumトークンを返却いたします。
+    caption3: 11,666EHを集められなかった場合、すべてのEthereumトークンを返却いたします。
   button: JOIN SLACK
 technology:
   header: Technology
