@@ -86,17 +86,6 @@ body {
       font-style: normal;
       color: $textHighlightColor;
     }
-
-    &__btn {
-      fill: $brandColor;
-      width: $coverVideoButtonSize;
-
-      &_hover {
-        fill: white;
-        cursor: pointer;
-        width: $coverVideoButtonSize;
-      }
-    }
   }
 
   &__square-btn {
@@ -193,17 +182,6 @@ body {
     em {
       font-style: normal;
       color: $textHighlightColor;
-    }
-
-    &__btn {
-      fill: $brandColor;
-      width: $coverVideoButtonSize;
-
-      &_hover {
-        fill: white;
-        cursor: pointer;
-        width: $coverVideoButtonSize;
-      }
     }
   }
 
