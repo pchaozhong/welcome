@@ -324,7 +324,7 @@ tac:
       main: DO NOT sent ETH from the exchange directly.
       example: (ploniex, bittrex, Kraken, Coincheck, bitflyer, and etc.) You CANNOT receive ALIS tokens, when ETH is sent directly from the exchange. ALIS tokens will be sent to the exchange in such cases. Contact the exchange for details.
     note3: ALIS tokens will be sent automatically to the address which ETH is sent from.
-    note4: ALIS tokens will be sent within few minutes, but you will need to register the wallet to see the ALIS tokens. Check the STEP 3 in link below.
+    note4: ALIS tokens will be sent within few minutes, but you will need to register the wallet to see the ALIS tokens.
     note5: ONLY send your ETH to address written above. Other address DOES NOT EXIST.
     note6: We will NOT be responsible for any loss caused by violations.
   close: Close
