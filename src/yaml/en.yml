@@ -286,7 +286,7 @@ tac:
   disclaimer:
     heading: Disclaimer of Warrants and Guarantees
     body: |
-      ALIS does not guarantee any level of performance or the continued, uninterrupted availability of our Services. We do not guarantee the accuracy of any information provided on the Sites. We hereby disclaim all warrants and guarantees that not expressly made in these Terms.
+      ALIS does not guarantee any level of performance or the continued, uninterrupted availability of our Services. We do not guarantee the accuracy of any information provided on the Sites including whitepaper, and the any possibility including possibility of success of ICO or listing on exchanges related to Services. We hereby disclaim all warrants and guarantees that not expressly made in these Terms.
   applicablelaw:
     heading: Applicable Law and Jurisdiction
     body: |
@@ -324,7 +324,7 @@ tac:
       main: DO NOT sent ETH from the exchange directly.
       example: (ploniex, bittrex, Kraken, Coincheck, bitflyer, and etc.) You CANNOT receive ALIS tokens, when ETH is sent directly from the exchange. ALIS tokens will be sent to the exchange in such cases. Contact the exchange for details.
     note3: ALIS tokens will be sent automatically to the address which ETH is sent from.
-    note4: ALIS tokens will be sent within few minutes, but you will need to register the wallet to see the ALIS tokens. Check the STEP 3 in link below.
+    note4: ALIS tokens will be sent within few minutes, but you will need to register the wallet to see the ALIS tokens.
     note5: ONLY send your ETH to address written above. Other address DOES NOT EXIST.
     note6: We will NOT be responsible for any loss caused by violations.
   close: Close
