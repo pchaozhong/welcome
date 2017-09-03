@@ -341,6 +341,11 @@ body
           li
             strong #{warning.note1}
           li #{warning.note2}
+          .warning-modal__introduction
+            a(href=icointroduction.url target="_blank")
+              i.fa.fa-file
+              span
+                | #{cover.instruction}
       p.warning-modal__button-container
         button.btn.btn-default.warning-modal__button(href="#" data-toggle="modal" data-target=".contribute-modal"
         data-dismiss='modal')
