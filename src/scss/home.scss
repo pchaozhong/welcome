@@ -881,6 +881,16 @@ body {
     font-size: large;
   }
 
+  &__introduction {
+    text-align: center;
+    margin-top: 30px;
+    font-size: x-large;
+
+    i {
+      margin-right: 4px;
+    }
+  }
+
   &__button-container {
     display: flex;
     justify-content: center;
