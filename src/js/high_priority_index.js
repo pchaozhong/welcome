@@ -81,7 +81,7 @@ $(() => {
 
 // プログレスバー
 $(() => {
-  let elem = document.getElementById("myBar");
+  let elem = document.getElementById("progress-bar");
   let width = 1;
   const id = setInterval(frame, 20);
 

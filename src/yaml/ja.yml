@@ -32,6 +32,7 @@ cover:
     before: "Before Week "
     middle: " 1eth = "
     after: " ALIS"
+  progress: "ICOの状況(目標の11,666ETHまで) : "
   instruction: ICOへの参加方法 (Medium)
   tac:
     before: ""

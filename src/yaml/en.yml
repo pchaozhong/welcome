@@ -32,6 +32,7 @@ cover:
     before: "Before Week "
     middle: " 1ETH = "
     after: " ALIS"
+  progress: "ICO Status(Soft cap 11,666ETH) : "
   instruction: ICO Participation Instructions (Medium)
   tac:
     before: "I agree with "

@@ -69,9 +69,13 @@
 
         // Progress bar
         .row
-          .col-md-12
-            #myProgress
-              #myBar
+          .col-md-12.cover__progress-label
+            div #{cover.progress}
+
+        .row
+          .col-md-12.cover__progress
+            .cover__progress-container
+              #progress-bar.cover__progress-bar
 
         .row
           .col-md-12

@@ -241,6 +241,36 @@ body {
     }
   }
 
+  &__progress-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 23px;
+  }
+
+  &__progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__progress-container {
+    width: 45%;
+    background-color: grey;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  &__progress-bar {
+    width: 1%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $progressBar;
+    border-radius: 5px;
+  }
+
   &__tac {
     text-align: center;
 
@@ -329,16 +359,6 @@ body {
     min-width: 100%;
     height: 100%;
   }
-}
-
-#myProgress {
-  width: 100%;
-  background-color: grey;
-}
-#myBar {
-  width: 1%;
-  height: 30px;
-  background-color: green;
 }
 
 /* Service information
@@ -1099,7 +1119,7 @@ body {
 
   .ico {
     &__instruction {
-      margin-top: 30px;
+      margin-top: 20px;
       font-size: 14px;
     }
 
@@ -1155,13 +1175,7 @@ body {
     }
 
     &__instruction {
-      margin-top: 30px;
-    }
-
-    &__contribute {
-      button {
-        margin-top: 24px;
-      }
+      margin-top: 20px;
     }
 
     &__slack {
@@ -1238,7 +1252,7 @@ body {
     }
 
     &__instruction {
-      margin-top: 24px;
+      margin-top: 14px;
       font-size: 14px;
     }
 
@@ -1490,7 +1504,7 @@ body {
     }
 
     &__instruction {
-      margin-top: 32px;
+      margin-top: 36px;
       font-size: 16px;
     }
 
