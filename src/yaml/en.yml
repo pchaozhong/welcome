@@ -34,7 +34,7 @@ cover:
     after: " ALIS"
   instruction: ICO Participation Instructions (Medium)
   tac:
-    before: "← Please check : I agree with "
+    before: "← Please check : I agree wichinchith "
     link: the terms of services
     after: " and I'm not the New York City Citizen. "
   contribute: CONTRIBUTE IN ETHER
@@ -171,8 +171,6 @@ team:
         from the Chinese Academy of Science, with a focus on supercomputing base large-scale parallel CFD.
         After graduating in 2014, he joined Recruit Co., Ltd. and now is a full stack engineer. He is experienced
         in iOS, Android, frontend, backend and UI/UX design.
-        He also plays the role as the bridge of communication for our Chinese users on Weibo, Wechat, and other
-        famous SNS in China.
     kamei:
       name: Tatsuhiko Kamei
       body: |
