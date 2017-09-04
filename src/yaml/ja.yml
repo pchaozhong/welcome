@@ -36,7 +36,7 @@ cover:
   tac:
     before: "← チェックしてください : "
     link: 利用規約に同意し
-    after: "ニューヨーク市民でないことを確認しました。"
+    after: "ニューヨーク市民・中国国民でないことを確認しました。"
   contribute: CONTRIBUTE IN ETHER
   slack: JOIN SLACK
 service_information:

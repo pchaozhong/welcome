@@ -34,9 +34,9 @@ cover:
     after: " ALIS"
   instruction: ICO Participation Instructions (Medium)
   tac:
-    before: "← Please check : I agree wichinchith "
+    before: "← Please check : I agree with "
     link: the terms of services
-    after: " and I'm not the New York City Citizen. "
+    after: " and I’m not the New York City Citizen and I’m not a Chinese citizen. "
   contribute: CONTRIBUTE IN ETHER
   slack: JOIN SLACK
 service_information:
