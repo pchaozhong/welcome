@@ -77,3 +77,29 @@ $(() => {
     }
   }
 });
+
+
+// プログレスバー
+$(() => {
+  let elem = document.getElementById("progress-bar");
+  let width = 1;
+
+  $.ajax('https://2u8y18zzu3.execute-api.ap-northeast-1.amazonaws.com/production/',
+    {
+      type: 'get',
+      dateType: 'text'
+    })
+    .done((data) => {
+      const id = setInterval(frame, 20);
+
+      function frame() {
+        if (width >= data) {
+          clearInterval(id);
+        } else {
+          width++;
+          elem.style.width = width + '%';
+          elem.innerHTML = width + '%';
+        }
+      }
+    });
+});

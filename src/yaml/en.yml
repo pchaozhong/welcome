@@ -32,13 +32,13 @@ cover:
     before: "Before Week "
     middle: " 1ETH = "
     after: " ALIS"
+  progress: "ICO Status(Soft cap 11,666ETH) : "
   instruction: ICO Participation Instructions (Medium)
   tac:
     before: "← Please check : I agree with "
     link: the terms of services
     after: " and I’m not the New York City Citizen and I’m not a Chinese citizen. "
   contribute: CONTRIBUTE IN ETHER
-  slack: JOIN SLACK
 service_information:
   header: What is ALIS?
   body1: |

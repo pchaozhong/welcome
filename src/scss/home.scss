@@ -241,6 +241,35 @@ body {
     }
   }
 
+  &__progress-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 23px;
+  }
+
+  &__progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__progress-container {
+    background-color: grey;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  &__progress-bar {
+    width: 1%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $progressBar;
+    border-radius: 5px;
+  }
+
   &__tac {
     text-align: center;
 
@@ -1029,7 +1058,7 @@ body {
     height: 680px;
 
     &__countdown-heading {
-      margin-top: 24px;
+      margin-top: 5px;
 
       h2 {
         font-size: 18px;
@@ -1053,6 +1082,14 @@ body {
     &__rate {
       font-size: 12px;
       align-items: center;
+    }
+
+    &__progress-label {
+      padding-top: 5px;
+    }
+
+    &__progress-container {
+      width: 80%;
     }
 
     &__notice {
@@ -1089,7 +1126,7 @@ body {
 
   .ico {
     &__instruction {
-      margin-top: 30px;
+      margin-top: 20px;
       font-size: 14px;
     }
 
@@ -1145,13 +1182,7 @@ body {
     }
 
     &__instruction {
-      margin-top: 30px;
-    }
-
-    &__contribute {
-      button {
-        margin-top: 24px;
-      }
+      margin-top: 20px;
     }
 
     &__slack {
@@ -1228,7 +1259,7 @@ body {
     }
 
     &__instruction {
-      margin-top: 24px;
+      margin-top: 14px;
       font-size: 14px;
     }
 
@@ -1479,8 +1510,12 @@ body {
       font-size: 20px;
     }
 
+    &__progress-container {
+      width: 45%;
+    }
+
     &__instruction {
-      margin-top: 32px;
+      margin-top: 36px;
       font-size: 16px;
     }
 

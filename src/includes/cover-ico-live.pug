@@ -67,6 +67,16 @@
                   | BONUS RATE
                   i.fa.fa-question-circle
 
+        // Progress bar
+        .row
+          .col-md-12.cover__progress-label
+            div #{cover.progress}
+
+        .row
+          .col-md-12.cover__progress
+            .cover__progress-container
+              #progress-bar.cover__progress-bar
+
         .row
           .col-md-12
             .cover__instruction
@@ -88,8 +98,3 @@
           .col-md-12
             button.disabled#cover-contribute-button(href="#" data-toggle="modal" data-target=".warning-modal" disabled="disabled")
               | #{cover.contribute}
-
-        .row.cover__slack
-          .col-md-12
-            a(href="https://alis-slack.herokuapp.com/" target="_blank")
-              | #{cover.slack}
