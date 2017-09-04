@@ -34,7 +34,7 @@ cover:
     after: " ALIS"
   instruction: ICOへの参加方法 (Medium)
   tac:
-    before: ""
+    before: "← チェックしてください : "
     link: 利用規約に同意し
     after: "ニューヨーク市民でないことを確認しました。"
   contribute: CONTRIBUTE IN ETHER
