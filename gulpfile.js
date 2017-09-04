@@ -28,7 +28,7 @@ getYamlData = (function () {
 
 gulp.task('pug:build', function () {
   let destination, i, lang, len, ref, results;
-  ref = ['en', 'ja', 'zh'];
+  ref = ['en', 'ja'];
   results = [];
   for (i = 0, len = ref.length; i < len; i++) {
     lang = ref[i];
