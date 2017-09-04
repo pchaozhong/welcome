@@ -77,3 +77,21 @@ $(() => {
     }
   }
 });
+
+
+// プログレスバー
+$(() => {
+  let elem = document.getElementById("myBar");
+  let width = 1;
+  const id = setInterval(frame, 20);
+
+  function frame() {
+    if (width >= 70) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = width + '%';
+    }
+  }
+})();
