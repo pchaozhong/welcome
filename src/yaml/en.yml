@@ -34,7 +34,7 @@ cover:
     after: " ALIS"
   instruction: ICO Participation Instructions (Medium)
   tac:
-    before: "I agree with "
+    before: "← Please check : I agree with "
     link: the terms of services
     after: " and I'm not the New York City Citizen. "
   contribute: CONTRIBUTE IN ETHER
