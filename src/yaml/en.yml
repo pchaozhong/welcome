@@ -92,8 +92,7 @@ about_japan:
 ico:
   header: ICO
   body1: The ALIS token sale on Ethereum begins on Sep 1st, 02:00 UTC.
-  body2: We will also plan to launch tokensale on NEO, please wait for further information.
-  body3: ALIS tokens on Ethereum will be offered in 4 price tiers.
+  body2: ALIS tokens on Ethereum will be offered in 4 price tiers.
   schedule:
     week1:
       from: Sep 1st, 02:00 UTC
@@ -115,9 +114,7 @@ ico:
     row2:
       left: 'Fund max Cap: 125,000 ETH'
       right: 'Max ALIS supply: 250,000,000 ALIS'
-    caption1: We are now talking with NEO team how to cooperate with NEO. The details will be here near future.
-    caption2: The min and max cap of ETH will be changed when the price of ETH is changed radically.
-    caption3: We will also back your ETH token if we cannot raise 11,666ETH.
+    caption1: We will back your ETH token if we cannot raise 11,666ETH.
   button: JOIN SLACK
 technology:
   header: Technology
