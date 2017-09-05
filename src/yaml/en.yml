@@ -26,13 +26,13 @@ cover:
     header_until_ico: TOKEN SALE WILL LIVE SOON!
     body_until_ico: Start in September 1st, 02:00 (UTC)
     header: Join our Tokensale Now!
-    body: End in September 29th, 02:00 (UTC)
+    body: Ends in September 29th, 02:00 (UTC)
   learn_more: LEARN MORE
   next_rate:
     before: "Before Week "
     middle: " 1ETH = "
     after: " ALIS"
-  progress: "ICO Status(Soft cap 11,666ETH) : "
+  progress: "ICO Status(Fund min cap 11,666ETH) : "
   instruction: ICO Participation Instructions (Medium)
   tac:
     before: "← Please check : I agree with "
