@@ -91,8 +91,7 @@ ico:
   # TODO
   header: ICO
   body1: ALISのトークンセールは2017年9月1日11時（日本時間）よりスタートします。
-  body2: また、ALISではNEO上でのクラウドセールも計画中です。
-  body3: Ethereumとの交換によるトークンセールについては、4段階の価格に分かれています。
+  body2: Ethereumとの交換によるトークンセールについては、4段階の価格に分かれています。
   schedule:
     week1:
       from: Sep 1st, 02:00 UTC
@@ -114,9 +113,7 @@ ico:
     row2:
       left: '最高調達金額: 125,000 ETH'
       right: '最大供給ALISトークン数: 250,000,000 ALIS'
-    caption1: NEO上でのトークンセールを計画しておりますので、詳細が決まり次第お知らせいたします。
-    caption2: ETHの最低および最高調達量は、ETHの急激な価額変動が発生した場合変更される可能性があります。
-    caption3: 11,666EHを集められなかった場合、すべてのEthereumトークンを返却いたします。
+    caption1: 11,666EHを集められなかった場合、すべてのEthereumトークンを返却いたします。
   button: JOIN SLACK
 technology:
   header: Technology
