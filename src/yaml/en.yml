@@ -48,7 +48,7 @@ service_information:
     to create a media platform specialized for the Japanese market.
     Our mission is to filter through the myriad of advertising and
     stealth marketing campaigns. Our goal is to provide more reliable information than traditional media outlets.
-    Please read our whitepaper for further infromation.
+    Please read our whitepaper for further information.
   button_whitepaper: Read Whitepapaer
   body2: |
     If you wish to receive latest information, please register your e-mail address with the button below.
@@ -102,9 +102,9 @@ ico:
       to: Sep 15th, 01:59 UTC
     week3:
       from: Sep 15th, 02:00 UTC
-      to: Sep 22th, 01:59 UTC
+      to: Sep 22nd, 01:59 UTC
     week4:
-      from: Sep 22th, 02:00 UTC
+      from: Sep 22nd, 02:00 UTC
       to: Sep 29th, 01:59 UTC
   information:
     header: Information
