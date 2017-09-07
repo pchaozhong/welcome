@@ -95,6 +95,7 @@ $(() => {
       function frame() {
         if (width >= data) {
           clearInterval(id);
+          $('#progress-label').fadeTo('slow', 1);
         } else {
           width++;
           elem.style.width = width + '%';
