@@ -84,7 +84,7 @@ $(() => {
   let elem = document.getElementById("progress-bar");
   let width = 1;
 
-  $.ajax('https://2u8y18zzu3.execute-api.ap-northeast-1.amazonaws.com/production/',
+  $.ajax('https://2u8y18zzu3.execute-api.ap-northeast-1.amazonaws.com/production/reached',
     {
       type: 'get',
       dateType: 'text'
