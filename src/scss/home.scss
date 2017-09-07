@@ -246,6 +246,10 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 23px;
+
+    strong {
+      color: $textHighlightColor;
+    }
   }
 
   &__progress {
