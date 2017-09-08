@@ -32,7 +32,7 @@ $(() => {
         $('.cover__notice').remove();
       }
 
-      $('#countdown-timer').countdown(TERM_END_DATE_TIMES[i].toDate(), function (event) {
+      $('#countdown-timer').countdown(TERM_END_DATE_TIMES[i].toDate(), (event) => {
         $daysContainer.text(event.offset.totalDays);
         $hoursContainer.text(event.offset.hours);
         $minutesContainer.text(event.offset.minutes);
