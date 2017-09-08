@@ -101,9 +101,9 @@ ico:
       to: Sep 15th, 01:59 UTC
     week3:
       from: Sep 15th, 02:00 UTC
-      to: Sep 22th, 01:59 UTC
+      to: Sep 22nd, 01:59 UTC
     week4:
-      from: Sep 22th, 02:00 UTC
+      from: Sep 22nd, 02:00 UTC
       to: Sep 29th, 01:59 UTC
   information:
     header: Information
@@ -285,7 +285,7 @@ tac:
       main: 絶対に取引所から直接ETHを送らないようにしてください。
       example: (coincheck, bitflyer, poloniex, bittrex, Krakenなど。)。取引所から直接ETHを送ったとしてもALISトークンを取得できません。ALISトークンは取引所に格納されるのでその場合は取引所にお問い合わせください
     note3: あなたがETHを送付した元のアドレス宛にALISトークンが自動で送付されます。
-    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの譲歩登録が必要です。
+    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの情報登録が必要です。
     note5: 上記に表示されている以外のアドレスに絶対にETHを送らないでください。他のアドレスは存在しません。
     note6: 上記に違反した結果、あなたが損害を被った場合も私たちは一切責任を負いません。
   close: Close
@@ -305,7 +305,7 @@ contribute:
       main: 絶対に取引所から直接ETHを上記アドレスに送らないようにしてください。
       example: (coincheck, bitflyer, poloniex, bittrex, Krakenなど。)。取引所から直接ETHを送ったとしてもALISトークンを取得できません。ALISトークンは取引所に格納されるのでその場合は取引所にお問い合わせください
     note3: あなたがETHを送付した元のアドレス宛にALISトークンが自動で送付されます。
-    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの譲歩登録が必要です.下記のICOへの参加方法のSTEP３をお読みください。
+    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの情報登録が必要です.下記のICOへの参加方法のSTEP３をお読みください。
     note5: 上記に表示されている以外のアドレスに絶対にETHを送らないでください。他のアドレスは存在しません。
     note6: 上記に違反した結果、あなたが損害を被った場合も私たちは一切責任を負いません。
   close: Close
