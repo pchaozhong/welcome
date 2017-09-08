@@ -1,0 +1,91 @@
+.modal.fade.tac-modal(tabindex="-1")
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+          span(aria-hidden="true") &times;
+        h4 #{tac.heading}
+      .modal-body
+        h4 #{tac.subheading1}
+        h5 #{tac.subheading2}
+
+        h5 #{tac.introduction.heading}
+        p #{tac.introduction.body}
+
+        h5 #{tac.token_creation.heading}
+        p #{tac.token_creation.body}
+
+        h5 #{tac.registrationandaccount.heading}
+        p #{tac.registrationandaccount.body}
+
+        h5 #{tac.user_wallet_safety.heading}
+        p #{tac.user_wallet_safety.body}
+
+        h5 #{tac.risks.heading}
+        p #{tac.risks.body}
+
+        h5 #{tac.taxation.heading}
+        p #{tac.taxation.body}
+
+        h5 #{tac.liability.heading}
+        p #{tac.liability.body}
+
+        h5 #{tac.miscellaneous.heading}
+        p #{tac.miscellaneous.body}
+
+        h5 #{tac.cancellation.heading}
+        p #{tac.cancellation.body}
+
+        h5 #{tac.investmentnotice.heading}
+        p #{tac.investmentnotice.body}
+
+        h5 #{tac.license.heading}
+        p #{tac.license.body}
+
+        h5 #{tac.termination.heading}
+        p #{tac.termination.body}
+
+        h5 #{tac.linkstotoherwebsites.heading}
+        p #{tac.linkstotoherwebsites.body}
+
+        h5 #{tac.copyright.heading}
+        p #{tac.copyright.body}
+
+        h5 #{tac.indemnification.heading}
+        p #{tac.indemnification.body}
+
+        h5 #{tac.disclaimer.heading}
+        p #{tac.disclaimer.body}
+
+        h5 #{tac.applicablelaw.heading}
+        p #{tac.applicablelaw.body}
+
+        h5 #{tac.noclassarbitration.heading}
+        p #{tac.noclassarbitration.body}
+
+        h5 #{tac.relationship.heading}
+        p #{tac.relationship.body}
+
+        h5 #{tac.survivalandseverability.heading}
+        p #{tac.survivalandseverability.body}
+
+        h5 #{tac.integration.heading}
+        p #{tac.integration.body}
+
+        h5 #{tac.actofgod.heading}
+        p #{tac.actofgod.body}
+
+        h5 #{tac.languageterm.heading}
+        p #{tac.languageterm.body}
+
+        h5 #{tac.notes.heading}
+        div #{tac.notes.note1}
+        div #{tac.notes.note2.main}
+        div #{tac.notes.note2.example}
+        div #{tac.notes.note3}
+        div #{tac.notes.note4}
+        div #{tac.notes.note5}
+        div #{tac.notes.note6}
+
+      .modal-footer
+        button.btn.btn-default(type="button" data-dismiss="modal") #{tac.close}
