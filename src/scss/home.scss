@@ -781,6 +781,15 @@ body {
     margin-bottom: 0;
   }
 
+  &__address {
+    margin-bottom: 0;
+
+    a {
+      color: $textDarkGrayColor;
+      font-size: smaller;
+    }
+  }
+
   &__raw-link {
     color: $textDarkGrayColor;
     font-size: smaller;
