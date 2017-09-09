@@ -1,0 +1,36 @@
+.modal.fade.contribute-modal(tabindex="-1")
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+          span(aria-hidden="true") &times;
+        h4 #{contribute.heading}
+      .modal-body
+        .contribute-modal__header
+          h5 #{contribute.contact_address.heading}
+        p 0xeb31a3E0D93Cb2C89eDD68D57710361d76Ce5bF1
+
+        .contribute-modal__header
+          h5 #{contribute.sugg_gas_limit.heading}
+        p 200000
+
+        .contribute-modal__header
+          h5 #{contribute.notes.heading}
+        ul
+          li #{contribute.notes.note1}
+          li
+            strong #{contribute.notes.note2.main}
+            | #{contribute.notes.note2.example}
+          li #{contribute.notes.note3}
+          li #{contribute.notes.note4}
+          li #{contribute.notes.note5}
+          li #{contribute.notes.note6}
+
+        .contribute-modal__introduction
+          a(href=icointroduction.url target="_blank")
+            i.fa.fa-file
+            span
+              | #{cover.instruction}
+
+      .modal-footer
+        button.btn.btn-default(type="button" data-dismiss="modal") #{contribute.close}

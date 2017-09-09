@@ -2,7 +2,6 @@
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
 const CURRENT_DATE = new Date();
-const BEFORE_ICO_END_DATE_TIME = moment('2017-09-01T01:59:59Z');
 
 // カウントダウンの時計
 // ICO開始後のレートの自動更新
@@ -13,39 +12,6 @@ const TERM_END_DATE_TIMES = [
   '2017-09-22T01:59:59Z',
   '2017-09-29T01:59:59Z',
 ].map((termEndDateTimes) => moment(termEndDateTimes));
-
-// Change cover when ICO started.
-$(() => {
-  if (CURRENT_DATE <= BEFORE_ICO_END_DATE_TIME) {
-    $('#cover-until-ico').show();
-  } else {
-    $('#cover').show();
-    $('#ico-live').show();
-  }
-});
-
-// ICOまで
-$(() => {
-  const $daysContainer = $('#countdown-until-ico-timer-days');
-  const $hoursContainer = $('#countdown-until-ico-timer-hours');
-  const $minutesContainer = $('#countdown-until-ico-timer-minutes');
-  const $secondsContainer = $('#countdown-until-ico-timer-seconds');
-
-  if (CURRENT_DATE <= BEFORE_ICO_END_DATE_TIME) {
-    $('#countdown-until-ico-timer').countdown(BEFORE_ICO_END_DATE_TIME.toDate(), function (event) {
-      $daysContainer.text(event.offset.totalDays);
-      $hoursContainer.text(event.offset.hours);
-      $minutesContainer.text(event.offset.minutes);
-      $secondsContainer.text(event.offset.seconds);
-    }).on('finish.countdown', () => {
-      // ICO開始時
-      $('#cover-until-ico').fadeOut(1200, () => {
-        $('#cover').fadeIn('slow');
-        $('#ico-live').fadeIn('slow');
-      });
-    });
-  }
-});
 
 // ICO開始後
 $(() => {
@@ -66,7 +32,7 @@ $(() => {
         $('.cover__notice').remove();
       }
 
-      $('#countdown-timer').countdown(TERM_END_DATE_TIMES[i].toDate(), function (event) {
+      $('#countdown-timer').countdown(TERM_END_DATE_TIMES[i].toDate(), (event) => {
         $daysContainer.text(event.offset.totalDays);
         $hoursContainer.text(event.offset.hours);
         $minutesContainer.text(event.offset.minutes);
