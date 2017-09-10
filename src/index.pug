@@ -201,17 +201,17 @@ body
         include mixin/team_member
         include mixin/team_member_sns
         .col-lg-4
-          +team_member(team.profile.yasu.name, 'Founder')(src='/img/yasu.jpg')
+          +team_member(team.profile.yasu.name, 'Founder / CEO')(src='/img/yasu.jpg')
           +team_member_sns('masahiro.yasu.7', 'MasahiroALIS')
           .team__content
             | #{team.profile.yasu.body}
         .col-lg-4
-          +team_member(team.profile.mizusawa.name, 'Co-Founder / Marketing')(src='/img/mizusawa.jpg')
+          +team_member(team.profile.mizusawa.name, 'Co-Founder / CMO')(src='/img/mizusawa.jpg')
           +team_member_sns('takashi.mizusawa', 'takashi_mizu')
           .team__content
             | #{team.profile.mizusawa.body}
         .col-lg-4
-          +team_member(team.profile.ishii.name, 'Co-Founder / Engineering')(src='/img/ishii.jpg')
+          +team_member(team.profile.ishii.name, 'Co-Founder / CEO')(src='/img/ishii.jpg')
           +team_member_sns('sota.ishii', 'sot528')
           .team__content
             | #{team.profile.ishii.body}
