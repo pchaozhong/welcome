@@ -71,105 +71,7 @@ body {
 
 /* Cover
 -------------------------------------------------- */
-.cover-until-ico {
-  display: none;
-  position: relative;
-  height: 400px;
-  margin-bottom: 60px;
-
-  &__caption {
-    color: white;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-
-    em {
-      font-style: normal;
-      color: $textHighlightColor;
-    }
-  }
-
-  &__square-btn {
-    display: inline-block;
-    padding: 0.55em;
-    height: $buttonHeight;
-    text-decoration: none;
-    margin: 10px 30px;
-    color: white;
-    width: 200px;
-    border: solid 2px $buttonLightBlueColor;
-    border-radius: 3px;
-    transition: .4s;
-
-    &:hover {
-      background: $buttonLightBlueColor;
-      color: white;
-      text-decoration: none;
-    }
-  }
-
-  &__countdown {
-    background-color: rgba(56, 57, 79, 0.5);
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-
-    h2 {
-      margin: 0;
-      font-weight: bold;
-    }
-
-    &__caption {
-      margin: 5px 0 0;
-    }
-  }
-
-  &__countdown-timer {
-    &__number {
-      font-weight: bold;
-    }
-  }
-
-  &__instruction {
-    text-align: center;
-    color: white;
-
-    a {
-      img {
-        margin-right: 12px;
-        vertical-align: bottom;
-      }
-
-      span {
-        color: white;
-      }
-
-      &:visited {
-        text-decoration-color: white;
-      }
-    }
-  }
-
-  &__learn-more {
-    text-align: center;
-
-    a {
-      display: inline-block;
-      background-color: #00b0f0;
-      padding-top: 12px;
-      width: 225px;
-      height: 46px;
-      color: white;
-
-      &:hover, &:visited {
-        color: white;
-        text-decoration: none;
-      }
-    }
-  }
-}
-
 .cover {
-  display: none;
   position: relative;
   height: 400px;
   margin-bottom: 60px;
@@ -635,10 +537,6 @@ body {
     }
   }
 
-  &__forms--live {
-    display: none;
-  }
-
   &__tac {
     text-align: center;
 
@@ -888,6 +786,15 @@ body {
     margin-bottom: 0;
   }
 
+  &__address {
+    margin-bottom: 0;
+
+    a {
+      color: $textDarkGrayColor;
+      font-size: smaller;
+    }
+  }
+
   &__raw-link {
     color: $textDarkGrayColor;
     font-size: smaller;
@@ -1055,10 +962,6 @@ body {
 
 // ex) iPhone5/5S/5c/SE
 @media (min-width: 320px) {
-  .cover-until-ico {
-    height: 680px;
-  }
-
   .cover {
     height: 680px;
 
@@ -1157,10 +1060,6 @@ body {
 }
 
 @media (min-width: 375px) {
-  .cover-until-ico {
-    height: 540px;
-  }
-
   .cover {
     &__caption {
       padding-top: 26px;
@@ -1226,52 +1125,6 @@ body {
     .nav{
       &__language{
         margin-top: 15px;
-      }
-    }
-  }
-
-  .cover-until-ico {
-    &__caption {
-      padding-top: 8px;
-
-      h2 {
-        font-size: 24px;
-      }
-    }
-
-    &__square-btn {
-      width: 150px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-    &__countdown {
-      padding: 14px 32px 14px;
-      margin-top: 10px;
-      font-size: 14px;
-
-      h2 {
-        font-size: 16px;
-      }
-
-      &__timer {
-        margin-top: 10px;
-
-        &__number {
-          font-size: 28px;
-        }
-      }
-    }
-
-    &__instruction {
-      margin-top: 14px;
-      font-size: 14px;
-    }
-
-    &__learn-more {
-      a {
-        margin-top: 32px;
-        font-size: 16px;
       }
     }
   }
@@ -1354,44 +1207,6 @@ body {
 }
 
 @media (min-width: 640px) {
-  .cover-until-ico {
-    height: 560px;
-
-    &__caption {
-      padding-top: 26px;
-    }
-
-    &__countdown {
-      padding: 20px 32px 20px;
-      margin-top: 16px;
-      font-size: 14px;
-
-      h2 {
-        font-size: 16px;
-      }
-
-      &__timer {
-        margin-top: 10px;
-
-        &__number {
-          font-size: 32px;
-        }
-      }
-    }
-
-    &__instruction {
-      margin-top: 14px;
-      font-size: 14px;
-    }
-
-    &__learn-more {
-      a {
-        margin-top: 24px;
-        font-size: 16px;
-      }
-    }
-  }
-
   .cover {
     &__caption {
       padding-top: 26px;
@@ -1444,50 +1259,6 @@ body {
     .navbar-collapse {
       box-shadow: none;
       -webkit-box-shadow: none;
-    }
-  }
-
-  .cover-until-ico {
-    height: 680px;
-
-    &__caption {
-      padding-top: 36px;
-
-      p {
-        font-size: 16px;
-        line-height: 1.4;
-        margin: 16px 0 20px;
-      }
-    }
-
-    &__countdown {
-      padding: 32px 32px 40px;
-      margin-top: 24px;
-      font-size: 16px;
-
-      h2 {
-        font-size: 22px;
-      }
-    }
-
-    &__countdown-timer {
-      margin-top: 20px;
-
-      &__number {
-        font-size: 44px;
-      }
-    }
-
-    &__instruction {
-      margin-top: 14px;
-      font-size: 16px;
-    }
-
-    &__learn-more {
-      a {
-        margin-top: 32px;
-        font-size: 16px;
-      }
     }
   }
 
@@ -1671,12 +1442,6 @@ body {
 }
 
 @media (min-width: 992px) {
-  .cover-until-ico {
-    &__caption {
-      padding-top: 50px;
-    }
-  }
-
   .cover {
     &__caption {
       padding-top: 36px;
@@ -1717,13 +1482,6 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .cover-until-ico {
-    &__caption {
-      margin-left: 70px;
-      margin-right: 70px;
-    }
-  }
-
   .cover {
     &__countdown-timer {
       margin: 28px 210px 0;
@@ -1736,7 +1494,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  .cover, .cover-until-ico {
+  .cover {
     .item {
       // FIXME
       background-size: 100% !important;

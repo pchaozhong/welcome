@@ -15,7 +15,7 @@ navbar:
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf
 icointroduction:
-  url: https://medium.com/@alismedia/alis%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%82%92myetherwallet%E3%81%A7%E8%B3%BC%E5%85%A5%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-8dfcbd69a8b5
+  url: https://medium.com/@alismedia/8dfcbd69a8b5
 cover:
   caption_line_one: 信頼できる記事と人々を明らかにする全く新しい報酬システム
   caption_line_two:
@@ -23,8 +23,6 @@ cover:
     japan: 日本
     after: 初のブロックチェーン技術を用いたソーシャルメディアプラットフォームです
   countdown:
-    header_until_ico: TOKEN SALE WILL LIVE SOON!
-    body_until_ico: ALISのトークンセールは9月1日 11:00（日本時間）にスタートします
     header: TOKEN SALE IS LIVE NOW!!
     body: 9月29日 11:00（日本時間）に終了します
   learn_more: LEARN MORE
@@ -89,7 +87,6 @@ about_japan:
       技術後進国でありながらも、日本における仮想通貨への関心はますます高まっています。
       日本において実用的な仮想通貨の登場が待望されています。
 ico:
-  # TODO
   header: ICO
   body1: ALISのトークンセールは2017年9月1日11時（日本時間）よりスタートします。
   body2: Ethereumとの交換によるトークンセールについては、4段階の価格に分かれています。
@@ -102,9 +99,9 @@ ico:
       to: Sep 15th, 01:59 UTC
     week3:
       from: Sep 15th, 02:00 UTC
-      to: Sep 22th, 01:59 UTC
+      to: Sep 22nd, 01:59 UTC
     week4:
-      from: Sep 22th, 02:00 UTC
+      from: Sep 22nd, 02:00 UTC
       to: Sep 29th, 01:59 UTC
   information:
     header: Information
@@ -286,7 +283,7 @@ tac:
       main: 絶対に取引所から直接ETHを送らないようにしてください。
       example: (coincheck, bitflyer, poloniex, bittrex, Krakenなど。)。取引所から直接ETHを送ったとしてもALISトークンを取得できません。ALISトークンは取引所に格納されるのでその場合は取引所にお問い合わせください
     note3: あなたがETHを送付した元のアドレス宛にALISトークンが自動で送付されます。
-    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの譲歩登録が必要です。
+    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの情報登録が必要です。
     note5: 上記に表示されている以外のアドレスに絶対にETHを送らないでください。他のアドレスは存在しません。
     note6: 上記に違反した結果、あなたが損害を被った場合も私たちは一切責任を負いません。
   close: Close
@@ -306,7 +303,7 @@ contribute:
       main: 絶対に取引所から直接ETHを上記アドレスに送らないようにしてください。
       example: (coincheck, bitflyer, poloniex, bittrex, Krakenなど。)。取引所から直接ETHを送ったとしてもALISトークンを取得できません。ALISトークンは取引所に格納されるのでその場合は取引所にお問い合わせください
     note3: あなたがETHを送付した元のアドレス宛にALISトークンが自動で送付されます。
-    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの譲歩登録が必要です.下記のICOへの参加方法のSTEP３をお読みください。
+    note4: 通常数分以内にALISトークンが送り返されてきますが、ALISトークンを表示するためにはウォレットへの情報登録が必要です.下記のICOへの参加方法のSTEP３をお読みください。
     note5: 上記に表示されている以外のアドレスに絶対にETHを送らないでください。他のアドレスは存在しません。
     note6: 上記に違反した結果、あなたが損害を被った場合も私たちは一切責任を負いません。
   close: Close

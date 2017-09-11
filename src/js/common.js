@@ -1,9 +1,9 @@
-/*globals $ particlesJS */
+/*globals $ */
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
 // スクロールをスムーズに
-$(function () {
-  $('.smooth-anchor').click(function () {
+$(() => {
+  $('.smooth-anchor').click(() => {
     const speed = 500;
     const href = $(this).attr("href");
     const target = $(href === "#" || href === "" ? 'html' : href);
@@ -15,29 +15,25 @@ $(function () {
 });
 
 // CONTRIBUTEボタンの活性/非活性切り替え
-$(function() {
+$(() => {
   const $coverContributeButton = $('#cover-contribute-button');
-  $('#cover-tac-checkbox').change(function() {
+  $('#cover-tac-checkbox').change(function () {
     const disabled = !$(this).is(':checked');
     $coverContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
   });
 
   const $icoContributeButton = $('#ico-contribute-button');
-  $('#ico-tac-checkbox').change(function() {
+  $('#ico-tac-checkbox').change(function () {
     const disabled = !$(this).is(':checked');
     $icoContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
   });
 });
 
-// カバーの背景
-//noinspection ES6ModulesDependencies
-particlesJS.load('cover-particles', '/json/cover-particles.json');
-
 // for console branding.
-(function () {
+(() => {
   console.log("%c\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660" +
     "\n%c\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\n%cALIS" +
-    "\n%cThe decentralized media platform project in Japan.\n%c\u2663\u2663\u2663\u2663\u2663\u2663\u2663\u2663" +
+    "\n%cA Rewards System to Distinguish Trustworthy Articles.\n%c\u2663\u2663\u2663\u2663\u2663\u2663\u2663\u2663" +
     "\u2663\u2663\u2663\u2663\u2663\u2663\u2663\n%c\u2666\u2666\u2666\u2666\u2666\u2666\u2666\u2666\u2666\u2666\u2666" +
     "\u2666\u2666\u2666\u2666", "color: lightblue; font-size: 3em; font-weight: bold;", "color: pink; font-size: 3em;" +
     " font-weight: bold;", "color: blue; font-size: 10em; font-weight: bold; font-family: american typewriter, " +

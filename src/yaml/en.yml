@@ -15,7 +15,7 @@ navbar:
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
 icointroduction:
-  url: https://medium.com/@alismedia/how-to-buy-alis-using-myetherwallet-2dba7a67117c
+  url: https://medium.com/@alismedia/2dba7a67117c
 cover:
   caption_line_one: A Rewards System to Distinguish Trustworthy Articles
   caption_line_two:
@@ -23,8 +23,6 @@ cover:
     japan: Japan's
     after: " First Social Media Platform Using Blockchain Technology"
   countdown:
-    header_until_ico: TOKEN SALE WILL LIVE SOON!
-    body_until_ico: Start in September 1st, 02:00 (UTC)
     header: Join our Tokensale Now!
     body: Ends on September 29th, 02:00 (UTC)
   learn_more: LEARN MORE
