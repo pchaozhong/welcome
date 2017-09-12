@@ -148,6 +148,11 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 23px;
+
+    strong {
+      color: $textHighlightColor;
+      opacity: 0;
+    }
   }
 
   &__progress {

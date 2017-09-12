@@ -30,7 +30,8 @@ cover:
     before: "Before Week "
     middle: " 1ETH = "
     after: " ALIS"
-  progress: "ICO Status(Fund min cap 11,666ETH) : "
+  progress: "ICO Status(Max cap 125,000ETH) : "
+  progress_raised: "Min cap raised!!(11,666ETH)"
   instruction: ICO Participation Instructions (Medium)
   tac:
     before: "← Please check : I agree with "
