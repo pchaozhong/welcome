@@ -49,3 +49,6 @@ Please change `example.com` to your S3 bucket name.
 1. Now you can see: 
     
         open http://example.com.s3-website-ap-northeast-1.amazonaws.com 
+
+# Licence
+- [MIT](LICENCE)
