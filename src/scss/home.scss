@@ -1129,6 +1129,14 @@ body {
     }
   }
 
+  .cover {
+    &__caption {
+      h2 {
+        font-size: medium;
+      }
+    }
+  }
+
   .service-information {
     &__logo {
       margin-top: 20px;
