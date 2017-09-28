@@ -2,6 +2,7 @@
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
 const CURRENT_DATE = new Date();
+const BEFORE_ICO_END_DATE_TIME = '2017-09-29T01:59:59Z';
 
 // カウントダウンの時計
 // ICO開始後のレートの自動更新
@@ -10,8 +11,18 @@ const TERM_END_DATE_TIMES = [
   '2017-09-08T01:59:59Z',
   '2017-09-15T01:59:59Z',
   '2017-09-22T01:59:59Z',
-  '2017-09-29T01:59:59Z',
+  BEFORE_ICO_END_DATE_TIME,
 ].map((termEndDateTimes) => moment(termEndDateTimes));
+
+// Change cover when ICO finished.
+$(() => {
+  if (CURRENT_DATE <= moment(BEFORE_ICO_END_DATE_TIME)) {
+    $('#cover').show();
+    $('#ico-live').show();
+  } else {
+    $('#cover-after-ico').show();
+  }
+});
 
 // ICO開始後
 $(() => {
@@ -37,6 +48,12 @@ $(() => {
         $hoursContainer.text(event.offset.hours);
         $minutesContainer.text(event.offset.minutes);
         $secondsContainer.text(event.offset.seconds);
+      }).on('finish.countdown', () => {
+        // ICO終了時
+        $('#ico-live').fadeOut(1200);
+        $('#cover').fadeOut(1200, () => {
+          $('#cover-after-ico').fadeIn('slow');
+        });
       });
 
       break;
