@@ -278,10 +278,6 @@ body {
   width: auto;
   padding-bottom: 44px;
 
-  &__forms--live {
-    display: none;
-  }
-
   .col-md-12 {
     text-align: center;
   }
@@ -392,97 +388,6 @@ body {
         color: #00b0f0;
         margin-right: 5px;
       }
-    }
-  }
-
-  &__tac {
-    text-align: center;
-
-    input {
-      margin-right: 5px;
-    }
-
-    a {
-      color: white;
-      text-decoration: underline;
-    }
-  }
-
-  &__instruction {
-    text-align: center;
-    color: white;
-
-    a {
-      img {
-        margin-right: 12px;
-        vertical-align: bottom;
-      }
-
-      span {
-        color: white;
-      }
-
-      &:visited {
-        text-decoration-color: white;
-      }
-    }
-  }
-
-  &__contribute {
-    text-align: center;
-
-    button {
-      display: inline-block;
-      background-color: #00b0f0;
-      width: 225px;
-      height: 46px;
-      color: white;
-      border: none;
-
-      &:hover {
-        color: white;
-      }
-
-      &.disabled {
-        background-color: gray;
-      }
-    }
-  }
-
-  &__slack {
-    text-align: center;
-
-    a {
-      display: inline-block;
-      background-color: $buttonPurpleColor;
-      padding-top: 10px;
-      width: 160px;
-      height: 38px;
-      color: white;
-      transition: .4s;
-
-      &:hover {
-        background-color: $buttonhoverPurpleColor;
-        color: white;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &__join-slack {
-    display: inline-block;
-    background-color: #00b0f0;
-    margin-top: 44px;
-    margin-bottom: 90px;
-    padding-top: 14px;
-    width: 305px;
-    height: 58px;
-    color: white;
-    font-size: 20px;
-
-    &:hover, &:visited {
-      color: white;
-      text-decoration: none;
     }
   }
 }
@@ -658,141 +563,6 @@ body {
   }
 }
 
-/* TAC modal
--------------------------------------------------- */
-
-.tac-modal {
-  .modal-body {
-    h4 {
-      font-weight: bold;
-    }
-  }
-}
-
-/* Warning modal
--------------------------------------------------- */
-
-.warning-modal {
-  margin: 10% 10%;
-
-  &__messages {
-    font-size: large;
-  }
-
-  &__introduction {
-    text-align: center;
-    margin-top: 30px;
-    font-size: x-large;
-
-    i {
-      margin-right: 4px;
-    }
-  }
-
-  &__button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__button {
-    text-align: center;
-    width: 188px;
-    font-size: x-large;
-    margin-top: 17px;
-  }
-}
-
-/* Contribute modal
--------------------------------------------------- */
-
-.contribute-modal {
-  overflow-y: auto;
-  max-height: 100%;
-
-  .modal-header {
-    text-align: center;
-    border: none;
-
-    h4 {
-      font-weight: bold;
-      color: $textDarkBlueColor;
-    }
-  }
-
-  &__header {
-    text-align: center;
-    position: relative;
-    margin-top: 24px;
-
-    &:before {
-      content: "";
-      display: inline-block;
-      width: 100%;
-      height: 1px;
-      background-color: $textDarkBlueColor;
-      position: absolute;
-      top: 20px;
-      left: 0;
-    }
-
-    &:first-child {
-      margin-top: 0;
-    }
-
-    h5 {
-      text-align: center;
-      background-color: $textDarkBlueColor;
-      color: white;
-      font-weight: bold;
-      padding-top: 14px;
-      width: 240px;
-      height: 40px;
-      margin: 0 auto;
-      position: relative;
-    }
-  }
-
-  p {
-    margin-top: 16px;
-    text-align: center;
-    color: darkred;
-    font-size: 16px;
-    word-wrap: break-word;
-  }
-
-  ul {
-    margin-top: 16px;
-    color: $textDarkGrayColor;
-    font-size: 16px;
-
-    li {
-      margin-top: 4px;
-    }
-
-    strong {
-      color: darkred;
-      font-weight: bold;
-    }
-  }
-
-  &__introduction {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 16px;
-
-    i {
-      margin-right: 4px;
-    }
-  }
-
-  .modal-footer {
-    text-align: center;
-    border: none;
-    margin-top: 4px;
-  }
-}
-
 /* raw modal
 -------------------------------------------------- */
 
@@ -820,32 +590,6 @@ body {
 @media (min-width: 320px) {
   .cover {
     height: 680px;
-  }
-
-  .ico {
-    &__instruction {
-      margin-top: 20px;
-      font-size: 14px;
-    }
-
-    &__tac {
-      margin-top: 14px;
-    }
-
-    &__contribute {
-      button {
-        margin-top: 18px;
-        font-size: 16px;
-      }
-    }
-
-    &__slack {
-      margin: 18px 0 36px;
-
-      a {
-        font-size: 14px;
-      }
-    }
   }
 }
 
@@ -1054,24 +798,6 @@ body {
     }
   }
 
-  .ico {
-    .lead {
-      font-size: 18px;
-      line-height: $subTextLineHeight;
-      margin: 0 auto 48px;
-      color: white;
-    }
-
-    &__instruction {
-      margin-top: 32px;
-      font-size: 16px;
-    }
-
-    &__tac {
-      margin-top: 14px;
-    }
-  }
-
   .service-information,
   .features,
   .ico,
@@ -1191,12 +917,6 @@ body {
   .ico {
     .lead {
       width: 800px;
-    }
-  }
-
-  .warning-modal {
-    &__messages {
-      font-size: xx-large;
     }
   }
 }
