@@ -3,7 +3,7 @@
 
 // スクロールをスムーズに
 $(() => {
-  $('.smooth-anchor').click(() => {
+  $('.smooth-anchor').click(function () {
     const speed = 500;
     const href = $(this).attr("href");
     const target = $(href === "#" || href === "" ? 'html' : href);
@@ -11,21 +11,6 @@ $(() => {
     const position = target.offset().top - headerHeight;
     $('body,html').animate({scrollTop: position}, speed, 'swing');
     return false;
-  });
-});
-
-// CONTRIBUTEボタンの活性/非活性切り替え
-$(() => {
-  const $coverContributeButton = $('#cover-contribute-button');
-  $('#cover-tac-checkbox').change(function () {
-    const disabled = !$(this).is(':checked');
-    $coverContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
-  });
-
-  const $icoContributeButton = $('#ico-contribute-button');
-  $('#ico-tac-checkbox').change(function () {
-    const disabled = !$(this).is(':checked');
-    $icoContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
   });
 });
 

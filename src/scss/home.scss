@@ -1,4 +1,4 @@
- /* GLOBAL STYLES
+/* GLOBAL STYLES
 -------------------------------------------------- */
 @import 'common';
 
@@ -25,7 +25,7 @@ body {
     }
   }
 
-  &__sns-links__link{
+  &__sns-links__link {
     margin-right: 40px;
   }
 
@@ -43,7 +43,7 @@ body {
       }
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
       a {
         color: $textDarkBlueColor;
 
@@ -71,8 +71,7 @@ body {
 
 /* Cover
 -------------------------------------------------- */
-.cover-after-ico {
-  display: none;
+.cover {
   position: relative;
   height: 400px;
   margin-bottom: 60px;
@@ -103,188 +102,6 @@ body {
     img {
       width: 100%;
       height: 100%;
-    }
-  }
-}
-
-.cover {
-  display: none;
-  position: relative;
-  height: 400px;
-  margin-bottom: 60px;
-  color: white;
-
-  &__caption {
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-
-    em {
-      font-style: normal;
-      color: $textHighlightColor;
-    }
-  }
-
-  &__countdown-heading {
-    color: white;
-    text-align: center;
-
-    h2 {
-      margin: 0;
-      font-weight: bold;
-    }
-
-    &__caption {
-      margin: 5px 0 0;
-    }
-  }
-
-  &__countdown-timer {
-    text-align: center;
-    background-color: rgba(56, 57, 79, 0.5);
-    border-radius: 5px;
-
-    &__number {
-      font-weight: bold;
-    }
-
-    > div {
-      height: 100%;
-    }
-
-    .col-xs-2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .col-xs-4 {
-      border-right: 1px solid #4c527b;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      strong {
-        color: $textHighlightColor;
-      }
-    }
-  }
-
-  &__notice {
-    a {
-      color: white;
-      text-decoration: underline;
-    }
-
-    strong {
-      color: $textHighlightColor;
-    }
-  }
-
-  &__progress-label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 23px;
-
-    strong {
-      color: $textHighlightColor;
-      opacity: 0;
-    }
-  }
-
-  &__progress {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__progress-container {
-    background-color: grey;
-    border-radius: 5px;
-    text-align: center;
-  }
-
-  &__progress-bar {
-    width: 1%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $progressBar;
-    border-radius: 5px;
-  }
-
-  &__tac {
-    text-align: center;
-
-    input {
-      margin-right: 5px;
-    }
-
-    a {
-      color: white;
-      text-decoration: underline;
-    }
-  }
-
-  &__instruction {
-    text-align: center;
-    color: white;
-
-    a {
-      img {
-        margin-right: 12px;
-        vertical-align: bottom;
-      }
-
-      span {
-        color: white;
-      }
-
-      &:visited {
-        text-decoration-color: white;
-      }
-    }
-  }
-
-  &__contribute {
-    text-align: center;
-
-    button {
-      display: inline-block;
-      background-color: #00b0f0;
-      width: 225px;
-      height: 46px;
-      color: white;
-      border: none;
-
-      &:hover {
-        color: white;
-      }
-
-      &.disabled {
-        background-color: gray;
-      }
-    }
-  }
-
-  &__slack {
-    text-align: center;
-
-    a {
-      display: inline-block;
-      background-color: $buttonPurpleColor;
-      padding-top: 10px;
-      width: 160px;
-      height: 38px;
-      color: white;
-      transition: .4s;
-
-      &:hover {
-        background-color: $buttonhoverPurpleColor;
-        color: white;
-        text-decoration: none;
-      }
     }
   }
 }
@@ -461,10 +278,6 @@ body {
   width: auto;
   padding-bottom: 44px;
 
-  &__forms--live {
-    display: none;
-  }
-
   .col-md-12 {
     text-align: center;
   }
@@ -577,99 +390,7 @@ body {
       }
     }
   }
-
-  &__tac {
-    text-align: center;
-
-    input {
-      margin-right: 5px;
-    }
-
-    a {
-      color: white;
-      text-decoration: underline;
-    }
-  }
-
-  &__instruction {
-    text-align: center;
-    color: white;
-
-    a {
-      img {
-        margin-right: 12px;
-        vertical-align: bottom;
-      }
-
-      span {
-        color: white;
-      }
-
-      &:visited {
-        text-decoration-color: white;
-      }
-    }
-  }
-
-  &__contribute {
-    text-align: center;
-
-    button {
-      display: inline-block;
-      background-color: #00b0f0;
-      width: 225px;
-      height: 46px;
-      color: white;
-      border: none;
-
-      &:hover {
-        color: white;
-      }
-
-      &.disabled {
-        background-color: gray;
-      }
-    }
-  }
-
-  &__slack {
-    text-align: center;
-
-    a {
-      display: inline-block;
-      background-color: $buttonPurpleColor;
-      padding-top: 10px;
-      width: 160px;
-      height: 38px;
-      color: white;
-      transition: .4s;
-
-      &:hover {
-        background-color: $buttonhoverPurpleColor;
-        color: white;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &__join-slack {
-    display: inline-block;
-    background-color: #00b0f0;
-    margin-top: 44px;
-    margin-bottom: 90px;
-    padding-top: 14px;
-    width: 305px;
-    height: 58px;
-    color: white;
-    font-size: 20px;
-
-    &:hover, &:visited {
-      color: white;
-      text-decoration: none;
-    }
-  }
 }
-
 
 /* Technology
 -------------------------------------------------- */
@@ -704,7 +425,7 @@ body {
     text-align: center;
   }
 
-  .lead{
+  .lead {
     color: $textDarkBlueColor;
   }
 
@@ -842,144 +563,8 @@ body {
   }
 }
 
- /* TAC modal
- -------------------------------------------------- */
-
-.tac-modal {
-  .modal-body {
-    h4 {
-      font-weight: bold;
-    }
-  }
-}
-
- /* Warning modal
- -------------------------------------------------- */
-
-.warning-modal {
-  margin: 10% 10%;
-
-  &__messages {
-    font-size: large;
-  }
-
-  &__introduction {
-    text-align: center;
-    margin-top: 30px;
-    font-size: x-large;
-
-    i {
-      margin-right: 4px;
-    }
-  }
-
-  &__button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__button {
-    text-align: center;
-    width: 188px;
-    font-size: x-large;
-    margin-top: 17px;
-  }
-}
-
- /* Contribute modal
- -------------------------------------------------- */
-
-.contribute-modal {
-  overflow-y: auto;
-  max-height: 100%;
-
-  .modal-header {
-    text-align: center;
-    border: none;
-
-    h4 {
-      font-weight: bold;
-      color: $textDarkBlueColor;
-    }
-  }
-
-  &__header {
-    text-align: center;
-    position: relative;
-    margin-top: 24px;
-
-    &:before {
-      content: "";
-      display:inline-block;
-      width: 100%;
-      height:1px;
-      background-color: $textDarkBlueColor;
-      position: absolute;
-      top: 20px;
-      left: 0;
-    }
-
-    &:first-child {
-      margin-top: 0;
-    }
-
-    h5 {
-      text-align: center;
-      background-color: $textDarkBlueColor;
-      color: white;
-      font-weight: bold;
-      padding-top: 14px;
-      width: 240px;
-      height: 40px;
-      margin: 0 auto;
-      position: relative;
-    }
-  }
-
-  p {
-    margin-top: 16px;
-    text-align: center;
-    color: darkred;
-    font-size: 16px;
-    word-wrap: break-word;
-  }
-
-  ul {
-    margin-top: 16px;
-    color: $textDarkGrayColor;
-    font-size: 16px;
-
-    li {
-      margin-top: 4px;
-    }
-
-    strong {
-      color: darkred;
-      font-weight: bold;
-    }
-  }
-
-  &__introduction {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 16px;
-
-    i {
-      margin-right: 4px;
-    }
-  }
-
-  .modal-footer {
-    text-align: center;
-    border: none;
-    margin-top: 4px;
-  }
-}
-
-
- /* raw modal
- -------------------------------------------------- */
+/* raw modal
+-------------------------------------------------- */
 
 .raw-modal {
   margin: 10% 10%;
@@ -1003,144 +588,14 @@ body {
 
 // ex) iPhone5/5S/5c/SE
 @media (min-width: 320px) {
-  .cover-after-ico {
-    height: 680px;
-  }
-
   .cover {
     height: 680px;
-
-    &__countdown-heading {
-      margin-top: 5px;
-
-      h2 {
-        font-size: 18px;
-      }
-    }
-
-    &__countdown-timer {
-      margin: 12px 0 0;
-      font-size: 14px;
-      height: 80px;
-
-      &__number {
-        font-size: 24px;
-      }
-
-      &__unit {
-        font-size: 10px;
-      }
-    }
-
-    &__rate {
-      font-size: 12px;
-      align-items: center;
-    }
-
-    &__progress-label {
-      padding-top: 5px;
-    }
-
-    &__progress-container {
-      width: 80%;
-    }
-
-    &__notice {
-      font-size: 12px;
-      margin-top: 4px;
-      margin-right: 10px;
-      text-align: right;
-    }
-
-    &__instruction {
-      margin-top: 14px;
-      font-size: 14px;
-    }
-
-    &__tac {
-      margin-top: 16px;
-    }
-
-    &__contribute {
-      button {
-        margin-top: 18px;
-        font-size: 16px;
-      }
-    }
-
-    &__slack {
-      margin-top: 18px;
-
-      a {
-        font-size: 14px;
-      }
-    }
-  }
-
-  .ico {
-    &__instruction {
-      margin-top: 20px;
-      font-size: 14px;
-    }
-
-    &__tac {
-      margin-top: 14px;
-    }
-
-    &__contribute {
-      button {
-        margin-top: 18px;
-        font-size: 16px;
-      }
-    }
-
-    &__slack {
-      margin: 18px 0 36px;
-
-      a {
-        font-size: 14px;
-      }
-    }
   }
 }
 
 @media (min-width: 375px) {
-  .cover-after-ico {
-    height: 540px;
-  }
-
   .cover {
-    &__caption {
-      padding-top: 26px;
-    }
-
-    &__countdown-timer {
-      height: 90px;
-
-      &__number {
-        font-size: 28px;
-      }
-
-      &__unit {
-        font-size: 12px;
-      }
-    }
-
-    &__rate {
-      font-size: 14px;
-    }
-
-    &__notice {
-      font-size: 14px;
-    }
-
-    &__instruction {
-      margin-top: 20px;
-    }
-
-    &__slack {
-      margin: 24px;
-    }
+    height: 540px;
   }
 
   .ico {
@@ -1167,67 +622,23 @@ body {
       border-top: 0;
     }
 
-    &__sns-links__link{
+    &__sns-links__link {
       margin-right: 30px;
     }
 
-    .nav{
-      &__language{
+    .nav {
+      &__language {
         margin-top: 15px;
       }
     }
   }
 
-  .cover-after-ico {
+  .cover {
     &__caption {
       padding-top: 8px;
 
       h2 {
         font-size: 24px;
-      }
-    }
-
-    &__square-btn {
-      width: 150px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-    &__countdown {
-      padding: 14px 32px 14px;
-      margin-top: 10px;
-      font-size: 14px;
-
-      h2 {
-        font-size: 16px;
-      }
-
-      &__timer {
-        margin-top: 10px;
-
-        &__number {
-          font-size: 28px;
-        }
-      }
-    }
-
-    &__instruction {
-      margin-top: 14px;
-      font-size: 14px;
-    }
-
-    &__learn-more {
-      a {
-        margin-top: 32px;
-        font-size: 16px;
-      }
-    }
-  }  
-  
-  .cover {
-    &__caption {
-      h2 {
-        font-size: medium;
       }
     }
   }
@@ -1238,7 +649,7 @@ body {
       margin-bottom: 20px;
       width: 56%;
     }
-    .lead{
+    .lead {
       margin-top: 20px;
       margin-bottom: 20px;
     }
@@ -1310,77 +721,11 @@ body {
 }
 
 @media (min-width: 640px) {
-  .cover-after-ico {
+  .cover {
     height: 560px;
 
     &__caption {
       padding-top: 26px;
-    }
-
-    &__countdown {
-      padding: 20px 32px 20px;
-      margin-top: 16px;
-      font-size: 14px;
-
-      h2 {
-        font-size: 16px;
-      }
-
-      &__timer {
-        margin-top: 10px;
-
-        &__number {
-          font-size: 32px;
-        }
-      }
-    }
-
-    &__instruction {
-      margin-top: 14px;
-      font-size: 14px;
-    }
-
-    &__learn-more {
-      a {
-        margin-top: 24px;
-        font-size: 16px;
-      }
-    }
-  }
-
-  .cover {
-    &__caption {
-      padding-top: 26px;
-    }
-
-    &__countdown-heading {
-      margin-top: 15px;
-
-      h2 {
-        font-size: 20px;
-      }
-    }
-
-    &__countdown-timer {
-      margin: 24px 20px 0;
-      height: 108px;
-
-      &__number {
-        font-size: 32px;
-      }
-
-      &__unit {
-        font-size: 14px;
-      }
-    }
-
-    &__rate {
-      font-size: 16px;
-    }
-
-    &__notice {
-      margin-right: 30px;
-      font-size: 16px;
     }
   }
 
@@ -1403,7 +748,7 @@ body {
     }
   }
 
-  .cover-after-ico {
+  .cover {
     height: 680px;
 
     &__caption {
@@ -1414,74 +759,6 @@ body {
         line-height: 1.4;
         margin: 16px 0 20px;
       }
-    }
-
-    &__countdown {
-      padding: 32px 32px 40px;
-      margin-top: 24px;
-      font-size: 16px;
-
-      h2 {
-        font-size: 22px;
-      }
-    }
-
-    &__countdown-timer {
-      margin-top: 20px;
-
-      &__number {
-        font-size: 44px;
-      }
-    }
-
-    &__instruction {
-      margin-top: 14px;
-      font-size: 16px;
-    }
-
-    &__learn-more {
-      a {
-        margin-top: 32px;
-        font-size: 16px;
-      }
-    }
-  }
-
-  .cover {
-    height: 680px;
-
-    &__caption {
-      p {
-        font-size: 16px;
-        line-height: 1.4;
-        margin: 16px 0 20px;
-      }
-    }
-
-    &__countdown-timer {
-      margin: 28px 20px 0;
-      height: 108px;
-
-      &__number {
-        font-size: 36px;
-      }
-    }
-
-    &__rate {
-      font-size: 20px;
-    }
-
-    &__progress-container {
-      width: 45%;
-    }
-
-    &__instruction {
-      margin-top: 36px;
-      font-size: 16px;
-    }
-
-    &__tac {
-      margin-top: 14px;
     }
   }
 
@@ -1521,24 +798,6 @@ body {
     }
   }
 
-  .ico {
-    .lead {
-      font-size: 18px;
-      line-height: $subTextLineHeight;
-      margin: 0 auto 48px;
-      color: white;
-    }
-
-    &__instruction {
-      margin-top: 32px;
-      font-size: 16px;
-    }
-
-    &__tac {
-      margin-top: 14px;
-    }
-  }
-
   .service-information,
   .features,
   .ico,
@@ -1554,7 +813,7 @@ body {
 }
 
 @media (max-width: 991px) {
-  .navbar{
+  .navbar {
     float: right;
     padding-left: 0;
     padding-right: 0;
@@ -1563,7 +822,7 @@ body {
       border-top: 0;
     }
 
-    .nav{
+    .nav {
       & > li > a {
         padding-top: 0;
         padding-bottom: 0;
@@ -1573,7 +832,7 @@ body {
         }
       }
 
-      &__language{
+      &__language {
         margin-top: 15px;
         margin-bottom: 10px;
       }
@@ -1601,33 +860,33 @@ body {
   }
 
   .navbar-collapse.collapse {
-    display: none!important;
+    display: none !important;
   }
 
   .navbar-nav {
-    float: right!important;
+    float: right !important;
   }
 
-  .navbar-nav>li {
+  .navbar-nav > li {
     float: none;
   }
 
-  .navbar-nav>li>a {
+  .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
   /* since 3.1.0 */
   .navbar-collapse.collapse.in {
-    display: block!important;
+    display: block !important;
   }
 
   .collapsing {
-    overflow: hidden!important;
+    overflow: hidden !important;
   }
 }
 
 @media (min-width: 992px) {
-  .cover-after-ico {
+  .cover {
     &__caption {
       padding-top: 50px;
     }
@@ -1640,20 +899,6 @@ body {
         width: 68%;
         height: 68%;
       }
-    }
-  }
-
-  .cover {
-    &__caption {
-      padding-top: 36px;
-    }
-
-    &__countdown-timer {
-      margin: 28px 110px 0;
-    }
-
-    &__notice {
-      margin-right: 130px;
     }
   }
 
@@ -1674,35 +919,19 @@ body {
       width: 800px;
     }
   }
-
-  .warning-modal {
-    &__messages {
-      font-size: xx-large;
-    }
-  }
 }
 
 @media (min-width: 1200px) {
-  .cover-after-ico {
+  .cover {
     &__caption {
       margin-left: 70px;
       margin-right: 70px;
     }
   }
-
-  .cover {
-    &__countdown-timer {
-      margin: 28px 210px 0;
-    }
-
-    &__notice {
-      margin-right: 230px;
-    }
-  }
 }
 
 @media (min-width: 1440px) {
-  .cover, .cover-after-ico {
+  .cover {
     .item {
       // FIXME
       background-size: 100% !important;
