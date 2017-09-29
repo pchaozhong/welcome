@@ -25,22 +25,6 @@ cover:
   caption_after_ico: "!!!!!!! ARIGATO !!!!!!!"
   caption_after_ico_line_two: "We raised around 13,000ETH and minimum funding cap reached! Thanks a lot!!!!"
   caption_after_ico_message: "Make sure to keep an eye out for updates!"
-  countdown:
-    header: Join our Tokensale Now!
-    body: Ends on September 29th, 02:00 (UTC)
-  learn_more: LEARN MORE
-  next_rate:
-    before: "Before Week "
-    middle: " 1ETH = "
-    after: " ALIS"
-  progress: "ICO Status(Max cap 125,000ETH) : "
-  progress_raised: "Min cap raised!!(11,666ETH)"
-  instruction: ICO Participation Instructions (Medium)
-  tac:
-    before: "← Please check : I agree with "
-    link: the terms of services
-    after: " and I’m not the New York City Citizen and I’m not a Chinese citizen. "
-  contribute: CONTRIBUTE IN ETHER
 service_information:
   header: What is ALIS?
   body1: |

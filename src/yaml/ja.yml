@@ -25,22 +25,6 @@ cover:
   caption_after_ico: "★★★★★ ありがとうございます ★★★★★"
   caption_after_ico_line_two: "合計約13,000ETHを投資していただき、目標の下限を達成いたしました!!!!!"
   caption_after_ico_message: "今後ともよろしくALISをお願いいたします!"
-  countdown:
-    header: TOKEN SALE IS LIVE NOW!!
-    body: 9月29日 11:00（日本時間）に終了します
-  learn_more: LEARN MORE
-  next_rate:
-    before: "Before Week "
-    middle: " 1eth = "
-    after: " ALIS"
-  progress: "ICOの状況(上限の125,000ETHまで) : "
-  progress_raised: "下限の11,666ETHを達成しました!!!"
-  instruction: ICOへの参加方法 (Medium)
-  tac:
-    before: "← チェックしてください : "
-    link: 利用規約に同意し
-    after: "ニューヨーク市民・中国国民でないことを確認しました。"
-  contribute: CONTRIBUTE IN ETHER
 service_information:
   header: What is ALIS?
   body1: |

@@ -7,8 +7,7 @@ body
   include mixin/mail_form
 
   // Cover
-  include includes/cover-after-ico
-  include includes/cover-ico-live
+  include includes/cover
 
   // Service information
   .container.service-information
@@ -163,15 +162,6 @@ body
                 img(src="/img/icon-files.png")
                 span
                   | #{cover.instruction}
-
-        .row.ico__row
-          .col-md-12
-            .ico__tac
-              input(type="checkbox")#ico-tac-checkbox
-              | #{cover.tac.before}
-              a(href="#" data-toggle="modal" data-target=".tac-modal" data-keyboard="true")
-                | #{cover.tac.link}
-              | #{cover.tac.after}
 
         .row.ico__row
           .col-md-12.ico__contribute
