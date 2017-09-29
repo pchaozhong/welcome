@@ -6,7 +6,6 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: {
     home: './src/js/home.js',
-    high_priority_index: './src/js/high_priority_index.js',
     low_priority_index: './src/js/low_priority_index.js',
     error: './src/js/error.js'
   },
@@ -42,7 +41,6 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
-      moment: 'moment',
     }),
     new CopyWebpackPlugin(
       [

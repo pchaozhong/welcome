@@ -14,21 +14,6 @@ $(() => {
   });
 });
 
-// CONTRIBUTEボタンの活性/非活性切り替え
-$(() => {
-  const $coverContributeButton = $('#cover-contribute-button');
-  $('#cover-tac-checkbox').change(function () {
-    const disabled = !$(this).is(':checked');
-    $coverContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
-  });
-
-  const $icoContributeButton = $('#ico-contribute-button');
-  $('#ico-tac-checkbox').change(function () {
-    const disabled = !$(this).is(':checked');
-    $icoContributeButton.prop('disabled', disabled).toggleClass('disabled', disabled);
-  });
-});
-
 // for console branding.
 (() => {
   console.log("%c\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660\u2660" +
