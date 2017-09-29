@@ -3,7 +3,7 @@
 
 // スクロールをスムーズに
 $(() => {
-  $('.smooth-anchor').click(() => {
+  $('.smooth-anchor').click(function () {
     const speed = 500;
     const href = $(this).attr("href");
     const target = $(href === "#" || href === "" ? 'html' : href);
