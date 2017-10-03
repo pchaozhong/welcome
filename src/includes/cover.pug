@@ -7,16 +7,13 @@
           .col-md-12
             .cover__caption
               h2
-                | #{cover.caption_after_ico}
+                | #{cover.caption_line_one}
               p
-                em #{cover.caption_after_ico_line_two}
-
-        .row
-          .col-md-12.cover__image
-            img(src='/img/cover-after-ico.jpg', alt='ALIS')
-
+                | #{cover.caption_line_two.before}
+                em #{cover.caption_line_two.japan}
+                | #{cover.caption_line_two.after}
         .row
           .col-md-12
-            .cover__message
-              p
-                | #{cover.caption_after_ico_message}
+            .cover__buttons
+              a(href="https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf", target="_blank") Read Whitepaper
+              a(href="https://t.me/joinchat/EpPqEw2aZl7q3oI7PeAEYA" target="_blank") Join Telegram
