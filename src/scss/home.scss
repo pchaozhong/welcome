@@ -288,113 +288,10 @@ body {
     text-align: center;
   }
 
-  &__heading {
-    margin-bottom: 16px;
-
-    em {
-      font-weight: bold;
-      font-style: normal;
-    }
-  }
-
   &__logo {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 300px;
-  }
-
-  &__schedule {
-    border: 1px solid rgba(217, 217, 217, 0.8);
-    text-align: center;
-    position: relative;
-    margin-bottom: 50px;
-
-    &__heading {
-      border-bottom: 1px solid rgba(217, 217, 217, 0.8);
-      background-color: rgba(146, 215, 255, 0.17);
-      height: 77px;
-      padding-top: 10px;
-      font-size: 20px;
-
-      font-weight: normal;
-
-      strong {
-        color: $textHighlightColor;
-      }
-    }
-
-    &__body {
-      background-color: #374269;
-      font-weight: normal;
-      padding-top: 18px;
-      padding-bottom: 36px;
-
-      &__section {
-        &--from {
-          margin-bottom: 14px;
-        }
-      }
-
-      &__heading {
-        margin: 0;
-        color: #8d97f6;
-        font-size: 16px;
-      }
-
-      &__datetime {
-        margin-top: 4px;
-        font-size: 18px
-      }
-    }
-
-    &__icon {
-      position: absolute;
-      bottom: -20px;
-      left: 0;
-      right: 0;
-
-      i {
-        background-color: #00b0f0;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        line-height: 2.1;
-      }
-    }
-  }
-
-  &__information {
-    text-align: left;
-
-    &__heading {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 24px;
-    }
-
-    &__row {
-      padding: 10px 20px;
-      margin-bottom: 6px;
-      background-color: rgba(146, 215, 255, 0.17);
-      font-size: 20px;
-
-      &--right {
-        text-align: right;
-      }
-    }
-
-    &__caption {
-      margin-top: 12px;
-      padding-left: 20px;
-      font-size: 16px;
-      list-style: none;
-
-      li:before {
-        content: "*";
-        color: #00b0f0;
-        margin-right: 5px;
-      }
-    }
   }
 }
 
@@ -603,20 +500,6 @@ body {
   }
 }
 
-@media (min-width: 375px) {
-  .ico {
-    &__contribute {
-      button {
-        margin-top: 24px;
-      }
-    }
-
-    &__slack {
-      margin: 24px 0 48px;
-    }
-  }
-}
-
 @media (max-width: 640px) {
   body {
     // FIXME:
@@ -663,56 +546,6 @@ body {
     &__heading {
       font-size: 20px;
     }
-
-    .lead {
-      margin-bottom: $marginLeadBottomMobile;
-      font-size: 13px;
-    }
-
-    &__schedule {
-      &__heading {
-        font-size: 18px;
-        height: 70px;
-      }
-
-      &__body__heading {
-        font-size: 14px;
-      }
-
-      &__body__datetime {
-        font-size: 16px;
-      }
-
-      &__schedule__icon {
-        i {
-          height: 36px;
-          width: 36px;
-        }
-      }
-    }
-
-    &__information {
-      &__heading {
-        font-size: 20px;
-        text-align: center;
-      }
-
-      &__row {
-        font-size: 14px;
-      }
-
-      &__caption {
-        text-align: center;
-        font-size: 14px;
-        margin-top: 15px;
-        padding-left: 0;
-      }
-    }
-
-    &__join-slack {
-      margin-top: 20px;
-      margin-bottom: 70px;
-    }
   }
 
   .footer {
@@ -725,8 +558,7 @@ body {
 }
 
 @media (min-width: 640px) {
-  .service-information,
-  .ico {
+  .service-information {
     .lead {
       margin-bottom: $marginLeadBottomMobile;
     }
@@ -891,8 +723,7 @@ body {
   }
 
   .service-information,
-  .technology,
-  .ico {
+  .technology {
     .lead {
       width: 800px;
     }

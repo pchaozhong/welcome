@@ -122,38 +122,8 @@ body
             | #{ico.body1}
             br
             | #{ico.body2}
-
-      .row.ico__row
-        include mixin/ico_schedule
-        .col-md-3
-          +ico_schedule(1, 2900, ico.schedule.week1.from, ico.schedule.week1.to, 'arrow-right')
-        .col-md-3
-          +ico_schedule(2, 2600, ico.schedule.week2.from, ico.schedule.week2.to, 'arrow-right')
-        .col-md-3
-          +ico_schedule(3, 2300, ico.schedule.week3.from, ico.schedule.week3.to, 'arrow-right')
-        .col-md-3
-          +ico_schedule(4, 2000, ico.schedule.week4.from, ico.schedule.week4.to, 'star')
-
-      .row.ico__row
-        .col-md-12
-          .ico__information
-            h3.ico__information__heading
-              | #{ico.information.header} :
-            .ico__information__row
-              .row
-                .col-sm-7.ico__information__row--left
-                  | #{ico.information.row1.left}
-                .col-sm-5.ico__information__row--right
-                  | #{ico.information.row1.right}
-            .ico__information__row
-              .row
-                .col-sm-7.ico__information__row--left
-                  | #{ico.information.row2.left}
-                .col-sm-5.ico__information__row--right
-                  | #{ico.information.row2.right}
-            ul.ico__information__caption
-              li
-                | #{ico.information.caption1}
+            br
+            | #{ico.body3}
 
   // Technology
   .container.technology

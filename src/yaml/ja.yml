@@ -72,31 +72,9 @@ about_japan:
       日本において実用的な仮想通貨の登場が待望されています。
 ico:
   header: ICO
-  body1: ALISのトークンセールは2017年9月1日11時（日本時間）よりスタートします。
-  body2: Ethereumとの交換によるトークンセールについては、4段階の価格に分かれています。
-  schedule:
-    week1:
-      from: Sep 1st, 02:00 UTC
-      to: Sep 8th, 01:59 UTC
-    week2:
-      from: Sep 8th, 02:00 UTC
-      to: Sep 15th, 01:59 UTC
-    week3:
-      from: Sep 15th, 02:00 UTC
-      to: Sep 22nd, 01:59 UTC
-    week4:
-      from: Sep 22nd, 02:00 UTC
-      to: Sep 29th, 01:59 UTC
-  information:
-    header: Information
-    row1:
-      left: '最低調達金額: 11,666ETH'
-      right: 'Accept Token: ETH'
-    row2:
-      left: '最高調達金額: 125,000 ETH'
-      right: '最大供給ALISトークン数: 250,000,000 ALIS'
-    caption1: 11,666EHを集められなかった場合、すべてのEthereumトークンを返却いたします。
-  button: JOIN SLACK
+  body1: ALISのトークンセールは終了いたしました。
+  body2: 合計約13,000ETHを投資していただき、目標の下限を達成いたしました!
+  body3: 今後ともよろしくALISをお願いいたします!
 technology:
   header: Technology
   body: |
