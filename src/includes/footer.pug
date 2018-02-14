@@ -1,57 +1,62 @@
-.container.footer
-  footer
-    p.footer__sns-links
-      a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://twitter.com/ALIS_media', target='blank')
-        i.fa.fa-twitter
-      a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://discord.gg/b6T44q3', target='blank')
-        img.img-discord(src="../img/discord.svg", onmouseover="this.src='../img/discord-black.svg'",
-        onmouseout="this.src='../img/discord.svg'")
-      a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://medium.com/@alismedia', target='blank')
-        i.fa.fa-medium
-      a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://github.com/AlisProject', target='blank')
-        i.fa.fa-github
-      a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://trello.com/b/BBhg390G/alis', target='blank')
-        i.fa.fa-trello
-      a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://www.youtube.com/embed/8R9QGQ5h1Zw?rel=0&autoplay=1', target='blank')
-        i.fa.fa-youtube
-      a.btn.btn-social-icon.btn-lg.footer__sns-links__link(href='https://bitcointalk.org/index.php?topic=2102935', target='blank')
-        i.glyphicon.glyphicon-bitcoin
-    p.footer__company
-      | © ALIS Co., Ltd.
-    p.footer__address
-      a(href='https://goo.gl/NCQCcr', target='blank')
-        | Kawara Bld.6F, 1-20-7, Jinnan, Shibuya-ku, Tokyo, 150-0041, Japan
-    p
-      a.footer__raw-link(href="#" data-toggle="modal" data-target=".raw-modal" data-keyboard="true")
-        | 特定商取引法に基づく表記
 
-    // raw
-    .modal.fade.raw-modal(tabindex="-1")
-      .modal-dialog.modal-lg
-        .modal-content
-          .modal-header
-            button(type="button" class="close" data-dismiss="modal" aria-label="Close")
-              span(aria-hidden="true") &times;
-            h4 特定商取引法に基づく表記
+footer.l-footer
+  p.l-footer__sns-links
+    a.btn.btn-social-icon.btn-lg.l-footer__sns-links__link(href='https://twitter.com/ALIS_media', target='blank')
+      img.l-footer__twitter(src="/img/pc/icon_footer_twitter.png", onmouseover="this.src='/img/pc/icon_footer_twitter.png'",
+      onmouseout="this.src='/img/pc/icon_footer_twitter.png'")
+    a.btn.btn-social-icon.btn-lg.l-footer__sns-links__link(href='https://medium.com/@alismedia', target='blank')
+      img.l-footer__medium(src="/img/pc/icon_footer_medium.png", onmouseover="this.src='/img/pc/icon_footer_medium.png'",
+      onmouseout="this.src='/img/pc/icon_footer_medium.png'")
+    a.btn.btn-social-icon.btn-lg.l-footer__sns-links__link(href='https://discord.gg/b6T44q3', target='blank')
+      img.l-footer__discord(src="/img/pc/icon_footer_discord.png", onmouseover="this.src='/img/pc/icon_footer_discord.png'",
+      onmouseout="this.src='/img/pc/icon_footer_discord.png'")
+    a.btn.btn-social-icon.btn-lg.l-footer__sns-links__link(href='https://discord.gg/b6T44q3', target='blank')
+      img.l-footer__reddit(src="/img/pc/icon_footer_reddit.png", onmouseover="this.src='/img/pc/icon_footer_reddit.png'",
+      onmouseout="this.src='/img/pc/icon_footer_reddit.png'")
+    a.btn.btn-social-icon.btn-lg.l-footer__sns-links__link(href='https://trello.com/b/BBhg390G/alis', target='blank')
+      img.l-footer__trello(src="/img/pc/icon_footer_trello.png", onmouseover="this.src='/img/pc/icon_footer_trello.png'",
+      onmouseout="this.src='/img/pc/icon_footer_trello.png'")
+    a.btn.btn-social-icon.btn-lg.l-footer__sns-links__link(href='https://github.com/AlisProject', target='blank')
+      img.l-footer__github(src="/img/pc/icon_footer_github.png", onmouseover="this.src='/img/pc/icon_footer_github.png'",
+      onmouseout="this.src='/img/pc/icon_footer_github.png'")
 
-          .modal-body.raw-modal__body
-            ul
-              li 販売業者: 株式会社ALIS
-              li 代表責任者: 安 昌浩
-              li
-                | 所在地:
-                | 東京都渋谷区神南一丁目２０番７号川原ビル６階
-              li ホームページURL:  https://alismedia.jp
-              li 販売価格・販売数量上限:  ホームページをご参照ください。
-              li 商品代金以外の必要料金:  ETHの交換手数料
-              li 申込みの有効期限:  ICO実施期間（２０１７年９月１日～２０１７年９月２９日）
-              li 引き渡し時期:  ご注文から速やかに送ります。
-              li お支払方法:  ETHによる
-              li
-                | 返品・交換・キャンセル等:
-                | ALIS交換後の返品・返却・キャンセル等はお受け致しかねます。
-                | ただし、ICOにより11,666 ETHを集められなかった場合、すべてのEthereumトークンを返却いたします。
-              li 返品手数料:  ETHの交換手数料
 
-          .modal-footer.raw-modal__footer
-            button.btn.btn-default(type="button" data-dismiss="modal") close
+  p.l-footer__company
+    | © ALIS Co., Ltd.
+  p.l-footer__address
+    a(href='https://goo.gl/NCQCcr', target='blank')
+      | Kawara Bld.6F, 1-20-7, Jinnan, Shibuya-ku, Tokyo, 150-0041, Japan
+      
+  //-   a.l-footer__raw-link(href="#" data-toggle="modal" data-target=".raw-modal" data-keyboard="true")
+  //-     | 特定商取引法に基づく表記
+
+  // raw
+  .modal.fade.raw-modal(tabindex="-1")
+    .modal-dialog.modal-lg
+      .modal-content
+        .modal-header
+          button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+            span(aria-hidden="true") &times;
+          h4 特定商取引法に基づく表記
+
+        .modal-body.raw-modal__body
+          ul
+            li 販売業者: 株式会社ALIS
+            li 代表責任者: 安 昌浩
+            li
+              | 所在地:
+              | 東京都渋谷区神南一丁目２０番７号川原ビル６階
+            li ホームページURL:  https://alismedia.jp
+            li 販売価格・販売数量上限:  ホームページをご参照ください。
+            li 商品代金以外の必要料金:  ETHの交換手数料
+            li 申込みの有効期限:  ICO実施期間（２０１７年９月１日～２０１７年９月２９日）
+            li 引き渡し時期:  ご注文から速やかに送ります。
+            li お支払方法:  ETHによる
+            li
+              | 返品・交換・キャンセル等:
+              | ALIS交換後の返品・返却・キャンセル等はお受け致しかねます。
+              | ただし、ICOにより11,666 ETHを集められなかった場合、すべてのEthereumトークンを返却いたします。
+            li 返品手数料:  ETHの交換手数料
+
+        .modal-footer.raw-modal__footer
+          button.btn.btn-default(type="button" data-dismiss="modal") close
