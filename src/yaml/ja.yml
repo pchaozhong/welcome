@@ -6,22 +6,55 @@ mail_form:
   button: Subscribe
 navbar:
   introduction: Introduction
-  whitepaper: Whitepaper
-  roadmap: Roadmap
+  whitepaper: WHITEPAPER
   ico: ICO
-  team: Team
+  team: TEAM
   meetus: Meet us
-  language: 言語..
+  language: JP
+  about: ABOUT
+  member: MEMBER
+  community: COMMUNITY
+  product: PRODUCT
+  roadmap: ROADMAP
+  news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf
 icointroduction:
   url: https://medium.com/@alismedia/8dfcbd69a8b5
 cover:
-  caption_line_one: 信頼できる記事と人々を明らかにする全く新しい報酬システム
+  caption_line_one: 
+    first: 信頼できる記事と人々を明らかにする
+    second: 全く新しいソーシャルメディア
   caption_line_two:
     before: ALISは
     japan: 日本
     after: 初のブロックチェーン技術を用いたソーシャルメディアプラットフォームです
+cta:
+  header: REGISTRATION
+  body1: ALISでは4月に公開のALISβ版への参加者を募集しています。
+  body2: ご興味をお持ちの方はβ版応募フォームよりご応募ください。
+project:
+  header: OUR PROJECT
+  body1: 補足説明が入ります。補足説明が入ります。補足説明が入ります。
+  body2: 補足説明が入ります。補足説明が入ります。補足説明が入ります。
+  feature_list:
+    item1_body1: 欲しい機能が
+    item1_body2: すぐに見つかる
+    item2_body1: 記事を書く、
+    item2_body2: 見つけると報酬が
+    item2_body3: もらえる
+    item3_body1: 日本発の
+    item3_body2: ソーシャルメディア
+button:
+  applyforbeta: Apply for β version
+  readwhitepaper: WHITEPAPERを読む
+  mock_pc: パソコンのモックを見る
+  mock_sp: スマートフォンのモックを見る 
+product:
+  header: PRODUCT
+  body1: 現在ALISでは4月に公開予定のALISβ版に向けたデザインモックを公開しています。
+  body2: デザインモックへのフィードバックも可能ですのでぜひご覧ください。
+  link: プロダクトの開発状況はこちら
 service_information:
   header: What is ALIS?
   body1: |
