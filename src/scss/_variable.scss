@@ -1,0 +1,99 @@
+// COLORS ---------------------------------------------------
+
+/* background */
+$color-background-base: #fff;
+$color-background-dark: #05051E;
+$color-background-light: rgba(35, 37, 56, 0.01);
+$color-background-cover: rgba(35, 37, 56, 0.8);
+
+
+/* gradation */
+$color-gradation-start: #858DDA;
+$color-gradation-end: #232538;
+
+/* text */
+$color-text-primary: #232538;
+$color-text-secondary: #333;
+$color-text-point: #F5A623;
+
+// SIZE ---------------------------------------------------
+
+$inner-padding-x: 48px;
+$inner-padding-x-sm: 16px;
+$body-width: 100%; /*1440px;*/
+$inner-width: calc(#{$body-width} - #{$inner-padding-x*2});
+$navbar-height: 85px;
+
+$breakpoints: (
+  'sm': 'screen and (max-width: 577px)',
+  'md': 'screen and (max-width: 767px)',
+  'lg': 'screen and (max-width: 993px)',
+  'xl': 'screen and (min-width: 1201px)',
+) !default;
+
+$breakpoints-min: (
+  'sm': 'screen and (min-width: 576px)',
+  'md': 'screen and (min-width: 768px)',
+  'lg': 'screen and (min-width: 992px)',
+  'xl': 'screen and (min-width: 1200px)',
+) !default;
+
+// Mixin --------------------------------------------------
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin mq-min($breakpoint-min: md) {
+  @media #{map-get($breakpoints-min, $breakpoint-min)} {
+    @content;
+  }
+}
+
+@mixin gradation {
+  background-image: linear-gradient(-134deg, $color-gradation-start 0%, $color-gradation-end 100%);
+}
+
+@mixin make-inner {
+  width: $inner-width;
+  margin: 0 auto;
+  @include mq() {
+    width: calc(100% - #{$inner-padding-x-sm*2});
+  }
+}
+
+
+
+// color
+$brandColor: #858dda;
+$textDarkGrayColor: #787878;
+$textDarkestGrayColor: #464646;
+$textLightGrayColor: lightgray;
+$textDarkBlueColor: #444c76;
+$textHighlightColor: #ff8103;
+$containerGrayColor: #f8f8f8;
+$buttonLightBlueColor: #67c5ff;
+$buttonPurpleColor: #8c9af3;
+$buttonhoverPurpleColor: #858dda;
+
+$navColor: #05051e;
+
+// text size
+$subTextSize: 16px;
+
+// line height
+$subTextLineHeight: 32px;
+
+// button height
+$buttonHeight: 41px;
+
+// margin
+$marginLeadBottomMobile: 34px;
+
+// navbar
+$navbarHeight: 85px;
+
+// cover
+$progressBar: $textHighlightColor

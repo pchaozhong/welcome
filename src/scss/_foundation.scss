@@ -1,0 +1,20 @@
+// TODO: index.htmlのものを別に分ける
+
+.container-fluid {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+html {
+	width: 100%;
+	font-size: 10px;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
+  Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  // padding-bottom: 40px;
+  color: $color-text-primary;
+  font-size: 1.4rem;
+}

@@ -1,172 +1,227 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-@import 'common';
+@import 'variable';
+@import 'foundation';
+@import 'layout';
+@import 'navbar';
 
-body {
-  padding-bottom: 40px;
-}
+a {
+  color: $color-text-primary;
 
-/* Navbar
--------------------------------------------------- */
-
-.navbar {
-  height: $navbarHeight;
-  padding-top: 14px;
-  margin-bottom: 0;
-  background-color: $navColor;
-
-  .container {
-    width: auto;
-    background-color: $navColor;
-
-    .navbar-collapse {
-      box-shadow: none;
-      -webkit-box-shadow: none;
-    }
-  }
-
-  &__sns-links__link {
-    margin-right: 40px;
-  }
-
-  .nav {
-    float: right;
-    font-size: 18px;
-    margin-top: 16px;
-    margin-right: -5px;
-
-    > li {
-      > a {
-        display: inline;
-        padding-left: 4px;
-        color: white;
-      }
-    }
-
-    .dropdown-menu {
-      a {
-        color: $textDarkBlueColor;
-
-        &:hover {
-          background-color: $textDarkBlueColor;
-          color: white;
-        }
-      }
-    }
-
-    &__language {
-      margin-top: -5px;
-      color: gray;
-    }
+  &:hover {
+    color: $color-text-primary;
   }
 }
 
-.navbar-brand {
-  &__logo {
-    width: 127px;
-    margin-top: -16px;
-    margin-left: -3px;
+.p-title {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 80px;
+
+  &--center {
+    text-align: center;
+  }
+
+  &__header {
+    font-size: 3.6rem;
+    letter-spacing: 8px;
+    line-height: 1.5;
+  }
+
+  &__body {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    line-height: 2;
   }
 }
+
+.p-section {
+  padding-top: 160px;
+  // padding-bottom: 80px;
+}
+
+.p-well {
+  background: $color-background-light;
+  padding: 120px;
+  margin: 80px 0;
+}
+
+@mixin button($width: auto) {
+  @include gradation;
+  display: inline-block;
+  border-radius: 30px;
+  font-family: YuGo-Bold;
+  font-size: 1.6rem;
+  color: #fff;
+  width: $width;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 1em;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.3);
+  &:hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.p-button {
+  @include button;
+
+  &--lg {
+    @include button(50%);
+  }
+}
+
 
 /* Cover
 -------------------------------------------------- */
-.cover {
+.p-cover {
   position: relative;
-  height: 400px;
-  margin-bottom: 60px;
+  margin-top: $navbar-height;
+  height: calc(100vh - #{$navbar-height});
+  background-image: url("/img/pc/img_top.jpg");
+  background-size: cover;
+  background-position: bottom center;
+
+  &__title {
+     background: white;
+     padding-bottom: 6.5rem;
+  }
+
+  &__header {
+    font-size: 2.4rem;
+    letter-spacing: 1.5px;
+    line-height: 1.55;
+  }
 
   &__caption {
-    color: white;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-
-    em {
-      font-style: normal;
-      color: $textHighlightColor;
-    }
+    color: $color-text-primary;
+    line-height: 1.55;
+    letter-spacing: 1.5px;
+    font-size: 3.6rem;
   }
 
-  &__buttons {
-    margin-top: 20px;
-    text-align: center;
-
-    a {
-      display: inline-block;
-      padding: 0.55em;
-      height: $buttonHeight;
-      text-decoration: none;
-      margin: 10px 30px;
-      color: white;
-      width: 200px;
-      border: solid 2px $buttonLightBlueColor;
-      border-radius: 3px;
-      transition: .4s;
-
-      &:hover {
-        background: $buttonLightBlueColor;
-        color: white;
-        text-decoration: none;
-      }
-    }
-  }
-}
-
-.carousel-inner {
-  margin-top: $navbarHeight;
-  height: 100%;
-
-  .item {
+  &::after {
+    content: "";
+    display: block;
     position: absolute;
+    background-image: url("/img/pc/top_sp.png");
     background-size: cover;
-    background: #4c527b url('/img/cover-background.png');
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 100%;
+    width: 313px;
+    height: 622px;
+    top: 93px;
+    right: 40px;
   }
 }
 
-/* Service information
+/* Register CTA
 -------------------------------------------------- */
 
-.service-information {
-  .col-md-12 {
-    margin-bottom: 70px;
-    text-align: center;
+.p-cta {
+  margin: 80px;
+  max-width: 404px;
+
+  &__header {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5em;
   }
 
-  &__heading {
-    margin-bottom: 36px;
-    color: $textDarkBlueColor;
-  }
-
-  &__logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 300px;
-  }
-
-  &__square-btn {
+  &__body {
+    font-size: 1.6rem;
     display: inline-block;
-    padding: 0.7em;
-    height: $buttonHeight;
-    text-decoration: none;
-    margin: 10px 30px;
-    color: white;
-    background-color: $buttonPurpleColor;
-    width: 200px;
-    border: 0;
-    border-radius: 3px;
-    transition: .4s;
+    line-height: 1.75;
+    letter-spacing: 3.5px;
+    margin-bottom: 2em;
+  }
 
-    &:hover {
-      background: $buttonhoverPurpleColor;
-      color: white;
-      text-decoration: none;
-    }
+  &__button {
+    @include button(240px);
   }
 }
+
+/* Feature List
+-------------------------------------------------- */
+
+.p-feature-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 200px);
+  margin: 20px auto 80px;
+
+  &__item {
+    list-style: none;
+    text-align: center;
+    width: 33%;
+    &:nth-child(1) img {
+      width: 210px;
+    }
+    &:nth-child(2) img {
+      width: 435px;
+    }
+    &:nth-child(3) img {
+      width: 282px;
+    }
+  }
+
+  &__item-img {
+    margin-bottom: 80px;
+  }
+
+  &__item-body {
+    font-size: 2.8rem;
+    line-height: 1.8;
+    letter-spacing: 2px;
+  }
+}
+
+
+/* PRODUCT
+-------------------------------------------------- */
+
+.p-product {
+  text-align: center;
+
+  &__img {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  &__btns {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;   
+  }
+
+  &__button {
+    @include button(264px);
+    margin: 0 20px;
+  }
+
+  &__link{
+    display: inline-block;
+    margin: 4rem 0;
+    text-decoration: underline;
+  }
+}
+
+/* Exchange
+-------------------------------------------------- */
+
+.p-exchange {
+  text-align: center;
+  &__img {
+    height: 54px;
+    width: auto;
+    margin: 0 30px;
+  }
+}
+
 
 /* Media Logos
 -------------------------------------------------- */
@@ -183,140 +238,6 @@ body {
   }
 }
 
-/* Features
--------------------------------------------------- */
-
-.features {
-
-  background-color: $containerGrayColor;
-  width: auto;
-
-  &__row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 70px;
-  }
-
-  &__item {
-    margin-top: 17px;
-    text-align: center;
-    line-height: 26px;
-
-    h4 {
-      color: $textDarkestGrayColor;
-    }
-
-    p {
-      margin-right: 10px;
-      margin-left: 10px;
-      color: $textDarkGrayColor;
-      text-align: left;
-    }
-  }
-
-  h2 {
-    font-weight: normal;
-  }
-
-  &__heading {
-    text-align: center;
-    color: $textDarkBlueColor;
-  }
-
-  &__image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-
-    &__image {
-      width: 100%;
-    }
-  }
-}
-
-/* About Japan
--------------------------------------------------- */
-
-.about-japan {
-  vertical-align: middle;
-  margin-bottom: 70px;
-
-  .col-md-7 {
-    margin-top: 20px;
-    text-align: left;
-
-    h3 {
-      color: $textDarkestGrayColor;
-    }
-
-    p {
-      font-size: $subTextSize;
-      line-height: $subTextLineHeight;
-      color: $textDarkGrayColor;
-    }
-  }
-
-  .about-japan__row {
-    margin-top: 48px;
-  }
-
-  &__heading {
-    text-align: center;
-    color: $textDarkBlueColor;
-  }
-
-  &__image-container {
-    display: flex;
-    align-items: center;
-    margin-top: 33px;
-  }
-}
-
-/* ICO
--------------------------------------------------- */
-
-/*noinspection ALL*/
-.ico {
-  background-image: url("/img/ico-background.png");
-  color: white;
-  width: auto;
-  padding-bottom: 44px;
-
-  .col-md-12 {
-    text-align: center;
-  }
-
-  &__logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 300px;
-  }
-}
-
-/* Technology
--------------------------------------------------- */
-
-.technology {
-  background-color: $containerGrayColor;
-  width: auto;
-
-  .col-md-12 {
-    margin-bottom: 70px;
-    text-align: center;
-  }
-
-  &__heading {
-    margin-bottom: 16px;
-    color: $textDarkBlueColor;
-  }
-  &__logo {
-    margin-top: 32px;
-    margin-bottom: 44px;
-    width: 82%;
-  }
-}
 
 /* Subscribe form
 -------------------------------------------------- */
@@ -423,46 +344,48 @@ body {
 /* Footer
 -------------------------------------------------- */
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.l-footer {
+  color: white;
   text-align: center;
-  color: $textLightGrayColor;
-  background-image: url('/img/footer-background.png');
-  height: 309px;
-  width: auto;
-  padding-top: 31px;
-  margin-bottom: -40px;
+  background-color: $color-background-dark;
+  height: 420px;
+  width: 100%;
+  padding: 80px 0 120px;
 
   &__sns-links {
     :not(:first-child) {
       margin-left: 11px;
     }
 
-    margin-bottom: 31px;
+    margin-bottom: 40px;
+  }
 
-    &__link {
-      color: #979797;
-    }
+  &__twitter, &__medium {
+    margin-top: 8px;
+  }
+
+  .btn-social-icon.btn-lg {
+      width: 60px;
+      height: 60px;
+      margin: 30px;
+      margin-right: 60px;
   }
 
   &__company {
     margin-bottom: 0;
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
   &__address {
     margin-bottom: 0;
 
     a {
-      color: $textDarkGrayColor;
+      color: white;
       font-size: smaller;
+      font-size: 2rem;
+      line-height: 1.5;
     }
-  }
-
-  &__raw-link {
-    color: $textDarkGrayColor;
-    font-size: smaller;
   }
 }
 

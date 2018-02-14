@@ -1,0 +1,74 @@
+/* Navbar
+-------------------------------------------------- */
+.l-header.navbar {
+  height: $navbarHeight;
+  padding-top: 14px;
+  background-color: white;
+  margin-bottom: 0;
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+
+  .container {
+    width: auto;
+    @include mq-min() {
+      padding-right: $inner-padding-x;
+      padding-left: $inner-padding-x;   
+    }
+
+    .navbar-collapse {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+  }
+
+  &__sns-links__link {
+    margin-right: 40px;
+  }
+
+  .nav {
+    float: right;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-top: 1.6rem;
+
+    > li {
+      > a {
+        display: inline;
+        padding-left: 4px;
+        color: $color-text-primary;
+        transition: all .3s ease;
+
+        &:hover {
+          color: $color-text-primary;
+        }
+
+      }
+    }
+
+    .dropdown-menu {
+      a {
+        color: $color-text-primary;
+        transition: all .3s ease;
+
+        &:hover {
+          color: $color-text-primary;
+        }
+      }
+    }
+
+    &__language {
+      margin-top: -5px;
+      color: gray;
+      font-weight: bold;
+    }
+  }
+}
+
+.navbar-brand {
+  &__logo {
+    width: 127px;
+    margin-top: -16px;
+    margin-left: -3px;
+  }
+}
