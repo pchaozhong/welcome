@@ -7,16 +7,33 @@
   background-image: url("/img/pc/img_top.jpg");
   background-size: cover;
   background-position: bottom center;
+  box-sizing: border-box;
+  position: relative;
+
+  @include mq() {
+    margin-top: $navbar-height-sp;
+    height: calc(100vh - #{$navbar-height-sp} - 100px);
+    margin-bottom: 100px;
+  }
 
   &__title {
      background: white;
      padding-bottom: 6.5rem;
+     @include mq() {
+      padding: 2rem $inner-padding-x-sp;
+     }
   }
 
   &__header {
     font-size: 2.4rem;
     letter-spacing: 1.5px;
     line-height: 1.55;
+    margin-top: 0;
+     @include mq(lg) {
+      font-size: 1.6rem;
+      line-height: 1.5;
+      margin-bottom: 1.2rem;
+     }
   }
 
   &__caption {
@@ -24,6 +41,10 @@
     line-height: 1.55;
     letter-spacing: 1.5px;
     font-size: 3.6rem;
+    @include mq(lg) {
+      font-size: 2rem;
+      line-height: 1.5;
+    }
   }
 
   &::after {
@@ -36,6 +57,10 @@
     height: 622px;
     top: 93px;
     right: 40px;
+
+    @include mq (lg) {
+      display: none;
+    }
   }
 }
 
@@ -45,12 +70,30 @@
 .p-cta {
   margin: 80px;
   max-width: 404px;
+  box-sizing: border-box;
+  @include mq() {
+    background: white;
+    width: $inner-width-sp;
+    margin: 0 auto;
+    padding: 30px 16px;
+    position: absolute;
+    bottom: -60px;
+    left: $inner-padding-x-sp;
+    max-width: $inner-width-sp;
+    text-align: center;
+  }
 
   &__header {
     font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: 1.5px;
     margin-bottom: 0.5em;
+    @include mq() {
+      font-size: 2rem;
+      line-height: 1.75;
+      margin-top: -5rem;
+      text-align: center;
+    }
   }
 
   &__body {
@@ -59,10 +102,21 @@
     line-height: 1.75;
     letter-spacing: 3.5px;
     margin-bottom: 2em;
+    @include mq() {
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.66;
+      br {
+        display: none;
+      }
+    }
   }
 
   &__button {
     @include button(240px);
+    @include mq() {
+      @include button(208px);
+    }
   }
 }
 
@@ -75,30 +129,57 @@
   justify-content: space-between;
   width: calc(100% - 200px);
   margin: 20px auto 80px;
+  @include mq() {
+    width: 100%;
+    flex-direction: column;
+  }
 
   &__item {
     list-style: none;
     text-align: center;
     width: 33%;
-    &:nth-child(1) img {
-      width: 210px;
-    }
-    &:nth-child(2) img {
-      width: 435px;
-    }
-    &:nth-child(3) img {
-      width: 282px;
+
+    @include mq() {
+      width: 100%;
+      display: flex;
+      height: 124px;
     }
   }
 
-  &__item-img {
-    margin-bottom: 80px;
+  &__item::before {
+    display: inline-block;
+    content: "";
+  }
+
+  $width: 210px, 435px, 282px;
+  @each $w in $width {
+    $i: index($width, $w);
+    &__item:nth-child(#{$i})::before {
+      background: url("/img/pc/icon_ourproject#{$i}.png") no-repeat;
+      width: $w;
+      height: 213px;
+      background-size: contain;
+    }
+  }
+  @include mq() {
+    @for $i from 1 through 3 {
+      &__item:nth-child(#{$i})::before {
+        background: url("/img/sp/icon_ourproject#{$i}.png") no-repeat;
+        width: 124px;
+        height: 124px;
+        background-size: contain;
+      }
+    }
   }
 
   &__item-body {
     font-size: 2.8rem;
     line-height: 1.8;
     letter-spacing: 2px;
+    @include mq() {
+      font-size: 1.6rem;
+      line-height: 1.5;
+    }
   }
 }
 
