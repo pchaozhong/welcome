@@ -19,18 +19,15 @@ body
             .p-title__header #{project.header}
             .p-title__body 
               | #{project.body1}
-              br
+              br.d-none.d-md-block.d-lg-none
               | #{project.body2}
-        .col-md-12
           ul.p-feature-list
             li.p-feature-list__item
-              img.p-feature-list__item-img(src='/img/pc/icon_ourproject1.png', alt='ALIS')
               p.p-feature-list__item-body
                 | #{project.feature_list.item1_body1}
                 br
                 | #{project.feature_list.item1_body2}
             li.p-feature-list__item
-              img.p-feature-list__item-img(src='/img/pc/icon_ourproject2.png', alt='ALIS')
               p.p-feature-list__item-body
                 | #{project.feature_list.item2_body1}
                 br
@@ -38,7 +35,6 @@ body
                 br
                 | #{project.feature_list.item2_body3}
             li.p-feature-list__item
-              img.p-feature-list__item-img(src='/img/pc/icon_ourproject3.png', alt='ALIS')
               p.p-feature-list__item-body
                 | #{project.feature_list.item3_body1}
                 br
