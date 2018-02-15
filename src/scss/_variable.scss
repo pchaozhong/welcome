@@ -20,10 +20,12 @@ $color-purple-light: #858DDA;
 // SIZE ---------------------------------------------------
 
 $inner-padding-x: 48px;
-$inner-padding-x-sm: 16px;
-$body-width: 100%;/*1440px;*/
+$inner-padding-x-sp: 16px;
+$body-width: 1440px;
 $inner-width: calc(#{$body-width} - #{$inner-padding-x*2});
-$navbar-height: 114px;
+$inner-width-sp: calc(100% - #{$inner-padding-x-sp*2});
+$navbar-height: 84px;
+$navbar-height-sp: 63px;
 
 $breakpoints: (
   'sm': 'screen and (max-width: 577px)',
@@ -58,10 +60,11 @@ $breakpoints-min: (
 }
 
 @mixin make-inner {
-  width: $inner-width;
+  width: 100%;
+  padding: 0 $inner-padding-x;
   margin: 0 auto;
   @include mq() {
-    width: calc(100% - #{$inner-padding-x-sm*2});
+    padding: 0 $inner-padding-x-sp;
   }
 }
 
