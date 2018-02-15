@@ -1,9 +1,14 @@
 .p-ambassador-program {
 	&__header {
-		@include font-subtitle-header;
+		@include title-header;
 	}
 	&__body {
-		@include font-subtitle-body;
+		@include title-body;
+	}
+	@include mq() {
+		br {
+			display: none;
+		}
 	}
 }
 
@@ -13,6 +18,9 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+	@include mq() {
+		flex-direction: column;
+	}
 }
 
 .p-community-card {
@@ -22,12 +30,26 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 	text-align: center;
 	width: 196px;
 
+	@include mq() {
+		padding: 24px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
 	&::before {
 		content: "";
 		display: inline-block;
 		width: 60px;
 		max-width: 60px;
 		height: 60px;
+		@include mq() {
+			width: 48px;
+			height: 48px;
+			max-width: 48px;
+			margin: 0 40px;
+		}
 	}
 
 	@each $community in $communities {
@@ -35,18 +57,48 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 			background: url("/img/pc/icon_community_#{$community}.png") center center no-repeat;
 			background-size: contain;
 		}
+		@include mq() {
+			@if $community == 'twitter' or  $community == 'medium' or  $community == 'github' {
+				br:nth-child(2) {
+					display: none;
+				}
+			}@else if $community == 'discord' {
+				br:nth-child(1) {
+					display: none;
+				}				
+			}@else if $community == 'reddit' {
+				br {
+					display: none;
+				}
+			}
+		}
+
 	}
 
-	&__name {
+	&__sns {
 		font-family: "Hiragino UD Serif Std";
 		font-size: 1.8rem;
 		letter-spacing: 1px;
-		line-height: 2.1
+		line-height: 2.1;
+		@include mq() {
+			text-align: left;
+			font-size: 1.6rem;
+			line-height: 1.5;
+			padding-left: 20px;
+			margin: 0 0 12px;
+		}
 	}
 
 	&__body {
 		font-size: 1.4rem;
 		letter-spacing: 1px;
 		line-height: 1.57;
+		@include mq() {
+			text-align: left;
+			font-size: 1.4rem;
+			line-height: 1.7;
+			padding-left: 20px;
+			margin: 0;
+		}
 	}
 }

@@ -13,8 +13,8 @@ body
     .container-fluid
       .p-block
         .p-subheader 
-          h3.p-subtitle__header #{community.header}
-          p.p-subtitle__body #{community.body}
+          h3.p-title__header #{community.header}
+          p.p-title__body #{community.body}
 
         .p-community-cards
           include mixin/community_card
@@ -51,18 +51,18 @@ body
 
       .row.p-block.p-ambassador-program
         .col-md-4 
-          h3.p-subtitle__header
+          h3.p-title__header
             |
             span #{ambassador_program.header_line_1}
             br
             span #{ambassador_program.header_line_2}
-        .col-md-8.p-subtitle__body
+        .col-md-8.p-title__body
             p #{ambassador_program.body}
 
       .p-block.text-center
         .p-subheader 
-          h3.p-subtitle__header #{goods.header}
-          p.p-subtitle__body 
+          h3.p-title__header #{goods.header}
+          p.p-title__body 
             span #{goods.body_line_1}
               |
               br

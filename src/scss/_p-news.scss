@@ -1,14 +1,23 @@
 .p-news-card {
 	@include box-shadow;
-	padding: 4rem 4.2rem;
+	padding: 40px 42px;
 	background-color: white;
 	margin-bottom: 4rem;
+	@include mq() {
+		width: 100%;
+		padding: 40px 16px;
+	}
 
 	&__category {
 		color: $color-text-point;
 		font-size: 1.4rem;
 		line-height: 1.125;
 		margin-bottom: 1rem;
+		@include mq() {
+			font-size: 1.2rem;
+			font-weight: bold;
+			line-height: 1.5;
+		}
 	}
 
 	&__date {
@@ -16,6 +25,10 @@
 		line-height: 1.125;
 		letter-spacing: 1px;
 		margin-bottom: 2rem;
+		@include mq() {
+			font-size: 1.2rem;
+			line-height: 1.5;
+		}
 	}
 
 	&__header{
@@ -23,11 +36,20 @@
 		font-weight: bold;
 		letter-spacing: 1px;
 		line-height: 1.66;
+		@include mq() {
+			font-size: 1.4rem;
+			font-weight: bold;
+			line-height: 1.5;
+		}
 	}
 
 	&__body {
 		font-size: 1.4rem;
 		letter-spacing: 1px;
 		line-height: 2.1;
+		@include mq() {
+			font-size: 1.2rem;
+			line-height: 1.5;
+		}
 	}
 }

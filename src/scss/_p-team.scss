@@ -2,22 +2,43 @@
 	&__img {
 		width: 160px;
 		height: 160px;
-		margin-bottom: 4rem;
+		margin-bottom: 40px;
+		@include mq() {
+			width: 100px;
+			height: 100px;
+			margin-bottom: 16px;
+		}
 	}
 	&__profile {
 		text-align: center;
 		margin-bottom: 80px;
+		@include mq() {
+			margin-bottom: 16px;
+		}
 	}
 	&__name {
 		font-size: 2rem;
 		letter-spacing: 3px; 
 		margin-bottom: 2rem;
 		margin-top: 0;
+		@include mq() {
+			font-size: 1.4rem;
+			font-weight: bold;
+			line-height: 1.7;
+			letter-spacing: 0.1px;
+			margin-bottom: 4px;
+		}
 	}
 	&__role {
 		font-size: 1.4rem;
 		letter-spacing: 1px;
 		line-height: 18px;
+		@include mq() {
+			font-size: 1.2rem;
+			line-height: 1.5;
+			letter-spacing: 0.1px;
+			margin: 0;
+		}
 	}
 }
 
@@ -27,6 +48,9 @@
 	&__profile {
 		display: flex;
 		margin-bottom: 34px;
+		@include mq() {
+			margin-bottom: 40px;
+		}
 	}
 
 	&__img-wrapper {
@@ -34,6 +58,12 @@
 		width: 80px;
 		height: 80px;
 		margin-right: 30px;
+		@include mq() {
+			width: 40px;
+			height: 40px;
+			min-width: 40px;
+			margin-right: 16px;
+		}
 		>img {
 			width: 100%;
 			height: auto;
@@ -49,6 +79,11 @@
 		display: inline-block;
 		border-bottom: dashed 1px $color-purple-light;
 		line-height: 1.6;
+		@include mq() {
+			font-size: 1.6rem;
+			line-height: 1.5;
+			margin-bottom: 14px;
+		}
 	}
 
 	&__body {
@@ -56,6 +91,12 @@
 		font-size: 1.4rem;
 		letter-spacing: 1px;
 		line-height: 2.1;
+		@include mq() {
+			font-size: 1.2rem;
+			line-height: 1.5;
+			margin: 0;
+
+		}
 	}
 
 }

@@ -10,12 +10,22 @@ $pages: "about", "team", "community", "product", "news";
   width: 100%;
   height: 400px;
 
+  @include mq() {
+    height: 200px;
+  }
+
   &__title {
     font-size: 6.4rem;
     color: white;
     line-height: 1.5;
     letter-spacing: 15px;
     margin: 0;
+    @include mq() {
+      color: $color-text-primary;
+      font-size: 2.8rem;
+      letter-spacing: 7px;
+      line-height: 1.5;
+    }    
   }
 
   @each $page in $pages {
@@ -25,6 +35,18 @@ $pages: "about", "team", "community", "product", "news";
       background-size: cover;
     }
   }
+
+  @include mq() {
+    @each $page in $pages {
+      &--#{$page} {
+        background: url("/img/sp/img_#{$page}.jpg") center center no-repeat;
+        background-size: cover;
+      }
+    }
+    &--product {
+      background: url("/img/sp/img_product.png") center center no-repeat;
+    }
+  }
 }
 
 .p-page {
@@ -32,6 +54,10 @@ $pages: "about", "team", "community", "product", "news";
   padding-bottom: 100px;
   background-position: right 0px top 400px;
   background-size: 628px;
+  @include mq() {
+    background-position: right 0px top 283px;
+    background-size: 310px;
+  }
 }
 
 .p-section {
@@ -47,6 +73,9 @@ $pages: "about", "team", "community", "product", "news";
 
   &:first-of-type {
     padding-top: 120px;
+    @include mq() {
+      padding-top: 60px;
+    }
   }
 
   @include mq() {
@@ -57,11 +86,17 @@ $pages: "about", "team", "community", "product", "news";
 .p-block--sm {
   @extend .p-block;
   padding: 100px 60px 100px;
+  @include mq() {
+    padding: 80px 0px 10px;
+  }
 }
 
 .p-block--xs {
   @extend .p-block;
   padding: 100px 60px 100px;
+  @include mq() {
+    padding: 80px 0px 10px;
+  }
 }
 
 .p-block + .p-block {
@@ -90,29 +125,46 @@ $pages: "about", "team", "community", "product", "news";
 //   }
 // }
 
-.p-subtitle {
+.p-title {
   margin-bottom: 40px;
 
   &__header {
-    @include font-subtitle-header;
+    @include title-header;
   }
 
   &__body {
-    @include font-subtitle-body;
+    @include title-body;
   }
 }
 
-.p-subtitle--nobody {
-  @extend .p-subtitle;
-  .p-subtitle__header {
-    margin-bottom: 8rem;
+.p-title--center {
+  @extend .p-title;
+  .p-title__header {
+    text-align: center;
+    @include mq() {
+      text-align: center;
+    }
+  }
+}
+
+.p-title--nobody {
+  @extend .p-title;
+  .p-title__header {
+    margin-bottom: 80px;
+    @include mq() {
+      margin-bottom: 40px;
+    }
   }
 }
 
 .p-well {
   background: $color-background-light;
-  padding: 120px;
-  margin: 80px 0;
+  padding: 12rem;
+  margin: 8rem 0;
+  @include mq() {
+    padding: $inner-padding-x-sp;
+    margin-bottom: 4rem 0;
+  }
 }
 
 @mixin button($width: auto) {

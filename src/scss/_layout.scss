@@ -9,6 +9,10 @@
 	}
 }
 
+.l-main.p-page {
+  @include make-inner;
+}
+
 /* Footer
 -------------------------------------------------- */
 
@@ -20,6 +24,11 @@
   width: 100%;
   padding: 80px 0 120px;
 
+  @include mq() {
+    height: auto;
+    padding: 32px 16px 40px;
+  }
+
   &__sns-links {
     :not(:first-child) {
       margin-left: 11px;
@@ -29,30 +38,49 @@
   }
 
   &__twitter, &__medium {
-    margin-top: 8px;
+    margin-top: 3px;
   }
 
   .btn-social-icon.btn-lg {
-      width: 60px;
-      height: 60px;
-      margin: 30px;
-      margin-right: 60px;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    margin-right: 60px;
+    @include mq() {
+      width: 24px;
+      height: 24px;
+      margin: 10px;
+      margin-right: 24px;
+    }
   }
 
   &__company {
     margin-bottom: 0;
     font-size: 2rem;
     line-height: 1.5;
+    @include mq() {
+      text-align: left;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
   }
 
   &__address {
     margin-bottom: 0;
+    @include mq() {
+      text-align: left;
+    }
 
     a {
       color: white;
       font-size: smaller;
       font-size: 2rem;
       line-height: 1.5;
+      @include mq() {
+        text-align: left;
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
     }
   }
 }

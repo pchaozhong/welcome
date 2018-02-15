@@ -165,23 +165,23 @@ community:
     body_line_3: 知りたい 
   medium:
     name: MEDIUM
-    body_line_1: ALISの
-    body_line_2: 最新情報を
+    body_line_1: ALISについて
+    body_line_2: もっと詳しく
     body_line_3: 知りたい 
   discord:
     name: DISCORD
-    body_line_1: ALISの
-    body_line_2: 最新情報を
-    body_line_3: 知りたい 
+    body_line_1: ALISに興味の
+    body_line_2: ある人たちと
+    body_line_3: 交流したい
   reddit:
     name: REDDIT
-    body_line_1: ALISの
-    body_line_2: 最新情報を
-    body_line_3: 知りたい 
+    body_line_1: ほげほげほげ
+    body_line_2: ほげほげ
+    body_line_3: ほげほげほげ 
   github:
     name: GITHUB
-    body_line_1: ALISの
-    body_line_2: 最新情報を
+    body_line_1: 開発の
+    body_line_2: 進捗状況を
     body_line_3: 知りたい
 ambassador_program:
   header_line_1: AMBASSADOR
