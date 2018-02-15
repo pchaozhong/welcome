@@ -43,13 +43,13 @@ $breakpoints-min: (
 
 // Mixin --------------------------------------------------
 
-@mixin mq($breakpoint: md) {
+@mixin mq($breakpoint: lg) {
   @media #{map-get($breakpoints, $breakpoint)} {
     @content;
   }
 }
 
-@mixin mq-min($breakpoint-min: md) {
+@mixin mq-min($breakpoint-min: lg) {
   @media #{map-get($breakpoints-min, $breakpoint-min)} {
     @content;
   }
