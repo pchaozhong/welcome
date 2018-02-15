@@ -1,0 +1,33 @@
+.p-news-card {
+	@include box-shadow;
+	padding: 4rem 4.2rem;
+	background-color: white;
+	margin-bottom: 4rem;
+
+	&__category {
+		color: $color-text-point;
+		font-size: 1.4rem;
+		line-height: 1.125;
+		margin-bottom: 1rem;
+	}
+
+	&__date {
+		font-size: 1.4rem;
+		line-height: 1.125;
+		letter-spacing: 1px;
+		margin-bottom: 2rem;
+	}
+
+	&__header{
+		font-size: 1.8rem;
+		font-weight: bold;
+		letter-spacing: 1px;
+		line-height: 1.66;
+	}
+
+	&__body {
+		font-size: 1.4rem;
+		letter-spacing: 1px;
+		line-height: 2.1;
+	}
+}
