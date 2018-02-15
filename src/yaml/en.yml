@@ -25,14 +25,10 @@ cover:
   caption_line_one: 
     first: A Rewards System
     second: to Distinguish Trustworthy Articles
-  caption_line_two:
-    before: "ALIS is "
-    japan: Japan's
-    after: " First Social Media Platform Using Blockchain Technology"
-cta:
+registration:
   header: REGISTRATION
-  body1: ALIS is looking for participants to the ALIS beta version published in April.
-  body2: If you are interested please apply from the beta application form.
+  body_line_1: ALIS is looking for participants to the ALIS beta version published in April.
+  body_line_2: If you are interested please apply from the beta application form.
 project:
   header: OUR PROJECT
   body1: Explanation. Explanation. Explanation. Explanation.
@@ -50,82 +46,30 @@ button:
   readwhitepaper: Read Whitepaper
   mock_pc: Take a look for PC mock-up
   mock_sp: Take a look for SP mock-up
+  seegoods: See goods
 product:
   header: PRODUCT
-  body1: Currently ALIS publishes the mock-up for ALIS beta version to be released in April.
-  body2: You can give us feedback to the mock-up, so please take a look.
+  body_line_1: Currently ALIS publishes the mock-up for ALIS beta version to be released in April.
+  body_line_2: You can give us feedback to the mock-up, so please take a look.
   link: Check the development status
-service_information:
-  header: What is ALIS?
-  body1: |
-    ALIS is a social media platform which provides our customers with
-    reliable information from experts in no time. We were inspired
-    by STEEM (https://steem.io) and their billions of evaluations
-    to create a media platform specialized for the Japanese market.
-    Our mission is to filter through the myriad of advertising and
-    stealth marketing campaigns. Our goal is to provide more reliable information than traditional media outlets.
-    Please read our whitepaper for further information.
-  button_whitepaper: Read Whitepapaer
-  body2: |
-    If you wish to receive latest information, please register your e-mail address with the button below.
-  button: Register for further information
-features:
-  header: Features
-  token:
-    header: Discover High Quality Articles
-    body: |
-      All articles will receive evaluations. Writers and evaluators of trust worthy articles
-      will earn more ALIS tokens. ALIS token can be purchased and sold like Ethereum and STEEM.
-  platform:
-    header: Return on Platform Value
-    body: |
-      The more ALIS evaluations one gets, the more tokens that will be distributed to contributors of ALIS.
-      STEEM (https://steem.io) has already built a similar eco-system, and has gained billions of evaluations.
-  technology:
-    header: High Reliability at a Lower Cost
-    body: |
-      By using blockchain technology, it is possible to have high reliability at a lesser cost.
-      As a result, we can maximize the rewards to contributors of ALIS.
-about_japan:
-  header: Why Japan?
-  media_quality:
-    header: Serious Problem of Low-Quality Media
-    body: |
-      A high number of low-quality, unreliable articles are being released in Japan everyday.
-      These articles are being covered by the news and journalists.
-      There is an urgent need to change the rules of these clickbait media outlets that only release content in order
-      to gain more page views.
-  technology:
-    header: Opportunity of Blockchain Technology
-    body: |
-      Japan is lagging behind the world in the software industry more and more.
-      Due to this, people are closely paying attention to blockchain technology.
-  market:
-    header: High Expectations of Crypto Currency
-    body: |
-      Despite Japan being at a technological disadvantage, a large number of people are highly interested in
-      and have high expectations of crypto currency. Japan is in need of a practical virtual currency.
-ico:
-  header: ICO
-  body1: ALIS token sale was ended!
-  body2: We raised around 13,000ETH and minimum funding cap reached! Thanks a lot!!!!
-  body3: Make sure to keep an eye out for updates!
-technology:
-  header: Technology
-  body: |
-    We are constantly in the process of improving the specifications of ALIS's system using our collaborative knowledge
-    and other tools based on Ethereum or our own innovation.
-    We are also in the process of creating DApp (Distributed Application) for the purpose of ALIS's platform.
-    The code will be designed and maintained
-    with thorough testing. We are also planning to display everything on github as an open source code.
-subscribe_form:
-  body: |
-    Register your e-mail address to get latest information
+about:
+  vision: Smooth the connection of people by visualizing credit
+  mission:
+    body1: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
+    body2: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
+    body3: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
+  value: 
+    body1: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
+    body2: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
+    body3: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
 team:
-  header: Team
+  header: TEAM
+member:
+  header: MEMBER
+  body: Corntributing to ALIS every day.
   profile:
     yasu:
-      name: Masahiro Yasu
+      name: MASAHIRO YASU
       body: |
         Yasu is a graduate from Kyoto University, the university with the highest number of Nobel Prize winner
         recipients in Japan.
@@ -136,8 +80,9 @@ team:
         products, such as business SNS and referral tool. He also actively worked on machine learning and natural
         language analysis, and received the GROWTH FORUM Award which is the highest prize in Recruit. Currently he also
         serves as a project leader of a joint project with Microsoft Japan.
+      role: FOUNDER / CEO
     mizusawa:
-      name: Takashi Mizusawa
+      name: TAKASHI MIZUSAWA
       body: |
         Takashi started a venture company as a university student.
         After graduation he started his career at the worldwide famous Benesse Corporation.
@@ -147,24 +92,122 @@ team:
         "learning" and "working". There he gained experience in business development of MOOC and referral tool.
         He is interested in using social networks in HR. He envisions a world where individuals can
         earn success through their own unique abilities.
+      role: CO-FOUNDER / CMO
     ishii:
-      name: Sota Ishii
+      name: SOTA ISHII
       body: |
         Sota has over 13 years of experience as a system engineer. He took on the role as a development leader of
         a famous Japanese HR company. During his time there, he created an award-winning HR system that contributed
         to the company's service growth. He is interested in new technologies and business, taking on roles in
         varies positions. He strongly believes that blockchain technology will be a widespread standard within in
         a few years. Due to the recent rise of crypto currency, he has committed himself to the ALIS project.
+      role: CO-FOUNDER / CTO
+    togashi: 
+      name: KEIJU TOGASHI
+      body: |
+        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+      role: ENGINEER
     kamei:
-      name: Tatsuhiko Kamei
+      name: TATSUHIKO KAMEI
       body: |
         Kamei graduated from Japan’s most prestigious university, the University of Tokyo.In addition to the ALIS project,
         he currently works for Recruit Co., Ltd. as a member of the legal staff.He handles different fields such as IT,
         web services, marketing, human resource and etc. He specializes in the legal affairs of new business developments.
-    nakamura:
-      name: Kenta Nakamura
+      role: LEAGAL DIVISION
+    usagi: 
+      name: USAGI
       body: |
-        Nakamura is President of Japan Direction Association. Huge success as a Media Director in various fields,
-        involved in projects such as production of BITA DIGIMA Lab and development of natural-language engines.
-        He is also known as a Growth Consult for Kaizen Platform.
-        Major publications include "Web Director's Textbook", "Latest Practice for Web Direction".
+        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+      role: LEAD DESIGNER
+    gachiho: 
+      name: GACHIHO
+      body: |
+        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+      role: ENGINEER
+    kubori:
+      name: CHIKA KUBORI
+      body: |
+        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+      role: DESIGNER
+ambassador:
+  header: AMBASSADOR
+  body: to help spread awareness of the platform ALIS.
+  profile: 
+    seiya:
+      name: seiya
+      body: プロジェクトが一向に進まない通貨も多い中で、 しっかりと進行の見えるALISに期待している人も 多いはずです。一緒に応援していきましょう。
+    ricky:
+      name: ricky
+      body: 一人ひとりの実力や努力が正当に評価される、そ んな社会実現に向けて、ALISを共に盛り上げていき ましょう!
+    wine:
+      name: wine
+      body: 私はプログラマーでもなくブロガーでもなく、ただのALISファン のおっさんです。てめぇがアンバサダーとかできんのか?と自問自答しています。今回選ばれた事を前向きに捉え、ALISファ ンの皆様のアイデアや意見などと一緒にALISを盛り上げて行きたいので今後ともご指導ご鞭撻のほど宜しくお願いします。
+    edindin:
+      name: edindin@仮想通貨ブログ
+      body: 一人ひとりの実力や努力が正当に評価される、そ んな社会実現に向けて、ALISを共に盛り上げていき ましょう!
+    ueno:
+      name: 上野直彦
+      body: ALISが、生活の一部に、いつも人生のすぐそばにある。そんな展 開を世界で構築していきたいです。ALISが普及すること=多くの 人々の眠っている才能を呼び起こし、成功と社会変革を実現する ようになる。これが最大の夢ですが、夢では終わらないでしょう!
+    adam:
+      name: Adam Koltun
+      body: ワクワクしますね! 素晴らしいSNSプラットフォームがあなたの国で設計され、世界に向けて立ち上げられています!
+    mito:
+      name: Mito
+      body: 私はInstagramで才能のある日本のアニメアーティストを知りました。ALISが普及することで、多くの人々が自分の才能を発揮し、成功するように力を与えることができるでしょう。
+    phillip:
+      name: Phillip W
+      body: 日本から本物で意味のあるブロックチェーンプロジェクトを 作りましょう!
+    fernando:
+      name: Fernando Escobar
+      body: 皆さんが愛してサポートしているこのプロジェクトに参加させていただきありがとうございます。私はあなたを失望させ ません。
+    ian:
+      name: ian Hsu
+      body: コミュニティの始まりにはあなたの助けが必要です。日本は既に世界でかなりの影響力を持っている。そして、インター ネットには国も言語も関係はない。ALISプロジェクトが役に 立つ情報を可視化することに期待している。
+community:
+  header: COMMUNITY PRINCIPLE
+  body: 水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。
+  twitter:
+    name: TWITTER
+    body_line_1: ALISの
+    body_line_2: 最新情報を
+    body_line_3: 知りたい 
+  medium:
+    name: MEDIUM
+    body_line_1: ALISの
+    body_line_2: 最新情報を
+    body_line_3: 知りたい 
+  discord:
+    name: DISCORD
+    body_line_1: ALISの
+    body_line_2: 最新情報を
+    body_line_3: 知りたい 
+  reddit:
+    name: REDDIT
+    body_line_1: ALISの
+    body_line_2: 最新情報を
+    body_line_3: 知りたい 
+  github:
+    name: GITHUB
+    body_line_1: ALISの
+    body_line_2: 最新情報を
+    body_line_3: 知りたい 
+ambassador_program:
+  header_line_1: AMBASSADOR
+  header_line_2: PROGRAM
+  body: アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。
+goods:
+  header: GOODS
+  body_line_1: 公式オンラインショップではALISでデザインされたグッズだけでなく、
+  body_line_2: ALISER（アリスファン）によってデザインされたグッズも販売しています。
+  body_line_3: デザイン作成いただいた方には作成いただいたデザインのグッズを無料でプレゼントしています！
+closedb:
+  header: WHAT’S CLOSED β
+  body: |
+    クローズドβの説明がはいります。クローズドβの説明がはいります。クローズドβの説明がはいります。クローズドβの説明がはいります。
+    クローズドβの説明がはいります。クローズドβの説明がはいります。
+    クローズドβの説明がはいります。クローズドβの説明がはいります。
+    クローズドβの説明がはいります。クローズドβの説明がはいります。
+
+subscribe_form:
+  body: |
+    Register your e-mail address to get latest information
