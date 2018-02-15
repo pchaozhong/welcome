@@ -1,10 +1,31 @@
 // TODO: index.htmlのものを別に分ける
 
-.container-fluid {
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100;
 }
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold;
+}
+
 
 html {
 	width: 100%;
@@ -12,9 +33,24 @@ html {
 }
 
 body {
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
+  font-family: "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
   Osaka, 'MS PGothic', arial, helvetica, sans-serif;
   // padding-bottom: 40px;
   color: $color-text-primary;
   font-size: 1.4rem;
+  font-weight: 500;
+}
+
+a {
+  color: $color-text-primary;
+
+  &:hover {
+    color: $color-text-primary;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
