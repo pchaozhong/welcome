@@ -1,7 +1,7 @@
 /* Navbar
 -------------------------------------------------- */
 .l-header.navbar {
-  height: $navbarHeight;
+  height: $navbar-height;
   padding-top: 14px;
   background-color: white;
   margin-bottom: 0;
@@ -9,12 +9,13 @@
   padding-right: 0;
   padding-left: 0;
 
+  @include mq() {
+    height: $navbar-height-sp;
+  }
+
   .container {
     width: auto;
-    @include mq-min() {
-      padding-right: $inner-padding-x;
-      padding-left: $inner-padding-x;   
-    }
+    @include make-inner;
 
     .navbar-collapse {
       box-shadow: none;
@@ -67,8 +68,12 @@
 
 .navbar-brand {
   &__logo {
-    width: 127px;
-    margin-top: -16px;
-    margin-left: -3px;
+    width: 102px;
+    margin-left: -16px;
+    margin-top: -8px;
+    @include mq() {
+      margin-left: 0px;
+      width: 87px;
+    }
   }
 }

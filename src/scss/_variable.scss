@@ -76,12 +76,18 @@ $breakpoints-min: (
   font-size: 3.6rem;
   line-height: 1.5;
   letter-spacing: 8px;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   text-align: center;
+  @include mq() {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-align: left;
+  }
 }
 
 @mixin font-subtitle-body() {
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
     text-align: center;
     font-size: 2rem;
     line-height: 2;

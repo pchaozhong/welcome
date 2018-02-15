@@ -13,6 +13,7 @@ $pages: "about", "team", "community", "product", "news";
   &__title {
     font-size: 6.4rem;
     color: white;
+    line-height: 1.5;
     letter-spacing: 15px;
     margin: 0;
   }
@@ -35,7 +36,9 @@ $pages: "about", "team", "community", "product", "news";
 
 .p-section {
   padding-top: 160px;
-  // padding-bottom: 80px;
+  @include mq() {
+    padding: 0 $inner-padding-x-sp;
+  }
 }
 
 .p-block {
@@ -51,31 +54,41 @@ $pages: "about", "team", "community", "product", "news";
   }
 }
 
+.p-block--sm {
+  @extend .p-block;
+  padding: 100px 60px 100px;
+}
+
+.p-block--xs {
+  @extend .p-block;
+  padding: 100px 60px 100px;
+}
+
 .p-block + .p-block {
   padding-top: 0;
 }
 
-.p-title {
-  width: 100%;
-  text-align: left;
-  margin-bottom: 80px;
+// .p-title {
+//   width: 100%;
+//   text-align: left;
+//   margin-bottom: 80px;
 
-  &--center {
-    text-align: center;
-  }
+//   &--center {
+//     text-align: center;
+//   }
 
-  &__header {
-    font-size: 3.6rem;
-    letter-spacing: 8px;
-    line-height: 1.5;
-  }
+//   &__header {
+//     font-size: 3.6rem;
+//     letter-spacing: 8px;
+//     line-height: 1.5;
+//   }
 
-  &__body {
-    font-size: 2rem;
-    letter-spacing: 5px;
-    line-height: 2;
-  }
-}
+//   &__body {
+//     font-size: 2rem;
+//     letter-spacing: 5px;
+//     line-height: 2;
+//   }
+// }
 
 .p-subtitle {
   margin-bottom: 40px;
@@ -87,7 +100,13 @@ $pages: "about", "team", "community", "product", "news";
   &__body {
     @include font-subtitle-body;
   }
+}
 
+.p-subtitle--nobody {
+  @extend .p-subtitle;
+  .p-subtitle__header {
+    margin-bottom: 8rem;
+  }
 }
 
 .p-well {
@@ -114,6 +133,12 @@ $pages: "about", "team", "community", "product", "news";
     cursor: pointer;
     color: #fff;
     text-decoration: none;
+  }
+
+  @include mq(){
+    font-size: 1.2rem;
+    line-height: 32px;
+    height: 32px;
   }
 }
 
