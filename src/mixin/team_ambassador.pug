@@ -1,0 +1,6 @@
+mixin team_ambassador(name, country, body)
+	.p-ambassador__img-wrapper
+		img.p-ambassador__img(alt=country)&attributes(attributes)
+	.p-ambassador__img-content
+		h3.p-ambassador__name= name
+		h5.p-ambassador__body= body

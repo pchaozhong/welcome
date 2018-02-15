@@ -6,44 +6,76 @@ body
 
   include mixin/mail_form
 
-  main.l-main
+  main.l-main.p-page
+    .p-cover-header.p-cover-header--team
+      h2.p-cover-header__title TEAM
 
-    //- // Team
-    .team
-      .container#team
-        .row
-          .col-md-12
-            h2.team__heading
-              | #{team.header}
-          include mixin/team_member
-          include mixin/team_member_sns
-          .col-lg-4
-            +team_member(team.profile.yasu.name, 'Founder / CEO')(src='/img/yasu.jpg')
-            +team_member_sns('masahiro.yasu.7', 'MasahiroALIS')
-            .team__content
-              | #{team.profile.yasu.body}
-          .col-lg-4
-            +team_member(team.profile.mizusawa.name, 'Co-Founder / CMO')(src='/img/mizusawa.jpg')
-            +team_member_sns('takashi.mizusawa', 'takashi_mizu')
-            .team__content
-              | #{team.profile.mizusawa.body}
-          .col-lg-4
-            +team_member(team.profile.ishii.name, 'Co-Founder / CTO')(src='/img/ishii.jpg')
-            +team_member_sns('sota.ishii', 'sot528')
-            .team__content
-              | #{team.profile.ishii.body}
-        .row
-          .col-lg-4
-            +team_member(team.profile.kamei.name, 'Legal department')(src='/img/kamei.jpg')
-            p.team__sns-link
-              +team_member_fb('tatsuhiko.kamei.9')
-              .team__content
-                | #{team.profile.kamei.body}
-          .col-lg-4
-            +team_member(team.profile.nakamura.name, 'Media and Mass communication')(src='/img/nakamura.jpg')
-            +team_member_sns('cafekenta?fref=ts', 'cafekenta')
-            .team__content
-              | #{team.profile.nakamura.body}
+    .container-fluid
+      .p-block
+        .p-subheader 
+          h3.p-subtitle__header #{member.header}
+          p.p-subtitle__body #{member.body}
+
+        .p-member
+          .row
+            .col-md-12
+            include mixin/team_member
+            include mixin/team_member_sns
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png')
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png')
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png')
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
+          .row
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png')
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png')
+            .col-lg-3.col-xs-6.p-member__profile
+              +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
+
+      .p-block
+        .p-subheader 
+          h3.p-subtitle__header #{ambassador.header}
+          p.p-subtitle__body #{ambassador.body}
+
+        .p-ambassador
+          .row
+            .col-md-12
+            include mixin/team_ambassador
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.seiya.name, 'Japan', ambassador.profile.seiya.body)(src='/img/pc/img_jpn.png')
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.ricky.name, 'Japan', ambassador.profile.ricky.body)(src='/img/pc/img_jpn.png')
+          .row
+            include mixin/team_ambassador
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.wine.name, 'Japan', ambassador.profile.wine.body)(src='/img/pc/img_jpn.png')
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.edindin.name, 'Japan', ambassador.profile.edindin.body)(src='/img/pc/img_jpn.png')
+          .row
+            include mixin/team_ambassador
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.ueno.name, 'Japan', ambassador.profile.ueno.body)(src='/img/pc/img_jpn.png')
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.adam.name, 'USA', ambassador.profile.adam.body)(src='/img/pc/img_usa.png')
+          .row
+            include mixin/team_ambassador
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.mito.name, 'USA', ambassador.profile.mito.body)(src='/img/pc/img_usa_nl.png')
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.phillip.name, 'Chia', ambassador.profile.phillip.body)(src='/img/pc/img_china.png')
+          .row
+            include mixin/team_ambassador
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.fernando.name, 'Argentine', ambassador.profile.fernando.body)(src='/img/pc/img_argentine.png')
+            .col-lg-6.p-ambassador__profile
+              +team_ambassador(ambassador.profile.ian.name, 'Taiwan', ambassador.profile.ian.body)(src='/img/pc/img_taiwan.png')
 
   // Footer
   #meetus
