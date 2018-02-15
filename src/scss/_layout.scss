@@ -4,8 +4,55 @@
 
 .l-main {
 	@include make-inner;
+	@include mq() {
+		padding: 0;
+	}
 }
 
+/* Footer
+-------------------------------------------------- */
+
 .l-footer {
-	
+  color: white;
+  text-align: center;
+  background-color: $color-background-dark;
+  height: 420px;
+  width: 100%;
+  padding: 80px 0 120px;
+
+  &__sns-links {
+    :not(:first-child) {
+      margin-left: 11px;
+    }
+
+    margin-bottom: 40px;
+  }
+
+  &__twitter, &__medium {
+    margin-top: 8px;
+  }
+
+  .btn-social-icon.btn-lg {
+      width: 60px;
+      height: 60px;
+      margin: 30px;
+      margin-right: 60px;
+  }
+
+  &__company {
+    margin-bottom: 0;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  &__address {
+    margin-bottom: 0;
+
+    a {
+      color: white;
+      font-size: smaller;
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+  }
 }
