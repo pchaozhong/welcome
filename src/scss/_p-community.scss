@@ -1,0 +1,52 @@
+.p-ambassador-program {
+	&__header {
+		@include font-subtitle-header;
+	}
+	&__body {
+		@include font-subtitle-body;
+	}
+}
+
+$communities: "twitter", "medium", "discord", "reddit", "github";
+
+.p-community-cards {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.p-community-card {
+	@include box-shadow;
+	background-color: white;
+	padding: 35px;
+	text-align: center;
+	width: 196px;
+
+	&::before {
+		content: "";
+		display: inline-block;
+		width: 60px;
+		max-width: 60px;
+		height: 60px;
+	}
+
+	@each $community in $communities {
+		&--#{$community}::before {
+			background: url("/img/pc/icon_community_#{$community}.png") center center no-repeat;
+			background-size: contain;
+		}
+	}
+
+	&__name {
+		font-family: "Hiragino UD Serif Std";
+		font-size: 1.8rem;
+		letter-spacing: 1px;
+		line-height: 2.1
+	}
+
+	&__body {
+		font-size: 1.4rem;
+		letter-spacing: 1px;
+		line-height: 1.57;
+	}
+}
