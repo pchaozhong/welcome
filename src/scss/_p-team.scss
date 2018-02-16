@@ -25,7 +25,7 @@
 			font-size: 1.4rem;
 			font-weight: bold;
 			line-height: 1.7;
-			letter-spacing: 0.1px;
+			letter-spacing: 0px;
 			margin-bottom: 4px;
 		}
 	}
@@ -38,79 +38,6 @@
 			line-height: 1.5;
 			letter-spacing: 0.1px;
 			margin: 0;
-		}
-	}
-}
-
-.p-popup-member {
-	@include mq() {
-		padding: 60px 32px 32px;
-		height: calc(100vh - 40px);
-	}
-	&__title {
-		padding-left: 16px;
-	}
-	&__img {
-		margin-bottom: 12px;
-	}
-	&__name {
-		margin-top: 1.8em;
-    margin-bottom: 4px;
-    font-size: 2.4rem;
-    line-height: 1;
-    font-weight: 500;
-		@include mq() {
-			font-size: 1.6rem;
-			font-weight: bold;
-			line-height: 1.5;
-			margin-top: 0;
-		}
-	}
-	&__role {
-		margin-top: 0;
-		margin-bottom: 24px;
-		@include mq() {
-			margin-bottom: 16px;
-		}
-	}
-	&__row {
-		display: flex;
-		@include mq() {
-			flex-direction: column;
-			text-align: center;
-		}
-	}
-	&__body {
-		letter-spacing: 1px;
-		font-size: 1.4rem;
-		line-height: 1.5;
-	}	
-	&__content {
-		margin-left: 16px;
-	}
-
-	&__sns {
-		.p-icon {
-			margin-right: 12px;
-		}
-		@include mq() {
-			margin-bottom: 16px;
-		}
-	}
-}
-
-
-
-.p-icon {
-	width: 32px;
-	height: 32px;
-	display: inline-block;
-
-	$sns: "twitter", "facebook", "linkedin";
-	@each $icon in $sns {
-		&--#{$icon} {
-			background: url("/img/sp/btn_#{$icon}.png") no-repeat;
-			background-size: cover;
 		}
 	}
 }
