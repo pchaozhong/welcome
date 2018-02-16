@@ -177,6 +177,7 @@
         background: url("/img/sp/icon_ourproject#{$i}.png") no-repeat;
         width: 124px;
         height: 124px;
+        min-width: 124px;
         background-size: contain;
         background-position: center;
       }
