@@ -42,6 +42,14 @@
 	}
 }
 
+.p-index {
+	.p-member__profile {
+		@include mq() {
+			padding: 0;
+		}
+	}
+}
+
 .p-ambassador {
 	color: $color-text-secondary;
 	

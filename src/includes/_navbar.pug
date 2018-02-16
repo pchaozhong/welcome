@@ -5,12 +5,7 @@ noscript
 header.l-header.navbar.navbar-inverse.navbar-static-top.navbar-fixed-top#navbar-header
   nav.container
     .navbar-header
-      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar',
-      aria-expanded='false', aria-controls='navbar')
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
+      button.navbar-toggle.js-nav-toggler.p-nav-trigger
       a.navbar-brand(href='/')
         img.navbar-brand__logo(src='/img/pc/header_logo.png', alt='ALIS')
     block links

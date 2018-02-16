@@ -45,7 +45,17 @@
     width: 60px;
     height: 60px;
     margin: 30px;
+    padding: 0;
     margin-right: 60px;
+    > img {
+      max-width: 100%;
+      height: auto;
+    }
+    .l-footer__reddit{
+      max-width: auto;
+      height: calc(100% + 10px);
+      margin-top: -5px;
+    }
     @include mq() {
       width: 24px;
       height: 24px;
@@ -53,6 +63,8 @@
       margin-right: 24px;
     }
   }
+
+
 
   &__company {
     margin-bottom: 0;

@@ -2,6 +2,7 @@ extends _navbar
 
 block links
   #navbar.navbar-collapse.collapse
+    <h3 class="navbar__header">MENU</h3>
     ul.nav.navbar-nav
       li
         a.smooth-anchor(href='/about.html') #{navbar.about}
@@ -22,6 +23,10 @@ block links
           option #{navbar.language}
           option(value='/') EN
           option(value='/ja/index.html') JP
+  //- .c-hamburger.js-menu-trigger.u-sp-only.navbar-text
+  //-   span
+  //-   span
+  //-   span
       //- li
       //-   a(href='#' data-toggle="dropdown")
       //-     | #{navbar.introduction}

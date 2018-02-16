@@ -69,11 +69,92 @@
 .navbar-brand {
   &__logo {
     width: 102px;
-    margin-left: -16px;
     margin-top: -8px;
     @include mq() {
-      margin-left: 0px;
       width: 87px;
     }
+  }
+}
+
+.p-nav-trigger {
+  width: 24px;
+  height: 24px;
+  background-image: url("/img/sp/icon_menu.png");
+  background-size: cover;
+  &.is-on {
+
+  }
+}
+
+#navbar.navbar-collapse.collapse {
+  .navbar__header {
+    display: none;
+  }
+
+  @include mq(lg) {
+    @include box-shadow;
+    display: block !important;
+    width: 429px;
+    background-color: white;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 120vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all .4s ease;
+    padding: 34px 56px;
+    color: #000;
+
+    @include mq(sm) {
+      width: 273px;
+    }
+
+    .form-control.nav__language {
+      display: none;
+    }
+
+    .navbar__header {
+      display: block;
+      font-family: "Hiragino UD Serif Std";
+      font-size: 2.8rem;
+      letter-spacing: 4px;
+      line-height: 1;
+      color: #030303;
+      margin-bottom: 50px;
+
+      &::after {
+        display: block;
+        content: "";
+        height: 2px;
+        width: 27px;
+        margin-top: 14px;
+        background-color: $color-text-secondary;
+      }
+    }
+
+    &.is-on {
+      transform: translateX(0);
+      transition: all .4s ease;
+    }
+  }
+}
+
+#navbar .nav.navbar-nav {
+  @include mq(lg) {
+    float: left!important;
+    margin: 0;
+
+    li {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.navbar-inverse .navbar-toggle {
+  border: 0;
+  &:hover, &:active, &:focus {
+    background-color: transparent;
   }
 }

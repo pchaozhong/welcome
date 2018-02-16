@@ -1,17 +1,46 @@
 /*globals $ */
 /*eslint no-console: ["error", { allow: ["log"] }] */
 
-// スクロールをスムーズに
+
 $(() => {
+  const headerHeight = $('#navbar-header').height();
+  const coverHeight = $('.js-cover-header').height();
+
+  // スクロールをスムーズに
   $('.smooth-anchor').click(function () {
     const speed = 500;
     const href = $(this).attr("href");
     const target = $(href === "#" || href === "" ? 'html' : href);
-    const headerHeight = $('#navbar-header').height();
     const position = target.offset().top - headerHeight;
     $('body,html').animate({scrollTop: position}, speed, 'swing');
     return false;
   });
+
+  //
+  $(window).scroll(function() {
+    console.log(window.scrollY);
+    if (window.scrollY > headerHeight + coverHeight ) {
+      $('.p-page').addClass('is-bg-fixed');
+    }else{
+      $('.p-page').removeClass('is-bg-fixed');
+    }
+  });
+
+  // メニューの開閉
+  $('.js-nav-toggler').on('click', function(){
+    $(this).toggleClass('is-on');
+    $('#navbar').toggleClass('is-on');
+  });
+
+  // メニュー以外押下でメニューを閉じる
+  $(document).click(function(event) {
+    if(!$(event.target).closest('#navbar').length && !$(event.target).closest('.js-nav-toggler').length ) {
+      $('.js-nav-toggler').removeClass('is-on');
+      $('#navbar').removeClass('is-on');
+    }
+  });
+
+
 });
 
 // for console branding.
