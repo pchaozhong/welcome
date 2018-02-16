@@ -46,8 +46,9 @@ body
           .col-md-12.text-center    
             a.p-button--lg(href=whitepaper.url, target="_blank") #{button.readwhitepaper}
 
-        // MEDIA APPEARANCE
-        article.p-well
+      // MEDIA APPEARANCE
+      section.p-section
+        .p-well
           .p-title.p-title--center.p-title--nobody
             h3.p-title__header MEDIA APPEARANCE
           // media logos
@@ -88,35 +89,35 @@ body
               br
               a.p-product__link(href="#") #{product.link}
 
+      // MEMBER
       section.container-fluid.p-section
+        .p-title.p-title--nobody
+          .p-title__header #{member.header}
+        .p-member
         .row
           .col-md-12
-            .p-title.p-title--nobody
-              .p-title__header #{member.header}
-            .p-member
-            .row
-              .col-md-12
-              include mixin/team_member
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png', data-popup=member.profile.yasu.id)
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png', data-popup=member.profile.mizusawa.id)
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png', data-popup=member.profile.ishii.id)
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png', data-popup=member.profile.togashi.id)
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png', data-popup=member.profile.kamei.id)
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png', data-popup=member.profile.usagi.id)
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png', data-popup=member.profile.gachiho.id)
-              .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png', data-popup=member.profile.kubori.id)
+          include mixin/team_member
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png', data-popup=member.profile.yasu.id)
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png', data-popup=member.profile.mizusawa.id)
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png', data-popup=member.profile.ishii.id)
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png', data-popup=member.profile.togashi.id)
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png', data-popup=member.profile.kamei.id)
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png', data-popup=member.profile.usagi.id)
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png', data-popup=member.profile.gachiho.id)
+          .col-lg-3.col-xs-6.p-member__profile
+            +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png', data-popup=member.profile.kubori.id)
 
 
-        // EXCHANGE
-        article.p-well
+      // EXCHANGE
+      section.p-section
+        .p-well
           .p-title.p-title--center.p-title--nobody
             h3.p-title__header EXCHANGE
 
