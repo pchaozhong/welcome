@@ -3,23 +3,23 @@
 
 
 $(() => {
-  const headerHeight = $('#navbar-header').height();
-  const coverHeight = $('.js-cover-header').height();
+  
 
   // スクロールをスムーズに
   $('.smooth-anchor').click(function () {
     const speed = 500;
     const href = $(this).attr("href");
+    const headerHeight = $('#navbar-header').height();
     const target = $(href === "#" || href === "" ? 'html' : href);
     const position = target.offset().top - headerHeight;
     $('body,html').animate({scrollTop: position}, speed, 'swing');
     return false;
   });
 
+  const coverHeight = $('.p-cover-header').height(); 
   //
   $(window).scroll(function() {
-    console.log(window.scrollY);
-    if (window.scrollY > headerHeight + coverHeight ) {
+    if (window.scrollY > coverHeight ) {
       $('.p-page').addClass('is-bg-fixed');
     }else{
       $('.p-page').removeClass('is-bg-fixed');
