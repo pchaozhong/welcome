@@ -48,7 +48,7 @@ $(() => {
     $('#js-overlay').addClass('is-on');
   })
 
-  $('#js-exit-popup').click(function(){
+  $('.js-exit-popup').click(function(){
     $(this).parent().removeClass('is-on');
     $('#js-overlay').removeClass('is-on');
   });

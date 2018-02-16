@@ -16,14 +16,14 @@ body
 
     // ABOUT
     section.container-fluid.p-section
+      .p-title
+        .p-title__header #{project.header}
+        .p-title__body 
+          | #{project.body1}
+          br.u-pc-only
+          | #{project.body2}
       .row
         .col-md-12
-          .p-title
-            .p-title__header #{project.header}
-            .p-title__body 
-              | #{project.body1}
-              br.u-pc-only
-              | #{project.body2}
           ul.p-feature-list
             li.p-feature-list__item
               p.p-feature-list__item-body
@@ -42,7 +42,7 @@ body
                 | #{project.feature_list.item3_body1}
                 br
                 | #{project.feature_list.item3_body2}
-                
+                  
         .col-md-12.text-center    
           a.p-button--lg(href=whitepaper.url, target="_blank") #{button.readwhitepaper}
 
@@ -131,110 +131,6 @@ body
             a(href="", target="blank")
               img.p-exchange__img(src="/img/pc/logo_yobit.png" alt='Yobit')
               img.p-exchange__img--sp(src="/img/sp/logo_yobit.png" alt='Yobit')
-
-
-    //- // About Japan
-    //- .container.about-japan#about-japan
-    //-   h2.about-japan__heading
-    //-     | #{about_japan.header}
-    //-   .row.about-japan__row
-    //-     .col-md-7
-    //-       h3
-    //-         | #{about_japan.media_quality.header}
-    //-       p
-    //-         | #{about_japan.media_quality.body}
-    //-     .col-md-5.about-japan__image-container
-    //-       img.about-japan-image.img-responsive.center-block(src='/img/japan-media-quality.png',
-    //-       alt='media quality')
-    //-   .row.about-japan__row
-    //-     .col-md-7.col-md-push-5
-    //-       h3
-    //-         | #{about_japan.technology.header}
-    //-       p
-    //-         | #{about_japan.technology.body}
-    //-     .col-md-5.col-md-pull-7.about-japan__image-container
-    //-       img.about-japan-image.img-responsive.center-block(src='/img/japan-technology.png',
-    //-       alt='technology')
-    //-   .row.about-japan__row
-    //-     .col-md-7
-    //-       h3
-    //-         | #{about_japan.market.header}
-    //-       p
-    //-         | #{about_japan.market.body}
-    //-     .col-md-5.about-japan__image-container
-    //-       img.about-japan-image.img-responsive.center-block(src='/img/japan-market.png', alt='market')
-
-    //- // ICO
-    //- .ico
-    //-   .container#ico
-    //-     .row.ico__row
-    //-       .col-md-12
-    //-         h2.ico__heading
-    //-           | #{ico.header}
-    //-         img.technology__logo(src='/img/ico.png', alt='ICO')
-    //-         .lead
-    //-           | #{ico.body1}
-    //-           br
-    //-           | #{ico.body2}
-    //-           br
-    //-           | #{ico.body3}
-
-    //- // Technology
-    //- .container.technology
-    //-   .row
-    //-     .col-md-12
-    //-       h2.technology__heading
-    //-         | #{technology.header}
-    //-       img.technology__logo(src='/img/technology.png', alt='technology')
-    //-       .lead
-    //-         | #{technology.body}
-
-    //- // Subscribe form
-    //- .container.subscribe-form
-    //-   .row
-    //-     .col-md-12
-    //-       h2.subscribe-form__heading
-    //-       .lead
-    //-         | #{subscribe_form.body}
-    //-       p
-    //-         +mail_form
-
-    //- // Team
-    //- .team
-    //-   .container#team
-    //-     .row
-    //-       .col-md-12
-    //-         h2.team__heading
-    //-           | #{team.header}
-    //-       include mixin/team_member
-    //-       include mixin/team_member_sns
-    //-       .col-lg-4
-    //-         +team_member(team.profile.yasu.name, 'Founder / CEO')(src='/img/yasu.jpg')
-    //-         +team_member_sns('masahiro.yasu.7', 'MasahiroALIS')
-    //-         .team__content
-    //-           | #{team.profile.yasu.body}
-    //-       .col-lg-4
-    //-         +team_member(team.profile.mizusawa.name, 'Co-Founder / CMO')(src='/img/mizusawa.jpg')
-    //-         +team_member_sns('takashi.mizusawa', 'takashi_mizu')
-    //-         .team__content
-    //-           | #{team.profile.mizusawa.body}
-    //-       .col-lg-4
-    //-         +team_member(team.profile.ishii.name, 'Co-Founder / CTO')(src='/img/ishii.jpg')
-    //-         +team_member_sns('sota.ishii', 'sot528')
-    //-         .team__content
-    //-           | #{team.profile.ishii.body}
-    //-     .row
-    //-       .col-lg-4
-    //-         +team_member(team.profile.kamei.name, 'Legal department')(src='/img/kamei.jpg')
-    //-         p.team__sns-link
-    //-           +team_member_fb('tatsuhiko.kamei.9')
-    //-           .team__content
-    //-             | #{team.profile.kamei.body}
-    //-       .col-lg-4
-    //-         +team_member(team.profile.nakamura.name, 'Media and Mass communication')(src='/img/nakamura.jpg')
-    //-         +team_member_sns('cafekenta?fref=ts', 'cafekenta')
-    //-         .team__content
-    //-           | #{team.profile.nakamura.body}
 
   // Footer
   #meetus

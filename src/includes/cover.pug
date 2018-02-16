@@ -1,16 +1,15 @@
 section.p-cover
-  .container-fluid
-    .p-cover__title
-      h2.p-cover__header ALLIANCE & WISDOM
-      h2.p-cover__caption
-        | #{cover.caption_line_one.first} 
-        br.u-pc-only
-        | #{cover.caption_line_one.second}
+  .p-cover__title
+    h2.p-cover__header ALLIANCE & WISDOM
+    h2.p-cover__caption
+      | #{cover.caption_line_one.first} 
+      br.u-pc-only
+      | #{cover.caption_line_one.second}
 
-    article.p-cta
-      h3.p-cta__header #{registration.header}
-      p.p-cta__body 
-        | #{registration.body_line_1}
-        br
-        | #{registration.body_line_2}
-      a.p-cta__button(data-popup='registration') #{button.applyforbeta}
+  article.p-cta
+    h3.p-cta__header #{registration.header}
+    p.p-cta__body 
+      | #{registration.body_line_1}
+      br
+      | #{registration.body_line_2}
+    a.p-cta__button(data-popup='registration') #{button.applyforbeta}

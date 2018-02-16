@@ -17,6 +17,10 @@
     overflow: hidden;
     position: fixed;
   }
+
+  @include mq() {
+    padding: 20px;
+  }
 }
 
 .l-header {

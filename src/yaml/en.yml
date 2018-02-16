@@ -78,6 +78,7 @@ member:
   body: Corntributing to ALIS every day.
   profile:
     yasu:
+      id: yasu
       name: MASAHIRO YASU
       body: |
         Yasu is a graduate from Kyoto University, the university with the highest number of Nobel Prize winner
@@ -90,7 +91,11 @@ member:
         language analysis, and received the GROWTH FORUM Award which is the highest prize in Recruit. Currently he also
         serves as a project leader of a joint project with Microsoft Japan.
       role: FOUNDER / CEO
+      twitter: 
+      fb:
+      linkedin: 
     mizusawa:
+      id: mizusawa
       name: TAKASHI MIZUSAWA
       body: |
         Takashi started a venture company as a university student.
@@ -102,7 +107,11 @@ member:
         He is interested in using social networks in HR. He envisions a world where individuals can
         earn success through their own unique abilities.
       role: CO-FOUNDER / CMO
+      twitter: 
+      fb:
+      linkedin:
     ishii:
+      id: ishii
       name: SOTA ISHII
       body: |
         Sota has over 13 years of experience as a system engineer. He took on the role as a development leader of
@@ -111,33 +120,56 @@ member:
         varies positions. He strongly believes that blockchain technology will be a widespread standard within in
         a few years. Due to the recent rise of crypto currency, he has committed himself to the ALIS project.
       role: CO-FOUNDER / CTO
-    togashi: 
+      twitter: 
+      fb:
+      linkedin:
+    togashi:
+      id: togashi 
       name: KEIJU TOGASHI
       body: |
         sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
       role: ENGINEER
+      twitter: 
+      fb:
+      linkedin:      
     kamei:
+      id: kamei
       name: TATSUHIKO KAMEI
       body: |
         Kamei graduated from Japan’s most prestigious university, the University of Tokyo.In addition to the ALIS project,
         he currently works for Recruit Co., Ltd. as a member of the legal staff.He handles different fields such as IT,
         web services, marketing, human resource and etc. He specializes in the legal affairs of new business developments.
       role: LEAGAL DIVISION
+      twitter: 
+      fb:
+      linkedin:
     usagi: 
+      id: usagi
       name: USAGI
       body: |
         sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
       role: LEAD DESIGNER
+      twitter: 
+      fb:
+      linkedin:
     gachiho: 
+      id: gachiho
       name: GACHIHO
       body: |
         sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
       role: ENGINEER
+      twitter: 
+      fb:
+      linkedin:
     kubori:
+      id: kubori
       name: CHIKA KUBORI
       body: |
         sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
       role: DESIGNER
+      twitter: 
+      fb:
+      linkedin:
 ambassador:
   header: AMBASSADOR
   body: to help spread awareness of the platform ALIS.

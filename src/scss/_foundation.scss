@@ -39,6 +39,7 @@ body {
   color: $color-text-primary;
   font-size: 1.4rem;
   font-weight: 500;
+  overflow-x: hidden; 
 }
 
 a {
@@ -49,8 +50,8 @@ a {
   }
 }
 
-.container-fluid {
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
+// .container-fluid {
+//   width: 100%;
+//   padding-left: 0;
+//   padding-right: 0;
+// }

@@ -271,8 +271,12 @@ $pages: "about", "team", "community", "product", "news";
   position: relative;
   transform: scale3d(0,0,0);
   transition: all .3s ease;
+  display: none;
+  width: 640px;
+  overflow-y: scroll; 
 
   &.is-on {
+    display: block;
     transform: scale3d(1,1,1);
   }
 
@@ -284,6 +288,10 @@ $pages: "about", "team", "community", "product", "news";
     height: auto;
     &:hover {
       cursor: pointer;
+    }
+    @include mq() {
+      top: 20px;
+      right: 20px;
     }
   }
   .form-group label {
@@ -302,7 +310,6 @@ $pages: "about", "team", "community", "product", "news";
 }
 
 .p-popup-registration {
-  width: 640px;
 
   &__header {
     font-size: 2rem;
