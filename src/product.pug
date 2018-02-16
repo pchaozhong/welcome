@@ -19,7 +19,7 @@ body
               | #{registration.body_line_1}
               br
               | #{registration.body_line_2}
-            a.p-button.p-button--lg #{button.applyforbeta}
+            a.p-button.p-button--lg(data-popup='registration') #{button.applyforbeta}
 
         .p-block
           .p-title.p-title--center 
@@ -41,6 +41,10 @@ body
               a.p-product__button(href="#") #{button.mock_sp}
               br
               a.p-product__link(href="#") #{product.link}
+
+  .l-overlay#js-overlay
+    include mixin/popup_registration
+    +popup_registration
 
   // Footer
   #meetus

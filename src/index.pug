@@ -2,9 +2,6 @@ include includes/header
 
 // Navbar
 body
-  .l-overlay#js-overlay
-    include mixin/popup_registration
-    +popup_registration
   include includes/navbar
 
   include mixin/mail_form
@@ -91,6 +88,7 @@ body
               br
               a.p-product__link(href="#") #{product.link}
 
+      section.container-fluid.p-section
         .row
           .col-md-12
             .p-title.p-title--nobody
@@ -99,24 +97,22 @@ body
             .row
               .col-md-12
               include mixin/team_member
-              include mixin/team_member_sns
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png')
+                +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png', data-popup=member.profile.yasu.id)
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png')
+                +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png', data-popup=member.profile.mizusawa.id)
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png')
+                +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png', data-popup=member.profile.ishii.id)
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
-            .row
+                +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png', data-popup=member.profile.togashi.id)
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
+                +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png', data-popup=member.profile.kamei.id)
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png')
+                +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png', data-popup=member.profile.usagi.id)
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png')
+                +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png', data-popup=member.profile.gachiho.id)
               .col-lg-3.col-xs-6.p-member__profile
-                +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
+                +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png', data-popup=member.profile.kubori.id)
 
 
         // EXCHANGE
@@ -134,6 +130,83 @@ body
               a(href="", target="blank")
                 img.p-exchange__img(src="/img/pc/logo_yobit.png" alt='Yobit')
                 img.p-exchange__img--sp(src="/img/sp/logo_yobit.png" alt='Yobit')
+
+  .l-overlay#js-overlay
+    include mixin/popup_registration
+    +popup_registration
+    include mixin/popup_member
+    article.p-popup.p-popup-member(id="js-popup-"+member.profile.yasu.id)
+      +popup_member(
+      member.profile.yasu.id,
+      member.profile.yasu.name,
+      member.profile.yasu.role, 
+      member.profile.yasu.body, 
+      member.profile.yasu.twitter, 
+      member.profile.yasu.fb, 
+      member.profile.yasu.linkedin)
+    article.p-popup.p-popup-member(src='/img/pc/img_profile_mizusawa.png', id="js-popup-"+member.profile.mizusawa.id)
+      +popup_member(
+      member.profile.mizusawa.id,
+      member.profile.mizusawa.name,
+      member.profile.mizusawa.role, 
+      member.profile.mizusawa.body, 
+      member.profile.mizusawa.twitter, 
+      member.profile.mizusawa.fb, 
+      member.profile.mizusawa.linkedin)
+    article.p-popup.p-popup-member(src='/img/pc/img_profile_ishii.png', id="js-popup-"+member.profile.ishii.id)
+      +popup_member(
+      member.profile.ishii.id,
+      member.profile.ishii.name,
+      member.profile.ishii.role, 
+      member.profile.ishii.body, 
+      member.profile.ishii.twitter, 
+      member.profile.ishii.fb, 
+      member.profile.ishii.linkedin)
+    article.p-popup.p-popup-member(src='/img/pc/img_profile_togashi.png', id="js-popup-"+member.profile.togashi.id)
+      +popup_member(
+      member.profile.togashi.id,
+      member.profile.togashi.name,
+      member.profile.togashi.role, 
+      member.profile.togashi.body, 
+      member.profile.togashi.twitter, 
+      member.profile.togashi.fb, 
+      member.profile.togashi.linkedin)
+    article.p-popup.p-popup-member(src='/img/pc/img_profile_kamei.png', id="js-popup-"+member.profile.kamei.id)
+      +popup_member(
+      member.profile.kamei.id,
+      member.profile.kamei.name,
+      member.profile.kamei.role, 
+      member.profile.kamei.body, 
+      member.profile.kamei.twitter, 
+      member.profile.kamei.fb, 
+      member.profile.kamei.linkedin)
+    article.p-popup.p-popup-member(src='/img/pc/img_profile_usagi.png', id="js-popup-"+member.profile.usagi.id)
+      +popup_member(
+      member.profile.usagi.id,
+      member.profile.usagi.name,
+      member.profile.usagi.role, 
+      member.profile.usagi.body, 
+      member.profile.usagi.twitter, 
+      member.profile.usagi.fb, 
+      member.profile.usagi.linkedin)
+    article.p-popup.p-popup-member(src='/img/pc/img_profile_gachiho.png', id="js-popup-"+member.profile.gachiho.id)
+      +popup_member(
+      member.profile.gachiho.id,
+      member.profile.gachiho.name,
+      member.profile.gachiho.role, 
+      member.profile.gachiho.body, 
+      member.profile.gachiho.twitter, 
+      member.profile.gachiho.fb, 
+      member.profile.gachiho.linkedin)
+    article.p-popup.p-popup-member(src='/img/pc/img_profile_kubori.png', id="js-popup-"+member.profile.kubori.id)
+      +popup_member(
+      member.profile.kubori.id,
+      member.profile.kubori.name,
+      member.profile.kubori.role, 
+      member.profile.kubori.body, 
+      member.profile.kubori.twitter, 
+      member.profile.kubori.fb, 
+      member.profile.kubori.linkedin)
 
   // Footer
   #meetus

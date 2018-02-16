@@ -1,21 +1,22 @@
 .l-overlay {
   width: 100%;
-  height: 100vh;
+  
   background-color: $color-background-overlay;
-  display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2000;
   transform: scale3d(0,0,0);
   transition: all .3s ease;
 
   &.is-on {
+    height: 100vh;
     transform: scale3d(1,1,1);
     overflow: hidden;
     position: fixed;
+    display: flex;
+    z-index: 2000;
   }
 
   @include mq() {
