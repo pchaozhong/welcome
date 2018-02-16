@@ -119,28 +119,6 @@ $pages: "about", "team", "community", "product", "news";
   padding-top: 50px;
 }
 
-// .p-title {
-//   width: 100%;
-//   text-align: left;
-//   margin-bottom: 80px;
-
-//   &--center {
-//     text-align: center;
-//   }
-
-//   &__header {
-//     font-size: 3.6rem;
-//     letter-spacing: 8px;
-//     line-height: 1.5;
-//   }
-
-//   &__body {
-//     font-size: 2rem;
-//     letter-spacing: 5px;
-//     line-height: 2;
-//   }
-// }
-
 .p-title {
   margin-bottom: 40px;
 
@@ -169,18 +147,14 @@ $pages: "about", "team", "community", "product", "news";
 
 .p-title--center {
   @extend .p-title;
-  .p-title__header {
+
+  .p-title__header, .p-title__body {
     text-align: center;
     @include mq() {
       text-align: left;
     }
   }
-  .p-title__body {
-    text-align: center;
-    @include mq() {
-      text-align: left;
-    }
-  }
+
   @include mq() {
     &.text-center {
       .p-title__header, .p-title__body {
@@ -290,6 +264,11 @@ $pages: "about", "team", "community", "product", "news";
   width: 640px;
   overflow-y: scroll; 
 
+  @include mq() {
+    padding: 60px 32px 32px;
+    height: calc(100vh - 40px);
+  }
+
   &.is-on {
     display: block;
     transform: scale3d(1,1,1);
@@ -313,6 +292,14 @@ $pages: "about", "team", "community", "product", "news";
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 500;
+    @include mq() {
+      font-size: 1.2rem;
+    }
+  }
+  .form-group {
+    @include mq() {
+      margin-bottom: 4rem;
+    }
   }
   .form-control, .form-control:active, .form-control:hover,  {
     border: 0;
@@ -321,6 +308,10 @@ $pages: "about", "team", "community", "product", "news";
     border-bottom: solid 1px $color-text-primary;
     height: 46px;
     line-height: 46px;
+    @include mq() {
+      height: 24px;
+      line-height: 24px;
+    }
   }
 }
 
@@ -340,11 +331,22 @@ $pages: "about", "team", "community", "product", "news";
     line-height: 1.55;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    @include mq() {
+      font-size: 1.2rem;
+      letter-spacing: 0px;
+      br {
+        display: none;
+      }
+    }
   }
 
   &__button {
     @include button-square(63%);
     margin-top: 60px;
+    @include mq() {
+      width: 76%;
+      margin-top: 8.4%;
+    }
   }
 }
 
