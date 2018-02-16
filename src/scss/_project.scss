@@ -12,6 +12,7 @@ $pages: "about", "team", "community", "product", "news";
 
   @include mq() {
     height: 200px;
+    margin-top: $navbar-height-sp;
   }
 
   &__title {
@@ -56,7 +57,7 @@ $pages: "about", "team", "community", "product", "news";
   background-size: 628px;
   background-attachment: fixed;
   @include mq() {
-    background-position: right 0px top 283px;
+    background-position: right 0px top 263px;
     background-size: 310px;
   }
 }
@@ -171,9 +172,23 @@ $pages: "about", "team", "community", "product", "news";
   .p-title__header {
     text-align: center;
     @include mq() {
-      text-align: center;
+      text-align: left;
     }
   }
+  .p-title__body {
+    text-align: center;
+    @include mq() {
+      text-align: left;
+    }
+  }
+  @include mq() {
+    &.text-center {
+      .p-title__header, .p-title__body {
+        text-align: center;
+      }
+    }
+  }
+
 }
 
 .p-title--nobody {

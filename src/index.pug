@@ -9,128 +9,131 @@ body
 
   include mixin/mail_form
 
-  main.l-main.p-index
+  .p-index
+    main.l-main
 
-    // Cover
-    include includes/cover
+      // Cover
+      include includes/cover
 
-    // ABOUT
-    section.container-fluid.p-section
-      .p-title
-        .p-title__header #{project.header}
-        .p-title__body 
-          | #{project.body1}
-          br.u-pc-only
-          | #{project.body2}
-      .row
-        .col-md-12
-          ul.p-feature-list
-            li.p-feature-list__item
-              p.p-feature-list__item-body
-                | #{project.feature_list.item1_body1}
-                br
-                | #{project.feature_list.item1_body2}
-            li.p-feature-list__item
-              p.p-feature-list__item-body
-                | #{project.feature_list.item2_body1}
-                br
-                | #{project.feature_list.item2_body2}
-                br
-                | #{project.feature_list.item2_body3}
-            li.p-feature-list__item
-              p.p-feature-list__item-body
-                | #{project.feature_list.item3_body1}
-                br
-                | #{project.feature_list.item3_body2}
-                  
-        .col-md-12.text-center    
-          a.p-button--lg(href=whitepaper.url, target="_blank") #{button.readwhitepaper}
+      // ABOUT
+      section.container-fluid.p-section
+        .row
+          .col-md-12
+            .p-title
+              .p-title__header #{project.header}
+              .p-title__body 
+                | #{project.body1}
+                br.u-pc-only
+                | #{project.body2}
+        .row
+          .col-md-12
+            ul.p-feature-list
+              li.p-feature-list__item
+                p.p-feature-list__item-body
+                  | #{project.feature_list.item1_body1}
+                  br
+                  | #{project.feature_list.item1_body2}
+              li.p-feature-list__item
+                p.p-feature-list__item-body
+                  | #{project.feature_list.item2_body1}
+                  br
+                  | #{project.feature_list.item2_body2}
+                  br
+                  | #{project.feature_list.item2_body3}
+              li.p-feature-list__item
+                p.p-feature-list__item-body
+                  | #{project.feature_list.item3_body1}
+                  br
+                  | #{project.feature_list.item3_body2}
+                    
+          .col-md-12.text-center    
+            a.p-button--lg(href=whitepaper.url, target="_blank") #{button.readwhitepaper}
 
-      // MEDIA APPEARANCE
-      article.p-well
-        .p-title.p-title--center.p-title--nobody
-          h3.p-title__header MEDIA APPEARANCE
-        // media logos
-        .p-media-logos
-          a(href="https://www.nhk.or.jp/keizai/archives/20170909_10.html", target="blank")
-            img(src="/img/pc/logo_nhk.png", alt='NHK')
-          a(href="https://japan.cnet.com/article/35106279/", target="blank")
-            img(src="/img/pc/logo_cnet.png", alt='Cnet Japan')
-          a(href="https://forbesjapan.com/articles/detail/17547", target="blank")
-            img(src="/img/pc/logo_forbes.png", alt='Forbes Japan')
-          a(href="https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/", target="blank")
-            img(src="/img/pc/logo_nikkei.png", alt='日本経済新聞')
-        .p-media-logos
-          a(href="http://www.itmedia.co.jp/news/articles/1708/25/news102.html", target="blank")
-            img(src="/img/pc/logo_itmedia.png" alt='ITMedia')
-          a(href="https://www.cryptocoinsnews.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/", target="blank")
-            img(src="/img/pc/logo_cryptocoins.png" alt='cryptocoinsnews')
-          a(href="", target="blank")
-            img(src="/img/pc/logo_iconews.png" alt='ICO NEWS')
-          a(href="https://cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media", target="blank")
-            img(src="/img/pc/logo_cointelegraph.png" alt='Cointelegraph')
-
-    // PRODUCT
-    section.container-fluid.p-section
-      .row
-        .col-md-12
-          .p-title
-            .p-title__header #{product.header}
-            .p-title__body 
-              | #{product.body_line_1}
-              br.u-pc-only
-              | #{product.body_line_2}
-        .col-md-12.p-product
-          img.p-product__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
-          .p-product__btns
-            a.p-product__button(href="#") #{button.mock_pc}
-            a.p-product__button(href="#") #{button.mock_sp}
-            br
-            a.p-product__link(href="#") #{product.link}
-
-      .row
-        .col-md-12
-          .p-title.p-title--nobody
-            .p-title__header #{member.header}
-          .p-member
-          .row
-            .col-md-12
-            include mixin/team_member
-            include mixin/team_member_sns
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png')
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png')
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png')
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
-          .row
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png')
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png')
-            .col-lg-3.col-xs-6.p-member__profile
-              +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
-
-
-      // EXCHANGE
-      article.p-well
-        .p-title.p-title--center.p-title--nobody
-          h3.p-title__header EXCHANGE
-
-        .p-exchange
-            a(href="", target="blank")
-              img.p-exchange__img(src="/img/pc/logo_coinexchange.png" alt='Coin Exchange')
-              img.p-exchange__img--sp(src="/img/sp/logo_coinexchange.png" alt='Coin Exchange')
+        // MEDIA APPEARANCE
+        article.p-well
+          .p-title.p-title--center.p-title--nobody
+            h3.p-title__header MEDIA APPEARANCE
+          // media logos
+          .p-media-logos
+            a(href="https://www.nhk.or.jp/keizai/archives/20170909_10.html", target="blank")
+              img(src="/img/pc/logo_nhk.png", alt='NHK')
+            a(href="https://japan.cnet.com/article/35106279/", target="blank")
+              img(src="/img/pc/logo_cnet.png", alt='Cnet Japan')
+            a(href="https://forbesjapan.com/articles/detail/17547", target="blank")
+              img(src="/img/pc/logo_forbes.png", alt='Forbes Japan')
+            a(href="https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/", target="blank")
+              img(src="/img/pc/logo_nikkei.png", alt='日本経済新聞')
+          .p-media-logos
+            a(href="http://www.itmedia.co.jp/news/articles/1708/25/news102.html", target="blank")
+              img(src="/img/pc/logo_itmedia.png" alt='ITMedia')
             a(href="https://www.cryptocoinsnews.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/", target="blank")
-              img.p-exchange__img(src="/img/pc/logo_cryptopia.png" alt='cryptopias')
-              img.p-exchange__img--sp(src="/img/sp/logo_cryptopia.png" alt='cryptopias')
+              img(src="/img/pc/logo_cryptocoins.png" alt='cryptocoinsnews')
             a(href="", target="blank")
-              img.p-exchange__img(src="/img/pc/logo_yobit.png" alt='Yobit')
-              img.p-exchange__img--sp(src="/img/sp/logo_yobit.png" alt='Yobit')
+              img(src="/img/pc/logo_iconews.png" alt='ICO NEWS')
+            a(href="https://cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media", target="blank")
+              img(src="/img/pc/logo_cointelegraph.png" alt='Cointelegraph')
+
+      // PRODUCT
+      section.container-fluid.p-section
+        .row
+          .col-md-12
+            .p-title
+              .p-title__header #{product.header}
+              .p-title__body 
+                | #{product.body_line_1}
+                br.u-pc-only
+                | #{product.body_line_2}
+          .col-md-12.p-product
+            img.p-product__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
+            .p-product__btns
+              a.p-product__button(href="#") #{button.mock_pc}
+              a.p-product__button(href="#") #{button.mock_sp}
+              br
+              a.p-product__link(href="#") #{product.link}
+
+        .row
+          .col-md-12
+            .p-title.p-title--nobody
+              .p-title__header #{member.header}
+            .p-member
+            .row
+              .col-md-12
+              include mixin/team_member
+              include mixin/team_member_sns
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png')
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png')
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png')
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
+            .row
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png')
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png')
+              .col-lg-3.col-xs-6.p-member__profile
+                +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
+
+
+        // EXCHANGE
+        article.p-well
+          .p-title.p-title--center.p-title--nobody
+            h3.p-title__header EXCHANGE
+
+          .p-exchange
+              a(href="", target="blank")
+                img.p-exchange__img(src="/img/pc/logo_coinexchange.png" alt='Coin Exchange')
+                img.p-exchange__img--sp(src="/img/sp/logo_coinexchange.png" alt='Coin Exchange')
+              a(href="https://www.cryptocoinsnews.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/", target="blank")
+                img.p-exchange__img(src="/img/pc/logo_cryptopia.png" alt='cryptopias')
+                img.p-exchange__img--sp(src="/img/sp/logo_cryptopia.png" alt='cryptopias')
+              a(href="", target="blank")
+                img.p-exchange__img(src="/img/pc/logo_yobit.png" alt='Yobit')
+                img.p-exchange__img--sp(src="/img/sp/logo_yobit.png" alt='Yobit')
 
   // Footer
   #meetus

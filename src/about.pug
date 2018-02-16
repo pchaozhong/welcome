@@ -6,45 +6,46 @@ body
 
   include mixin/mail_form
 
-  main.l-main.p-page
-    .p-cover-header.p-cover-header--about
-      h2.p-cover-header__title ABOUT
+  .p-page
+    main.l-main
+      .p-cover-header.p-cover-header--about
+        h2.p-cover-header__title ABOUT
 
-    .container-fluid
-      .p-block
-        .p-title--nobody
-          h3.p-title__header VISION
-        .row.p-vision
-          .col-md-12
-            p.p-vision__statement #{about.vision}
+      .container-fluid
+        .p-block
+          .p-title--nobody.p-title--center
+            h3.p-title__header VISION
+          .row.p-vision
+            .col-md-12
+              p.p-vision__statement #{about.vision}
 
-      .p-block
-        .p-title--nobody
-          h3.p-title__header MISSION
-        .row.p-mission
-          .col-md-4
-            p.p-mission__body #{about.mission.body1}
-          .col-md-4
-            p.p-mission__body #{about.mission.body2}
-          .col-md-4
-            p.p-mission__body #{about.mission.body3}
+        .p-block
+          .p-title--nobody.p-title--center
+            h3.p-title__header MISSION
+          .row.p-mission
+            .col-md-4
+              p.p-mission__body #{about.mission.body1}
+            .col-md-4
+              p.p-mission__body #{about.mission.body2}
+            .col-md-4
+              p.p-mission__body #{about.mission.body3}
 
-      .p-block
-        .p-title--nobody 
-          h3.p-title__header VALUE
-        .row
-          .col-md-4.p-value
-            .p-value__img-wrapper
-              img.p-value__img(src="/img/pc/about_alliance_wisdom.png" alt="alliance and wisdom")
-            p.p-value__body #{about.value.body1}
-          .col-md-4
-            .p-value__img-wrapper
-              img.p-value__img(src="/img/pc/about_alliance_wisdom.png" alt="alliance and wisdom")
-            p.p-value__body #{about.value.body2}
-          .col-md-4
-            .p-value__img-wrapper
-              img.p-value__img(src="/img/pc/about_alliance_wisdom.png" alt="alliance and wisdom")
-            p.p-value__body #{about.value.body3}
+        .p-block
+          .p-title--nobody.p-title--center 
+            h3.p-title__header VALUE
+          .row
+            .col-md-4.p-value
+              .p-value__img-wrapper
+                img.p-value__img(src="/img/pc/about_alliance_wisdom.png" alt="alliance and wisdom")
+              p.p-value__body #{about.value.body1}
+            .col-md-4
+              .p-value__img-wrapper
+                img.p-value__img(src="/img/pc/about_alliance_wisdom.png" alt="alliance and wisdom")
+              p.p-value__body #{about.value.body2}
+            .col-md-4
+              .p-value__img-wrapper
+                img.p-value__img(src="/img/pc/about_alliance_wisdom.png" alt="alliance and wisdom")
+              p.p-value__body #{about.value.body3}
 
   // Footer
   #meetus

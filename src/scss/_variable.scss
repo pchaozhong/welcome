@@ -60,7 +60,7 @@ $breakpoints-min: (
 }
 
 @mixin make-inner {
-  width: 100%;
+  max-width: $body-width;
   padding: 0 $inner-padding-x;
   margin: 0 auto;
   @include mq() {

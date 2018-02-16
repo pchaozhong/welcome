@@ -72,6 +72,7 @@
     margin-top: -8px;
     @include mq() {
       width: 87px;
+      margin-top: -14px;
     }
   }
 }
@@ -97,7 +98,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;  
-height: 40px;
+    height: 40px;
     background: #242424;
     color: #fff;
     text-shadow: none; 

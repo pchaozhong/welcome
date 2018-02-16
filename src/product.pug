@@ -6,40 +6,41 @@ body
 
   include mixin/mail_form
 
-  main.l-main.p-page
-    .p-cover-header.p-cover-header--product
-      h2.p-cover-header__title PRODUCT
+  .p-page
+    main.l-main
+      .p-cover-header.p-cover-header--product
+        h2.p-cover-header__title PRODUCT
 
-    .container-fluid
-      .p-block.text-center
-        .p-title
-          h3.p-title__header #{registration.header}
-          p.p-title__body
-            | #{registration.body_line_1}
-            br
-            | #{registration.body_line_2}
-          a.p-button.p-button--lg #{button.applyforbeta}
+      .container-fluid
+        .p-block
+          .p-title.p-title--center.text-center 
+            h3.p-title__header #{registration.header}
+            p.p-title__body
+              | #{registration.body_line_1}
+              br
+              | #{registration.body_line_2}
+            a.p-button.p-button--lg #{button.applyforbeta}
 
-      .p-block
-        .p-title 
-          h3.p-title__header #{closedb.header}
-          p.p-title__body #{closedb.body}
+        .p-block
+          .p-title.p-title--center 
+            h3.p-title__header #{closedb.header}
+            p.p-title__body #{closedb.body}
 
-      .row.p-block
-        .col-md-4 
-          h3.p-title__header #{product.header}
-          p.p-title__body
-            | #{product.body_line_1}
-            br
-            | #{product.body_line_2}
-        .col-md-8.text-center
-          img.p-product__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
-        .col-md-12.text-center
-          .p-product__btns
-            a.p-product__button(href="#") #{button.mock_pc}
-            a.p-product__button(href="#") #{button.mock_sp}
-            br
-            a.p-product__link(href="#") #{product.link}
+        .row.p-block
+          .col-md-4
+            h3.p-title__header #{product.header}
+            p.p-title__body
+              | #{product.body_line_1}
+              br
+              | #{product.body_line_2}
+          .col-md-8.text-center
+            img.p-product__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
+          .col-md-12.text-center
+            .p-product__btns
+              a.p-product__button(href="#") #{button.mock_pc}
+              a.p-product__button(href="#") #{button.mock_sp}
+              br
+              a.p-product__link(href="#") #{product.link}
 
   // Footer
   #meetus

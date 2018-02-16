@@ -6,71 +6,73 @@ body
 
   include mixin/mail_form
 
-  main.l-main.p-page
-    .p-cover-header.p-cover-header--community
-      h2.p-cover-header__title COMMUNITY
+  .p-page
+    main.l-main
+      .p-cover-header.p-cover-header--community
+        h2.p-cover-header__title COMMUNITY
 
-    .container-fluid
-      .p-block
-        .p-subheader 
-          h3.p-title__header #{community.header}
-          p.p-title__body #{community.body}
+      .container-fluid
+        .p-block
+          .p-title.p-title--center.text-center 
+            h3.p-title__header #{community.header}
+            p.p-title__body #{community.body}
 
-        .p-community-cards
-          include mixin/community_card
-          .p-community-card.p-community-card--twitter
-            +community_card(
-            community.twitter.name, 
-            community.twitter.body_line_1,
-            community.twitter.body_line_2,
-            community.twitter.body_line_3)  
-          .p-community-card.p-community-card--medium
-            +community_card(
-            community.medium.name, 
-            community.medium.body_line_1,
-            community.medium.body_line_2,
-            community.medium.body_line_3)
-          .p-community-card.p-community-card--discord
-            +community_card(
-            community.discord.name, 
-            community.discord.body_line_1,
-            community.discord.body_line_2,
-            community.discord.body_line_3)
-          .p-community-card.p-community-card--reddit
-            +community_card(
-            community.reddit.name, 
-            community.reddit.body_line_1,
-            community.reddit.body_line_2,
-            community.reddit.body_line_3)
-          .p-community-card.p-community-card--github
-            +community_card(
-            community.github.name, 
-            community.github.body_line_1,
-            community.github.body_line_2,
-            community.github.body_line_3)
+          .p-community-cards
+            include mixin/community_card
+            .p-community-card.p-community-card--twitter
+              +community_card(
+              community.twitter.name, 
+              community.twitter.body_line_1,
+              community.twitter.body_line_2,
+              community.twitter.body_line_3)  
+            .p-community-card.p-community-card--medium
+              +community_card(
+              community.medium.name, 
+              community.medium.body_line_1,
+              community.medium.body_line_2,
+              community.medium.body_line_3)
+            .p-community-card.p-community-card--discord
+              +community_card(
+              community.discord.name, 
+              community.discord.body_line_1,
+              community.discord.body_line_2,
+              community.discord.body_line_3)
+            .p-community-card.p-community-card--reddit
+              +community_card(
+              community.reddit.name, 
+              community.reddit.body_line_1,
+              community.reddit.body_line_2,
+              community.reddit.body_line_3)
+            .p-community-card.p-community-card--github
+              +community_card(
+              community.github.name, 
+              community.github.body_line_1,
+              community.github.body_line_2,
+              community.github.body_line_3)
 
-      .row.p-block.p-ambassador-program
-        .col-md-4 
-          h3.p-title__header
-            |
-            span #{ambassador_program.header_line_1}
-            br
-            span #{ambassador_program.header_line_2}
-        .col-md-8.p-title__body
-            p #{ambassador_program.body}
-
-      .p-block.text-center
-        .p-subheader 
-          h3.p-title__header #{goods.header}
-          p.p-title__body 
-            span #{goods.body_line_1}
+        .row.p-block.p-ambassador-program
+          .col-md-4 
+            h3.p-title__header
               |
+              span #{ambassador_program.header_line_1}
               br
-            span #{goods.body_line_2}
-              | 
-              br
-            span #{goods.body_line_3}
-        a.p-button--lg(href="" target="_blank") #{button.seegoods}
+              span #{ambassador_program.header_line_2}
+          .col-md-8.p-title__body
+              p #{ambassador_program.body}
+
+        .p-block
+          .p-title.p-title--center
+            h3.p-title__header #{goods.header}
+            p.p-title__body 
+              span #{goods.body_line_1}
+                |
+                br
+              span #{goods.body_line_2}
+                | 
+                br
+              span #{goods.body_line_3}
+          .text-center
+            a.p-button--lg(href="" target="_blank") #{button.seegoods}
 
   // Footer
   #meetus

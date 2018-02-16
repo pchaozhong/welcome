@@ -1,17 +1,3 @@
-.p-ambassador-program {
-	&__header {
-		@include title-header;
-	}
-	&__body {
-		@include title-body;
-	}
-	@include mq() {
-		br {
-			display: none;
-		}
-	}
-}
-
 $communities: "twitter", "medium", "discord", "reddit", "github";
 
 .p-community-cards {
