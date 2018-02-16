@@ -29,6 +29,14 @@ registration:
   header: REGISTRATION
   body_line_1: ALIS is looking for participants to the ALIS beta version published in April.
   body_line_2: If you are interested please apply from the beta application form.
+  popup:
+    header: REGISTRATION
+    body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
+    body_line_2: 随時β版登録のご連絡をさせていただきます。
+    label: 
+      email: メールアドレス
+      twitter: TWITTERアカウント ※任意
+      url: ブログのURL ※任意
 project:
   header: OUR PROJECT
   body1: Explanation. Explanation. Explanation. Explanation.
@@ -47,6 +55,7 @@ button:
   mock_pc: Take a look for PC mock-up
   mock_sp: Take a look for SP mock-up
   seegoods: See goods
+  registration: Register
 product:
   header: PRODUCT
   body_line_1: Currently ALIS publishes the mock-up for ALIS beta version to be released in April.
@@ -212,7 +221,6 @@ news:
   date: JAN 15, 2018
   header: NHKガイアの夜明けにて弊社CEOの安が出演
   body: ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほ…
-
 subscribe_form:
   body: |
     Register your e-mail address to get latest information

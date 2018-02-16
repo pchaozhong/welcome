@@ -40,6 +40,18 @@ $(() => {
     }
   });
 
+  // ポップアップ
+  $('[data-popup]').click(function(){
+    const target = $(this).data('popup');
+    console.log($('#js-popup-'+target));
+    $('#js-popup-'+target).addClass('is-on');
+    $('#js-overlay').addClass('is-on');
+  })
+
+  $('#js-exit-popup').click(function(){
+    $(this).parent().removeClass('is-on');
+    $('#js-overlay').removeClass('is-on');
+  });
 
 });
 

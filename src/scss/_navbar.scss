@@ -86,6 +86,25 @@
   }
 }
 
+.l-header.navbar .nav__language {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  box-shadow: none;
+
+  option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  
+height: 40px;
+    background: #242424;
+    color: #fff;
+    text-shadow: none; 
+  }
+}
+
+
 #navbar.navbar-collapse.collapse {
   .navbar__header {
     display: none;

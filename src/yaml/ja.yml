@@ -29,6 +29,14 @@ registration:
   header: REGISTRATION
   body_line_1: ALISでは4月に公開のALISβ版への参加者を募集しています。
   body_line_2: ご興味をお持ちの方はβ版応募フォームよりご応募ください。
+  popup:
+    header: REGISTRATION
+    body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
+    body_line_2: 随時β版登録のご連絡をさせていただきます。
+    label: 
+      email: メールアドレス
+      twitter: TWITTERアカウント ※任意
+      url: ブログのURL ※任意
 project:
   header: OUR PROJECT
   body1: 補足説明が入ります。補足説明が入ります。補足説明が入ります。
@@ -47,6 +55,7 @@ button:
   mock_pc: パソコンのモックを見る
   mock_sp: スマートフォンのモックを見る 
   see_goods: グッズを見る
+  registration: 登録する
 product:
   header: PRODUCT
   body_line_1: 現在ALISでは4月に公開予定のALISβ版に向けたデザインモックを公開しています。
@@ -204,7 +213,14 @@ news:
   date: JAN 15, 2018
   header: NHKガイアの夜明けにて弊社CEOの安が出演
   body: ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほ…
-
+popup_registration:
+  header: REGISTRATION
+  body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
+  body_line_2: 随時β版登録のご連絡をさせていただきます。
+  label: 
+    email: メールアドレス
+    twitter: TWITTERアカウント ※任意
+    url: ブログのURL ※任意
 subscribe_form:
   body: |
     メールアドレスを登録し、最新の情報を受け取る

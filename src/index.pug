@@ -2,6 +2,9 @@ include includes/header
 
 // Navbar
 body
+  .l-overlay#js-overlay
+    include mixin/popup_registration
+    +popup_registration
   include includes/navbar
 
   include mixin/mail_form
