@@ -4,6 +4,24 @@
 
 $(() => {
   
+  // 現在の言語を表示
+  let path = location.pathname.slice(0, 4),
+      reg = /\/\w{2}\//,
+      lang = '';
+  lang = (path.match(reg))?path.slice(1,3).toUpperCase():'EN';
+  $('.js-select-lang').text(lang);
+
+  // 言語の切り替え
+  $('.c-select__option').click(function(e) {
+    let nextLang = $(e.target).text();
+    path = (path.match(reg))?location.pathname.slice(3):location.pathname;
+    location.href = (nextLang == 'EN')?path:'/'+nextLang.toLowerCase()+path;
+  });
+
+  // 言語セレクトボックスのオープン
+  $('.js-select-lang').click(function(e) {
+    $(this).parent('.c-select').addClass('is-on')
+  });
 
   // スクロールをスムーズに
   $('.smooth-anchor').click(function () {
@@ -38,12 +56,14 @@ $(() => {
       $('.js-nav-toggler').removeClass('is-on');
       $('#navbar').removeClass('is-on');
     }
+    if(!$(event.target).closest('.c-select').length) {
+      $('.c-select').removeClass('is-on');
+    }
   });
 
   // ポップアップ
   $('[data-popup]').click(function(){
     const target = $(this).data('popup');
-    console.log($('#js-popup-'+target));
     $('#js-popup-'+target).addClass('is-on');
     $('#js-overlay').addClass('is-on');
   })

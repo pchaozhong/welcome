@@ -1,5 +1,29 @@
 .c-select {
-    position: relative;
+    width: 44px;
+    font-weight: bold;
+
+    &.u-sp-only {
+        position: absolute;
+        right: 44px;
+        top: 21px;
+    }
+
+    &__lang {
+         position: relative;
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 8px;
+            margin-left: 4px;
+            background: url("/img/sp/icon_arrow.png") no-repeat;
+            background-size: contain;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+
+    }
     &__opt {
         margin: 0;
         padding: 0;
@@ -46,9 +70,9 @@
     }
 
     &.is-on &__opt {
-        left: 0px;
-        top: 47px;
-        width: 124px;
+        left: -10px;
+        top: 38px;
+        width: 44px;
         height: 208px;
         z-index: 999;
         visibility: visible;
@@ -56,33 +80,33 @@
 
     &.is-on &__bg {
         opacity: 1;
-    transform: scale(1);
-        width: 124px;
-    height: 208px;
+        transform: scale(1);
+        width: 44px;
+        height: 88px;
     }
     
     &__option {
         display: block;
         border: none;
         color: $color-text-primary;
+        font-weight: bold;
         background-color: transparent;
         text-align: center;
         margin: 0;
-        padding: 0 16px;
         outline-color: #bdbdbd;
         position: relative;
         overflow: hidden;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         letter-spacing: 0;
         text-decoration: none;
         cursor: pointer;
-        height: 48px;
-        line-height: 48px;
+        height: 44px;
+        line-height: 44px;
         white-space: nowrap;
         opacity: 0;
         transition: opacity .2s cubic-bezier(.4,0,.2,1);
-        user-select: none;  
+        user-select: none; 
+        transition-delay: 0.03s; 
     }
-
 }
