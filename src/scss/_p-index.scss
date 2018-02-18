@@ -92,7 +92,7 @@
     @include mq() {
       font-size: 2rem;
       line-height: 1.75;
-      margin-top: -5rem;
+      margin-top: -50px;
       text-align: center;
     }
   }
@@ -208,6 +208,7 @@
     width: 800px;
     height: auto;
     margin: 0 auto;
+    max-width: 100%;
     @include mq() {
       width: 100%;
       margin-bottom: 24px;
@@ -218,6 +219,7 @@
     width: 800px;
     height: auto;
     margin: 0 auto;
+    max-width: 100%;
     @include mq() {
       width: 100%;
     }
@@ -226,7 +228,10 @@
   &__button {
     @include button(264px);
     margin: 0 20px;
-    @include mq() {
+    @include mq(lg) {
+      margin: 0 8px;
+    }
+    @include mq(sm) {
       margin: 0;
       &:first-child {
         margin: 0 0 16px 0;

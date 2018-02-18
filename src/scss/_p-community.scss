@@ -4,6 +4,10 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+
+	@include mq(lg) {
+		flex-wrap: wrap;
+	}
 	@include mq() {
 		flex-direction: column;
 	}
@@ -15,6 +19,10 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 	padding: 35px;
 	text-align: center;
 	width: 196px;
+
+	@media screen and (max-width: 1280px) {
+		padding: 24px 16px;
+	}
 
 	@include mq() {
 		padding: 24px;

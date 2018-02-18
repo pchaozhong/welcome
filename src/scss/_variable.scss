@@ -77,13 +77,17 @@ $breakpoints-min: (
   line-height: 1.5;
   letter-spacing: 8px;
   margin-bottom: 10px;
-  
+
   @include mq() {
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 2.8rem;
     letter-spacing: 3px;
     line-height: 1.5;
     text-align: left;
+  }
+  
+  @include mq(sm) {
+    font-size: 2rem;
   }
 }
 
@@ -92,14 +96,19 @@ $breakpoints-min: (
     font-size: 2rem;
     line-height: 2;
     letter-spacing: 5px;
+
     @include mq() {
       margin-top: 0;
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       letter-spacing: 4px;
       line-height: 1.5;
       text-align: left;
       margin-bottom: 4rem;
     } 
+
+    @include mq(sm) {
+      font-size: 1.4rem;
+    }
 }
 
 .u-sp-only {
