@@ -160,24 +160,23 @@
     }
   }
 
-  $width: 210px, 435px, 282px;
-  @each $w in $width {
-    $i: index($width, $w);
+  @for $i from 1 through 3 {
     &__item:nth-child(#{$i})::before {
       background: url("/img/pc/icon_ourproject#{$i}.png") no-repeat;
-      width: $w;
-      height: 213px;
+      width: 210px;
+      height: 150px;
       background-size: contain;
       background-position: center;
     }
   }
+
   @include mq() {
     @for $i from 1 through 3 {
       &__item:nth-child(#{$i})::before {
         background: url("/img/sp/icon_ourproject#{$i}.png") no-repeat;
-        width: 124px;
-        height: 124px;
-        min-width: 124px;
+        width: 112px;
+        height: 80px;
+        min-width: 112px;
         background-size: contain;
         background-position: center;
       }

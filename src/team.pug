@@ -18,59 +18,130 @@ body
             p.p-title__body #{member.body}
 
           .p-member
-            .row
-              .col-md-12
+            ul.row.p-member__list
               include mixin/team_member
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png', data-popup=member.profile.yasu.id)
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png', data-popup=member.profile.mizusawa.id)
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png', data-popup=member.profile.ishii.id)
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png', data-popup=member.profile.togashi.id)
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png', data-popup=member.profile.kamei.id)
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png', data-popup=member.profile.usagi.id)
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.gachiho.name, member.profile.gachiho.role)(src='/img/pc/img_profile_gachiho.png', data-popup=member.profile.gachiho.id)
-              .col-lg-3.col-xs-6.p-member__profile
+              li.col-lg-3.col-xs-6.p-member__list-item
                 +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png', data-popup=member.profile.kubori.id)
 
-        .p-block
+        .p-block--xs
           .p-title.p-title--center 
             h3.p-title__header #{ambassador.header}
             p.p-title__body #{ambassador.body}
 
           .p-ambassador
-            .row
-              .col-md-12
-              include mixin/team_ambassador
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.seiya.name, 'Japan', ambassador.profile.seiya.body)(src='/img/pc/img_jpn.png')
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.ricky.name, 'Japan', ambassador.profile.ricky.body)(src='/img/pc/img_jpn.png')
-            .row
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.wine.name, 'Japan', ambassador.profile.wine.body)(src='/img/pc/img_jpn.png')
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.edindin.name, 'Japan', ambassador.profile.edindin.body)(src='/img/pc/img_jpn.png')
-            .row
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.ueno.name, 'Japan', ambassador.profile.ueno.body)(src='/img/pc/img_jpn.png')
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.adam.name, 'USA', ambassador.profile.adam.body)(src='/img/pc/img_usa.png')
-            .row
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.mito.name, 'USA', ambassador.profile.mito.body)(src='/img/pc/img_usa_nl.png')
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.phillip.name, 'Chia', ambassador.profile.phillip.body)(src='/img/pc/img_china.png')
-            .row
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.fernando.name, 'Argentine', ambassador.profile.fernando.body)(src='/img/pc/img_argentine.png')
-              .col-lg-6.p-ambassador__profile
-                +team_ambassador(ambassador.profile.ian.name, 'Taiwan', ambassador.profile.ian.body)(src='/img/pc/img_taiwan.png')
+            include mixin/team_ambassador
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--japan
+                  span.p-ambassador__country JAPAN
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.seiya.name, ambassador.profile.seiya.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.ricky.name, ambassador.profile.ricky.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.seiya.name, ambassador.profile.seiya.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.edindin.name, ambassador.profile.edindin.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.ueno.name, ambassador.profile.ueno.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--usa 
+                  span.p-ambassador__country USA
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.adam.name, ambassador.profile.adam.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--usa
+                  span.p-ambassador__flag--netherlands 
+                  span.p-ambassador__country USA & NETHERLANDS
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.mito.name, ambassador.profile.mito.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--china 
+                  span.p-ambassador__country CHINA
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.phillip.name, ambassador.profile.phillip.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--argentina 
+                  span.p-ambassador__country ARGENTINA
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.fernando.name, ambassador.profile.fernando.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--taiwan 
+                  span.p-ambassador__country TAIWAN
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.ian.name, ambassador.profile.ian.url)
+
+          //- .p-ambassador
+          //-   .row
+          //-     .col-md-12
+          //-     include mixin/team_ambassador
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.seiya.name, 'Japan', ambassador.profile.seiya.body)(src='/img/pc/img_jpn.png')
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.ricky.name, 'Japan', ambassador.profile.ricky.body)(src='/img/pc/img_jpn.png')
+          //-   .row
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.wine.name, 'Japan', ambassador.profile.wine.body)(src='/img/pc/img_jpn.png')
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.edindin.name, 'Japan', ambassador.profile.edindin.body)(src='/img/pc/img_jpn.png')
+          //-   .row
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.ueno.name, 'Japan', ambassador.profile.ueno.body)(src='/img/pc/img_jpn.png')
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.adam.name, 'USA', ambassador.profile.adam.body)(src='/img/pc/img_usa.png')
+          //-   .row
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.mito.name, 'USA', ambassador.profile.mito.body)(src='/img/pc/img_usa_nl.png')
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.phillip.name, 'Chia', ambassador.profile.phillip.body)(src='/img/pc/img_china.png')
+          //-   .row
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.fernando.name, 'Argentine', ambassador.profile.fernando.body)(src='/img/pc/img_argentine.png')
+          //-     .col-lg-6.p-ambassador__profile
+          //-       +team_ambassador(ambassador.profile.ian.name, 'Taiwan', ambassador.profile.ian.body)(src='/img/pc/img_taiwan.png')
 
     .l-overlay#js-overlay
       include mixin/popup_member

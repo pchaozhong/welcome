@@ -39,8 +39,7 @@ registration:
       url: ブログのURL ※任意
 project:
   header: OUR PROJECT
-  body1: Explanation. Explanation. Explanation. Explanation.
-  body2: Explanation. Explanation. Explanation. Explanation.
+  body1: ALIS is a social media platform that can meet people with high reliability information and people quickly. We aim to realize a platform that accumulates reliable information by acquiring rewards for those who wrote reliable articles and those who found it earlier. It is the purpose of ALIS to release people who are tired of content for advertisements that tend to be conventional media, stealth marketing, less reliable information.
   feature_list:
     item1_body1: Find out
     item1_body2: what you want quickly
@@ -64,13 +63,16 @@ product:
 about:
   vision: Smooth the connection of people by visualizing credit
   mission:
-    body1: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
-    body2: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
-    body3: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
+    item1: Create social media that enables you to meet trustworthy articles and people quickly
+    item2: Keep polishing constantly while flexibly changing logic to visualize the reliability of people and information
+    item3: Realize an economic zone autonomously developing by block chain technology and token economy
   value: 
-    body1: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
-    body2: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
-    body3: Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. 
+    item1: Rather than trying to accomplish something by themselves, combining the wisdom of everyone is an indispensable element to create a new business. We will cherish the business creation while involving the surroundings without becoming always lonely.
+    item2: Rather than losing philosophy by implementing complicated explanations and so much more functions, we think about what you think is really necessary and provide a simple and concise product that can be used by anyone.
+    item3: No matter how much we discuss in words, we can not verify something or provide value to the world. We aim to provide the next value from always moving product and user's feedback using it.
+    item4: In addition to responding to the partner's expectations, we will continue to provide "Wow" that exceeds expectations even in just a few cases in any scene, creating products that always produce surprises.
+    item5: In areas where it is always continuous of new things, you can get a lot of learning by jumping in first. Like the First Penguine who first jumps into the ocean where the enemy is lurking, I will challenge without fear.
+    item6: For the development of the community and the product, someone thinks that it is good to have common sense as the main subject · Will continue to refine the will to challenge what you want to do.
 team:
   header: TEAM
 member:
@@ -176,37 +178,37 @@ ambassador:
   profile: 
     seiya:
       name: seiya
-      body: プロジェクトが一向に進まない通貨も多い中で、 しっかりと進行の見えるALISに期待している人も 多いはずです。一緒に応援していきましょう。
+      url: https://twitter.com
     ricky:
       name: ricky
-      body: 一人ひとりの実力や努力が正当に評価される、そ んな社会実現に向けて、ALISを共に盛り上げていき ましょう!
+      url: https://twitter.com
     wine:
       name: wine
-      body: 私はプログラマーでもなくブロガーでもなく、ただのALISファン のおっさんです。てめぇがアンバサダーとかできんのか?と自問自答しています。今回選ばれた事を前向きに捉え、ALISファ ンの皆様のアイデアや意見などと一緒にALISを盛り上げて行きたいので今後ともご指導ご鞭撻のほど宜しくお願いします。
+      url: https://twitter.com
     edindin:
       name: edindin@仮想通貨ブログ
-      body: 一人ひとりの実力や努力が正当に評価される、そ んな社会実現に向けて、ALISを共に盛り上げていき ましょう!
+      url: https://twitter.com
     ueno:
       name: 上野直彦
-      body: ALISが、生活の一部に、いつも人生のすぐそばにある。そんな展 開を世界で構築していきたいです。ALISが普及すること=多くの 人々の眠っている才能を呼び起こし、成功と社会変革を実現する ようになる。これが最大の夢ですが、夢では終わらないでしょう!
+      url: https://twitter.com
     adam:
       name: Adam Koltun
-      body: ワクワクしますね! 素晴らしいSNSプラットフォームがあなたの国で設計され、世界に向けて立ち上げられています!
+      url: https://twitter.com
     mito:
       name: Mito
-      body: 私はInstagramで才能のある日本のアニメアーティストを知りました。ALISが普及することで、多くの人々が自分の才能を発揮し、成功するように力を与えることができるでしょう。
+      url: https://twitter.com
     phillip:
       name: Phillip W
-      body: 日本から本物で意味のあるブロックチェーンプロジェクトを 作りましょう!
+      url: https://twitter.com
     fernando:
       name: Fernando Escobar
-      body: 皆さんが愛してサポートしているこのプロジェクトに参加させていただきありがとうございます。私はあなたを失望させ ません。
+      url: https://twitter.com
     ian:
       name: ian Hsu
-      body: コミュニティの始まりにはあなたの助けが必要です。日本は既に世界でかなりの影響力を持っている。そして、インター ネットには国も言語も関係はない。ALISプロジェクトが役に 立つ情報を可視化することに期待している。
+      url: https://twitter.com
 community:
-  header: COMMUNITY PRINCIPLE
-  body: 水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。水澤さん渾身の素敵なテキストがはいります。
+  header: Pioneering the Future, Together!
+  body: In order to obtain good feedback, ALIS clarifies activities and quickly asks the community about the hypothesis. So naturally culled and extending the surviving idea is the best way to "make things that you can use". Please excite the community by all means. Your activity and reaction will make ALIS in the future.
   twitter:
     name: TWITTER
     body_line_1: ALISの
@@ -235,19 +237,14 @@ community:
 ambassador_program:
   header_line_1: AMBASSADOR　
   header_line_2: PROGRAM
-  body: アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。アンバサダープログラムについて。
+  body: It is a program for ALIS fans and investors to positively communicate the charm of ALIS. Certified ambassadors located around the world mainly do translation of their mother tongue, revitalize community, hold Meetup etc. If you are a recommended ALIS and are interested in an ambassador please send a message to info@alismedia.jp.
 goods:
   header: GOODS
-  body_line_1: 公式オンラインショップではALISでデザインされたグッズだけでなく、
-  body_line_2: ALISER（アリスファン）によってデザインされたグッズも販売しています。
-  body_line_3: デザイン作成いただいた方には作成いただいたデザインのグッズを無料でプレゼントしています！
+  body: We have a community requested goods creation platform. You can make ALIS goods suggestions at any time. When the proposal is accepted, the proposer is distributed the goods for free and goods are arranged on the ALIS goods page.
 closedb:
   header: WHAT’S CLOSED β
   body: |
-    クローズドβの説明がはいります。クローズドβの説明がはいります。クローズドβの説明がはいります。クローズドβの説明がはいります。
-    クローズドβの説明がはいります。クローズドβの説明がはいります。
-    クローズドβの説明がはいります。クローズドβの説明がはいります。
-    クローズドβの説明がはいります。クローズドβの説明がはいります。
+    From the end of April 2018, ALIS will start verification using the beta version of the product that implements the minimum necessary functions. This aim is to sharply verify the unique part of ALIS "reliable people and information evaluation logic with tokens as the axis" and the "retention of article contributors" by it.
 news: 
   category: PRESS RELEASE
   date: JAN 15, 2018

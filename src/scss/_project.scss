@@ -84,10 +84,18 @@ $pages: "about", "team", "community", "product", "news";
   }
 }
 
-.p-page .p-section {
-  padding-top: 160px;
-  @include mq() {
-    padding: 0 $inner-padding-x-sp;
+.p-page {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .p-section {
+    padding-top: 160px;
+    @include mq() {
+      padding: 0 $inner-padding-x-sp;
+    }
   }
 }
 
@@ -107,7 +115,7 @@ $pages: "about", "team", "community", "product", "news";
   }
 }
 
-.p-block--sm {
+.p-block--lg {
   @extend .p-block;
   padding: 100px 60px 100px;
   @include mq() {
@@ -117,7 +125,7 @@ $pages: "about", "team", "community", "product", "news";
 
 .p-block--xs {
   @extend .p-block;
-  padding: 100px 60px 100px;
+  padding: 100px 259px 100px;
   @include mq() {
     padding: 80px 0px 10px;
   }
@@ -210,11 +218,12 @@ $pages: "about", "team", "community", "product", "news";
   vertical-align: middle;
   text-align: center;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.3);
-  &:hover {
+  &:hover, &:active, &:visited, &:focus {
     cursor: pointer;
     color: #fff;
     text-decoration: none;
   }
+
 
   @include mq(){
     font-size: 1.2rem;

@@ -13,7 +13,7 @@ body
 
       .container-fluid
         .p-block
-          .p-title.p-title--center.text-center 
+          .p-title.p-title--center 
             h3.p-title__header #{community.header}
             p.p-title__body #{community.body}
 
@@ -63,14 +63,7 @@ body
         .p-block
           .p-title.p-title--center
             h3.p-title__header #{goods.header}
-            p.p-title__body 
-              span #{goods.body_line_1}
-                |
-                br
-              span #{goods.body_line_2}
-                | 
-                br
-              span #{goods.body_line_3}
+            p.p-title__body #{goods.body}
           .text-center
             a.p-button--lg(href="" target="_blank") #{button.seegoods}
 
