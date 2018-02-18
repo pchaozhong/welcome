@@ -149,7 +149,7 @@ member:
       id: usagi
       name: USAGI
       body: |
-        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+        Selection of branding design / cultural engineering design at Musashino Art University. Study the relationship between emotional change, behavior and design. After graduation he was engaged in developing new services at DeNA · Recruit Jobs. After launching a new service as CXO in Emeralda elected Forbes's "promising startup promising 50 companies", joined to ALIS. Visualize the information and advance the realization of the ideal way of thinking when it is caught as an object and the design that the information grows rather than being transient. From designing persona to IA and designing the surface layer, we are promoting with a single pass.
       role: LEAD DESIGNER
       twitter: 
       fb:
@@ -178,22 +178,22 @@ ambassador:
   profile: 
     seiya:
       name: seiya
-      url: https://twitter.com
+      url: https://twitter.com/crypto_seiya
     ricky:
-      name: ricky
-      url: https://twitter.com
+      name: Rikuya Tanaka (Ricky)
+      url: https://twitter.com/RuuieTanaka
     wine:
-      name: wine
-      url: https://twitter.com
+      name: ワイン1年生@クリプト決済推進中
+      url: https://twitter.com/Aliser_Nember
     edindin:
-      name: edindin@仮想通貨ブログ
-      url: https://twitter.com
+      name: edindin@仮想通貨ブログ
+      url: https://twitter.com/edindin_crypto
     ueno:
       name: 上野直彦
-      url: https://twitter.com
+      url: https://twitter.com/Nao_Ueno
     adam:
       name: Adam Koltun
-      url: https://twitter.com
+      url: https://twitter.com/socialblocchain
     mito:
       name: Mito
       url: https://twitter.com
@@ -202,10 +202,10 @@ ambassador:
       url: https://twitter.com
     fernando:
       name: Fernando Escobar
-      url: https://twitter.com
+      url: https://twitter.com/FerEsco22
     ian:
       name: ian Hsu
-      url: https://twitter.com
+      url: https://twitter.com/comerhsu
 community:
   header: Pioneering the Future, Together!
   body: In order to obtain good feedback, ALIS clarifies activities and quickly asks the community about the hypothesis. So naturally culled and extending the surviving idea is the best way to "make things that you can use". Please excite the community by all means. Your activity and reaction will make ALIS in the future.
