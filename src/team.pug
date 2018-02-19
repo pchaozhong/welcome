@@ -133,6 +133,14 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
+                  span.p-ambassador__flag--taiwan 
+                  span.p-ambassador__country TAIWAN
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.ian.name, ambassador.profile.ian.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
                   span.p-ambassador__flag--singapore
                   span.p-ambassador__country SINGAPORE
                 .col-lg-6
@@ -149,15 +157,6 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--usa
-                  span.p-ambassador__flag--netherlands 
-                  span.p-ambassador__country USA & NETHERLANDS
-                .col-lg-6
-                  .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.mito.name, ambassador.profile.mito.url)
-            ul.p-ambassador__list
-              li.row.p-ambassador__list-item
-                .col-lg-6
                   span.p-ambassador__flag--argentina 
                   span.p-ambassador__country ARGENTINA
                 .col-lg-6
@@ -166,11 +165,14 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--taiwan 
-                  span.p-ambassador__country TAIWAN
+                  span.p-ambassador__flag--usa
+                  span.p-ambassador__flag--netherlands 
+                  span.p-ambassador__country USA & NETHERLANDS
                 .col-lg-6
                   .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.ian.name, ambassador.profile.ian.url)
+                    +team_ambassador(ambassador.profile.mito.name, ambassador.profile.mito.url)
+
+
 
           //- .p-ambassador
           //-   .row
