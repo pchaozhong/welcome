@@ -115,9 +115,16 @@
 		display: inline-block;
 		width: 44px;
 		height: 44px;
-		background: url("/img/pc/icon_community_twitter.png") no-repeat;
-		background-position: center center;
+		background: url("/img/pc/icon_community_twitter.png") center center no-repeat;
 		background-size: 22px 18px;
+
+		&.is-disabled {
+			background: url("/img/pc/icon_community_twitter_disabled.png") center center no-repeat;
+			background-size: 22px 18px;
+			&:hover {
+				cursor: default;
+			}
+		}
 	}
 	
 	&__name {
