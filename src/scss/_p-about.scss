@@ -46,7 +46,7 @@
 
 	.row {
 		margin-bottom: 120px;
-		@include mq() {
+		@include mq(lg) {
 			margin-bottom: 0px;
 		}
 	}

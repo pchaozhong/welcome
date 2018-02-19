@@ -273,6 +273,9 @@
     height: 54px;
     width: auto;
     margin: 10px 30px;
+    @include mq(lg) {
+      margin: 28px 30px
+    }
     @include mq() {
       display: none;
     }
