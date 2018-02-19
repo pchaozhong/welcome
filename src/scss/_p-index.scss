@@ -10,7 +10,7 @@
   box-sizing: border-box;
   position: relative;
 
-  @include mq() {
+  @include mq(sm) {
     margin-top: $navbar-height-sp;
     height: calc(100vh - #{$navbar-height-sp} - 100px);
     margin-bottom: 100px;
@@ -30,7 +30,7 @@
     letter-spacing: 1.5px;
     line-height: 1.55;
     margin-top: 0;
-     @include mq(lg) {
+     @include mq(sm) {
       font-size: 1.6rem;
       line-height: 1.5;
       margin-bottom: 1.2rem;
@@ -42,7 +42,7 @@
     line-height: 1.55;
     letter-spacing: 1.5px;
     font-size: 3.6rem;
-    @include mq(lg) {
+    @include mq(sm) {
       font-size: 2rem;
       line-height: 1.5;
     }
@@ -72,16 +72,19 @@
   margin: 80px;
   max-width: 404px;
   box-sizing: border-box;
-  @include mq() {
+  @include mq(lg) {
     background: white;
     width: $inner-width-sp;
     margin: 0 auto;
     padding: 30px 16px;
     position: absolute;
-    bottom: -60px;
+    bottom: 0;
     left: $inner-padding-x-sp;
     max-width: $inner-width-sp;
     text-align: center;
+  }
+  @include mq() {
+     bottom: -60px;
   }
 
   &__header {
@@ -89,11 +92,13 @@
     line-height: 1.5;
     letter-spacing: 1.5px;
     margin-bottom: 0.5em;
+    @include mq(lg) {
+      margin-top: -50px;
+      text-align: center;
+    }
     @include mq() {
       font-size: 2rem;
       line-height: 1.75;
-      margin-top: -50px;
-      text-align: center;
     }
   }
 
@@ -103,19 +108,21 @@
     line-height: 1.75;
     letter-spacing: 3.5px;
     margin-bottom: 2em;
-    @include mq() {
+    @include mq(lg) {
       text-align: center;
-      font-size: 1.2rem;
-      line-height: 1.66;
       br {
         display: none;
       }
+    }
+    @include mq() {
+      font-size: 1.2rem;
+      line-height: 1.66;
     }
   }
 
   &__button {
     @include button(240px);
-    @include mq() {
+    @include mq(sm) {
       @include button(208px);
     }
   }
@@ -128,9 +135,9 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  // width: calc(100% - 200px);
   margin: 20px auto 120px;
-  @include mq() {
+
+  @include mq(sm) {
     width: 100%;
     flex-direction: column;
     margin: 40px auto;
@@ -142,7 +149,7 @@
     width: 33%;
     position: relative;
 
-    @include mq() {
+    @include mq(sm) {
       width: 100%;
       display: flex;
       height: 124px;
@@ -156,7 +163,10 @@
     content: "";
     margin-bottom: 80px;
     @include mq() {
-      margin-bottom: 0;
+      margin-bottom: 20px;
+    }
+    @include mq(sm) {
+      margin-bottom: 0px;
     }
   }
 
@@ -190,6 +200,8 @@
     @include mq() {
       font-size: 1.6rem;
       line-height: 1.5;
+    }
+    @include mq(sm) {
       text-align: left;
       padding-left: 4rem;
     }
@@ -260,7 +272,7 @@
   &__img {
     height: 54px;
     width: auto;
-    margin: 0 30px;
+    margin: 10px 30px;
     @include mq() {
       display: none;
     }
@@ -271,7 +283,7 @@
       display: inline-block;
       height: 40px;
       margin-bottom: 24px;
-      margin-right: 24px;
+      margin-right: 2.4rem;
       &:last-child {
         margin-right: 0;
       }
