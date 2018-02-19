@@ -81,7 +81,7 @@
 		}
 	}
 
-	$countries: "japan", "usa", "netherlands","china", "argentina", "taiwan";
+	$countries: "japan", "usa", "netherlands","china", "argentina", "taiwan", "malaysia", "singapore", "uk", "czech", "canada";
 
 	@each $country in $countries {
 		&__flag--#{$country} {

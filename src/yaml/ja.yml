@@ -53,7 +53,7 @@ button:
   readwhitepaper: WHITEPAPERを読む
   mock_pc: パソコンのモックを見る
   mock_sp: スマートフォンのモックを見る 
-  see_goods: グッズを見る
+  seegoods: グッズを見る
   registration: 登録する
 product:
   header: PRODUCT
@@ -165,6 +165,30 @@ ambassador:
     ian:
       name: ian Hsu
       url: https://twitter.com/comerhsu
+    dmitry:
+      name: Dmitry Vilchitsky
+      url: https://twitter.com/rethink_urban
+    keegan:
+      name: Keegan Francis
+      url: 
+    takuya:
+      name: Takuya Koide
+      url: https://twitter.com/tkoide0513
+    jimmy:
+      name: Jimmy van Duuren
+      url: https://twitter.com/TornadoYoshi
+    michal:
+      name: Michal Vlasak
+      url: https://twitter.com/Secret_Douglas
+    peter:
+      name: Peter Wu
+      url: https://twitter.com/rethink_urban
+    tan:
+      name: Tan Liang Yit
+      url: https://twitter.com/liangyit90
+    neowhite:
+      name: Neowhite
+      url: https://twitter.com/gavin_teoh
 community:
   header: Pioneering the Future, Together!
   body: ALISは良質なフィードバックを得るために、活動を透明化し、仮説をすばやくコミュニティに問いかけます。そこで自然淘汰され、生き残ったアイディアを伸ばすことが「使ってもらえるモノを作るための最善の方法」だと考えるからです。ぜひ一緒にコミュニティを盛り上げてください。あなたの活動や反応がこれからのALISを作ります。

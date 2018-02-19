@@ -206,6 +206,31 @@ ambassador:
     ian:
       name: ian Hsu
       url: https://twitter.com/comerhsu
+    dmitry:
+      name: Dmitry Vilchitsky
+      url: https://twitter.com/rethink_urban
+    keegan:
+      name: Keegan Francis
+      url: 
+    takuya:
+      name: Takuya Koide
+      url: https://twitter.com/tkoide0513
+    jimmy:
+      name: Jimmy van Duuren
+      url: https://twitter.com/TornadoYoshi
+    michal:
+      name: Michal Vlasak
+      url: https://twitter.com/Secret_Douglas
+    peter:
+      name: Peter Wu
+      url: https://twitter.com/rethink_urban
+    tan:
+      name: Tan Liang Yit
+      url: https://twitter.com/liangyit90
+    neowhite:
+      name: Neowhite
+      url: https://twitter.com/gavin_teoh
+
 community:
   header: Pioneering the Future, Together!
   body: In order to obtain good feedback, ALIS clarifies activities and quickly asks the community about the hypothesis. So I think that it is naturally culled and extending the idea that survived is the "best way to make things that you can use". Please excite the community together. Your activity and reaction will make ALIS in the future.
