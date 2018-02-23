@@ -41,59 +41,63 @@
 
 /* Footer
 -------------------------------------------------- */
+$sns-items: "twitter", "medium", "discord", "reddit", "trello", "github";
 
 .l-footer {
   color: white;
   text-align: center;
   background-color: $color-background-dark;
-  height: 420px;
+  height: 320px;
   width: 100%;
-  padding: 80px 0 120px;
+  padding: 80px 0px;
 
   @include mq() {
     height: auto;
     padding: 32px 16px 40px;
   }
 
-  &__sns-links {
-    :not(:first-child) {
-      margin-left: 11px;
-    }
-
-    margin-bottom: 40px;
-  }
-
-  &__twitter, &__medium {
-    margin-top: 3px;
-  }
-
-  .btn-social-icon.btn-lg {
+  &__item {
     width: 60px;
     height: 60px;
-    margin: 30px;
+    margin: 20px;
     padding: 0;
-    margin-right: 60px;
+    display: inline-block;
+    
     > img {
+      @include transition;
       max-width: 100%;
       height: auto;
+      &:hover {
+        opacity: 0;
+      }
     }
-    .l-footer__reddit{
-      max-width: auto;
-      height: calc(100% + 10px);
-      margin-top: -5px;
-    }
+
     @include mq() {
-      width: 24px;
-      height: 24px;
-      margin: 10px;
-      margin-right: 20px;
+      width: 44px;
+      height: 44px;
+      margin: 6px;
+      &:first-child {
+        margin-left:0; 
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @each $sns in $sns-items {
+    &__item--#{$sns} {
+      @extend .l-footer__item;
+      background-size: contain;
+      background-image: url("/img/pc/icon_footer_hover_#{$sns}.png");
     }
   }
 
   &__company {
     margin-bottom: 0;
-    font-size: 2rem;
-    line-height: 1.5;
+    font-size: 1.6rem;
+    line-height: 2;
+
     @include mq() {
       text-align: left;
       font-size: 1.2rem;
@@ -110,8 +114,9 @@
     a {
       color: white;
       font-size: smaller;
-      font-size: 2rem;
-      line-height: 1.5;
+      font-size: 1.6rem;
+      line-height: 2;
+      @include transition;
       @include mq() {
         text-align: left;
         font-size: 1.2rem;

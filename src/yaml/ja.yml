@@ -243,7 +243,11 @@ popup_registration:
     email: メールアドレス
     twitter: TWITTERアカウント ※任意
     url: ブログのURL ※任意
-subscribe_form:
-  body: |
-    メールアドレスを登録し、最新の情報を受け取る
+sns_url: 
+  twitter: 
+  medium:
+  reddit:
+  discord:
+  trello:
+  github:
 

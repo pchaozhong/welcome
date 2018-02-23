@@ -276,6 +276,10 @@ news:
   date: JAN 15, 2018
   header: NHKガイアの夜明けにて弊社CEOの安が出演
   body: ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほ…
-subscribe_form:
-  body: |
-    Register your e-mail address to get latest information
+sns_url: 
+  twitter: "https://twitter.com/alis_media"
+  medium:
+  reddit:
+  discord:
+  trello:
+  github:
