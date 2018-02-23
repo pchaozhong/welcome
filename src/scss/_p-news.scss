@@ -1,8 +1,14 @@
 .p-news-card {
 	@include box-shadow;
+	@include transition;
 	padding: 40px 42px;
 	background-color: white;
 	margin-bottom: 4rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+
 	@include mq() {
 		width: 100%;
 		padding: 40px 16px;
