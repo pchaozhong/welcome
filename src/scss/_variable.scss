@@ -70,6 +70,10 @@ $breakpoints-min: (
 
 @mixin box-shadow() {
   box-shadow: 0 4px 10px 0 rgba(192,192,192,0.2);
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba(192,192,192,0.6);
+  }
+}
 
 @mixin font-title() {
   font-family: "Times New Roman";
@@ -79,6 +83,9 @@ $breakpoints-min: (
   font-family: "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
   Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 }
+
+@mixin transition() {
+  transition: all .4s ease;
 }
 
 @mixin title-header() {
