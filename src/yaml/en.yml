@@ -29,10 +29,12 @@ registration:
   header: REGISTRATION
   body_line_1: ALIS is looking for participants to the ALIS beta version published in April.
   body_line_2: If you are interested please apply from the beta application form.
+  body_line_3: 
+  url: http://eepurl.com/diOWan
   popup:
     header: REGISTRATION
     body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
-    body_line_2: 随時β版登録のご連絡をさせていただきます。
+    body_line_2: 随時β版登録のご連絡をさせていただきます。 
     label: 
       email: メールアドレス
       twitter: TWITTERアカウント ※任意
@@ -230,7 +232,6 @@ ambassador:
     neowhite:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
-
 community:
   header: Pioneering the Future, Together!
   body: In order to obtain good feedback, ALIS clarifies activities and quickly asks the community about the hypothesis. So I think that it is naturally culled and extending the idea that survived is the "best way to make things that you can use". Please excite the community together. Your activity and reaction will make ALIS in the future.

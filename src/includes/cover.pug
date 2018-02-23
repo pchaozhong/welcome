@@ -1,4 +1,4 @@
-section.p-cover
+section.p-cover.is-fixed
   .p-cover__title
     h2.p-cover__header ALLIANCE & WISDOM
     h2.p-cover__caption
@@ -6,10 +6,11 @@ section.p-cover
       br.u-pc-only
       | #{cover.caption_line_one.second}
 
-  article.p-cta
+  article.p-cta.js-iphone-container
     h3.p-cta__header #{registration.header}
     p.p-cta__body 
       | #{registration.body_line_1}
-      br
       | #{registration.body_line_2}
-    a.p-cta__button(data-popup='registration') #{button.applyforbeta}
+      br
+      span.p-cta__body__caption #{registration.body_line_3}
+    a.p-cta__button(href=registration.url, target='_blank') #{button.applyforbeta}
