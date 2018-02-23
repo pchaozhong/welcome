@@ -1,7 +1,20 @@
+
+.p-index .p-section {
+  padding-right: $inner-index-padding-x;
+  padding-left: $inner-index-padding-x;
+  @include mq(lg) {
+    padding-right: $inner-padding-x-sp;
+    padding-left: $inner-padding-x-sp;
+  }
+}
+
+.p-index {
+  padding-bottom: 180px;
+}
+
 /* Cover
 -------------------------------------------------- */
 .p-cover {
-  position: relative;
   margin-top: $navbar-height;
   height: calc(100vh - #{$navbar-height});
   background-image: url("/img/pc/img_top.jpg");
@@ -65,22 +78,29 @@
     background-size: cover;
     width: 313px;
     height: 622px;
-    top: 93px;
-    right: 40px;
+    top: 64px;
+    right: 150px;
 
     @include mq (lg) {
       display: none;
     }
   }
+
+  // &.is-fixed::after {
+  //   position: fixed;
+  //   top: 180px;
+  //   right: 150px;
+  // }
 }
 
 /* Register CTA
 -------------------------------------------------- */
 
 .p-cta {
-  margin: 80px;
+  margin: 87px $inner-index-padding-x;
   max-width: 404px;
   box-sizing: border-box;
+  position: relative;
   @include mq(lg) {
     background: white;
     width: $inner-width-sp;
@@ -132,6 +152,10 @@
     }
   }
 
+  &__body__caption {
+    letter-spacing: 0;
+  }
+
   &__button {
     @include button(240px);
     @include mq(sm) {
@@ -140,32 +164,30 @@
   }
 }
 
+
 /* Feature List
 -------------------------------------------------- */
 
 .p-feature-list {
   padding: 0;
-  display: flex;
-  justify-content: space-between;
-  margin: 20px auto 120px;
+  max-width: 540px;
+  margin: 0 auto;
 
   @include mq(sm) {
     width: 100%;
-    flex-direction: column;
     margin: 40px auto;
   }
 
   &__item {
     list-style: none;
-    text-align: center;
-    width: 33%;
+    width: 100%;
     position: relative;
+    margin-bottom: 65px;
 
     @include mq(sm) {
       width: 100%;
       display: flex;
       height: 124px;
-      align-items: center;
       margin-bottom: 60px;
     }
   }
@@ -173,20 +195,22 @@
   &__item::before {
     display: inline-block;
     content: "";
-    margin-bottom: 80px;
+    vertical-align: middle;
+    margin-right: 80px;
+
     @include mq() {
-      margin-bottom: 20px;
+      margin-right: 20px;
     }
     @include mq(sm) {
-      margin-bottom: 0px;
+      margin-right: 0px;
     }
   }
 
   @for $i from 1 through 3 {
     &__item:nth-child(#{$i})::before {
       background: url("/img/pc/icon_ourproject#{$i}.png") no-repeat;
-      width: 210px;
-      height: 150px;
+      width: 105px;
+      height: 75px;
       background-size: contain;
       background-position: center;
     }

@@ -184,7 +184,6 @@ $pages: "about", "team", "community", "product", "news";
       }
     }
   }
-
 }
 
 .p-title--nobody {
@@ -194,6 +193,13 @@ $pages: "about", "team", "community", "product", "news";
     @include mq() {
       margin-bottom: 40px;
     }
+  }
+}
+
+.p-title--ourproject {
+  width: 640px;
+  @include mq() {
+    width: 100%;
   }
 }
 
