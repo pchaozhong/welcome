@@ -9,7 +9,8 @@
     }
 
     &__lang {
-         position: relative;
+        position: relative;
+        @include font-nomal;
         &::after {
             content: "";
             display: inline-block;

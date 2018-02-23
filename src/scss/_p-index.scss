@@ -18,30 +18,39 @@
   }
 
   &__title {
-     background: white;
-     padding-bottom: 6.5rem;
-     @include mq() {
+    background: white;
+    padding-bottom: 3.3rem;
+    padding-right: $inner-index-padding-x;
+    padding-left: $inner-index-padding-x;
+    @include mq(lg) {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    @include mq() {
       padding: 2rem $inner-padding-x-sp;
-     }
+    }
   }
 
   &__header {
+    @include font-title;
     font-size: 2.4rem;
-    letter-spacing: 1.5px;
-    line-height: 1.55;
+    letter-spacing: 1px;
+    line-height: 1.5;
     margin-top: 0;
-     @include mq(sm) {
+    margin-bottom: 18px;
+    @include mq(sm) {
       font-size: 1.6rem;
       line-height: 1.5;
       margin-bottom: 1.2rem;
-     }
+    }
   }
 
   &__caption {
     color: $color-text-primary;
-    line-height: 1.55;
-    letter-spacing: 1.5px;
-    font-size: 3.6rem;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-size: 2.8rem;
+
     @include mq(sm) {
       font-size: 2rem;
       line-height: 1.5;
@@ -88,10 +97,12 @@
   }
 
   &__header {
+    @include font-title;
     font-size: 2.4rem;
-    line-height: 1.5;
-    letter-spacing: 1.5px;
-    margin-bottom: 0.5em;
+    line-height: 1.125;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
     @include mq(lg) {
       margin-top: -50px;
       text-align: center;
@@ -103,10 +114,11 @@
   }
 
   &__body {
+    text-align: justify;
     font-size: 1.6rem;
     display: inline-block;
     line-height: 1.75;
-    letter-spacing: 3.5px;
+    letter-spacing: 3px;
     margin-bottom: 2em;
     @include mq(lg) {
       text-align: center;
@@ -194,9 +206,14 @@
   }
 
   &__item-body {
-    font-size: 2.8rem;
-    line-height: 1.8;
-    letter-spacing: 2px;
+    font-size: 1.6rem;
+    line-height: 2;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    
     @include mq() {
       font-size: 1.6rem;
       line-height: 1.5;
