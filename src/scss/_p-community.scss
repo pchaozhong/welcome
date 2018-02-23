@@ -15,10 +15,17 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 
 .p-community-card {
 	@include box-shadow;
+	@include transition;
+	display: block;
 	background-color: white;
 	padding: 35px;
 	text-align: center;
 	width: 196px;
+
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+	}
 
 	@media screen and (max-width: 1280px) {
 		padding: 24px 16px;
@@ -70,10 +77,11 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 	}
 
 	&__sns {
-		font-family: "Hiragino UD Serif Std";
+		@include font-title;
 		font-size: 1.8rem;
 		letter-spacing: 1px;
 		line-height: 2.1;
+
 		@include mq() {
 			text-align: left;
 			font-size: 1.6rem;

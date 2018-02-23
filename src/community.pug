@@ -19,31 +19,31 @@ body
 
           .p-community-cards
             include mixin/community_card
-            .p-community-card.p-community-card--twitter
+            a(href=sns_url.twitter, target="_blank").p-community-card.p-community-card--twitter
               +community_card(
               community.twitter.name, 
               community.twitter.body_line_1,
               community.twitter.body_line_2,
               community.twitter.body_line_3)  
-            .p-community-card.p-community-card--medium
+            a(href=sns_url.medium, target="_blank").p-community-card.p-community-card--medium
               +community_card(
               community.medium.name, 
               community.medium.body_line_1,
               community.medium.body_line_2,
               community.medium.body_line_3)
-            .p-community-card.p-community-card--discord
+            a(href=sns_url.discord, target="_blank").p-community-card.p-community-card--discord
               +community_card(
               community.discord.name, 
               community.discord.body_line_1,
               community.discord.body_line_2,
               community.discord.body_line_3)
-            .p-community-card.p-community-card--reddit
+            a(href=sns_url.reddit, target="_blank").p-community-card.p-community-card--reddit
               +community_card(
               community.reddit.name, 
               community.reddit.body_line_1,
               community.reddit.body_line_2,
               community.reddit.body_line_3)
-            .p-community-card.p-community-card--github
+            a(href=sns_url.github, target="_blank").p-community-card.p-community-card--github
               +community_card(
               community.github.name, 
               community.github.body_line_1,
