@@ -1,7 +1,5 @@
-$pages: "about", "team", "community", "product", "news";
-
 .p-cover-header {
-  margin-top: $navbar-height;
+  margin-top: calc(#{$navbar-height} + #{$navbar-mb});
   background-size: cover;
   color: white;
   display: flex;
@@ -12,7 +10,7 @@ $pages: "about", "team", "community", "product", "news";
 
   @include mq() {
     height: 200px;
-    margin-top: $navbar-height-sp;
+    margin-top: calc(#{$navbar-height-sp} + #{$navbar-mb});
   }
 
   &__title {
@@ -31,7 +29,11 @@ $pages: "about", "team", "community", "product", "news";
       line-height: 1.5;
     }    
   }
+}
 
+$pages: "about", "team", "community", "product", "news";
+// 各ページごとのカバー画像指定
+.p-cover-header {
   @each $page in $pages {
     @extend .p-cover-header;
     &--#{$page} {
