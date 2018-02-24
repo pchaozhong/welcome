@@ -33,6 +33,10 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 		cursor: pointer;
 	}
 
+	&:focus, &:active {
+		text-decoration: none;
+	}
+
 	@media screen and (max-width: 1280px) {
 		padding: 24px 16px;
 	}
@@ -55,7 +59,11 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 			width: 48px;
 			height: 48px;
 			max-width: 48px;
+			min-width: 48px;
 			margin: 0 40px;
+		}
+		@include mq(sm) {
+			margin: 0 20px;
 		}
 	}
 
@@ -65,10 +73,17 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 			background-size: contain;
 		}
 		@include mq() {
-			@if $community == 'twitter' or  $community == 'medium' or  $community == 'github' {
+			@if $community == 'twitter' or  $community == 'medium' {
 				br:nth-child(2) {
 					display: none;
 				}
+			}@else if $community == 'github' {
+				&--#{$community}::before {
+					width: 38px;
+				}
+				br:nth-child(2) {
+					display: none;
+				}		 
 			}@else if $community == 'discord' {
 				br:nth-child(1) {
 					display: none;
