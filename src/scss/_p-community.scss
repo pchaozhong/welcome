@@ -1,5 +1,11 @@
 $communities: "twitter", "medium", "discord", "reddit", "github";
 
+.p-page-community .p-block {
+	@include mq() {
+		margin-bottom: 60px;
+	}
+}
+
 .p-community-cards {
 	margin: 0 auto;
 	display: flex;
