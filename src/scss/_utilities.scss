@@ -1,16 +1,3 @@
-.u-sp-only {
-  display: none;
-  @include mq() {
-    display: block;
-  }
-}
-
-.u-pc-only {
-  @include mq() {
-    display: none;
-  }
-}
-
 .u-ja-only {
   display: none; 
 }
@@ -22,6 +9,19 @@
   
   .u-ja-only--inline-block {
     display: inline-block;
+  }
+}
+
+.u-sp-only {
+  display: none!important;
+  @include mq() {
+    display: block!important;;
+  }
+}
+
+.u-pc-only { 
+  @include mq() {
+    display: none!important;
   }
 }
 
