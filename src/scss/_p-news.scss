@@ -12,6 +12,7 @@
 	@include mq() {
 		width: 100%;
 		padding: 40px 16px;
+		margin-bottom: 2rem;
 	}
 
 	&__category {
@@ -46,6 +47,7 @@
 			font-size: 1.4rem;
 			font-weight: bold;
 			line-height: 1.5;
+			margin-bottom: 20px;
 		}
 	}
 
