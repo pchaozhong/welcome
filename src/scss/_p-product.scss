@@ -1,0 +1,13 @@
+.p-page-product .p-block {
+	@include mq() {
+		margin-bottom: 60px;
+	}
+}
+
+.p-registration-block {
+	@include mq() {
+		padding-right: 24px;
+		padding-left: 24px;
+	}
+}
+

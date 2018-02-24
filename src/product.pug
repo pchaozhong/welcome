@@ -12,12 +12,12 @@ body
         h2.p-cover-header__title PRODUCT
 
       .container-fluid
-        .p-block
+        .p-block.p-registration-block
           .p-title.p-title--center.text-center 
             h3.p-title__header #{registration.header}
             p.p-title__body
               | #{registration.body_line_1}
-              br
+              br.u-pc-only
               | #{registration.body_line_2}
             a.p-button.p-button--lg.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{button.applyforbeta}
 
