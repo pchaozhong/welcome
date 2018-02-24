@@ -102,32 +102,35 @@ $breakpoints-min: (
     margin-top: 0;
     font-size: 2.8rem;
     letter-spacing: 3px;
-    line-height: 1.5;
+    line-height: 1.15;
     text-align: left;
   }
   
   @include mq(sm) {
     font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
   }
 }
 
 @mixin title-body() {
     margin-bottom: 8rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 2;
     letter-spacing: 3px;
 
     @include mq() {
       margin-top: 0;
-      font-size: 1.8rem;
-      letter-spacing: 4px;
-      line-height: 1.5;
+      font-size: 1.6rem;
+      line-height: 2;
       text-align: left;
       margin-bottom: 4rem;
     } 
 
     @include mq(sm) {
       font-size: 1.4rem;
+      letter-spacing: 0.5px;
+      margin-bottom: 2rem;
     }
 }
 
