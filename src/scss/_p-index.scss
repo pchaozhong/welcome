@@ -78,19 +78,18 @@
     background-size: cover;
     width: 313px;
     height: 622px;
-    top: 64px;
-    right: 150px;
+    top: 1412px;
+    transform: translateX(881px);
 
     @include mq (lg) {
       display: none;
     }
   }
 
-  // &.is-fixed::after {
-  //   position: fixed;
-  //   top: 180px;
-  //   right: 150px;
-  // }
+  &.is-fixed::after {
+    position: fixed;
+    top: 180px;
+  }
 }
 
 /* Register CTA

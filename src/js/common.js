@@ -42,14 +42,29 @@ $(() => {
     return false;
   });
 
-  const coverHeight = $('.p-cover-header').height(); 
+   
   //
   $(window).scroll(function() {
-    if (window.scrollY > coverHeight ) {
-      $('.p-page').addClass('is-bg-fixed');
-    }else{
-      $('.p-page').removeClass('is-bg-fixed');
+
+    if ($('.p-page')[0]) {
+      const coverHeight = $('.js-cover-header').height();
+      if (window.scrollY > coverHeight ) {
+        $('.p-page').addClass('is-bg-fixed');
+      }else{
+        $('.p-page').removeClass('is-bg-fixed');
+      }      
     }
+
+    if ($('p-index')[0]) {
+      const target = $('.js-feature-list');
+      const position = target.offset().top - target.height();
+      if (window.scrollY < position + 124) {
+        $('.p-cover').addClass('is-fixed');
+      }else{
+        $('.p-cover').removeClass('is-fixed');
+      }
+    }
+    
   });
 
   // メニューの開閉
@@ -80,6 +95,7 @@ $(() => {
     $(this).parent().removeClass('is-on');
     $('#js-overlay').removeClass('is-on');
   });
+
 
 });
 
