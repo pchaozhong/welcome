@@ -15,11 +15,15 @@
   display: none; 
 }
 
-.is-ja .u-ja-only {
-  display: block;
+.is-ja {
+  .u-ja-only {
+    display: block;
+  }
+  
+  .u-ja-only--inline-block {
+    display: inline-block;
+  }
 }
 
-.is-ja .u-ja-only--inline-block {
-  display: inline-block;
-}
+
 

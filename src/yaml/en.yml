@@ -61,7 +61,7 @@ button:
   detail: Click here for details
 product:
   header: PRODUCT
-  body_line_1: The team has currently published a design mock-up for the beta release scheduled in April. 
+  body_line_1: The team has currently published a design mock-up for the beta release scheduled in April.　
   body_line_2: A community feedback feature has been made available, so please check out the mock-up, and let us know what you think!
   link: Click here for product development status
 about:
@@ -221,8 +221,8 @@ community:
   body: In order to obtain quality feedback, ALIS is constantly keeping the community updated on the latest news and developments, continuously seeking user suggestions and direction. Via this process of “crowdsourcing wisdom,” sound and successful ideas will tend to survive those not so solid, and we can move forward with the most practical and useful platform. Your activity is what makes ALIS successful. Let’s do it!
   twitter:
     name: TWITTER
-    body_line_1: Get the latest updates 
-    body_line_2: and news about ALIS
+    body_line_1: Get the latest updates and news about ALIS
+    body_line_2: 
     body_line_3: 
   medium:
     name: MEDIUM
@@ -231,9 +231,9 @@ community:
     body_line_3: 
   discord:
     name: DISCORD
-    body_line_1: Meet other enthusiastic members 
-    body_line_2: of
-    body_line_3: the ALIS community
+    body_line_1: Meet other enthusiastic members of the ALIS community
+    body_line_2: 
+    body_line_3: 
   reddit:
     name: REDDIT
     body_line_1: ほげほげほげ
@@ -241,9 +241,9 @@ community:
     body_line_3: ほげほげほげ 
   github:
     name: GITHUB
-    body_line_1: Check the progress 
-    body_line_2: of the ALIS platform
-    body_line_3: and coin
+    body_line_1: Check the progress of the ALIS platform and coin
+    body_line_2: 
+    body_line_3: 
 ambassador_program:
   header_line_1: AMBASSADOR　
   header_line_2: PROGRAM
