@@ -10,7 +10,17 @@
 
 .p-index {
   padding-bottom: 180px;
+  @include mq() {
+    padding-bottom: 80px;
+  }
 }
+
+.p-index .p-section {
+  @include mq() {
+    padding-top: 60px;
+  }
+}
+
 
 /* Cover
 -------------------------------------------------- */
