@@ -19,12 +19,14 @@ body
               | #{registration.body_line_1}
               br
               | #{registration.body_line_2}
-            a.p-button.p-button--lg(data-popup='registration') #{button.applyforbeta}
+            a.p-button.p-button--lg.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{button.applyforbeta}
 
         .p-block
           .p-title.p-title--center 
             h3.p-title__header #{closedb.header}
             p.p-title__body #{closedb.body}
+          .text-center
+            a.p-button.p-button--lg(href="", target='_blank') #{button.detail}
 
         .row.p-block
           .col-md-4

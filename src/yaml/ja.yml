@@ -57,6 +57,7 @@ button:
   mock_sp: スマートフォンのモックを見る 
   seegoods: グッズを見る
   registration: 登録する
+  detail: 詳細はこちら
 product:
   header: PRODUCT
   body_line_1: 現在ALISでは4月に公開予定のALISβ版に向けたデザインモックを公開しています。

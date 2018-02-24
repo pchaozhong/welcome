@@ -130,16 +130,4 @@ $breakpoints-min: (
     }
 }
 
-.u-sp-only {
-  display: none;
-  @include mq() {
-    display: block;
-  }
-}
-
-.u-pc-only {
-  @include mq() {
-    display: none;
-  }
-}
 

@@ -5,7 +5,9 @@ section.p-cover.is-fixed
       | #{cover.caption_line_one.first} 
       br.u-pc-only
       | #{cover.caption_line_one.second}
-
+      br.u-pc-only
+      | #{cover.caption_line_one.third}
+    
   article.p-cta.js-iphone-container
     h3.p-cta__header #{registration.header}
     p.p-cta__body 
@@ -13,4 +15,4 @@ section.p-cover.is-fixed
       | #{registration.body_line_2}
       br
       span.p-cta__body__caption #{registration.body_line_3}
-    a.p-cta__button(href=registration.url, target='_blank') #{button.applyforbeta}
+    a.p-cta__button.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{button.applyforbeta}

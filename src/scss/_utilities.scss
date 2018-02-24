@@ -1,0 +1,25 @@
+.u-sp-only {
+  display: none;
+  @include mq() {
+    display: block;
+  }
+}
+
+.u-pc-only {
+  @include mq() {
+    display: none;
+  }
+}
+
+.u-ja-only {
+  display: none; 
+}
+
+.is-ja .u-ja-only {
+  display: block;
+}
+
+.is-ja .u-ja-only--inline-block {
+  display: inline-block;
+}
+

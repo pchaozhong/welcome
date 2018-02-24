@@ -4,12 +4,20 @@
 
 $(() => {
   
-  // 現在の言語を表示
+  // 現在の言語を判定
   let path = location.pathname.slice(0, 4),
       reg = /\/\w{2}\//,
       lang = '';
   lang = (path.match(reg))?path.slice(1,3).toUpperCase():'EN';
+
+
   $('.js-select-lang').text(lang);
+
+  if (lang == 'JA' && !$('body').hasClass('is-ja')) {
+    $('body').addClass('is-ja');
+  }else{
+    $('body').removeClass('is-ja');
+  }
 
   // 言語の切り替え
   $('.c-select__option').click(function(e) {
