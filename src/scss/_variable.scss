@@ -26,8 +26,9 @@ $inner-index-padding-x: 150px;
 $body-width: 1440px;
 $inner-width: calc(#{$body-width} - #{$inner-padding-x*2});
 $inner-width-sp: calc(100% - #{$inner-padding-x-sp*2});
-$navbar-height: 114px;
+$navbar-height: 84px;
 $navbar-height-sp: 63px;
+$navbar-mb: 30px;
 
 $breakpoints: (
   'sm': 'screen and (max-width: 577px)',
