@@ -23,12 +23,13 @@ icointroduction:
   url: https://medium.com/@alismedia/2dba7a67117c
 cover:
   caption_line_one: 
-    first: A Rewards System
-    second: to Distinguish Trustworthy Articles
+    first: A completely new social media concept 
+    second: revealing and providing access to 
+    third: reliable, articles, news, and people
 registration:
   header: REGISTRATION
-  body_line_1: ALIS is looking for participants to the ALIS beta version published in April.
-  body_line_2: If you are interested please apply from the beta application form.
+  body_line_1: ALIS is looking for participants to join the ALIS beta version to be published in April. 
+  body_line_2: If you are interested please apply via the beta application form.
   body_line_3: 
   url: http://eepurl.com/diOWan
   popup:
@@ -41,40 +42,41 @@ registration:
       url: ブログのURL ※任意
 project:
   header: OUR PROJECT
-  body1: ALIS is a social media platform that can meet people with high reliability information and people quickly. We aim to realize a platform that accumulates reliable information by acquiring rewards for those who wrote reliable articles and those who found it earlier. It is the purpose of ALIS to release people who are tired of content for advertisements that tend to be conventional media, stealth marketing, less reliable information.
+  body1: ALIS is a social media platform set to revolutionize the news and social media industries by connecting ALIS users with trustworthy articles, news, and people quickly. Our goal is to create a platform that incentivizes reliable information by rewarding authors trusted by you, the ALIS community user, as well as rewarding the consumers of the content, who vote on the level of reliability and quality of news, articles, and blogs. The goal is to set people free from advertisement-saturated conventional media, stealth marketing campaigns, and less-than-reliable information sources.
   feature_list:
-    item1_body1: Find out
-    item1_body2: what you want quickly
-    item2_body1: Get rewards
-    item2_body2: when you write
-    item2_body3: or find articles
-    item3_body1: Social Media
-    item3_body2: from Japan
+    item1_body1: Find the information 
+    item1_body2: you want immediately
+    item2_body1: Write articles, 
+    item2_body2: and get rewards 
+    item2_body3: for curation
+    item3_body1: Social media 
+    item3_body2: for Japan
 button:
-  applyforbeta: Apply for β version
+  applyforbeta: Apply to be a part of the beta launch!
   readwhitepaper: Read Whitepaper
-  mock_pc: Take a look for PC mock-up
-  mock_sp: Take a look for SP mock-up
-  seegoods: See goods
+  mock_pc: View beta mock-up for PC
+  mock_sp: View beta mock-up for mobile device
+  seegoods: See ALIS Goods
   registration: Register
+  detail: Click here for details
 product:
   header: PRODUCT
-  body_line_1: Currently ALIS publishes the mock-up for ALIS beta version to be released in April.
-  body_line_2: You can give us feedback to the mock-up, so please take a look.
-  link: Check the development status
+  body_line_1: The team has currently published a design mock-up for the beta release scheduled in April. 
+  body_line_2: A community feedback feature has been made available, so please check out the mock-up, and let us know what you think!
+  link: Click here for product development status
 about:
-  vision: Smooth the connection of people by visualizing credit
+  vision: Facilitate the connection of people through visualized trust
   mission:
-    item1: Create social media that enables you to meet trustworthy articles and people quickly
-    item2: Keep polishing constantly while flexibly changing logic to visualize the reliability of people and information
-    item3: Realize an economic zone autonomously developing by block chain technology and token economy
+    item1: Create a social media platform that enables users to find trustworthy articles and people quickly
+    item2: Continuous improvement of concept, and flexibility for adjustment in order to maximize the accurate visualization of reliable people and information
+    item3: Realize an autonomously developing economic system made possible via blockchain technology and a token economy
   value: 
-    item1: Rather than trying to accomplish something by themselves, combining the wisdom of everyone is an indispensable element to create a new business. We will cherish the business creation while involving the surroundings without becoming always lonely.
-    item2: Rather than losing philosophy by implementing complicated explanations and so much more functions, we think about what you think is really necessary and provide a simple and concise product that can be used by anyone.
-    item3: No matter how much we discuss in words, we can not verify something or provide value to the world. We aim to provide the next value from always moving product and user's feedback using it.
-    item4: In addition to responding to the partner's expectations, we will continue to provide "Wow" that exceeds expectations even in just a few cases in any scene, creating products that always produce surprises.
-    item5: In areas where it is always continuous of new things, you can get a lot of learning by jumping in first. Like the First Penguine who first jumps into the ocean where the enemy is lurking, I will challenge without fear.
-    item6: For the development of the community and the product, someone thinks that it is good to have common sense as the main subject · Will continue to refine the will to challenge what you want to do.
+    item1: Rather than trying to accomplish something alone, combining the wisdom of everyone is an indispensable element in creating a new business. We cherish the interdependent business creation process, working together with a wealth of various ideas, rather than alone, with few.
+    item2: Instead of compromising our basic philosophy with over-complicated explanations and convoluted functions, we think the most important thing is to make a simple and concise product that can be used by everyone.
+    item3: No amount of mere talk can bring provide verification of trustworthiness, or bring real value as we wish to bring to our users. We aim to provide real value in continuously improving our product. A large part of this process involves listening to and successfully and reliably applying user feedback.
+    item4: In addition to responding to user expectations, we will continuously provide the "WOW” experience, exceeding user expectations in as many ways as possible, delivering a product that always has—even in small ways—pleasant surprises.
+    item5: In unexplored and new areas full of potential, you can learn a lot by jumping in first. Though there may be an enemy lurking down there, the first penguin in the water takes this risk boldly anyway, and often gets the most fish!
+    item6: In the development of community products, individuals should not just wait around to "see what happens," but take an active role in making contributions and suggestions, according to their own unique wants, needs, and visions. This can make for a robust discussion, and a well-rounded product!
 team:
   header: TEAM
 member:
@@ -85,15 +87,7 @@ member:
       id: yasu
       name: MASAHIRO YASU
       body: |
-        Yasu is a graduate from Kyoto University, the university with the highest number of Nobel Prize winner
-        recipients in Japan.
-        He majored in nuclear fusion and analyzed alfven eigenmode raised in helical plasma by Fortran.
-        After graduation, he joined Recruit Co., Ltd. (The 2nd largest HR company in the world, also the parent company
-        of Indeed).
-        Yasu is experienced in business development, including business strategy and system development of several
-        products, such as business SNS and referral tool. He also actively worked on machine learning and natural
-        language analysis, and received the GROWTH FORUM Award which is the highest prize in Recruit. Currently he also
-        serves as a project leader of a joint project with Microsoft Japan.
+        Majoring in nuclear fusion research at Kyoto University, Yasu analyzed patterns of Alveun eigen mode excitation of helical plasmas via the Fortran language. He Joined Recruit Co., Ltd. (the parent company of Indeed) in 2011, leading business strategy development, working with business SNS development, and creating an innovative business card management application. Yasu also created referral tools, and lead  the creation of new business and their development direction. Actively working on machine learning and natural language analysis, and receiving the highest prize, called GROWTH FORUM, Yasu was awarded for developing and leading Recruit Co., Ltd’s planning in 2016. Afterwards he also serves as project leader for a joint project with Microsoft Japan. Upon encountering blockchain technology, he became immediately convinced that the tech would be a means by which to speed up the evolution of the world and society at large, even more so than AI or VR, and so created ALIS.
       role: FOUNDER / CEO
       twitter: 
       fb:
@@ -102,14 +96,7 @@ member:
       id: mizusawa
       name: TAKASHI MIZUSAWA
       body: |
-        Takashi started a venture company as a university student.
-        After graduation he started his career at the worldwide famous Benesse Corporation.
-        After winning the company's annual MVP in his first year,
-        he worked mainly in business development such as student SNS and education services on tablets.
-        After working at Benesse for 6 years, he joined Recruit Career Co., Ltd., known for connecting
-        "learning" and "working". There he gained experience in business development of MOOC and referral tool.
-        He is interested in using social networks in HR. He envisions a world where individuals can
-        earn success through their own unique abilities.
+        After creating a start-up company while studying at Ritsumeikan University, Mizusawa joined the Benesse Corporation. In just the first year, he received the marketing department MVP award, and gained new business experience in developing SNS systems for students and a new tablet technology for learning/study. After that, Mizusawa changed jobs, moving to Recruit Co., Ltd, with the aim of connecting his main goals of learning and working. In engaging in the business development of MOOC and referral adoption tools, Mizusawa devoted himself to developing a community co-creative business. He views the important role of marketing as the “creation source of value" with an aim to create ecosystems in which every contributor’s unique skills, values, and personalities lend themselves to the creation of successful, one-of-a-kind products.
       role: CO-FOUNDER / CMO
       twitter: 
       fb:
@@ -118,11 +105,7 @@ member:
       id: ishii
       name: SOTA ISHII
       body: |
-        Sota has over 13 years of experience as a system engineer. He took on the role as a development leader of
-        a famous Japanese HR company. During his time there, he created an award-winning HR system that contributed
-        to the company's service growth. He is interested in new technologies and business, taking on roles in
-        varies positions. He strongly believes that blockchain technology will be a widespread standard within in
-        a few years. Due to the recent rise of crypto currency, he has committed himself to the ALIS project.
+        An engineer with an industry history of over 13 years, Ishii is interested in new technologies and assisting inexperienced businesses, being a consciousness-oriented generalist, regardless of the roles or technologies concerned. He is convinced that the burgeoning tech trend of cryptocurrencies and blockchain technology will continue their rapid rise to mainstream popularity beginning around 2013, and become the biggest tech revolution the internet has seen. In the interest of promoting this trend, Ishii joined Yasu and Mizusawa, and started ALIS.
       role: CO-FOUNDER / CTO
       twitter: 
       fb:
@@ -131,7 +114,10 @@ member:
       id: togashi 
       name: KEIJU TOGASHI
       body: |
-        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+        Togashi has over 12 years of experience in engineering, and as a service planning team member for several years.
+        During his time in service development, multiple experiences with BtoB and BtoC, etc, bolstered this experience track record, as his support capabilities were and continue to be many, working on projects from the infrastructure stage all the way to front end application.
+        Togashi joined ALIS in the interest of reducing falsehood on the Internet as much as possible.
+        Through his work with ALIS, he promotes consistent system development from service design to operation design.
       role: ENGINEER
       twitter: 
       fb:
@@ -140,9 +126,7 @@ member:
       id: kamei
       name: TATSUHIKO KAMEI
       body: |
-        Kamei graduated from Japan’s most prestigious university, the University of Tokyo.In addition to the ALIS project,
-        he currently works for Recruit Co., Ltd. as a member of the legal staff.He handles different fields such as IT,
-        web services, marketing, human resource and etc. He specializes in the legal affairs of new business developments.
+        After graduating from Tokyo College, Kamei joined Recruit Co., Ltd through Toppan Printing. As a staff member of the Legal Division, he has worked as a legal professional in IT, web services, marketing, and recruiting. His specialization is in legal work for new, up-and-coming fields of business. In addition to legal affairs, Kamei is in charge of ALIS corporate functions in general, such as finance, tax, labor, and government agency negotiation. Kamei’s goal is to integrate ALIS seamlessly into the blockchain industry and field as a whole. In his free time, he participates in triathlons and marathons.
       role: LEAGAL DIVISION
       twitter: 
       fb:
@@ -151,7 +135,7 @@ member:
       id: usagi
       name: USAGI
       body: |
-        Selection of branding design / cultural engineering design at Musashino Art University. Study the relationship between emotional change, behavior and design. After graduation he was engaged in developing new services at DeNA · Recruit Jobs. After launching a new service as CXO in Emeralda elected Forbes's "promising startup promising 50 companies", joined to ALIS. Visualize the information and advance the realization of the ideal way of thinking when it is caught as an object and the design that the information grows rather than being transient. From designing persona to IA and designing the surface layer, we are promoting with a single pass.
+        Akagi studied branding design / cultural engineering design at Musashino Art University, and the relationship between emotional change, behavior and design. After graduation he was engaged in developing new services at DeNA and Recruit Jobs. After launching a new service as CXO of Emerada, elected one of Forbes's “50 Promising Startups,” Akagi joined ALIS. Visualizing information and advancing innovative ways of thinking and achieving goals is best done with designs that build on robust information structures. For PERSONA to IA design, all the way to the final user experience, the surface layer, Akagi believe the ALIS team’s unity of mind in advancing the development and evolution of ALIS is paramount.
       role: LEAD DESIGNER
       twitter: 
       fb:
@@ -169,7 +153,7 @@ member:
       id: kubori
       name: CHIKA KUBORI
       body: |
-        Major in graphic design at Osaka University of Arts and studying design based on branding typography. OSAKA DESIGN FORUM 2011 is held at Osaka Nakanoshima Public Hall while in school and is responsible for main visuals. After graduation, engaged in a wide range of projects such as planning, proposal, package design and coding at advertisement production company. After that, independent as a freelance. I mainly do graphic design and web design, launching new projects that spotlight the primary industry in Wakayama prefecture where I am from.
+        Kuborichisa majored in graphic design at Osaka University of Arts and studied design based on branding typography. OSAKA DESIGN FORUM 2011 was held at Osaka Nakanoshima Public Hall while Kuborichisa was in school and he created the main visuals for this event. After graduation, he engaged in a wide range of projects including those dealing with planning, proposals, package design and coding at an advertisement production company. Kuborichisa then worked as an independent, freelance designer for a time. His main focus is graphic design and web design, and launching new projects that spotlight the primary industries in Wakayama prefecture where he is from.
       role: DESIGNER
       twitter: 
       fb:
@@ -234,22 +218,22 @@ ambassador:
       url: https://twitter.com/gavin_teoh
 community:
   header: Pioneering the Future, Together!
-  body: In order to obtain good feedback, ALIS clarifies activities and quickly asks the community about the hypothesis. So I think that it is naturally culled and extending the idea that survived is the "best way to make things that you can use". Please excite the community together. Your activity and reaction will make ALIS in the future.
+  body: In order to obtain quality feedback, ALIS is constantly keeping the community updated on the latest news and developments, continuously seeking user suggestions and direction. Via this process of “crowdsourcing wisdom,” sound and successful ideas will tend to survive those not so solid, and we can move forward with the most practical and useful platform. Your activity is what makes ALIS successful. Let’s do it!
   twitter:
     name: TWITTER
-    body_line_1: ALISの
-    body_line_2: 最新情報を
-    body_line_3: 知りたい 
+    body_line_1: Get the latest updates 
+    body_line_2: and news about ALIS
+    body_line_3: 
   medium:
     name: MEDIUM
-    body_line_1: ALISについて
-    body_line_2: もっと詳しく
-    body_line_3: 知りたい 
+    body_line_1: Learn more 
+    body_line_2: about ALIS
+    body_line_3: 
   discord:
     name: DISCORD
-    body_line_1: ALISに興味の
-    body_line_2: ある人たちと
-    body_line_3: 交流したい
+    body_line_1: Meet other enthusiastic members 
+    body_line_2: of
+    body_line_3: the ALIS community
   reddit:
     name: REDDIT
     body_line_1: ほげほげほげ
@@ -257,20 +241,20 @@ community:
     body_line_3: ほげほげほげ 
   github:
     name: GITHUB
-    body_line_1: 開発の
-    body_line_2: 進捗状況を
-    body_line_3: 知りたい
+    body_line_1: Check the progress 
+    body_line_2: of the ALIS platform
+    body_line_3: and coin
 ambassador_program:
   header_line_1: AMBASSADOR　
   header_line_2: PROGRAM
-  body: It is a program for ALIS fans and investors to positively communicate the charm of ALIS. Certified ambassadors located around the world mainly do translation of their mother tongue, revitalize community, hold Meetup etc. If you are a recommended ALIS and are interested in an ambassador please send a message to info@alismedia.jp.
+  body: The ambassador program allows ALIS fans and investors to spread the ALIS “gospel” and inform others about the network. Certified ambassadors located around the world utilize their special skills, hobbies, and knowledge to share the message of ALIS with others. Ambassadors keep the community vibrant and active, translate ALIS resources to their mother tongue, hold Meetups, etc. If you are interested in becoming an ALIS ambassador, please send a message to info@alismedia.jp.
 goods:
   header: GOODS
-  body: We have a community requested goods creation platform. You can make ALIS goods suggestions at any time. When the proposal is accepted, the proposer is distributed the goods for free and goods are arranged on the ALIS goods page.
+  body: We have a community-based goods creation platform. Community members suggest ideas for new ALIS goods and “swag” at any time. When a proposal is accepted, the proposer will be distributed the goods for free, and the product will be featured on the ALIS goods page.
 closedb:
   header: WHAT’S CLOSED β
   body: |
-    From the end of April 2018, ALIS will start verification using the beta version of the product that implements the minimum necessary functions. This aim is to sharply verify the unique part of ALIS "reliable people and information evaluation logic with tokens as the axis" and the "retention of article contributors" by it.
+    From the end of April 2018, ALIS will begin the testing process via the launch of its beta version of the platform. The beta launch of ALIS will include minimal, basic functions. The goal of the beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
 news: 
   category: PRESS RELEASE
   date: JAN 15, 2018
