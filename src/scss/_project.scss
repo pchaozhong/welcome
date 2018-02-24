@@ -63,6 +63,7 @@ $pages: "about", "team", "community", "product", "news";
   @include mq() {
     background-position: right 0px top 200px;
     background-size: 310px;
+    padding-bottom: 20px;
   }
 }
 
