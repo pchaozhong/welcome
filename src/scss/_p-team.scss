@@ -122,17 +122,38 @@
 	}
 
 	&__twitter {
+		@include transition;
 		display: inline-block;
+		position: relative;
 		width: 44px;
 		height: 44px;
 		background: url("/img/pc/icon_community_twitter.png") center center no-repeat;
 		background-size: 22px 18px;
+
+		&::before {
+			@include transition;
+			content: "";
+			position: absolute;
+			width: 44px;
+			height: 44px;
+			top: 0;
+			opacity: 0;
+			background: url("/img/pc/icon_community_twitter_hover.png") 50% 62% no-repeat;	
+			background-size: 32px 30px;
+		}
+
+		&:hover::before {
+			opacity: 1;
+		}
 
 		&.is-disabled {
 			background: url("/img/pc/icon_community_twitter_disabled.png") center center no-repeat;
 			background-size: 22px 18px;
 			&:hover {
 				cursor: default;
+				&::before {
+					opacity: 0;
+				}
 			}
 		}
 	}
