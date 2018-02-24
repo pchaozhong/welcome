@@ -6,15 +6,18 @@ body
 
   include mixin/mail_form
 
-  .p-page
+  .p-page.p-page-community
     main.l-main
-      .p-cover-header.p-cover-header--community
+      .p-cover-header.p-cover-header--community.js-cover-header
         h2.p-cover-header__title COMMUNITY
 
       .container-fluid
         .p-block
           .p-title.p-title--center 
-            h3.p-title__header #{community.header}
+            h3.p-title__header 
+              | #{community.header.body_line_1}
+              br.u-sp-only
+              | #{community.header.body_line_2}
             p.p-title__body #{community.body}
 
           .p-community-cards
@@ -54,8 +57,8 @@ body
           .col-md-4 
             h3.p-title__header
               |
-              span #{ambassador_program.header_line_1}
-              br
+              span #{ambassador_program.header_line_1} 
+              br.u-pc-only
               span #{ambassador_program.header_line_2}
           .col-md-8.p-title__body
               p #{ambassador_program.body}
