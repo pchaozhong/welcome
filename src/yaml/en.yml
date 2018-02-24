@@ -219,7 +219,9 @@ ambassador:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
 community:
-  header: Pioneering the Future, Together!
+  header: 
+    body_line_1: Pioneering the Future, 
+    body_line_2: Together!
   body: In order to obtain quality feedback, ALIS is constantly keeping the community updated on the latest news and developments, continuously seeking user suggestions and direction. Via this process of “crowdsourcing wisdom,” sound and successful ideas will tend to survive those not so solid, and we can move forward with the most practical and useful platform. Your activity is what makes ALIS successful. Let’s do it!
   twitter:
     name: TWITTER
