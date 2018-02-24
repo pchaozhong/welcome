@@ -149,8 +149,8 @@
     }
 
     .navbar__header {
+      @include font-title;
       display: block;
-      font-family: "Hiragino UD Serif Std";
       font-size: 2.8rem;
       letter-spacing: 4px;
       line-height: 1;
