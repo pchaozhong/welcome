@@ -8,7 +8,7 @@ body
 
   .p-page
     main.l-main
-      .p-cover-header.p-cover-header--about
+      .p-cover-header.p-cover-header--about.js-cover-header
         h2.p-cover-header__title ABOUT
 
       .container-fluid
@@ -17,7 +17,10 @@ body
             h3.p-title__header VISION
           .row.p-vision
             .col-md-12
-              p.p-vision__statement #{about.vision}
+              p.p-vision__statement 
+                | #{about.vision.body_line_1}
+                br.u-sp-only
+                | #{about.vision.body_line_2}
 
         .p-block
           .p-title--nobody.p-title--center

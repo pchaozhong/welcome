@@ -65,7 +65,9 @@ product:
   body_line_2: A community feedback feature has been made available, so please check out the mock-up, and let us know what you think!
   link: Click here for product development status
 about:
-  vision: Facilitate the connection of people through visualized trust
+  vision: 
+    body_line_1: Facilitate the connection of people through visualized trust
+    body_line_2: 
   mission:
     item1: Create a social media platform that enables users to find trustworthy articles and people quickly
     item2: Continuous improvement of concept, and flexibility for adjustment in order to maximize the accurate visualization of reliable people and information
