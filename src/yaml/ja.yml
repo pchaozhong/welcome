@@ -247,10 +247,10 @@ popup_registration:
     twitter: TWITTERアカウント ※任意
     url: ブログのURL ※任意
 sns_url: 
-  twitter: 
-  medium:
-  reddit:
-  discord:
-  trello:
-  github:
+  twitter: https://twitter.com/ALIS_media
+  medium: https://medium.com/@alismedia
+  reddit: https://www.reddit.com/r/Alis/
+  discord: https://discordapp.com/invite/b6T44q3
+  trello: https://trello.com/b/BBhg390G/alis
+  github: https://github.com/AlisProject
 
