@@ -209,19 +209,6 @@ $pages: "about", "team", "community", "product", "news";
   }
 }
 
-.p-well {
-  background: $color-background-light;
-  padding: 12rem;
-  margin: 8rem 0;
-  @include mq() {
-    padding: 60px $inner-padding-x-sp 40px;
-    margin-bottom: 40px;
-    .p-title__header {
-      text-align: left;
-    }
-  }
-}
-
 @mixin button($width: auto) {
   @include gradation;
   @include transition;
