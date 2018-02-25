@@ -4,9 +4,15 @@
 	padding: 40px 42px;
 	background-color: white;
 	margin-bottom: 4rem;
+	display: block;
 
 	&:hover {
 		cursor: pointer;
+		text-decoration: none;
+	}
+
+	&:active, &:focus {
+		text-decoration: none;
 	}
 
 	@include mq() {

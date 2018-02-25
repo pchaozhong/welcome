@@ -260,10 +260,12 @@ closedb:
   body: |
     ALISは2018年4月下旬から、必要最小限の機能を実装したプロダクトのβ版を用いた検証をスタートします。これはALISのユニークな部分である「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」をシャープに検証することを目的としています。
 news: 
-  category: PRESS RELEASE
-  date: JAN 15, 2018
-  header: NHKガイアの夜明けにて弊社CEOの安が出演
-  body: ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほ…
+  _02142018: 
+    category: UPDATE
+    date: Feb 14, 2018
+    header: FAQアップデート
+    body: コミュニティからいただいた質問と回答をご紹介します。主にクローズドβ版公開までの内容となります。
+    url: https://medium.com/@alismedia/alis-faq-2018%E5%B9%B42%E6%9C%88%E6%99%82%E7%82%B9-9f28fb4f0756
 popup_registration:
   header: REGISTRATION
   body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。

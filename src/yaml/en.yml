@@ -260,10 +260,12 @@ closedb:
   body: |
     From the end of April 2018, ALIS will begin the testing process via the launch of its beta version of the platform. The beta launch of ALIS will include minimal, basic functions. The goal of the beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
 news: 
-  category: PRESS RELEASE
-  date: JAN 15, 2018
-  header: NHKガイアの夜明けにて弊社CEOの安が出演
-  body: ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほ…
+  _02142018: 
+    category: UPDATE
+    date: Feb 14, 2018
+    header: ALIS FAQ UPDATE
+    body: we’ve compiled a list here featuring questions submitted from the community. 
+    url: https://medium.com/@alismedia/alis-faq-february-2018-4e3e43657ab9
 sns_url: 
   twitter: https://twitter.com/ALIS_media
   medium: https://medium.com/@alismedia
