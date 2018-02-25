@@ -292,7 +292,7 @@ $pages: "about", "team", "community", "product", "news";
   @include button;
 
   &--lg {
-    @include button(50%);
+    @include button(400px);
   }
 }
 
