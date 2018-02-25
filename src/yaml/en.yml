@@ -91,9 +91,9 @@ member:
       body: |
         Majoring in nuclear fusion research at Kyoto University, Yasu analyzed patterns of Alveun eigen mode excitation of helical plasmas via the Fortran language. He Joined Recruit Co., Ltd. (the parent company of Indeed) in 2011, leading business strategy development, working with business SNS development, and creating an innovative business card management application. Yasu also created referral tools, and lead  the creation of new business and their development direction. Actively working on machine learning and natural language analysis, and receiving the highest prize, called GROWTH FORUM, Yasu was awarded for developing and leading Recruit Co., Ltd’s planning in 2016. Afterwards he also serves as project leader for a joint project with Microsoft Japan. Upon encountering blockchain technology, he became immediately convinced that the tech would be a means by which to speed up the evolution of the world and society at large, even more so than AI or VR, and so created ALIS.
       role: FOUNDER / CEO
-      twitter: 
-      fb:
-      linkedin: 
+      twitter: https://twitter.com/MasahiroALIS
+      fb: https://www.facebook.com/masahiro.yasu.7
+      linkedin: https://www.linkedin.com/in/masahiro-yasu-a7108341/
     mizusawa:
       id: mizusawa
       name: TAKASHI MIZUSAWA
@@ -101,7 +101,7 @@ member:
         After creating a start-up company while studying at Ritsumeikan University, Mizusawa joined the Benesse Corporation. In just the first year, he received the marketing department MVP award, and gained new business experience in developing SNS systems for students and a new tablet technology for learning/study. After that, Mizusawa changed jobs, moving to Recruit Co., Ltd, with the aim of connecting his main goals of learning and working. In engaging in the business development of MOOC and referral adoption tools, Mizusawa devoted himself to developing a community co-creative business. He views the important role of marketing as the “creation source of value" with an aim to create ecosystems in which every contributor’s unique skills, values, and personalities lend themselves to the creation of successful, one-of-a-kind products.
       role: CO-FOUNDER / CMO
       twitter: 
-      fb:
+      fb: https://www.facebook.com/takashi.mizusawa
       linkedin:
     ishii:
       id: ishii
@@ -109,8 +109,8 @@ member:
       body: |
         An engineer with an industry history of over 13 years, Ishii is interested in new technologies and assisting inexperienced businesses, being a consciousness-oriented generalist, regardless of the roles or technologies concerned. He is convinced that the burgeoning tech trend of cryptocurrencies and blockchain technology will continue their rapid rise to mainstream popularity beginning around 2013, and become the biggest tech revolution the internet has seen. In the interest of promoting this trend, Ishii joined Yasu and Mizusawa, and started ALIS.
       role: CO-FOUNDER / CTO
-      twitter: 
-      fb:
+      twitter: https://twitter.com/sot528
+      fb: https://fb.me/sota.ishii
       linkedin:
     togashi:
       id: togashi 
@@ -130,9 +130,9 @@ member:
       body: |
         After graduating from Tokyo College, Kamei joined Recruit Co., Ltd through Toppan Printing. As a staff member of the Legal Division, he has worked as a legal professional in IT, web services, marketing, and recruiting. His specialization is in legal work for new, up-and-coming fields of business. In addition to legal affairs, Kamei is in charge of ALIS corporate functions in general, such as finance, tax, labor, and government agency negotiation. Kamei’s goal is to integrate ALIS seamlessly into the blockchain industry and field as a whole. In his free time, he participates in triathlons and marathons.
       role: LEAGAL DIVISION
-      twitter: 
-      fb:
-      linkedin:
+      twitter: https://twitter.com/chamoisth
+      fb: https://www.facebook.com/tatsuhiko.kamei.9
+      linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
     usagi: 
       id: usagi
       name: USAGI
@@ -140,8 +140,8 @@ member:
         Akagi studied branding design / cultural engineering design at Musashino Art University, and the relationship between emotional change, behavior and design. After graduation he was engaged in developing new services at DeNA and Recruit Jobs. After launching a new service as CXO of Emerada, elected one of Forbes's “50 Promising Startups,” Akagi joined ALIS. Visualizing information and advancing innovative ways of thinking and achieving goals is best done with designs that build on robust information structures. For PERSONA to IA design, all the way to the final user experience, the surface layer, Akagi believe the ALIS team’s unity of mind in advancing the development and evolution of ALIS is paramount.
       role: LEAD DESIGNER
       twitter: 
-      fb:
-      linkedin:
+      fb: https://www.facebook.com/kenta.akagi.1
+      linkedin: https://www.linkedin.com/in/kenta-akagi/
     gachiho: 
       id: gachiho
       name: GACHIHO
