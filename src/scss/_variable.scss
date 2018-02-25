@@ -34,7 +34,8 @@ $breakpoints: (
   'sm': 'screen and (max-width: 577px)',
   'md': 'screen and (max-width: 767px)',
   'lg': 'screen and (max-width: 993px)',
-  'xl': 'screen and (min-width: 1201px)',
+  'xl': 'screen and (max-width: 1201px)',
+  'xxl': 'screen and (max-width: 1441px)',
 ) !default;
 
 $breakpoints-min: (
@@ -42,6 +43,7 @@ $breakpoints-min: (
   'md': 'screen and (min-width: 768px)',
   'lg': 'screen and (min-width: 992px)',
   'xl': 'screen and (min-width: 1200px)',
+  'xxl': 'screen and (min-width: 1440px)',
 ) !default;
 
 // Mixin --------------------------------------------------

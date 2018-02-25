@@ -58,32 +58,36 @@ $pages: "about", "team", "community", "product", "news";
 .p-page {
   position: relative;
   padding-bottom: 100px;
-  // &::before {
-  //   content: "";
-  //   height: 800px;
-  //   position: absolute;
-  //   top: 400px;
-  //   max-width: 1440px;
-  //   width: 1440px;
-  //   padding: 0 48px;
-  //   margin: 0 auto;
-  //   background: url("/img/pc/bg_logo.png") no-repeat;
-  //   background-size: cover;
-  // }
-
-  @include mq() {
-    background-position: right 0px top 200px;
-    background-size: 310px;
-    padding-bottom: 20px;
+  &::before {
+    content: "";
+    background: url("/img/pc/bg_logo.png") no-repeat;
+    background-size: contain;
+    background-position: right 0px top 0;
+    height: 800px;
+    width: 100%;
+    max-width: 1440px;
+    position: absolute;
+    top: 400px;
+    padding: 0 48px;
+    margin: 0 auto;
+    left: calc(50% - 720px);
+    z-index: -1;
+    @include mq(xxl) {
+      left: 0;
+    }
+    @include mq() {
+      background-image: url("/img/sp/bg_logo.png");
+      top: 283px;
+      height: 483px;
+    }
   }
 }
 
-.p-page.is-bg-fixed {
-   background-attachment: fixed;
-   background-position: right 0px top 0px;
+.p-page.is-fixed::before {
+  position: fixed;
+  top: $navbar-height;
   @include mq() {
-    background-position: right 0px top 0px;
-    background-size: 310px;
+    top: calc(#{$navbar-height-sp} + 83px);
   }
 }
 
