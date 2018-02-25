@@ -3,13 +3,18 @@
 
 
 $(() => {
-  
-  // 現在の言語を判定
+
+  let checkLang = (path, reg) => {
+    let lang = (path.match(reg))?path.slice(1,3).toUpperCase():'EN';
+
+    return lang;
+  }
+
   let path = location.pathname.slice(0, 4),
       reg = /\/\w{2}\//,
       lang = '';
-  lang = (path.match(reg))?path.slice(1,3).toUpperCase():'EN';
-
+  
+  lang = checkLang(path, reg);
 
   $('.js-select-lang').text(lang);
 
@@ -24,6 +29,18 @@ $(() => {
     let nextLang = $(e.target).text();
     path = (path.match(reg))?location.pathname.slice(3):location.pathname;
     location.href = (nextLang == 'EN')?path:'/'+nextLang.toLowerCase()+path;
+  });
+
+  // 言語の引き継いだ画面遷移
+  $('.nav > li > a:not("[target]")').click(function(e){
+    e.preventDefault();
+    let lang = checkLang(path, reg).toLowerCase();
+    let nextUrl = $(this)[0].getAttribute('href');
+    if (lang !='en') {
+     nextUrl = '/'+lang+nextUrl;
+    }
+
+    location.href = nextUrl;
   });
 
   // 言語セレクトボックスのオープン
@@ -41,7 +58,6 @@ $(() => {
     $('body,html').animate({scrollTop: position}, speed, 'swing');
     return false;
   });
-
 
   // メニューの開閉
   $('.js-nav-toggler').on('click', function(){

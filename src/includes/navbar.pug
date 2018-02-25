@@ -5,19 +5,19 @@ block links
     <h3 class="navbar__header">MENU</h3>
     ul.nav.navbar-nav
       li
-        a.smooth-anchor(href='/about.html') #{navbar.about}
+        a(href='/about.html') #{navbar.about}
       li
-        a(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf', target="blank") #{navbar.whitepaper}
+        a(href='https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf', target="_blank") #{navbar.whitepaper}
       li
-        a.smooth-anchor(href='/community.html') #{navbar.community}
+        a(href='/community.html') #{navbar.community}
       li
-        a.smooth-anchor(href='/product.html') #{navbar.product}
+        a(href='/product.html') #{navbar.product}
       li
-        a.smooth-anchor(href='/team.html') #{navbar.team}
+        a(href='/team.html') #{navbar.team}
       li
-        a.smooth-anchor(href='/roadmap.html') #{navbar.roadmap}
+        a(href=sns_url.trello, target="_blank") #{navbar.roadmap}
       li
-        a.smooth-anchor(href='/news.html') #{navbar.news}
+        a(href='/news.html') #{navbar.news}
       li.u-pc-only
         .c-select
           span.c-select__lang.js-select-lang
