@@ -18,13 +18,17 @@
     height: auto;
     position: fixed;
     top: 180px;
-    right: 157px;
+    right: 13.75%;
     z-index: 1;
 
     &.is-fixed {
       position: fixed;
     }
     @include mq-min (xxl) {
+      right: calc(50% - 570px);
+    }
+    @include mq (xxl) {
+      width: 21.74%;
       right: 13.75%;
     }
     @include mq (lg) {
