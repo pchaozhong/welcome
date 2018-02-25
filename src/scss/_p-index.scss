@@ -272,7 +272,7 @@
   position: relative;
 
   &__img {
-    width: 800px;
+    width: 600px;
     height: auto;
     margin: 0 auto;
     max-width: 100%;
@@ -356,14 +356,16 @@
 .p-media-logos {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
   flex-wrap: wrap;
+  width: 814px;
 
   a {
     display: block;
   }
 
   @include mq() {
+    width: auto;
     margin-bottom: 0;
     justify-content: flex-start;
   }
