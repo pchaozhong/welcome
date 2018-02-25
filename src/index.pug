@@ -19,7 +19,7 @@ body
           .p-title__body 
             | #{project.body1}
 
-          ul.p-feature-list.js-feature-list
+          ul.p-feature-list(data-scroll="js-toggle-fix")
             li.p-feature-list__item
               p.p-feature-list__item-body
                 | #{project.feature_list.item1_body1}
@@ -40,7 +40,7 @@ body
 
       // MEDIA APPEARANCE
       section.p-section
-        .p-title.p-title--center.p-title--nobody
+        .p-title.p-title--nobody
           h3.p-title__header MEDIA APPEARANCE
         // media logos
         .p-media-logos
@@ -105,7 +105,7 @@ body
 
       // EXCHANGE
       section.p-section
-        .p-title.p-title--center.p-title--nobody
+        .p-title.p-title--nobody
           h3.p-title__header EXCHANGE
 
         .p-exchange
