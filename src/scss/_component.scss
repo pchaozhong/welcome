@@ -2,12 +2,6 @@
     width: 44px;
     font-weight: bold;
 
-    &.u-sp-only {
-        position: absolute;
-        right: 44px;
-        top: 21px;
-    }
-
     &__lang {
         position: relative;
         @include font-nomal;
