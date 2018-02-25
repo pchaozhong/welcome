@@ -8,7 +8,7 @@ body
 
   .p-page.p-page-product
     main.l-main
-      .p-cover-header.p-cover-header--product
+      .p-cover-header.p-cover-header--product.js-cover-header
         h2.p-cover-header__title PRODUCT
 
       .container-fluid
@@ -17,8 +17,9 @@ body
             h3.p-title__header #{registration.header}
             p.p-title__body
               | #{registration.body_line_1}
-              br.u-pc-only
               | #{registration.body_line_2}
+              br.u-pc-only
+              | #{registration.body_line_3}
             a.p-button.p-button--lg.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{button.applyforbeta}
 
         .p-block
