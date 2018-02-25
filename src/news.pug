@@ -8,28 +8,28 @@ body
 
   .p-page
     main.l-main
-      .p-cover-header.p-cover-header--news
+      .p-cover-header.p-cover-header--news.js-cover-header
         h2.p-cover-header__title NEWS
 
       .container-fluid
         .p-block--lg
           .row.p-news-cards
             include mixin/news_card
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
                 news.date,
                 news.header,
                 news.body)  
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
                 news.date,
                 news.header,
                 news.body)  
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
@@ -37,21 +37,21 @@ body
                 news.header,
                 news.body) 
           .row
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
                 news.date,
                 news.header,
                 news.body)  
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
                 news.date,
                 news.header,
                 news.body)  
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
@@ -59,21 +59,21 @@ body
                 news.header,
                 news.body) 
           .row
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
                 news.date,
                 news.header,
                 news.body)  
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
                 news.date,
                 news.header,
                 news.body)  
-            .col-sm-4
+            .col-lg-4
               .p-news-card.p-news-card--twitter
                 +news_card(
                 news.category, 
