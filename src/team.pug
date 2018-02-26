@@ -73,16 +73,11 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--usa 
-                  span.p-ambassador__country UNITED STATES OF AMERICA
+                  span.p-ambassador__flag--argentina 
+                  span.p-ambassador__country ARGENTINA
                 .col-lg-6
                   .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.adam.name, ambassador.profile.adam.url)
-              li.row.p-ambassador__list-item
-                .col-lg-6
-                .col-lg-6
-                  .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.dmitry.name, ambassador.profile.dmitry.url)
+                    +team_ambassador(ambassador.profile.fernando.name, ambassador.profile.fernando.url)
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
@@ -94,19 +89,11 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--uk
-                  span.p-ambassador__country UNITED KINGDOM
+                  span.p-ambassador__flag--china
+                  span.p-ambassador__country CHINA
                 .col-lg-6
                   .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.takuya.name, ambassador.profile.takuya.url)
-            ul.p-ambassador__list
-              li.row.p-ambassador__list-item
-                .col-lg-6
-                  span.p-ambassador__flag--netherlands
-                  span.p-ambassador__country NETHERLANDS
-                .col-lg-6
-                  .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.jimmy.name, ambassador.profile.jimmy.url)
+                    +team_ambassador(ambassador.profile.peter.name, ambassador.profile.peter.url, "is-disabled")
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
@@ -118,19 +105,19 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--china
-                  span.p-ambassador__country CHINA
+                  span.p-ambassador__flag--malaysia
+                  span.p-ambassador__country MALAYSIA
                 .col-lg-6
                   .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.peter.name, ambassador.profile.peter.url, "is-disabled")
+                    +team_ambassador(ambassador.profile.neowhite.name, ambassador.profile.neowhite.url)
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--taiwan 
-                  span.p-ambassador__country TAIWAN
+                  span.p-ambassador__flag--netherlands
+                  span.p-ambassador__country NETHERLANDS
                 .col-lg-6
                   .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.ian.name, ambassador.profile.ian.url)
+                    +team_ambassador(ambassador.profile.jimmy.name, ambassador.profile.jimmy.url)
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
@@ -142,48 +129,32 @@ body
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--malaysia
-                  span.p-ambassador__country MALAYSIA
+                  span.p-ambassador__flag--taiwan 
+                  span.p-ambassador__country TAIWAN
                 .col-lg-6
                   .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.neowhite.name, ambassador.profile.neowhite.url)
+                    +team_ambassador(ambassador.profile.ian.name, ambassador.profile.ian.url)
             ul.p-ambassador__list
               li.row.p-ambassador__list-item
                 .col-lg-6
-                  span.p-ambassador__flag--argentina 
-                  span.p-ambassador__country ARGENTINA
+                  span.p-ambassador__flag--uk
+                  span.p-ambassador__country UNITED KINGDOM
                 .col-lg-6
                   .p-ambassador__profile
-                    +team_ambassador(ambassador.profile.fernando.name, ambassador.profile.fernando.url)
-
-          //- .p-ambassador
-          //-   .row
-          //-     .col-md-12
-          //-     include mixin/team_ambassador
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.seiya.name, 'Japan', ambassador.profile.seiya.body)(src='/img/pc/img_jpn.png')
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.ricky.name, 'Japan', ambassador.profile.ricky.body)(src='/img/pc/img_jpn.png')
-          //-   .row
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.wine.name, 'Japan', ambassador.profile.wine.body)(src='/img/pc/img_jpn.png')
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.edindin.name, 'Japan', ambassador.profile.edindin.body)(src='/img/pc/img_jpn.png')
-          //-   .row
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.ueno.name, 'Japan', ambassador.profile.ueno.body)(src='/img/pc/img_jpn.png')
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.adam.name, 'USA', ambassador.profile.adam.body)(src='/img/pc/img_usa.png')
-          //-   .row
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.mito.name, 'USA', ambassador.profile.mito.body)(src='/img/pc/img_usa_nl.png')
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.phillip.name, 'Chia', ambassador.profile.phillip.body)(src='/img/pc/img_china.png')
-          //-   .row
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.fernando.name, 'Argentine', ambassador.profile.fernando.body)(src='/img/pc/img_argentine.png')
-          //-     .col-lg-6.p-ambassador__profile
-          //-       +team_ambassador(ambassador.profile.ian.name, 'Taiwan', ambassador.profile.ian.body)(src='/img/pc/img_taiwan.png')
+                    +team_ambassador(ambassador.profile.takuya.name, ambassador.profile.takuya.url)
+            ul.p-ambassador__list
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                  span.p-ambassador__flag--usa 
+                  span.p-ambassador__country UNITED STATES OF AMERICA
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.adam.name, ambassador.profile.adam.url)
+              li.row.p-ambassador__list-item
+                .col-lg-6
+                .col-lg-6
+                  .p-ambassador__profile
+                    +team_ambassador(ambassador.profile.dmitry.name, ambassador.profile.dmitry.url)
 
     .l-overlay#js-overlay
       include mixin/popup_member
