@@ -12,32 +12,32 @@ body
         h2.p-cover-header__title PRODUCT
 
       .container-fluid
-        .p-block.p-registration-block
-          .p-title.p-title--center.text-center 
+        .p-block.p-block--xs.p-registration-block
+          .p-title.p-title--center
             h3.p-title__header #{registration.header}
             p.p-title__body
               | #{registration.body_line_1}
               | #{registration.body_line_2}
-              br.u-pc-only
               | #{registration.body_line_3}
+          .text-center
             a.p-button.p-button--lg.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{button.applyforbeta}
 
-        .p-block
+        .p-block.p-block--xs
           .p-title.p-title--center 
             h3.p-title__header #{closedb.header}
             p.p-title__body #{closedb.body}
           .text-center
             a.p-button.p-button--lg(href="", target='_blank') #{button.detail}
 
-        .row.p-block
-          .col-md-4
-            h3.p-title__header #{product.header}
-            p.p-title__body
-              | #{product.body_line_1}
-              br
-              | #{product.body_line_2}
-          .col-md-8.text-center
-            img.p-product__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
+        .row.p-block.p-block--xs
+          .p-product-block
+            .p-product-block__text
+              h3.p-title__header #{product.header}
+              p.p-title__body
+                | #{product.body_line_1}
+                | #{product.body_line_2}
+            .p-product-block__img-wrapper
+              img.p-product-block__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
           .col-md-12.text-center
             .p-product__btns
               a.p-product__button(href="#") #{button.mock_pc}
