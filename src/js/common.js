@@ -80,30 +80,26 @@ $(() => {
   $('[data-popup]').click(function(){
     const target = $(this).data('popup');
     $('#js-popup-'+target).addClass('is-on');
-    $('#js-overlay').addClass('is-on');
   })
 
-  $('.js-exit-popup').click(function(){
-    $(this).parent().removeClass('is-on');
-    $('#js-overlay').removeClass('is-on');
+  $('[data-exit]').click(function(){
+    const target = $(this).data('exit');
+    $('#js-popup-'+target).removeClass('is-on');
   });
 
 
   if($('[data-scroll]').length > 0) {
-
     let targetClass = $('[data-scroll]').data('scroll');
     let target = $("."+targetClass);
     let targetOrgTop = target.offset().top;
     let firePosition = $('[data-scroll]').offset().top + $('[data-scroll]').height() - target.height();
 
     $(window).scroll(function() {
-
       if ($(window).scrollTop() + targetOrgTop + 112 > firePosition ) {
         target.css({'top': firePosition+'px', 'position': 'absolute' });
       }else{
         target.css({'top': ($(window).scrollTop()/8)+targetOrgTop+'px', 'position': 'fixed'});
       }
-      
     });
   }
 

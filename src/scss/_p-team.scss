@@ -1,4 +1,4 @@
-.p-member, .p-popup-member {
+.p-member {
 	&__list {
 		padding: 0;
 		@include mq() {
@@ -28,6 +28,9 @@
 		list-style: none;
 		text-align: center;
 		margin-bottom: 80px;
+		&:hover {
+			cursor: pointer;
+		}
 		@include mq() {
 			margin-bottom: 60px;
 		}
@@ -59,6 +62,113 @@
 		}
 	}
 }
+
+.p-popup-member {
+
+  &__title {
+    padding-left: 20px;
+    @include mq() {
+      padding-left: 0;
+    }
+  }
+  &__img {
+    margin-bottom: 12px;
+    width: 160px;
+    @include mq() {
+      width: 120px;
+    }
+  }
+  &__name {
+    margin-top: 1.8em;
+    margin-bottom: 8px;
+    font-size: 2.4rem;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: $color-text-secondary;
+
+    @include mq() {
+      font-size: 1.6rem;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 0px;
+      margin-top: 0;
+    }
+  }
+  &__role {
+    margin-top: 0;
+    font-size: 1.4rem;
+    line-height: 1.28;
+    letter-spacing: 1px;
+    color: $color-text-secondary;
+    @include mq() {
+      margin-bottom: 16px;
+    }
+  }
+  &__row {
+    display: flex;
+    margin-bottom: 36px;
+    @include mq() {
+    	margin-bottom: 10px;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  &__body {
+    font-size: 1.6rem;
+    line-height: 2;
+    color: $color-text-secondary;
+    @include mq() {
+      font-size: 1.2rem;
+      max-height: 218px;
+      overflow-y: scroll;
+      padding-right: 10px;
+
+      &::-webkit-scrollbar {
+          width: 4px;
+      }
+  
+      &::-webkit-scrollbar-track {
+        border-radius: 7.5px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: $color-purple-light;
+        border: solid 1px #979797;
+        border-radius: 7.5px;
+        box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
+      }
+
+    }
+  } 
+  &__content {
+    margin-left: 16px;
+  }
+
+  &__sns {
+    .p-icon {
+      margin: 10px;
+      &:first-child {
+      	margin-left: 0;
+      }
+    }
+  }
+}
+
+.p-icon {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+
+  $sns: "twitter", "facebook", "linkedin";
+  @each $icon in $sns {
+    &--#{$icon} {
+      background: url("/img/sp/btn_#{$icon}.png") no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
 
 .p-index {
 	.p-member__profile {
