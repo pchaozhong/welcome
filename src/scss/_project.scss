@@ -189,6 +189,12 @@ $pages: "about", "team", "community", "product", "news";
   }
 }
 
+.is-ja .p-title {
+  &__body {
+    @include title-body('ja');
+  }
+}
+
 .p-title--center {
   @extend .p-title;
 

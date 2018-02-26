@@ -137,25 +137,31 @@ $breakpoints-min: (
   }
 }
 
-@mixin title-body() {
-    margin-bottom: 8rem;
+@mixin title-body($lang: 'en') {
+  
+  @if $lang == 'ja' {
+    font-size: 1.6rem;
+  }@else{
+    font-size: 1.4rem;
+  }
+
+  margin-bottom: 8rem;
+  line-height: 2;
+  letter-spacing: 3px;
+
+  @include mq() {
+    margin-top: 0;
     font-size: 1.6rem;
     line-height: 2;
-    letter-spacing: 3px;
+    text-align: left;
+    margin-bottom: 4rem;
+  } 
 
-    @include mq() {
-      margin-top: 0;
-      font-size: 1.6rem;
-      line-height: 2;
-      text-align: left;
-      margin-bottom: 4rem;
-    } 
-
-    @include mq(sm) {
-      font-size: 1.4rem;
-      letter-spacing: 0.5px;
-      margin-bottom: 2rem;
-    }
+  @include mq(sm) {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+  }
 }
 
 @mixin box-shadow($hover: true) {
