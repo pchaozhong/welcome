@@ -31,8 +31,10 @@
   }
 }
 
-$pages: "about", "team", "community", "product", "news";
+
 // 各ページごとのカバー画像指定
+$pages: "about", "team", "community", "product", "news";
+
 .p-cover-header {
   @each $page in $pages {
     @extend .p-cover-header;
@@ -62,7 +64,7 @@ $pages: "about", "team", "community", "product", "news";
     content: "";
     background: url("/img/pc/bg_logo.png") no-repeat;
     background-size: contain;
-    background-position: right 0px top 0;
+    background-position: right -241px top 0;
     height: 800px;
     width: 100%;
     max-width: 1440px;
