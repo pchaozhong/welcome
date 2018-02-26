@@ -85,6 +85,7 @@ member:
   body: contributing to ALIS every day.
   profile:
     yasu:
+      id: yasu
       name: MASAHIRO YASU
       body: |
         京都大学において核融合の研究を専攻し、ヘリカル型プラズマのアルヴェン固有モード励起のパターンをFortran言語で解析。
@@ -97,6 +98,7 @@ member:
       fb: https://www.facebook.com/masahiro.yasu.7
       linkedin: https://www.linkedin.com/in/masahiro-yasu-a7108341/
     mizusawa:
+      id: mizusawa
       name: TAKASHI MIZUSAWA
       body: |
         立命館大学在学中にスタートアップ企業を立ち上げた後、ベネッセコーポレーションに入社。わずか1年目にして全社組織のマーケティング部門MVPを受賞し、学生向けSNSや学習用タブレットの新規事業を経験。
@@ -108,6 +110,7 @@ member:
       fb: https://www.facebook.com/takashi.mizusawa
       linkedin:
     ishii:
+      id: ishii
       name: SOTA ISHII
       body: |
         業界歴13年超のエンジニア。新技術や未経験の業務を好み、役割や技術を問わず意識的にゼネラリストを指向。 暗号通貨、ブロックチェーンの技術動向は2013年より追っておりWEBの「次」を作る中核技術であると確信している。
@@ -117,6 +120,7 @@ member:
       fb: https://fb.me/sota.ishii
       linkedin:
     togashi: 
+      id: togashi
       name: KEIJU TOGASHI
       body: |
         エンジニア経験は12年を超え、内数年はサービス企画チームとしても従事。
@@ -128,6 +132,7 @@ member:
       fb:
       linkedin:      
     kamei:
+      id: kamei
       name: TATSUHIKO KAMEI
       body: |
         東京⼤学を卒業後、凸版印刷を経てリクルートキャリアに⼊社。法務部⾨のスタッフとして、IT や Web サービス、マーケティング、⼈材採⽤周りに関する法務として活躍。特に新規事業領域における法務業務を得意とする。
@@ -137,6 +142,7 @@ member:
       fb: https://www.facebook.com/tatsuhiko.kamei.9
       linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
     usagi: 
+      id: usagi
       name: USAGI
       body: |
         武蔵野美術大学にてブランディングデザイン・カルチュラルエンジニアリングデザインを選考。感情の変化、行動とデザインの関係を研究。卒業後はDeNA・リクルートジョブズにて新規サービスの開発に従事。Forbesの"スタートアップの有望株 厳選50社"に選出されたエメラダでCXOとして新規サービスの立上げを行った後、ALISへジョイン。情報を視覚化し、物体的に捉えた時のそのあり方や、情報が一過性ではなく育っていくようなデザインの実現を進める。ペルソナの設計からIA、表層部のデザインまで一気通貫で進めている。
@@ -144,7 +150,8 @@ member:
       twitter: 
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
-    gachiho: 
+    gachiho:
+      id: gachiho 
       name: GACHIHO
       body: |
         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -153,6 +160,7 @@ member:
       fb:
       linkedin:
     kubori:
+      id: kubori
       name: CHIKA KUBORI
       body: |
         大阪芸術大学にてグラフィックデザインを専攻しブランディング・タイポグラフィを基軸としたデザインを研究。在学中、大阪中ノ島公会堂にてOSAKA DESIGN FORUM2011を開催・メインビジュアルを担当。卒業後、広告制作会社にて企画・提案・パッケージデザイン・コーディング等幅広い事業に従事。その後フリーランスとして独立。グラフィックデザイン・Webデザインを主に、出身地である和歌山県の一次産業にスポットライトを当てた新規事業の立ち上げ等を行なっている。
