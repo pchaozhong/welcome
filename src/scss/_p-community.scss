@@ -11,8 +11,13 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 	display: flex;
 	justify-content: space-between;
 
-	@include mq(lg) {
+	@media screen and (max-width: 1260px) {
+		width: 720px;
 		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	@include mq(lg) {
+		width: 100%;
 	}
 	@include mq() {
 		flex-direction: column;
@@ -37,8 +42,8 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 		text-decoration: none;
 	}
 
-	@media screen and (max-width: 1280px) {
-		padding: 24px 16px;
+	@media screen and (max-width: 1260px) {
+		margin-bottom: 5%;
 	}
 
 	@include mq() {
@@ -55,9 +60,11 @@ $communities: "twitter", "medium", "discord", "reddit", "github";
 		width: 60px;
 		max-width: 60px;
 		height: 60px;
-		@include mq() {
+		@media screen and (max-width: 1260px) {
 			width: 48px;
 			height: 48px;
+		}
+		@include mq() {
 			max-width: 48px;
 			min-width: 48px;
 			margin: 0 40px;
