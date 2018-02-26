@@ -344,7 +344,7 @@
   &__img {
     height: 54px;
     width: auto;
-    margin: 10px 30px;
+    margin: 16px 30px;
     @include mq(lg) {
       margin: 28px 30px
     }
@@ -359,9 +359,6 @@
       height: 40px;
       margin-bottom: 24px;
       margin-right: 2.4rem;
-      &:last-child {
-        margin-right: 0;
-      }
     }
   }
 }
@@ -378,7 +375,7 @@
   max-width: 680px;
 
   @include mq() {
-    max-width: 400px;
+    max-width: 100%;
     margin-bottom: 0;
     justify-content: flex-start;
   }
@@ -391,8 +388,11 @@
     max-width: 120px;
 
     @include mq() {
-      max-width: auto;
+      max-width: 100%;
       margin-bottom: 0; 
+    }
+    @include mq(sm) {
+      margin: 0;
     }
   }
 
@@ -402,9 +402,11 @@
     @include mq() {
       height: 48px;
       width: auto;
-      max-width: 170px;
-      margin-right: 24px;
+      margin-right: 40px;
       margin-bottom: 24px;
+    }
+    @include mq(sm) {
+      height: 40px;
     }
   }
 }
