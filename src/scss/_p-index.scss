@@ -50,6 +50,10 @@
 /* Cover
 -------------------------------------------------- */
 .p-cover {
+  @include mq-min(xxl) {
+    padding-bottom: 120px;
+    height: auto;
+  }
   margin-top: calc(#{$navbar-height} + #{$navbar-mb});
   height: calc(100vh - #{$navbar-height} - #{$navbar-mb});
   background-image: url("/img/pc/img_top.jpg");
