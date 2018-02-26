@@ -2,6 +2,11 @@
 	@include mq() {
 		margin-bottom: 60px;
 	}
+	@include mq(lg) {
+		.p-product__button {
+			margin-bottom: 16px;
+		}
+	}
 }
 
 .p-registration-block {
@@ -13,16 +18,33 @@
 
 .p-product-block {
 	display: flex;
+	@include mq(lg) {
+		flex-direction: column;
+		.p-title__body {
+			margin-bottom: 40px;
+		}
+	}
 
 	&__text {
 		max-width: 413px;
 		margin-right: 40px;	
+		@include mq(lg) {
+			max-width: 100%;
+			margin-right: 0;
+		}
 	}
 
 	&__img-wrapper {
+		@include mq(lg) {
+			text-align: center;
+		}
 		>img {
 			width: 456px;
 			height: auto;
+			@include mq(lg) {
+				width: 100%;
+				height: auto;
+			}
 		}
 	}
 }
