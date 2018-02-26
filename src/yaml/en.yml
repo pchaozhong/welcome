@@ -73,12 +73,24 @@ about:
     item2: Continuous improvement of concept, and flexibility for adjustment in order to maximize the accurate visualization of reliable people and information
     item3: Realize an autonomously developing economic system made possible via blockchain technology and a token economy
   value: 
-    item1: Rather than trying to accomplish something alone, combining the wisdom of everyone is an indispensable element in creating a new business. We cherish the interdependent business creation process, working together with a wealth of various ideas, rather than alone, with few.
-    item2: Instead of compromising our basic philosophy with over-complicated explanations and convoluted functions, we think the most important thing is to make a simple and concise product that can be used by everyone.
-    item3: No amount of mere talk can bring provide verification of trustworthiness, or bring real value as we wish to bring to our users. We aim to provide real value in continuously improving our product. A large part of this process involves listening to and successfully and reliably applying user feedback.
-    item4: In addition to responding to user expectations, we will continuously provide the "WOW” experience, exceeding user expectations in as many ways as possible, delivering a product that always has—even in small ways—pleasant surprises.
-    item5: In unexplored and new areas full of potential, you can learn a lot by jumping in first. Though there may be an enemy lurking down there, the first penguin in the water takes this risk boldly anyway, and often gets the most fish!
-    item6: In the development of community products, individuals should not just wait around to "see what happens," but take an active role in making contributions and suggestions, according to their own unique wants, needs, and visions. This can make for a robust discussion, and a well-rounded product!
+    item1: 
+      header: Alliance and Wisdom
+      body: Rather than trying to accomplish something alone, combining the wisdom of everyone is an indispensable element in creating a new business. We cherish the interdependent business creation process, working together with a wealth of various ideas, rather than alone, with few.
+    item2: 
+      header: Keep it short and simple
+      body: Instead of compromising our basic philosophy with over-complicated explanations and convoluted functions, we think the most important thing is to make a simple and concise product that can be used by everyone.
+    item3: 
+      header: 言葉よりプロダクトで議論する
+      body: No amount of mere talk can bring provide verification of trustworthiness, or bring real value as we wish to bring to our users. We aim to provide real value in continuously improving our product. A large part of this process involves listening to and successfully and reliably applying user feedback.
+    item4: 
+      header: ユーザーのWowを創る
+      body: In addition to responding to user expectations, we will continuously provide the "WOW” experience, exceeding user expectations in as many ways as possible, delivering a product that always has—even in small ways—pleasant surprises.
+    item5: 
+      header: Be the first penguin
+      body: In unexplored and new areas full of potential, you can learn a lot by jumping in first. Though there may be an enemy lurking down there, the first penguin in the water takes this risk boldly anyway, and often gets the most fish!
+    item6: 
+      header: Passion as subject
+      body: In the development of community products, individuals should not just wait around to "see what happens," but take an active role in making contributions and suggestions, according to their own unique wants, needs, and visions. This can make for a robust discussion, and a well-rounded product!
 team:
   header: TEAM
 member:

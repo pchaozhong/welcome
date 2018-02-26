@@ -63,78 +63,45 @@
 	}
 
 	.col-md-4 {
-		@include mq() {
-			margin-bottom: 40px;
+		color: $color-text-secondary;
+		@include mq(lg) {
+			margin-bottom: 36px;
 		}
 	}
 
 	&__item-header {
 		max-width: 360px;
 		margin-top: 0;
-		margin-bottom: 30px;
-		height: 20px;
-		text-indent: 100%; 
+		margin-bottom: 20px;
+		font-size: 1.6rem;
+		line-height: 1.5;
+		letter-spacing: 2px;
 		white-space: nowrap; 
 		overflow: hidden;
-		 
+		background: linear-gradient(90deg, $color-text-gradation-start, $color-text-gradation-end);
+		background-clip: text;
+		text-fill-color: transparent;		
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
+
 		@include mq() {
-			height: 11px;
 			width: auto;
 			margin: 0;
-			margin-bottom: 16px;
+			margin-bottom: 11px;
 		}
 	}
 
 	&__body {
 		margin: 0;
+		font-size: 1.2rem;
+		line-height: 2;
+		letter-spacing: 3px;
+		text-align: left;
 		@include mq(sm) {
 			letter-spacing: 0;
-			font-size: 1.3rem;			
+			font-size: 1.2rem;
+			line-height: 1.5;		
 		}
 	}
-
-	@for $i from 1 through 6 {
-		.p-value__item-header--#{$i} {
-			background: url("/img/pc/value_#{$i}_en.png") no-repeat;
-			background-size: contain;
-			@if $i == 3 {
-				height: 40px;
-			}
-
-			@include mq() {
-				height: 13px;
-				background: url("/img/sp/value_#{$i}_en.png") no-repeat;
-				background-size: contain;
-				@if $i == 3 {
-					background-size: cover;
-				}
-			}
-		}
-	}	
-
-	&__body {
-		text-align: left;
-	}
 }
-
-.is-ja .p-value {
-	@for $i from 1 through 6 {
-		.p-value__item-header--#{$i} {
-			background: url("/img/pc/value_#{$i}.png") no-repeat;
-			background-size: contain;
-			@if $i == 3 {
-				height: 20px;
-			}
-
-			@include mq() {
-				height: 13px;
-				background: url("/img/sp/value_#{$i}.png") no-repeat;
-				background-size: contain;
-				@if $i == 3 {
-					background-size: contain;
-				}
-			}
-		}
-	}		
-}
-
