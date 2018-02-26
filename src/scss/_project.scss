@@ -100,7 +100,7 @@ $pages: "about", "team", "community", "product", "news";
     }
 
     .row {
-      padding: 0 $inner-padding-x-sp;
+      padding: 0 $main-padding-x-sp;
     }
   }
 }
@@ -115,7 +115,7 @@ $pages: "about", "team", "community", "product", "news";
   .p-section {
     padding-top: 160px;
     @include mq() {
-      padding: 0 $inner-padding-x-sp;
+      padding: 0 $main-padding-x-sp;
     }
   }
 }
@@ -205,10 +205,10 @@ $pages: "about", "team", "community", "product", "news";
     }
   }
 
-  @include mq() {
-    &.text-center {
+  &.text-center {
+    @include mq() {
       .p-title__header, .p-title__body {
-        text-align: center;
+        text-align: left;
       }
     }
   }
@@ -226,8 +226,12 @@ $pages: "about", "team", "community", "product", "news";
 
 .p-title--ourproject {
   width: 640px;
-  @include mq() {
+  @include mq(xxl) {
+    max-width: 66%
+  }
+  @include mq(lg) {
     width: 100%;
+    max-width: 100%;
   }
 }
 

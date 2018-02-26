@@ -32,14 +32,14 @@
 }
 
 .l-main {
-	@include make-inner;
+	@include make-main-container;
 	@include mq() {
 		padding: 0;
 	}
 }
 
 .p-page .l-main{
-  @include make-inner;
+  @include make-main-container;
 }
 
 /* Footer
