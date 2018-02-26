@@ -12,14 +12,14 @@ body
         h2.p-cover-header__title COMMUNITY
 
       .container-fluid
-        .p-block
+        .p-block.p-block--xs.u-pb-0
           .p-title.p-title--center 
             h3.p-title__header 
               | #{community.header.body_line_1}
               br.u-sp-only
               | #{community.header.body_line_2}
             p.p-title__body #{community.body}
-
+        .p-block.u-pt-0
           .p-community-cards
             include mixin/community_card
             a(href=sns_url.twitter, target="_blank").p-community-card.p-community-card--twitter
@@ -53,22 +53,14 @@ body
               community.github.body_line_2,
               community.github.body_line_3)
 
-        .row.p-block.p-ambassador-program
-          .col-md-4 
+        .p-block.p-block--xs
+          .p-title.p-title--center 
             h3.p-title__header
               |
               span #{ambassador_program.header_line_1} 
-              br.u-pc-only
               span #{ambassador_program.header_line_2}
-          .col-md-8.p-title__body
-              p #{ambassador_program.body}
+            p.p-title__body #{ambassador_program.body}
 
-        .p-block
-          .p-title.p-title--center
-            h3.p-title__header #{goods.header}
-            p.p-title__body #{goods.body}
-          .text-center
-            a.p-button--lg(href="" target="_blank") #{button.seegoods}
 
   // Footer
   #meetus
