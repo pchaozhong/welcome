@@ -32,7 +32,7 @@ $(() => {
   });
 
   // 言語の引き継いだ画面遷移
-  $('.nav > li > a:not("[target]")').click(function(e){
+  $('#navbar-header a:not("[target]")').click(function(e){
     e.preventDefault();
     let lang = checkLang(path, reg).toLowerCase();
     let nextUrl = $(this)[0].getAttribute('href');
