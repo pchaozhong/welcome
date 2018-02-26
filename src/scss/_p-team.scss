@@ -118,27 +118,27 @@
     font-size: 1.6rem;
     line-height: 2;
     color: $color-text-secondary;
+    overflow-y: scroll;
+    max-height: 228px;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 7.5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-purple-light;
+      border: solid 1px #979797;
+      border-radius: 7.5px;
+      box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
+    }
     @include mq() {
       font-size: 1.2rem;
       max-height: 218px;
-      overflow-y: scroll;
       padding-right: 10px;
-
-      &::-webkit-scrollbar {
-          width: 4px;
-      }
-  
-      &::-webkit-scrollbar-track {
-        border-radius: 7.5px;
-      }
-
-      &::-webkit-scrollbar-thumb {
-        background-color: $color-purple-light;
-        border: solid 1px #979797;
-        border-radius: 7.5px;
-        box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
-      }
-
     }
   } 
   &__content {
