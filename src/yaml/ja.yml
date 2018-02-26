@@ -27,14 +27,14 @@ cover:
     second: 全く新しいソーシャルメディア
 registration:
   header: REGISTRATION
-  body_line_1: ALISでは4月に公開のALISβ版への参加者を募集しています。
-  body_line_2: ご興味をお持ちの方はβ版応募フォームよりご応募ください。
-  body_line_3: ※β版は日本でのみ公開となります。
+  body_line_1: ALISでは4月に公開のALISクローズドβへの参加者を募集しています。
+  body_line_2: ご興味をお持ちの方はクローズドβ応募フォームよりご応募ください。
+  body_line_3: ※クローズドβは日本でのみ公開となります。
   url: http://eepurl.com/diOWan
   popup:
     header: REGISTRATION
     body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
-    body_line_2: 随時β版登録のご連絡をさせていただきます。
+    body_line_2: 随時クローズドβ登録のご連絡をさせていただきます。
     label: 
       email: メールアドレス
       twitter: TWITTERアカウント ※任意
@@ -51,7 +51,7 @@ project:
     item3_body1: 日本発の
     item3_body2: ソーシャルメディア
 button:
-  applyforbeta: β版に応募する
+  applyforbeta: クローズドβに応募する
   readwhitepaper: WHITEPAPERを読む
   mock_pc: パソコンのモックを見る
   mock_sp: スマートフォンのモックを見る 
@@ -60,7 +60,7 @@ button:
   detail: 詳細はこちら
 product:
   header: PRODUCT
-  body_line_1: 現在ALISでは4月に公開予定のALISβ版に向けたデザインモックを公開しています。
+  body_line_1: 現在ALISでは4月中に公開予定のALISクローズドβに向けたデザインモックを公開しています。
   body_line_2: デザインモックへのフィードバックも可能ですのでぜひご覧ください。
   link: プロダクトの開発状況はこちら
 about:
@@ -258,18 +258,18 @@ goods:
 closedb:
   header: WHAT’S CLOSED β
   body: |
-    ALISは2018年4月下旬から、必要最小限の機能を実装したプロダクトのβ版を用いた検証をスタートします。これはALISのユニークな部分である「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」をシャープに検証することを目的としています。
+    ALISは2018年4月下旬から、必要最小限の機能を実装したプロダクトのクローズドβを用いた検証をスタートします。これはALISのユニークな部分である「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」をシャープに検証することを目的としています。
 news: 
   _02142018: 
     category: UPDATE
     date: Feb 14, 2018
     header: FAQアップデート
-    body: コミュニティからいただいた質問と回答をご紹介します。主にクローズドβ版公開までの内容となります。
+    body: コミュニティからいただいた質問と回答をご紹介します。主にクローズドβ公開までの内容となります。
     url: https://medium.com/@alismedia/alis-faq-2018%E5%B9%B42%E6%9C%88%E6%99%82%E7%82%B9-9f28fb4f0756
 popup_registration:
   header: REGISTRATION
   body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
-  body_line_2: 随時β版登録のご連絡をさせていただきます。
+  body_line_2: 随時クローズドβ登録のご連絡をさせていただきます。
   label: 
     email: メールアドレス
     twitter: TWITTERアカウント ※任意
