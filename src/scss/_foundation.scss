@@ -39,8 +39,7 @@ html {
 }
 
 body {
-  font-family: "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
-  Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  @include font-nomal;
   // padding-bottom: 40px;
   color: $color-text-primary;
   font-size: 1.4rem;
@@ -51,6 +50,10 @@ body {
   @include mq(sm) {
     margin-right: 0px!important;
   }
+}
+
+body.is-ja {
+  @include font-nomal('ja');
 }
 
 a {

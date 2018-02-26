@@ -102,9 +102,13 @@ $breakpoints-min: (
   font-family: "Times New Roman";
 }
 
-@mixin font-nomal() {
-  font-family: "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
-  Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+@mixin font-nomal($lang: 'en') {
+  @if $lang == 'ja' {
+    font-family: "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ,
+    Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  }@else{
+    font-family: 'Abel', sans-serif;
+  }
 }
 
 @mixin transition() {
