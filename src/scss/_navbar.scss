@@ -43,7 +43,7 @@
         top: 21px;
         right: 44px;
       }
-  }
+  } 
 
   .nav {
     @include font-title;
@@ -203,10 +203,11 @@
     float: left!important;
     margin: 0;
 
-    li {
+    > li {
       margin-bottom: 20px;
       clear: both;
     }
+
   }
 }
 
