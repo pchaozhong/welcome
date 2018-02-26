@@ -118,6 +118,13 @@ $(() => {
     });
   }
 
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 1) {
+      $('#navbar-header').addClass('is-on');
+    }else{
+      $('#navbar-header').removeClass('is-on');
+    }
+  });
 
 });
 

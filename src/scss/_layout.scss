@@ -25,7 +25,10 @@
 }
 
 .l-header {
-	padding-bottom: 32px;
+  @include transition;
+	&.is-on {
+    @include box-shadow(false);
+  }
 }
 
 .l-main {

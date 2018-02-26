@@ -26,9 +26,9 @@ $inner-index-padding-x: 150px;
 $body-width: 1440px;
 $inner-width: calc(#{$body-width} - #{$inner-padding-x*2});
 $inner-width-sp: calc(100% - #{$inner-padding-x-sp*2});
-$navbar-height: 84px;
+$navbar-height: 82px;
 $navbar-height-sp: 63px;
-$navbar-mb: 30px;
+$navbar-mb: 32px;
 
 $breakpoints: (
   'sm': 'screen and (max-width: 577px)',
@@ -73,10 +73,28 @@ $breakpoints-min: (
   }
 }
 
-@mixin box-shadow() {
-  box-shadow: 0 4px 10px 0 rgba(192,192,192,0.2);
-  &:hover {
-    box-shadow: 0 4px 8px 0 rgba(192,192,192,0.6);
+@mixin make-padding-x($xxl: $main-padding-x, $xl: $main-padding-x, $lg: $main-padding-x, $md: $main-padding-x-sp, $sm: $inner-padding-sp){
+  padding-right: $md;
+  padding-left: $md;
+  @include mq-min(xxl) {
+    padding-right: $xxl;
+    padding-left: $xxl;
+  }
+  @include mq(xl) {
+    padding-right: $xl;
+    padding-left: $xl;
+  }
+  @include mq(lg) {
+    padding-right: $lg;
+    padding-left: $lg;
+  }
+  @include mq(md) {
+    padding-right: _md;
+    padding-left: _md;
+  }
+  @include mq(sm) {
+    padding-right: $sm;
+    padding-left: $sm;
   }
 }
 
@@ -135,5 +153,16 @@ $breakpoints-min: (
       margin-bottom: 2rem;
     }
 }
+
+@mixin box-shadow($hover: true) {
+  box-shadow: 0 4px 10px 0 rgba(192,192,192,0.2);
+
+  @if $hover {
+    &:hover {
+      box-shadow: 0 4px 8px 0 rgba(192,192,192,0.6);
+    }
+  }
+}
+
 
 
