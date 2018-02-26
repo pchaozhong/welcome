@@ -240,9 +240,9 @@ community:
     body_line_3: 
   reddit:
     name: REDDIT
-    body_line_1: ほげほげほげ
-    body_line_2: ほげほげ
-    body_line_3: ほげほげほげ 
+    body_line_1: ALISに関する
+    body_line_2: 質疑応答が
+    body_line_3: したい
   github:
     name: GITHUB
     body_line_1: Check the progress of the ALIS platform and coin
