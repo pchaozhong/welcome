@@ -147,7 +147,7 @@ $breakpoints-min: (
 
   margin-bottom: 8rem;
   line-height: 2;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 
   @include mq() {
     margin-top: 0;
@@ -159,7 +159,6 @@ $breakpoints-min: (
 
   @include mq(sm) {
     font-size: 1.4rem;
-    letter-spacing: 0.5px;
     margin-bottom: 2rem;
   }
 }
