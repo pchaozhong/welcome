@@ -61,6 +61,11 @@ $pages: "about", "team", "community", "product", "news";
   position: relative;
   padding-bottom: 100px;
   &::before {
+    @include mq-min(xxl) {
+      max-width: 100%;
+      background-position: right calc(50% - 480px) top 0;
+      left: 0;
+    }
     content: "";
     background: url("/img/pc/bg_logo.png") no-repeat;
     background-size: contain;
