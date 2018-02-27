@@ -68,7 +68,7 @@ $(() => {
   });
 
   // メニュー以外押下でメニューを閉じる
-  $(document).click(function(event) {
+  $(document).on('click touchend', function(event) {
     if(!$(event.target).closest('#navbar').length && !$(event.target).closest('.js-nav-toggler').length ) {
       $('.js-nav-toggler').removeClass('is-on');
       $('#navbar').removeClass('is-on');
