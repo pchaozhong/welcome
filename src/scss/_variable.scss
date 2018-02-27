@@ -146,13 +146,14 @@ $breakpoints-min: (
   
   @if $lang == 'ja' {
     font-size: 1.6rem;
+    letter-spacing: 4px;
   }@else{
     font-size: 1.4rem;
+    letter-spacing: 2px;
   }
 
   margin-bottom: 8rem;
   line-height: 2;
-  letter-spacing: 4px;
 
   @include mq() {
     margin-top: 0;

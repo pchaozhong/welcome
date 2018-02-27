@@ -22,7 +22,7 @@
 	&__body {
 		font-size: 1.6rem;
 		line-height: 2;
-		letter-spacing: 4px;
+		letter-spacing: 2px;
 		max-width: 320px;
 		margin: 0 auto;
 		@include mq(lg) {
@@ -35,6 +35,12 @@
 			font-size: 1.4rem;
 			line-height: 1.5;
 		}
+	}
+}
+
+.is-ja {
+	.p-mission__body, .p-valu__body {
+		letter-spacing: 4px;
 	}
 }
 
