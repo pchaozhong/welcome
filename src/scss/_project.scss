@@ -61,6 +61,9 @@ $pages: "about", "team", "community", "product", "news";
 .p-page {
   position: relative;
   padding-bottom: 100px;
+  @include mq() {
+    overflow: hidden;
+  }
   &::before {
     @include mq-min(xxl) {
       max-width: 100%;
@@ -84,9 +87,10 @@ $pages: "about", "team", "community", "product", "news";
       left: 0;
     }
     @include mq() {
-      background-image: url("/img/sp/bg_logo.png");
-      top: 283px;
-      height: 483px;
+      top: 378px;
+      width: 100%;
+      background-position: right -166px top 0;
+      background-size: 475px 436px;
     }
   }
 }
