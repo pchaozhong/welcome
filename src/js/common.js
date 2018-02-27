@@ -95,10 +95,10 @@ $(() => {
     let firePosition = $('[data-scroll]').offset().top + $('[data-scroll]').height() - target.height();
 
     $(window).scroll(function() {
-      if ($(window).scrollTop() + targetOrgTop + 112 > firePosition ) {
+      if ($(window).scrollTop() + targetOrgTop + 104 > firePosition ) {
         target.css({'top': firePosition+'px', 'position': 'absolute' });
       }else{
-        target.css({'top': ($(window).scrollTop()/8)+targetOrgTop+'px', 'position': 'fixed'});
+        target.css({'top': ($(window).scrollTop()/8.5)+targetOrgTop+'px', 'position': 'fixed'});
       }
     });
   }
