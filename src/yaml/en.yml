@@ -252,9 +252,9 @@ community:
     body_line_3: 
   reddit:
     name: REDDIT
-    body_line_1: ALISに関する
-    body_line_2: 質疑応答が
-    body_line_3: したい
+    body_line_1: I would like 
+    body_line_2: to participate 
+    body_line_3: in an ALIS Q & A.
   github:
     name: GITHUB
     body_line_1: Check the progress of the ALIS platform and coin
