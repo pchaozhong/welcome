@@ -53,6 +53,7 @@ $pages: "about", "team", "community", "product", "news";
     }
     &--product {
       background: url("/img/sp/img_product.png") center center no-repeat;
+      background-size: 100%;
     }
   }
 }
