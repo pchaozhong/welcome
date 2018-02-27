@@ -147,10 +147,10 @@
 
   &__sns {
     .p-icon {
-      margin: 10px;
-      &:first-child {
-      	margin-left: 0;
-      }
+      margin: 10px 0;
+    }
+    .p-icon + .p-icon {
+    	margin-left: 10px;
     }
   }
 }
@@ -166,6 +166,10 @@
       background: url("/img/sp/btn_#{$icon}.png") no-repeat;
       background-size: cover;
     }
+  }
+
+  &:not([href]) {
+  	display: none;
   }
 }
 

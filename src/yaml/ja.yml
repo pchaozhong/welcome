@@ -45,23 +45,6 @@ project:
     item3_body1: 日本コミュニティを
     item3_body2: 中心に創り上げる
     item3_body3: プロダクト
-button:
-  applyforbeta: クローズドβに応募する
-  readwhitepaper: WHITEPAPERを読む
-  mock_pc: 
-    text: パソコンのモックを見る
-    link: https://invis.io/NVF0FSW2B
-  mock_sp: 
-    text: スマートフォンのモックを見る 
-    link: https://invis.io/GNF0FS8R8
-  seegoods: 
-    text: グッズを見る
-    link: グッズを見る
-  registration: 
-    text: 登録する
-    link: 登録する
-  detail: 
-    text: 詳細はこちら
 product:
   header: PRODUCT
   body_line_1: 現在ALISでは4月下旬に公開予定のALISクローズドβへの参加者を募集しています。
@@ -128,9 +111,9 @@ member:
         MOOCやリファラル採用ツールの事業開発に従事する中で、コミュニティ共創型の事業開発に没頭する。
         マーケティングの重要な役割を「価値の創造源」に位置づけ、一人ひとりの持ち味が発揮されやすいエコシステムの実現を目指す。
       role: CO-FOUNDER / CMO
-      twitter: 
+      twitter: https://twitter.com/takashi_mizu
       fb: https://www.facebook.com/takashi.mizusawa
-      linkedin:
+      linkedin: https://www.linkedin.com/in/takashialis/?locale=en_US
     ishii:
       id: ishii
       name: SOTA ISHII
@@ -140,7 +123,7 @@ member:
       role: CO-FOUNDER / CTO
       twitter: https://twitter.com/sot528
       fb: https://fb.me/sota.ishii
-      linkedin:
+      linkedin: 
     togashi: 
       id: togashi
       name: KEIJU TOGASHI
@@ -150,8 +133,8 @@ member:
         インターネット上の虚偽を可能な限り少なくしたいという思いから ALISへのジョインを決める。
         サービス設計から運用設計まで一貫したシステム開発を進めている。
       role: ENGINEER
-      twitter: 
-      fb:
+      twitter: https://twitter.com/keillera
+      fb: https://www.facebook.com/people/Keiju-Togashi/100005289070257
       linkedin:      
     kamei:
       id: kamei
@@ -169,7 +152,7 @@ member:
       body: |
         武蔵野美術大学にてブランディングデザイン・カルチュラルエンジニアリングデザインを選考。感情の変化、行動とデザインの関係を研究。卒業後はDeNA・リクルートジョブズにて新規サービスの開発に従事。Forbesの"スタートアップの有望株 厳選50社"に選出されたエメラダでCXOとして新規サービスの立上げを行った後、ALISへジョイン。情報を視覚化し、物体的に捉えた時のそのあり方や、情報が一過性ではなく育っていくようなデザインの実現を進める。ペルソナの設計からIA、表層部のデザインまで一気通貫で進めている。
       role: LEAD DESIGNER
-      twitter: 
+      twitter: https://twitter.com/AKG_FF0000
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
     gachiho:
@@ -187,7 +170,7 @@ member:
       body: |
         大阪芸術大学にてグラフィックデザインを専攻しブランディング・タイポグラフィを基軸としたデザインを研究。在学中、大阪中ノ島公会堂にてOSAKA DESIGN FORUM2011を開催・メインビジュアルを担当。卒業後、広告制作会社にて企画・提案・パッケージデザイン・コーディング等幅広い事業に従事。その後フリーランスとして独立。グラフィックデザイン・Webデザインを主に、出身地である和歌山県の一次産業にスポットライトを当てた新規事業の立ち上げ等を行なっている。
       role: DESIGNER
-      twitter: 
+      twitter: https://twitter.com/kuborichisa
       fb:
       linkedin:
 ambassador:
