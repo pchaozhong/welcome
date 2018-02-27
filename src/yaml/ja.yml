@@ -264,7 +264,9 @@ community:
 ambassador_program:
   header_line_1: AMBASSADOR
   header_line_2: PROGRAM
-  body: ALISファンや投資家の方に、ALISの魅力を積極的に発信頂くためのプログラムです。世界中に配置された認定アンバサダーは主に、母国語への翻訳、コミュニティ活性化、Meetupの開催などを行います。あなたがALISの推奨者で、アンバサダーに興味がある場合はinfo@alismedia.jpにメッセージを送ってください。
+  body: ALISファンや投資家の方に、ALISの魅力を積極的に発信頂くためのプログラムです。世界中に配置された認定アンバサダーは主に、母国語への翻訳、コミュニティ活性化、Meetupの開催などを行います。あなたがALISの推奨者で、アンバサダーに興味がある場合はinfo@alismedia.jpにメッセージを送ってください。アンバサダーになっていただいた方には限定の特典もご用意しております。
+  btn_text: 詳細はこちら
+  url: https://medium.com/@alismedia/alis-ambassador-program%E9%96%8B%E5%A7%8B-aa59f00f2969
 goods:
   header: GOODS
   body: 私たちはコミュニティ要望型のグッズ作成プラットフォームを用意しています。あなたはいつでもALISグッズの提案を行えます。提案が受け入れられると、提案者は無料でそのグッズが配布され、ALISグッズページにグッズが並びます。

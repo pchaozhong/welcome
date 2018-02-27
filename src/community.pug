@@ -57,9 +57,12 @@ body
           .p-title.p-title--center 
             h3.p-title__header
               |
-              span #{ambassador_program.header_line_1} 
+              span #{ambassador_program.header_line_1}
               span #{ambassador_program.header_line_2}
             p.p-title__body #{ambassador_program.body}
+          .text-center
+            .p-product__btns
+              a.p-product__button(href=ambassador_program.url, target="_blank") #{ambassador_program.btn_text}
 
 
   // Footer
