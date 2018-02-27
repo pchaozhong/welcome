@@ -26,6 +26,13 @@
   } 
 }
 
+.u-md-none {
+  display: none!important;
+  @include mq-min(lg) {
+    display: block!important;;
+  } 
+}
+
 .u-pc-only { 
   @include mq() {
     display: none!important;
