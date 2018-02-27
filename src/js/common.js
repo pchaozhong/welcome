@@ -126,6 +126,15 @@ $(() => {
     });
   }
 
+  if($('.p-page-news').length > 0) {
+    $('.js-ellipsis').each(function(){
+      if ($(this).text().length > 60) {
+        let text = $(this).text().slice(0, 60);
+        $(this).text(text+"…");
+      }
+    })
+  }
+
   $(window).scroll(function() {
     if ($(window).scrollTop() > 1) {
       $('#navbar-header').addClass('is-on');

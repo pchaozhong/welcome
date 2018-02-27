@@ -18,16 +18,16 @@
 	  'PRESS RELEASE': $color-orange,
 	);
 
-	$font-size-base: 14px;
-	$line-height-computed: 2;
-	$lines-to-show: 3;
+	// $font-size-base: 14px;
+	// $line-height-computed: 2.1;
+	// $lines-to-show: 3;
 
   &__body {
     // font-size: $font-size-base;
     // height: $font-size-base * $line-height-computed * $lines-to-show;
     // line-height: $line-height-computed;
-    position: relative;
-    overflow: hidden;
+    // position: relative;
+    // overflow: hidden;
 
     // &:before,
     // &:after {
@@ -99,7 +99,9 @@
 		font-weight: bold;
 		letter-spacing: 1px;
 		line-height: 1.66;
+		min-height: 3.4em;
 		@include mq() {
+			min-height: auto;
 			font-size: 1.4rem;
 			font-weight: bold;
 			line-height: 1.5;
@@ -111,7 +113,11 @@
 		font-size: 1.4rem;
 		letter-spacing: 1px;
 		line-height: 2.1;
+		min-height: 6em;
+		max-height: 6em;
 		@include mq() {
+			min-height: auto;
+			max-height: 3em;
 			font-size: 1.2rem;
 			line-height: 1.5;
 		}
