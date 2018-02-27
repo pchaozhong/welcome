@@ -4,7 +4,7 @@
 
     &__lang {
         position: relative;
-        @include font-nomal;
+        @include font-nomal('ja');
         &::after {
             content: "";
             display: inline-block;
@@ -81,6 +81,7 @@
     }
     
     &__option {
+        @include font-nomal('ja');
         display: block;
         border: none;
         color: $color-text-primary;
