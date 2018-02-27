@@ -275,20 +275,163 @@ closedb:
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
 news: 
-  _02142018: 
+  _02282018:
+    category: UPDATE
+    date: Feb 28, 2018
+    header: ALISクローズドβ版ユーザーの事前登録受付を開始
+    body: 2018年4月末に公開予定のALISクローズドβ版ユーザー事前登録を開始しました。ぜひご参加ください。
+    url: https://medium.com/@alismedia/45a55f0169a3
+  _02242018:
+    category: MEDIA
+    date: Feb 24, 2018
+    header: BigLife21
+    body: メディアの在り方を変えるALISの挑戦・ICO成功者が語るICOの可能性
+    url: http://www.biglife21.com/companies/16445/
+  _02142018:
     category: UPDATE
     date: Feb 14, 2018
     header: FAQアップデート
-    body: コミュニティからいただいた質問と回答をご紹介します。主にクローズドβ公開までの内容となります。
+    body: コミュニティからいただいた質問の回答をまとめました。主にクローズドβ版公開までの内容となります
     url: https://medium.com/@alismedia/alis-faq-2018%E5%B9%B42%E6%9C%88%E6%99%82%E7%82%B9-9f28fb4f0756
-popup_registration:
-  header: REGISTRATION
-  body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
-  body_line_2: 随時クローズドβ登録のご連絡をさせていただきます。
-  label: 
-    email: メールアドレス
-    twitter: TWITTERアカウント ※任意
-    url: ブログのURL ※任意
+  _02122018:
+    category: MEDIA
+    date: Feb 12, 2018
+    header: Coinpost
+    body: チームALISに聞く、トークンエコノミーの未来・日本ICO業界について
+    url: http://coinpost.jp/?p=14100
+  _02072018: 
+    category: MEDIA
+    date: Feb 7, 2018
+    header: Coinpost
+    body: チームALISに聞く、ALISプロジェクトの未来
+    url: http://coinpost.jp/?p=13720
+  _02062018_1:
+    category: MEDIA
+    date: Feb 6, 2018
+    header: Bitcoin Center Korea
+    body: ALISが韓国メディア「Bitcoin Center Korea」に取材されました
+    url: https://medium.com/bitcoin-center-korea/alis-the-japanese-social-media-platform-on-the-blockchain-c27382baa6cb
+  _02062018_2:
+    category: MEDIA
+    date: Feb 6, 2018
+    header: 西日本新聞
+    body: 投稿したら「お金」がもらえる!?　新しいメディアの可能性
+    url: http://qbiz.jp/article/127473/1/
+  _01222018:
+    category: MEDIA
+    date: Jan 22, 2018
+    header: ICO NEWS
+    body: 「単なる資金調達の手段ではない」国内初1億円以上のICOを実施したALISは、ICOの真髄をどう捉えているのか
+    url: http://ico-news.jp/2018/01/alis_interview/
+  _12232017_1:
+    category: UPDATE
+    date: Dec 23, 2017
+    header: 日本4か所でMeetupツアーを開始
+    body: 日本Meetupツアー開始のトップバッターとなる東京でMeetupを開催しました。参加できなかった皆さまに向けて、当日の様子とALISからの発表内容をお届けします。
+    url: https://medium.com/@alismedia/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%A4%E3%83%96%E5%89%8D%E5%A4%9C%E3%81%AB%E6%9D%B1%E4%BA%ACmeetup%E3%82%92%E9%96%8B%E5%82%AC-7622cd19e4c6
+  _12232017_2:
+    category: UPDATE
+    date: Dec 23, 2017
+    header: ALISデザインモック公開！
+    body: お待たせいたしました！ALISのデザインモックアップを公開します。ALISをより良くするため、invisionでデザインフィードバックを受け付けています！ぜひ、お気づきの点がありましたらコメントをください。
+    url: https://medium.com/@alismedia/alis%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%A2%E3%83%83%E3%82%AF%E5%85%AC%E9%96%8B-9ac2d74cbb60
+  _12052017:
+    category: UPDATE
+    date: Dec 5, 2017
+    header: ALIS Ambassador Program開始
+    body: ALISファンや投資家の方に、ALISの魅力を積極的に発信頂くアンバサダープログラムを開始しました。私たちは、ALISファンや投資家の皆さまの中で、ALISメディアの発展およびトークン価値向上に向けた活動をサポートしてくれるメンバーを募集します。
+    url: https://medium.com/@alismedia/alis-ambassador-program%E9%96%8B%E5%A7%8B-aa59f00f2969
+  _09292017:
+    category: UPDATE
+    date: Sep 29, 2017
+    header: ALIS感謝祭Meetupで近況報告を実施
+    body: ICO終了日の9月29日に日本でALISの感謝祭Meetupを開催しました。投資家や、応援メンバー100名以上が渋谷に集まり、ALISからの近況報告と参加者同士の交流会を実施。当日はNHKのカメラ取材も入る中、会場が熱気に包まれました。
+    url: https://medium.com/@alismedia/alis%E6%84%9F%E8%AC%9D%E7%A5%ADmeetup%E3%81%A7%E8%BF%91%E6%B3%81%E5%A0%B1%E5%91%8A%E3%82%92%E5%AE%9F%E6%96%BD-36049b1d25a4
+  _09272017_1:
+    category: MEDIA
+    date: Sep 27, 2017
+    header: Business Insider Japan
+    body: 4分で1億円調達！ 国内ベンチャーが明かす「ICO」成功の5つのポイント
+    url: https://www.businessinsider.jp/post-105173
+  _09272017_2:
+    category: MEDIA
+    date: Sep 27, 2017
+    header: THE COINTELEGRAPH
+    body: ブロックチェーンによりメディアは分散化
+    url: https://jp.cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media-jp
+  _09132018:
+    category: PRESS RELEASE
+    date: Sep 13, 2018
+    header: ICO開始12日で最小目標となる約3.8億を調達。
+    body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）で目標最小調達額として設定していた11,666ETH（約3.8億円）を調達。2017年9月1日（日本時間）のICO開始からわずか12日間での達成となった。
+    url: https://prtimes.jp/main/html/rd/p/000000003.000027792.html
+  _09112018:  
+    category: 
+    date: 
+    header: 
+    body: 
+    url: 
+  _09062017:
+    category: 
+    date: 
+    header: 
+    body: 
+    url: 
+  _09092017:
+    category: MEDIA
+    date: Sep 9, 2017
+    header: NHK （経済フロントライン）
+    body: ICO・仮想通貨で資金調達がブーム？
+    url: https://www.nhk.or.jp/keizai/archives/20170909_10.html
+  _09012017_1:
+    category: MEDIA
+    date: Sep 1, 2017
+    header: 日本経済新聞
+    body: 日本人主導の新規仮想通貨公開、手探りの始動 
+    url: https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/
+  _09012017_2:
+    category: MEDIA
+    date: Sep 1, 2017
+    header: Forbes JAPAN
+    body: ブロックチェーンベースのソーシャルメディア「ALIS」が描く、メディアの未来
+    url: https://forbesjapan.com/articles/detail/17547
+  _09012017_3:
+    category: PRESS RELEASE
+    date: Sep 1, 2017
+    header: 日本発ICOが4分で1億円調達。株式会社ALIS、世界に向けトークンセール実施中
+    body: 株式会社ALIS（代表：安 昌浩）が、国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）を開始。日本時間9月1日11時よりトークンの販売を開始し、開始4分で1億円を調達。ビジョン実現に向けて好発進をきった。
+    url: https://prtimes.jp/main/html/rd/p/000000002.000027792.html
+  _08302018:
+    category: 
+    date: 
+    header: 
+    body: 
+    url: 
+  _08252017_1:
+    category: MEDIA
+    date: Aug 25, 2017
+    header: CNET Japan
+    body: 新しい資金調達「ICO」は日本に根付くか--PV偏重のメディアを変える「ALIS」の挑戦
+    url: https://japan.cnet.com/article/35106279/
+  _08252017_2:
+    category: MEDIA
+    date: Aug 25, 2017
+    header: ITmedia
+    body: 高評価の記事に「トークン」配布　広告に依存しないメディア「ALIS」、ICOで資金調達
+    url: http://www.itmedia.co.jp/news/articles/1708/25/news102.html
+  _08232018:
+    category: PRESS RELEASE
+    date: Aug 23, 2018
+    header: 非広告依存型ブロックチェーン技術を用いたソーシャルメディアで国内初となるICO実施を決定
+    body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』をリリースするために、日本国内向けのメディアサービスとしては初のICO（Initial Coin Offering）を日本を含む世界に向けて実施することを発表しました。
+    url: https://prtimes.jp/main/html/rd/p/000000001.000027792.html
+  _08182017:
+    category: UPDATE
+    date: Aug 18, 2017
+    header: Whitepaperの要点を3分でお伝えする
+    body: ホワイトペーパーの中から要点を抽出した記事を作成いたしました。本記事をご覧いただき、少しでもALISにご興味を持っていただければ幸いです。
+    url: https://medium.com/@alismedia/whitepaper%E3%81%AE%E8%A6%81%E6%89%80%E3%82%923%E5%88%86%E3%81%A7%E3%81%8A%E4%BC%9D%E3%81%88%E3%81%99%E3%82%8B-fff453986ebe
+
 sns_url: 
   twitter: https://twitter.com/ALIS_media
   medium: https://medium.com/@alismedia

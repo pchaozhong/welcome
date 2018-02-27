@@ -272,6 +272,110 @@ news:
     header: ALIS FAQ UPDATE
     body: we’ve compiled a list here featuring questions submitted from the community. 
     url: https://medium.com/@alismedia/alis-faq-february-2018-4e3e43657ab9
+  _02072018:
+    category: MEDIA
+    date: Feb 7, 2018
+    header: Coinpost
+    body: ALIS was interviewed at Coinpost.
+    url: http://coinpost.jp/?p=13720
+  _02062018:
+    category: MEDIA
+    date: Feb 6, 2018
+    header: Bitcoin Center Korea
+    body: "ALIS: The Japanese Social Media Platform on the Blockchain"
+    url: https://medium.com/bitcoin-center-korea/alis-the-japanese-social-media-platform-on-the-blockchain-c27382baa6cb
+  _01222018:
+    category: MEDIA
+    date: Jan 22, 2018
+    header: ICO NEWS
+    body: ALIS was interviewed at ICO NEWS.
+    url: http://ico-news.jp/2018/01/alis_interview/
+  _12232017_1:
+    category: UPDATE
+    date: Dec 23, 2017
+    header: We held a meet up in Tokyo!
+    body: We had a meet up in Tokyo on 23th, November. It was the first meet up and we will hold another meetups in Nagoya, Osaka, Fukuoka.
+    url: https://medium.com/@alismedia/we-held-a-meet-up-in-tokyo-aeaa1f689b97
+  _12232017_2:
+    category: UPDATE
+    date: Dec 23, 2017
+    header: ALIS design mock has been released!
+    body: We finally released our design mock! We want to show you the whole design and to tell you the concept of design.
+    url: https://medium.com/@alismedia/alis-design-mock-has-been-released-1a8d825ac4b1
+  _12052017:
+    category: UPDATE
+    date: Dec 5, 2017
+    header: ALIS Ambassador Program Starts
+    body: Ｗe would like to proudly announce the starting of ALIS Ambassador Program to speed up our growth even more.
+    url: https://medium.com/@alismedia/alis-ambassador-program-starts-dcb1ef3b39d0
+  _09292017:
+    category: UPDATE
+    date: Sep 29, 2017
+    header: ALIS hold a Meet up event in Tokyo
+    body: We hold meet up event on 29 September after ICO ends. More than 100 people, who are investors and fans, joined it. 
+    url: https://medium.com/@alismedia/alis-hold-an-meet-up-event-in-tokyo-8be68798e1f4
+  _09272017:
+    category: MEDIA
+    date: Sep 27, 2017
+    header: THE COINTELEGRAPH
+    body: Blockchain Powers Shift To Decentralization In Media
+    url: https://cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media
+  _09112018:
+    category: MEDIA
+    date: Sep 11, 2018
+    header: CryptoCoinsNews
+    body: Using Blockchain, ALIS Aims to Establish A Trustworthy Social Media Platform In Japan
+    url: https://www.ccn.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/
+  
+  _09092017:
+    category: MEDIA
+    date: Sep 9, 2017
+    header: NHK （Japan’s only public broadcaster）
+    body: ALIS was broadcast on NHK which is "Japan's only public broadcaster".
+    url: https://www.nhk.or.jp/keizai/archives/20170909_10.html
+  _09062017:
+    category: UPDATE
+    date: Sep 6, 2017
+    header: Explanation of ALIS’s reception in Japan
+    body: In this article we will tell you about how big the potential is for the cryptocurrency market in Japan and how much attention ALIS has garnered within Japan.
+    url: https://medium.com/@alismedia/explanation-of-aliss-reception-in-japan-d253fc090f2f
+  _09012017_1:
+    category: MEDIA
+    date: Sep 1, 2017
+    header: 日本経済新聞
+    body: ALIS was interviewed at Nikkei Newspaper.
+    url: https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/
+  _09012017_2:
+    category: MEDIA
+    date: Sep 1, 2017
+    header: Forbes JAPAN
+    body: ALIS was interviewed at Forbs JAPAN.
+    url: https://forbesjapan.com/articles/detail/17547
+  _08302018:
+    category: PRESS RELEASE
+    date: Aug 30, 2018
+    header: ALIS is starting token sale in September 1st.
+    body: ALIS, Japan’s first ICO for a non-ad dependent social media platform with blockchain technology, is starting token sale in September 1st.
+    url: https://icopressrelease.com/2017/08/31/alis-japans-first-ico-for-a-non-ad-dependent-social-media-platform-with-blockchain-technology-is-starting-token-sale-in-september-1st/
+  _08252017_1:
+    category: MEDIA
+    date: Aug 25, 2017
+    header: CNET Japan
+    body: ALIS was interviewed at CNET Japan.
+    url: https://japan.cnet.com/article/35106279/
+  _08252017_2:
+    category: MEDIA
+    date: Aug 25, 2017
+    header: ITmedia
+    body: ALIS was interviewed at ITmedia.
+    url: http://www.itmedia.co.jp/news/articles/1708/25/news102.html
+  _08182017:
+    category: UPDATE
+    date: Aug 18, 2017
+    header: The key points of whitepaper in 3 minutes
+    body: ou can read this article in only 3 minutes. We hope you are interested in ALIS by reading this article.
+    url: https://medium.com/@alismedia/the-key-points-of-whitepaper-in-3-minutes-606fa956c18b
+
 sns_url: 
   twitter: https://twitter.com/ALIS_media
   medium: https://medium.com/@alismedia
