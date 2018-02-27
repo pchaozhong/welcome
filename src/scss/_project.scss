@@ -1,7 +1,7 @@
 .p-cover-header {
   margin-top: calc(#{$navbar-height} + #{$navbar-mb});
   background-size: cover;
-  color: white;
+  color: $color-text-primary;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,13 +17,12 @@
     @include font-title;
     font-weight: bold;
     font-size: 6.4rem;
-    color: white;
+    color: $color-text-primary;
     line-height: 1.15;
     letter-spacing: 15px;
     margin: 0;
 
     @include mq() {
-      color: $color-text-primary;
       font-size: 2.8rem;
       letter-spacing: 7px;
       line-height: 1.5;
@@ -303,7 +302,7 @@ $pages: "about", "team", "community", "product", "news";
     text-decoration: none;
   }
 
-  @include mq(){
+  @include mq() {
     font-size: 1.2rem;
     height: 32px;
     padding: 10px 0;
