@@ -274,7 +274,7 @@ closedb:
     ALISは2018年4月下旬から、必要最小限の機能を実装したプロダクトのクローズドβを用いた検証をスタートします。これはALISのユニークな部分である「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」をシャープに検証することを目的としています。
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/45a55f0169a3
-news: 
+news:
   _02282018:
     category: UPDATE
     date: Feb 28, 2018
@@ -299,7 +299,7 @@ news:
     header: Coinpost
     body: チームALISに聞く、トークンエコノミーの未来・日本ICO業界について
     url: http://coinpost.jp/?p=14100
-  _02072018: 
+  _02072018:
     category: MEDIA
     date: Feb 7, 2018
     header: Coinpost
@@ -359,35 +359,37 @@ news:
     header: THE COINTELEGRAPH
     body: ブロックチェーンによりメディアは分散化
     url: https://jp.cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media-jp
+  _09112017:
+    category:
+    date:
+    header:
+    body:
+    url:
+
   _09132018:
     category: PRESS RELEASE
     date: Sep 13, 2018
     header: ICO開始12日で最小目標となる約3.8億を調達。
     body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）で目標最小調達額として設定していた11,666ETH（約3.8億円）を調達。2017年9月1日（日本時間）のICO開始からわずか12日間での達成となった。
     url: https://prtimes.jp/main/html/rd/p/000000003.000027792.html
-  _09112018:  
-    category: 
-    date: 
-    header: 
-    body: 
-    url: 
-  _09062017:
-    category: 
-    date: 
-    header: 
-    body: 
-    url: 
   _09092017:
     category: MEDIA
     date: Sep 9, 2017
     header: NHK （経済フロントライン）
     body: ICO・仮想通貨で資金調達がブーム？
     url: https://www.nhk.or.jp/keizai/archives/20170909_10.html
+  _09062017:
+    category:
+    date:
+    header:
+    body:
+    url:
+
   _09012017_1:
     category: MEDIA
     date: Sep 1, 2017
     header: 日本経済新聞
-    body: 日本人主導の新規仮想通貨公開、手探りの始動 
+    body: 日本人主導の新規仮想通貨公開、手探りの始動
     url: https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/
   _09012017_2:
     category: MEDIA
@@ -402,11 +404,12 @@ news:
     body: 株式会社ALIS（代表：安 昌浩）が、国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）を開始。日本時間9月1日11時よりトークンの販売を開始し、開始4分で1億円を調達。ビジョン実現に向けて好発進をきった。
     url: https://prtimes.jp/main/html/rd/p/000000002.000027792.html
   _08302018:
-    category: 
-    date: 
-    header: 
-    body: 
-    url: 
+    category:
+    date:
+    header:
+    body:
+    url:
+
   _08252017_1:
     category: MEDIA
     date: Aug 25, 2017
@@ -421,7 +424,7 @@ news:
     url: http://www.itmedia.co.jp/news/articles/1708/25/news102.html
   _08232018:
     category: PRESS RELEASE
-    date: Aug 23, 2018
+    date: Aug 23, 2017
     header: 非広告依存型ブロックチェーン技術を用いたソーシャルメディアで国内初となるICO実施を決定
     body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』をリリースするために、日本国内向けのメディアサービスとしては初のICO（Initial Coin Offering）を日本を含む世界に向けて実施することを発表しました。
     url: https://prtimes.jp/main/html/rd/p/000000001.000027792.html

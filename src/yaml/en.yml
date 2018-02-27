@@ -266,25 +266,49 @@ closedb:
     From the end of April 2018, ALIS will begin the testing process via the launch of its closed beta version of the platform. The closed beta launch of ALIS will include minimal, basic functions. The goal of the closed beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
-news: 
-  _02142018: 
+news:
+  _02282018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _02242018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _02142018:
     category: UPDATE
     date: Feb 14, 2018
     header: ALIS FAQ UPDATE
-    body: we’ve compiled a list here featuring questions submitted from the community. 
+    body: we’ve compiled a list here featuring questions submitted from the community.
     url: https://medium.com/@alismedia/alis-faq-february-2018-4e3e43657ab9
+  _02122018:
+    category:
+    date:
+    header:
+    body:
+    url:
   _02072018:
     category: MEDIA
     date: Feb 7, 2018
     header: Coinpost
-    body: ALIS was interviewed at Coinpost.
+    body: "ALIS was interviewed at Coinpost."
     url: http://coinpost.jp/?p=13720
-  _02062018:
+  _02062018_1:
     category: MEDIA
     date: Feb 6, 2018
     header: Bitcoin Center Korea
     body: "ALIS: The Japanese Social Media Platform on the Blockchain"
     url: https://medium.com/bitcoin-center-korea/alis-the-japanese-social-media-platform-on-the-blockchain-c27382baa6cb
+  _02062018_2:
+    category:
+    date:
+    header:
+    body:
+    url:
   _01222018:
     category: MEDIA
     date: Jan 22, 2018
@@ -313,21 +337,32 @@ news:
     category: UPDATE
     date: Sep 29, 2017
     header: ALIS hold a Meet up event in Tokyo
-    body: We hold meet up event on 29 September after ICO ends. More than 100 people, who are investors and fans, joined it. 
+    body: We hold meet up event on 29 September after ICO ends. More than 100 people, who are investors and fans, joined it.
     url: https://medium.com/@alismedia/alis-hold-an-meet-up-event-in-tokyo-8be68798e1f4
-  _09272017:
+  _09272017_1:
     category: MEDIA
     date: Sep 27, 2017
     header: THE COINTELEGRAPH
     body: Blockchain Powers Shift To Decentralization In Media
     url: https://cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media
-  _09112018:
+  _09272017_2:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _09112017:
     category: MEDIA
-    date: Sep 11, 2018
+    date: Sep 11, 2017
     header: CryptoCoinsNews
     body: Using Blockchain, ALIS Aims to Establish A Trustworthy Social Media Platform In Japan
     url: https://www.ccn.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/
-  
+  _09132018:
+    category:
+    date:
+    header:
+    body:
+    url:
   _09092017:
     category: MEDIA
     date: Sep 9, 2017
@@ -352,9 +387,15 @@ news:
     header: Forbes JAPAN
     body: ALIS was interviewed at Forbs JAPAN.
     url: https://forbesjapan.com/articles/detail/17547
+  _09012017_3:
+    category:
+    date:
+    header:
+    body:
+    url:
   _08302018:
     category: PRESS RELEASE
-    date: Aug 30, 2018
+    date: Aug 30, 2017
     header: ALIS is starting token sale in September 1st.
     body: ALIS, Japan’s first ICO for a non-ad dependent social media platform with blockchain technology, is starting token sale in September 1st.
     url: https://icopressrelease.com/2017/08/31/alis-japans-first-ico-for-a-non-ad-dependent-social-media-platform-with-blockchain-technology-is-starting-token-sale-in-september-1st/
@@ -370,6 +411,12 @@ news:
     header: ITmedia
     body: ALIS was interviewed at ITmedia.
     url: http://www.itmedia.co.jp/news/articles/1708/25/news102.html
+  _08232018:
+    category:
+    date:
+    header:
+    body:
+    url:
   _08182017:
     category: UPDATE
     date: Aug 18, 2017

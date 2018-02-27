@@ -1,3 +1,9 @@
+.p-news-cards {
+	div.col-lg-4:not([data-hasurl]) {
+		display: none;
+	}
+}
+
 .p-news-card {
 	@include box-shadow;
 	@include transition;
@@ -5,6 +11,50 @@
 	background-color: white;
 	margin-bottom: 4rem;
 	display: block;
+
+	$category-color: (
+	  'UPDATE': $color-green,
+	  'MEDIA': $color-blue,
+	  'PRESS RELEASE': $color-orange,
+	);
+
+	$font-size-base: 14px;
+	$line-height-computed: 2;
+	$lines-to-show: 3;
+
+  &__body {
+    // font-size: $font-size-base;
+    // height: $font-size-base * $line-height-computed * $lines-to-show;
+    // line-height: $line-height-computed;
+    position: relative;
+    overflow: hidden;
+
+    // &:before,
+    // &:after {
+    //   background: #fff;
+    //   position: absolute;
+    // }
+    // &:before {
+    //   content: "...";
+    //   top: $font-size-base * $line-height-computed * ($lines-to-show - 1);
+    //   right: 0;
+    // }
+    // &:after {
+    //   content: "";
+    //   height: 1em;
+    //   width: 1em;
+    // }
+  }
+
+	@each $category, $color in $category-color {
+	  &[data-category="#{$category}"] .p-news-card__category {
+	    color: $color;
+	  }
+	}
+
+	&:not([href]) {
+		display: none;
+	}
 
 	&:hover {
 		cursor: pointer;

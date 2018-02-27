@@ -13,14 +13,12 @@
 	@include mq() {
 		padding-right: 24px;
 		padding-left: 24px;
-		.p-title__body {
-			font-size: 1.4rem;
-		}
 		.p-title__header, .p-title__body {
 			text-align: center;
 		}
 		.p-title__body {
-			letter-spacing: 0;
+			letter-spacing: 1px;
+			font-size: 1.4rem;
 		}
 	}
 }
