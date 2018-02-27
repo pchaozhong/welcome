@@ -89,6 +89,10 @@ $sns-items: "twitter", "medium", "discord", "reddit", "trello", "github";
         margin-right: 0;
       }
     }
+
+    @include mq(xs) {
+      margin: 0;
+    }
   }
 
   @each $sns in $sns-items {
@@ -101,7 +105,7 @@ $sns-items: "twitter", "medium", "discord", "reddit", "trello", "github";
 
   &__company {
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 2;
 
     @include mq() {
@@ -118,7 +122,7 @@ $sns-items: "twitter", "medium", "discord", "reddit", "trello", "github";
 
     a {
       color: white;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       line-height: 2;
       @include transition;
       &:hover, &:focus, &:active {

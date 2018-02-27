@@ -36,6 +36,7 @@ $navbar-height-sp: 63px;
 $navbar-mb: 32px;
 
 $breakpoints: (
+  'xs': 'screen and (max-width: 320px)',
   'sm': 'screen and (max-width: 577px)',
   'md': 'screen and (max-width: 767px)',
   'lg': 'screen and (max-width: 993px)',
@@ -44,6 +45,7 @@ $breakpoints: (
 ) !default;
 
 $breakpoints-min: (
+  'xs': 'screen and (min-width: 321px)',
   'sm': 'screen and (min-width: 576px)',
   'md': 'screen and (min-width: 768px)',
   'lg': 'screen and (min-width: 992px)',
