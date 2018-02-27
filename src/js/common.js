@@ -20,8 +20,10 @@ $(() => {
 
   if (lang == 'JA' && !$('body').hasClass('is-ja')) {
     $('body').addClass('is-ja');
+    $('.js-cover-iphone').attr({'src':'/img/pc/top_sp.png'});
   }else{
     $('body').removeClass('is-ja');
+    $('.js-cover-iphone').attr({'src':'/img/pc/top_sp_en.png'});
   }
 
   // 言語の切り替え

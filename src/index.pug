@@ -8,7 +8,7 @@ body
 
   .p-index
     main.l-main
-      img(src="/img/pc/top_sp.png").p-index__img.js-toggle-fix
+      img(src="/img/pc/top_sp_en.png").p-index__img.is-en.js-cover-iphone
       // Cover
       include includes/cover
 
@@ -19,7 +19,7 @@ body
           .p-title__body 
             | #{project.body1}
 
-          ul.p-feature-list(data-scroll="js-toggle-fix")
+          ul.p-feature-list(data-scroll="js-cover-iphone")
             li.p-feature-list__item
               p.p-feature-list__item-body
                 | #{project.feature_list.item1_body1}
