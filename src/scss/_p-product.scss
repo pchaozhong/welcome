@@ -13,13 +13,21 @@
 	@include mq() {
 		padding-right: 24px;
 		padding-left: 24px;
+		.p-title__header, .p-title__body {
+			text-align: center;
+		}
+		.p-title__body {
+			letter-spacing: 0;
+		}
 	}
 }
 
 .p-product-block {
 	display: flex;
+
 	@include mq(lg) {
 		flex-direction: column;
+
 		.p-title__body {
 			margin-bottom: 40px;
 		}
