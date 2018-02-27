@@ -42,18 +42,18 @@ $breakpoints: (
   'xs': 'screen and (max-width: 320px)',
   'sm': 'screen and (max-width: 577px)',
   'md': 'screen and (max-width: 767px)',
-  'lg': 'screen and (max-width: 993px)',
-  'xl': 'screen and (max-width: 1201px)',
-  'xxl': 'screen and (max-width: 1441px)',
+  'lg': 'screen and (max-width: 992px)',
+  'xl': 'screen and (max-width: 1200px)',
+  'xxl': 'screen and (max-width: 1440px)',
 ) !default;
 
 $breakpoints-min: (
   'xs': 'screen and (min-width: 321px)',
   'sm': 'screen and (min-width: 576px)',
   'md': 'screen and (min-width: 768px)',
-  'lg': 'screen and (min-width: 992px)',
-  'xl': 'screen and (min-width: 1200px)',
-  'xxl': 'screen and (min-width: 1440px)',
+  'lg': 'screen and (min-width: 993px)',
+  'xl': 'screen and (min-width: 1201px)',
+  'xxl': 'screen and (min-width: 1441px)',
 ) !default;
 
 // Mixin --------------------------------------------------

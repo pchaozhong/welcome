@@ -45,29 +45,49 @@
 .p-index .p-section {
   @include mq() {
     padding-top: 60px;
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+}
+
+.is-ja .p-index .p-section {
+  @include mq() {
+    padding-top: 60px;
   }
 }
 
 
 /* Cover
 -------------------------------------------------- */
+.is-ja .p-cover {
+  @include mq(lg) {
+    margin-bottom: 100px;
+  }
+}    
+
+
+
 .p-cover {
   @include mq-min(xxl) {
     padding-bottom: 120px;
     height: auto;
   }
   margin-top: calc(#{$navbar-height} + #{$navbar-mb});
-  height: calc(100vh - #{$navbar-height} - #{$navbar-mb});
+  // height: calc(100vh - #{$navbar-height} - #{$navbar-mb});
+  padding-bottom: 144px;
+  height: auto;
   background-image: url("/img/pc/img_top.jpg");
   background-size: cover;
   background-position: bottom center;
   box-sizing: border-box;
   position: relative;
 
-  @include mq(sm) {
+  @include mq(lg) {
     margin-top: calc(#{$navbar-height-sp} + #{$navbar-mb});
     height: calc(100vh - #{$navbar-height-sp} - 100px);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
     background-image: url("/img/sp/top_firstview.jpg");
   }
 
