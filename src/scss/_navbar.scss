@@ -92,10 +92,8 @@ $pages: 'team', 'about', 'community', 'product', 'news';
 @each $page in $pages {
   .p-page-#{$page} .nav li a.nav__#{$page} {
     color: $color-purple-light;
-    border-bottom: solid 2px $color-purple-light;
     @include mq() {
       color: $color-text-secondary;
-      border-bottom: solid 2px transparent;
     }
   }
 }
