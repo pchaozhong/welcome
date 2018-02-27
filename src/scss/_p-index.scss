@@ -129,6 +129,8 @@
   max-width: 404px;
   box-sizing: border-box;
   position: relative;
+  
+  
   @include mq(xxl) {
     margin-right: 5%;
     margin-left: 5%;
@@ -170,7 +172,7 @@
     font-size: 1.6rem;
     display: inline-block;
     line-height: 1.75;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-bottom: 2em;
     @include mq(lg) {
       text-align: center;
@@ -194,6 +196,10 @@
       @include button(208px);
     }
   }
+}
+
+.is-ja .p-cta__body {
+  letter-spacing: 3px;
 }
 
 
