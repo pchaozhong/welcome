@@ -100,9 +100,9 @@
 		@include mq(lg) {
 			max-width: 100%;
 		}
-		@include mq(sm) {
-			letter-spacing: 0;
-			font-size: 1.2rem;
+		@include mq() {
+			font-size: 1.4rem;
+			letter-spacing: 2px;
 			line-height: 1.5;		
 		}
 	}
