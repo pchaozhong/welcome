@@ -42,8 +42,9 @@ project:
     item2_body1: 信頼できる記事を
     item2_body2: 書く・見つけると
     item2_body3: 報酬がもらえる
-    item3_body1: 日本発の
-    item3_body2: ソーシャルメディア
+    item3_body1: 日本コミュニティを
+    item3_body2: 中心に創り上げる
+    item3_body3: プロダクト
 button:
   applyforbeta: クローズドβに応募する
   readwhitepaper: WHITEPAPERを読む

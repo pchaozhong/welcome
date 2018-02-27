@@ -202,12 +202,12 @@
 .is-ja .p-feature-list {
   max-width: 520px;
 }
+
 .p-feature-list {
   padding: 0;
   max-width: 560px;
   margin: 0 auto;
 
-  
   @include mq(sm) {
     width: 100%;
     padding-left: 10px;
@@ -282,7 +282,7 @@
     }
     @include mq(sm) {
       text-align: left;
-      padding-left: 4rem;
+      padding-left: 1rem;
     }
   }
 }
