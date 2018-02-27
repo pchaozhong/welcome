@@ -5,19 +5,19 @@ block links
     <h3 class="navbar__header">MENU</h3>
     ul.nav.navbar-nav
       li
-        a(href='/about.html') #{navbar.about}
+        a.nav__about(href='/about.html') #{navbar.about}
       li
-        a(href=whitepaper.url, target="_blank") #{navbar.whitepaper}
+        a.nav__whitepaper(href=whitepaper.url, target="_blank") #{navbar.whitepaper}
       li
-        a(href='/community.html') #{navbar.community}
+        a.nav__community(href='/community.html') #{navbar.community}
       li
-        a(href='/product.html') #{navbar.product}
+        a.nav__product(href='/product.html') #{navbar.product}
       li
-        a(href='/team.html') #{navbar.team}
+        a.nav__team(href='/team.html') #{navbar.team}
       li
-        a(href=sns_url.trello, target="_blank") #{navbar.roadmap}
+        a.nav__roadmap(href=sns_url.trello, target="_blank") #{navbar.roadmap}
       li
-        a(href='/news.html') #{navbar.news}
+        a.nav__news(href='/news.html') #{navbar.news}
       li.u-md-none
         .c-select
           span.c-select__lang.js-select-lang

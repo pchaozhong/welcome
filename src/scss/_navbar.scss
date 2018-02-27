@@ -12,16 +12,19 @@
   @include mq() {
     height: $navbar-height-sp;
   }
+}
 
-  .container {
-    width: auto;
-    @include make-main-container;
+.l-header.navbar .container {
+  width: auto;
+  @include make-main-container;
 
-    .navbar-collapse {
-      box-shadow: none;
-      -webkit-box-shadow: none;
-    }
+  .navbar-collapse {
+    box-shadow: none;
+    -webkit-box-shadow: none;
   }
+}
+
+.l-header.navbar {
 
   .navbar-header {
     @include mq(lg) {
@@ -33,66 +36,70 @@
   }
 
   .c-select.u-md-only {
-      position: absolute;
-      right: 88px;
+    position: absolute;
+    right: 88px;
+    top: 21px;
+    @include mq(lg) {
+      top: 34px;
+    }
+    @include mq() {
       top: 21px;
-      @include mq(lg) {
-        top: 34px;
-      }
-      @include mq() {
-        top: 21px;
-        right: 44px;
-      }
+      right: 44px;
+    }
   } 
+}
 
-  .nav {
-    @include font-title;
-    float: right;
-    font-size: 1.6rem;
-    letter-spacing: 1px;
-    margin-top: 1.6rem;
-    line-height: 1.125;
+.l-header.navbar .nav {
+  @include font-title;
+  float: right;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  margin-top: 1.6rem;
+  line-height: 1.125;
 
-    > li {
-      padding-right: 23px;
-      &:last-child {
-        padding-right: 0;
-      }
+  > li {
+    padding-right: 23px;
+  }
 
-      > a {
-        @include transition;
-        display: inline;
-        color: $color-text-primary;
-        border-bottom: solid 2px transparent;
-        padding: 0 0 20px;
-        
-        @include mq-min(lg) {
-          &:hover, &:active, &:focus {
-            color: $color-purple-light;
-            border-bottom: solid 2px $color-purple-light;
-          }          
-        }
-      }
+  > li:last-child {
+    padding-right: 0;
+  }
+
+  > li  > a {
+    @include transition;
+    display: inline;
+    color: $color-text-primary;
+    border-bottom: solid 2px transparent;
+    padding: 0 0 20px;
+      
+    @include mq-min(lg) {
+      &:hover, &:active, &:focus {
+        color: $color-purple-light;
+        border-bottom: solid 2px $color-purple-light;
+      }          
     }
+  }
 
-    .dropdown-menu {
-      a {
-        color: $color-text-primary;
-        @include transition;
+  &__language {
+    margin-top: -5px;
+    color: gray;
+    font-weight: bold;
+  }
+}
 
-        &:hover {
-          color: $color-text-primary;
-        }
-      }
-    }
+$pages: 'team', 'about', 'community', 'product', 'news';
 
-    &__language {
-      margin-top: -5px;
-      color: gray;
-      font-weight: bold;
+@each $page in $pages {
+  .p-page-#{$page} .nav li a.nav__#{$page} {
+    color: $color-purple-light;
+    border-bottom: solid 2px $color-purple-light;
+    @include mq() {
+      color: $color-text-secondary;
+      border-bottom: solid 2px transparent;
     }
   }
 }
+
 
 .navbar-brand {
   &__logo {
@@ -210,7 +217,6 @@
 
   }
 }
-
 
 .navbar-inverse .navbar-toggle {
   border: 0;

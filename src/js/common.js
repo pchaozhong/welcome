@@ -50,6 +50,16 @@ $(() => {
     $(this).parent('.c-select').addClass('is-on')
   });
 
+
+  let page = 'index';
+
+  if (location.pathname.match(/\.html/)) {
+    let i = location.pathname.split('/').length - 1;
+    page = location.pathname.split('/')[i].split('.')[0];
+  }
+
+  $('body').addClass('p-page-'+page);
+
   // スクロールをスムーズに
   $('.smooth-anchor').click(function () {
     const speed = 500;
