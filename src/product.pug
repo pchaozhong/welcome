@@ -20,14 +20,14 @@ body
               | #{registration.body_line_2}
               | #{registration.body_line_3}
           .text-center
-            a.p-button.p-button--lg.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{button.applyforbeta}
+            a.p-button.p-button--lg.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{registration.btn_text}
 
         .p-block.p-block--xs
           .p-title.p-title--center 
             h3.p-title__header #{closedb.header}
             p.p-title__body #{closedb.body}
           .text-center
-            a.p-button.p-button--lg(href="", target='_blank') #{button.detail}
+            a.p-button.p-button--lg(href=closedb.url, target='_blank') #{closedb.btn_text}
 
         .p-block.p-block--xs
           .p-product-block
@@ -40,14 +40,10 @@ body
               img.p-product-block__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
           .text-center
             .p-product__btns
-              a.p-product__button(href="#") #{button.mock_pc}
-              a.p-product__button(href="#") #{button.mock_sp}
+              a.p-product__button(href=product.mock_pc.url, target="_blank") #{product.mock_pc.btn_text}
+              a.p-product__button(href=product.mock_sp.url, target="_blank") #{product.mock_sp.btn_text}
               br
-              a.p-product__link(href=sns_url.github, target="_blank") #{product.link}
-
-  .l-overlay#js-overlay
-    include mixin/popup_registration
-    +popup_registration
+              a.p-product__link(href=sns_url.github, target="_blank") #{product.dev_status}
 
   // Footer
   #meetus

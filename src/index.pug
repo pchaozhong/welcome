@@ -72,10 +72,10 @@ body
         .p-product
           img.p-product__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
           .p-product__btns
-            a.p-product__button(href="#") #{button.mock_pc}
-            a.p-product__button(href="#") #{button.mock_sp}
+            a.p-product__button(href=product.mock_pc.url, target="_blank") #{product.mock_pc.btn_text}
+            a.p-product__button(href=product.mock_sp.url, target="_blank") #{product.mock_sp.btn_text}
             br
-            a.p-product__link(href=sns_url.github, target="_blank") #{product.link}
+            a.p-product__link(href=sns_url.github, target="_blank") #{product.dev_status}
 
       // MEMBER
       section.container-fluid.p-section

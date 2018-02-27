@@ -19,6 +19,7 @@ navbar:
   news: NEWS 
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
+  btn_text: Read Whitepaper
 icointroduction:
   url: https://medium.com/@alismedia/2dba7a67117c
 cover:
@@ -32,14 +33,7 @@ registration:
   body_line_2: If you are interested please apply via the closed beta application form.
   body_line_3: 
   url: http://eepurl.com/diOWan
-  popup:
-    header: REGISTRATION
-    body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
-    body_line_2: 随時β版登録のご連絡をさせていただきます。 
-    label: 
-      email: メールアドレス
-      twitter: TWITTERアカウント ※任意
-      url: ブログのURL ※任意
+  btn_text: Apply to be a part of the closed beta launch!
 project:
   header: OUR PROJECT
   body1: ALIS is a social media platform set to revolutionize the news and social media industries by connecting ALIS users with trustworthy articles, news, and people quickly. Our goal is to create a platform that incentivizes reliable information by rewarding authors trusted by you, the ALIS community user, as well as rewarding the consumers of the content, who vote on the level of reliability and quality of news, articles, and blogs. The goal is to set people free from advertisement-saturated conventional media, stealth marketing campaigns, and less-than-reliable information sources.
@@ -51,19 +45,17 @@ project:
     item2_body3: for curation
     item3_body1: Social media 
     item3_body2: for Japan
-button:
-  applyforbeta: Apply to be a part of the closed beta launch!
-  readwhitepaper: Read Whitepaper
-  mock_pc: View closed beta mock-up for PC
-  mock_sp: View closed beta mock-up for mobile device
-  seegoods: See ALIS Goods
-  registration: Register
-  detail: Click here for details
 product:
   header: PRODUCT
   body_line_1: The team has currently published a design mock-up for the closed beta release scheduled in the end of April.　
   body_line_2: A community feedback feature has been made available, so please check out the mock-up, and let us know what you think!
-  link: Click here for product development status
+  mock_pc: 
+    btn_text: View closed beta mock-up for PC
+    url: https://invis.io/NVF0FSW2B
+  mock_sp: 
+    btn_text: View closed beta mock-up for mobile device
+    url: https://invis.io/GNF0FS8R8
+  dev_status: Click here for product development status
 about:
   vision: 
     body_line_1: Facilitate the connection of people through visualized trust
@@ -271,6 +263,8 @@ closedb:
   header: WHAT’S CLOSED β
   body: |
     From the end of April 2018, ALIS will begin the testing process via the launch of its closed beta version of the platform. The closed beta launch of ALIS will include minimal, basic functions. The goal of the closed beta launch is to prove the unique value and innovation of ALIS, namely, that a platform built on ”reliable people and information evaluation logic, with crypto tokens as the central axis" and the "retention of article contributors," is a sound concept, which will fulfill a unique market demand.
+  btn_text: Click here for detail
+  url: https://medium.com/@alismedia/45a55f0169a3
 news: 
   _02142018: 
     category: UPDATE

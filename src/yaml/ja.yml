@@ -19,6 +19,7 @@ navbar:
   news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01_ja.pdf
+  btn_text: WHITEPAPERを読む
 icointroduction:
   url: https://medium.com/@alismedia/8dfcbd69a8b5
 cover:
@@ -30,15 +31,8 @@ registration:
   body_line_1: ALISでは4月下旬に公開のALISクローズドβへの参加者を募集しています。
   body_line_2: ご興味をお持ちの方はクローズドβ応募フォームよりご応募ください。
   body_line_3: ※クローズドβは日本でのみ公開となります。
+  btn_text: クローズドβに応募する
   url: http://eepurl.com/diOWan
-  popup:
-    header: REGISTRATION
-    body_line_1: 以下のフォームご入力の上、送信ボタンを押してください。
-    body_line_2: 随時クローズドβ登録のご連絡をさせていただきます。
-    label: 
-      email: メールアドレス
-      twitter: TWITTERアカウント ※任意
-      url: ブログのURL ※任意
 project:
   header: OUR PROJECT
   body1: ALISは信頼性の高い情報・人に素早く出会えるソーシャルメディアプラットフォームです。 信頼できる記事を書いた人、それをいち早く見つけた人が報酬を獲得することで信頼できる情報を蓄積するプラットフォームの実現を目指します。 従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報にうんざりしている人々を解放することがALISの目的です。
@@ -53,16 +47,31 @@ project:
 button:
   applyforbeta: クローズドβに応募する
   readwhitepaper: WHITEPAPERを読む
-  mock_pc: パソコンのモックを見る
-  mock_sp: スマートフォンのモックを見る 
-  seegoods: グッズを見る
-  registration: 登録する
-  detail: 詳細はこちら
+  mock_pc: 
+    text: パソコンのモックを見る
+    link: https://invis.io/NVF0FSW2B
+  mock_sp: 
+    text: スマートフォンのモックを見る 
+    link: https://invis.io/GNF0FS8R8
+  seegoods: 
+    text: グッズを見る
+    link: グッズを見る
+  registration: 
+    text: 登録する
+    link: 登録する
+  detail: 
+    text: 詳細はこちら
 product:
   header: PRODUCT
   body_line_1: 現在ALISでは4月下旬中に公開予定のALISクローズドβに向けたデザインモックを公開しています。
   body_line_2: デザインモックへのフィードバックも可能ですのでぜひご覧ください。
-  link: プロダクトの開発状況はこちら
+  mock_pc: 
+    btn_text: パソコンのモックを見る
+    url: https://invis.io/NVF0FSW2B
+  mock_sp: 
+    btn_text: スマートフォンのモックを見る 
+    url: https://invis.io/GNF0FS8R8
+  dev_status: プロダクトの開発状況はこちら
 about:
   vision:
     body_line_1: 信頼の可視化で
@@ -279,6 +288,8 @@ closedb:
   header: WHAT’S CLOSED β
   body: |
     ALISは2018年4月下旬から、必要最小限の機能を実装したプロダクトのクローズドβを用いた検証をスタートします。これはALISのユニークな部分である「トークンを軸とした信頼できる人と情報の評価ロジック」と、それによる「記事投稿者のリテンション」をシャープに検証することを目的としています。
+  btn_text: 詳細はこちら
+  url: https://medium.com/@alismedia/45a55f0169a3
 news: 
   _02142018: 
     category: UPDATE
