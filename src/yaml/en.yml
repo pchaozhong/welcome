@@ -44,8 +44,8 @@ project:
     item2_body2: and get rewards 
     item2_body3: for curation
     item3_body1: A product created 
-    item3_body2: mainly by 
-    item3_body3:  the Japanese community
+    item3_body2: "mainly by  "  
+    item3_body3: the Japanese community
 product:
   header: PRODUCT
   body_line_1: The team has currently published a design mock-up for the closed beta release scheduled in the end of April.　
