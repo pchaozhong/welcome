@@ -18,6 +18,9 @@ $color-text-secondary: #333;
 $color-text-point: #F5A623;
 
 $color-purple-light: #858DDA;
+$color-blue: #4A90E2;
+$color-green: #7ED321;
+$color-orange: #F5A623;
  
 
 // SIZE ---------------------------------------------------
@@ -149,7 +152,7 @@ $breakpoints-min: (
   @if $lang == 'ja' {
     letter-spacing: 4px;
   }@else{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   
   font-size: 1.6rem;
