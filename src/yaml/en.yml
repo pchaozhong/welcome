@@ -20,8 +20,8 @@ navbar:
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
   btn_text: Read Whitepaper
-icointroduction:
-  url: https://medium.com/@alismedia/2dba7a67117c
+roadmap:
+  url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
 cover:
   caption_line_one: 
     first: A completely new social media concept 
