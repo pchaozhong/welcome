@@ -67,13 +67,8 @@
 }    
 
 .p-cover {
-  @include mq-min(xxl) {
-    padding-bottom: 120px;
-    height: auto;
-  }
+   // height: calc(100vh - #{$navbar-height} - #{$navbar-mb});
   margin-top: calc(#{$navbar-height} + #{$navbar-mb});
-  // height: calc(100vh - #{$navbar-height} - #{$navbar-mb});
-  padding-bottom: 144px;
   height: auto;
   background-image: url("/img/pc/img_top.jpg");
   background-size: cover;
@@ -81,10 +76,18 @@
   box-sizing: border-box;
   position: relative;
 
-  @include mq(lg) {
+  @include mq-min(xxl) {
+    padding-bottom: 120px;
+    height: auto;
+  }
+
+  @include mq(xxl) {
+    padding-bottom: 30px;
+  }
+
+  @include mq() {
     margin-top: calc(#{$navbar-height-sp} + #{$navbar-mb});
     height: calc(100vh - #{$navbar-height-sp} - 100px);
-    margin-bottom: 50px;
     padding-bottom: 0px;
     background-image: url("/img/sp/top_firstview.jpg");
   }
@@ -153,7 +156,7 @@
     margin-right: 5%;
     margin-left: 5%;
   }
-  @include mq(lg) {
+  @include mq() {
     background: white;
     width: $inner-width-sp;
     margin: 0 auto;
@@ -175,11 +178,9 @@
     letter-spacing: 1px;
     margin-bottom: 20px;
 
-    @include mq(lg) {
+    @include mq() {
       margin-top: -50px;
       text-align: center;
-    }
-    @include mq() {
       font-size: 2rem;
       line-height: 1.75;
     }
@@ -192,7 +193,7 @@
     line-height: 1.75;
     letter-spacing: 1px;
     margin-bottom: 2em;
-    @include mq(lg) {
+    @include mq() {
       text-align: center;
       br {
         display: none;
