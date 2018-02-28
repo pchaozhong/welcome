@@ -254,8 +254,8 @@ community:
     body_line_2: 
     body_line_3: 
 ambassador_program:
-  header_line_1: AMBASSADOR　
-  header_line_2: PROGRAM
+  header_line_1: AMBASSADOR PROGRAM
+  header_line_2: 
   body: The ambassador program allows ALIS fans and investors to spread the ALIS “gospel” and inform others about the network. Certified ambassadors located around the world utilize their special skills, hobbies, and knowledge to share the message of ALIS with others. Ambassadors keep the community vibrant and active, translate ALIS resources to their mother tongue, hold Meetups, etc. If you are interested in becoming an ALIS ambassador, please send a message to info@alismedia.jp. Limited benefits are available to those who have become ambassadors.
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/alis-ambassador-program-starts-dcb1ef3b39d0
