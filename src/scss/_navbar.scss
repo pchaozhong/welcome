@@ -69,13 +69,11 @@
     @include transition;
     display: inline;
     color: $color-text-primary;
-    border-bottom: solid 2px transparent;
     padding: 0 0 20px;
       
     @include mq-min(lg) {
       &:hover, &:active, &:focus {
         color: $color-purple-light;
-        border-bottom: solid 2px $color-purple-light;
       }          
     }
   }
