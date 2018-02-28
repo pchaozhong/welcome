@@ -90,6 +90,7 @@
     height: calc(100vh - #{$navbar-height-sp} - 100px);
     padding-bottom: 0px;
     background-image: url("/img/sp/img_top.jpg");
+    margin-bottom: 1em
   }
 
   &__title {
