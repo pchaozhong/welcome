@@ -1,19 +1,17 @@
-#cover.cover
-  // TODO: "carousel-inner" のclassを除却
-  .carousel-inner
-    .item.active
-      .container
-        .row
-          .col-md-12
-            .cover__caption
-              h2
-                | #{cover.caption_line_one}
-              p
-                | #{cover.caption_line_two.before}
-                em #{cover.caption_line_two.japan}
-                | #{cover.caption_line_two.after}
-        .row
-          .col-md-12
-            .cover__buttons
-              a(href=whitepaper.url, target="_blank") Read Whitepaper
-              a(href="https://discord.gg/b6T44q3" target="_blank") Join Discord
+section.p-cover
+  .p-cover__title
+    h2.p-cover__header ALLIANCE & WISDOM
+    h2.p-cover__caption
+      | #{cover.caption_line_one.first} 
+      br.u-pc-only
+      | #{cover.caption_line_one.second}
+      br.u-pc-only
+      | #{cover.caption_line_one.third}
+    
+  article.p-cta
+    h3.p-cta__header #{registration.header}
+    p.p-cta__body 
+      | #{registration.body_line_1}
+      | #{registration.body_line_2}
+      span.p-cta__body__caption #{registration.body_line_3}
+    a.p-cta__button.u-ja-only.u-ja-only--inline-block(href=registration.url, target='_blank') #{registration.btn_text}

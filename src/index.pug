@@ -6,181 +6,194 @@ body
 
   include mixin/mail_form
 
-  // Cover
-  include includes/cover
+  .p-index
+    main.l-main
+      img(src="/img/pc/top_sp_en.png").p-index__img.is-en.js-cover-iphone
+      // Cover
+      include includes/cover
 
-  // Service information
-  .container.service-information
-    .row
-      .col-md-12#service-information
-        img.service-information__logo(src='/img/logo.png', alt='ALIS')
-        h2.service-information__heading
-          | #{service_information.header}
-        .lead
-          | #{service_information.body1}
-        a.service-information__square-btn(href=whitepaper.url, target="_blank") Read Whitepaper
-        .lead
-          | #{service_information.body2}
-        p
-          +mail_form
+      // ABOUT
+      section.container-fluid.p-section
+        .p-title.p-title--ourproject
+          .p-title__header #{project.header}
+          .p-title__body 
+            | #{project.body1}
 
-  // media logos
-  .container.media-logos
-    .row
-      .col-md-12
-        a(href="https://japan.cnet.com/article/35106279/", target="blank")
-          img(src="/img/cnet.png", alt='Cnet Japan')
-        a(href="https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/", target="blank")
-          img(src="/img/nikkei.png" alt='The Bridge')
-        a(href="https://forbesjapan.com/articles/detail/17547", target="blank")
-          img(src="/img/forbes.png", alt='Forbes Japan')
-        a(href="https://bita.jp/dml/alis", target="blank")
-          img(src="/img/dijimalab.png" alt='Dijimalab')
-        a(href="http://www.itmedia.co.jp/news/articles/1708/25/news102.html", target="blank")
-          img(src="/img/itmedia.png" alt='ITMedia')
-    .row
-      .col-md-12
-        a(href="https://www.nhk.or.jp/keizai/archives/20170909_10.html", target="blank")
-          img(src="/img/nhk.svg" alt='The Bridge')
-        a(href="https://www.businessinsider.jp/post-105173", target="blank")
-          img(src="/img/business-insider.svg" alt='The Bridge')
-        a(href="https://cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media", target="blank")
-          img(src="/img/cointelegraph.png" alt='The Bridge')
-        a(href="https://www.cryptocoinsnews.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/",
-        target="blank")
-          img(src="/img/cryptocoinsnews.png" alt='The Bridge')
-        a(href="http://thebridge.jp/prtimes/254776", target="blank")
-          img(src="/img/thebridge.png" alt='The Bridge')
+          ul.p-feature-list(data-scroll="js-cover-iphone")
+            li.p-feature-list__item
+              p.p-feature-list__item-body
+                | #{project.feature_list.item1_body1}
+                br
+                | #{project.feature_list.item1_body2}
+            li.p-feature-list__item
+              p.p-feature-list__item-body
+                | #{project.feature_list.item2_body1}
+                br.u-md-only
+                | #{project.feature_list.item2_body2}
+                br.u-md-none
+                | #{project.feature_list.item2_body3}
+            li.p-feature-list__item
+              p.p-feature-list__item-body
+                | #{project.feature_list.item3_body1}
+                br
+                | #{project.feature_list.item3_body2}
 
-  // Features
-  .container.features
-    h2.features__heading
-      | #{features.header}
-    .row.features__row
-      .col-lg-3.features__item
-        .features__image-container
-          img.img-rounded.features__container__image(src='/img/feature_token.png', alt='token')
-        h4
-          | #{features.token.header}
-        p
-          | #{features.token.body}
-      .col-lg-3.features__item
-        .features__image-container
-          img.img-rounded.features__container__image(src='/img/feature_platform.png', alt='platform')
-        h4
-          | #{features.platform.header}
-        p
-          | #{features.platform.body}
-      .col-lg-3.features__item
-        .features__image-container
-          img.img-rounded.features__container__image(src='/img/feature_technology.png', alt='technology')
-        h4
-          | #{features.technology.header}
-        p
-          | #{features.technology.body}
 
-  // About Japan
-  .container.about-japan#about-japan
-    h2.about-japan__heading
-      | #{about_japan.header}
-    .row.about-japan__row
-      .col-md-7
-        h3
-          | #{about_japan.media_quality.header}
-        p
-          | #{about_japan.media_quality.body}
-      .col-md-5.about-japan__image-container
-        img.about-japan-image.img-responsive.center-block(src='/img/japan-media-quality.png',
-        alt='media quality')
-    .row.about-japan__row
-      .col-md-7.col-md-push-5
-        h3
-          | #{about_japan.technology.header}
-        p
-          | #{about_japan.technology.body}
-      .col-md-5.col-md-pull-7.about-japan__image-container
-        img.about-japan-image.img-responsive.center-block(src='/img/japan-technology.png',
-        alt='technology')
-    .row.about-japan__row
-      .col-md-7
-        h3
-          | #{about_japan.market.header}
-        p
-          | #{about_japan.market.body}
-      .col-md-5.about-japan__image-container
-        img.about-japan-image.img-responsive.center-block(src='/img/japan-market.png', alt='market')
+      // MEDIA APPEARANCE
+      section.container-fluid.p-section
+        .p-title.p-title--nobody
+          h3.p-title__header MEDIA APPEARANCE
+        // media logos
+        .p-media-logos
+          a(href="https://www.nhk.or.jp/keizai/archives/20170909_10.html", target="blank")
+            img(src="/img/sp/logo_nhk.png", alt='NHK')
+          a(href="https://japan.cnet.com/article/35106279/", target="blank")
+            img(src="/img/sp/logo_cnet.png", alt='Cnet Japan')
+          a(href="https://forbesjapan.com/articles/detail/17547", target="blank")
+            img(src="/img/sp/logo_forbes.png", alt='Forbes Japan')
+          a(href="https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/", target="blank")
+            img(src="/img/sp/logo_nikkei.png", alt='日本経済新聞')
+          a(href="http://www.itmedia.co.jp/news/articles/1708/25/news102.html", target="blank")
+            img(src="/img/sp/logo_itmedia.png" alt='ITMedia')
+          a(href="https://www.cryptocoinsnews.com/alis-to-establish-a-trustworthy-social-media-platform-in-japan/", target="blank")
+            img(src="/img/sp/logo_cryptocoins.png" alt='cryptocoinsnews')
+          a(href="http://ico-news.jp/2018/01/alis_interview/", target="blank")
+            img(src="/img/sp/logo_iconews.png" alt='ICO NEWS')
+          a(href="https://cointelegraph.com/news/blockchain-powers-shift-to-decentralization-in-media", target="blank")
+            img(src="/img/sp/logo_cointelegraph.png" alt='Cointelegraph')
 
-  // ICO
-  .ico
-    .container#ico
-      .row.ico__row
-        .col-md-12
-          h2.ico__heading
-            | #{ico.header}
-          img.technology__logo(src='/img/ico.png', alt='ICO')
-          .lead
-            | #{ico.body1}
+      // PRODUCT
+      section.container-fluid.p-section
+        .p-title
+          .p-title__header #{product.header}
+          .p-title__body 
+            | #{product.body_line_1}
+            br.u-pc-only.u-ja-only
+            | #{product.body_line_2}
+        .p-product
+          img.p-product__img(src="/img/pc/img_product.png" alt='ALIS MOCK')
+          .p-product__btns
+            a.p-product__button(href=product.mock_pc.url, target="_blank") #{product.mock_pc.btn_text}
+            a.p-product__button(href=product.mock_sp.url, target="_blank") #{product.mock_sp.btn_text}
             br
-            | #{ico.body2}
-            br
-            | #{ico.body3}
+            a.p-product__link(href=sns_url.github, target="_blank") #{product.dev_status}
 
-  // Technology
-  .container.technology
-    .row
-      .col-md-12
-        h2.technology__heading
-          | #{technology.header}
-        img.technology__logo(src='/img/technology.png', alt='technology')
-        .lead
-          | #{technology.body}
+      // MEMBER
+      section.container-fluid.p-section
+        .p-title.p-title--nobody
+          .p-title__header #{member.header}
+        .p-member
+            ul.row.p-member__list
+              include mixin/team_member
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.yasu.id)
+                +team_member(member.profile.yasu.name, member.profile.yasu.role)(src='/img/pc/img_profile_yasu.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.mizusawa.id)
+                +team_member(member.profile.mizusawa.name, member.profile.mizusawa.role)(src='/img/pc/img_profile_mizusawa.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.ishii.id)
+                +team_member(member.profile.ishii.name, member.profile.ishii.role)(src='/img/pc/img_profile_ishii.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.usagi.id)
+                +team_member(member.profile.usagi.name, member.profile.usagi.role)(src='/img/pc/img_profile_usagi.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.togashi.id)
+                +team_member(member.profile.togashi.name, member.profile.togashi.role)(src='/img/pc/img_profile_togashi.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kamei.id)
+                +team_member(member.profile.kamei.name, member.profile.kamei.role)(src='/img/pc/img_profile_kamei.png')
+              li.col-lg-3.col-xs-6.p-member__list-item(data-popup=member.profile.kubori.id)
+                +team_member(member.profile.kubori.name, member.profile.kubori.role)(src='/img/pc/img_profile_kubori.png')
 
-  // Subscribe form
-  .container.subscribe-form
-    .row
-      .col-md-12
-        h2.subscribe-form__heading
-        .lead
-          | #{subscribe_form.body}
-        p
-          +mail_form
 
-  // Team
-  .team
-    .container#team
-      .row
-        .col-md-12
-          h2.team__heading
-            | #{team.header}
-        include mixin/team_member
-        include mixin/team_member_sns
-        .col-lg-4
-          +team_member(team.profile.yasu.name, 'Founder / CEO')(src='/img/yasu.jpg')
-          +team_member_sns('masahiro.yasu.7', 'MasahiroALIS')
-          .team__content
-            | #{team.profile.yasu.body}
-        .col-lg-4
-          +team_member(team.profile.mizusawa.name, 'Co-Founder / CMO')(src='/img/mizusawa.jpg')
-          +team_member_sns('takashi.mizusawa', 'takashi_mizu')
-          .team__content
-            | #{team.profile.mizusawa.body}
-        .col-lg-4
-          +team_member(team.profile.ishii.name, 'Co-Founder / CTO')(src='/img/ishii.jpg')
-          +team_member_sns('sota.ishii', 'sot528')
-          .team__content
-            | #{team.profile.ishii.body}
-      .row
-        .col-lg-4
-          +team_member(team.profile.kamei.name, 'Legal department')(src='/img/kamei.jpg')
-          p.team__sns-link
-            +team_member_fb('tatsuhiko.kamei.9')
-            .team__content
-              | #{team.profile.kamei.body}
-        .col-lg-4
-          +team_member(team.profile.nakamura.name, 'Media and Mass communication')(src='/img/nakamura.jpg')
-          +team_member_sns('cafekenta?fref=ts', 'cafekenta')
-          .team__content
-            | #{team.profile.nakamura.body}
+      // EXCHANGE
+      section.p-section
+        .p-title.p-title--nobody
+          h3.p-title__header EXCHANGE
+
+        .p-exchange
+            a(href="https://www.coinexchange.io/", target="blank")
+              img.p-exchange__img(src="/img/pc/logo_coinexchange.png" alt='Coin Exchange')
+              img.p-exchange__img--sp(src="/img/sp/logo_coinexchange.png" alt='Coin Exchange')
+            a(href="https://www.cryptopia.co.nz/", target="blank")
+              img.p-exchange__img(src="/img/pc/logo_cryptopia.png" alt='cryptopias')
+              img.p-exchange__img--sp(src="/img/sp/logo_cryptopia.png" alt='cryptopias')
+            a(href="https://yobit.net", target="blank")
+              img.p-exchange__img(src="/img/pc/logo_yobit.png" alt='Yobit')
+              img.p-exchange__img--sp(src="/img/sp/logo_yobit.png" alt='Yobit')
+  
+  include mixin/popup_member
+  article.p-popup.p-popup-member.is-effect(id="js-popup-"+member.profile.yasu.id)
+    +popup_member(
+    member.profile.yasu.id,
+    member.profile.yasu.name,
+    member.profile.yasu.role, 
+    member.profile.yasu.body, 
+    member.profile.yasu.twitter, 
+    member.profile.yasu.fb, 
+    member.profile.yasu.linkedin)
+  .p-popup-overlay(data-exit=member.profile.yasu.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_mizusawa.png', id="js-popup-"+member.profile.mizusawa.id)
+    +popup_member(
+    member.profile.mizusawa.id,
+    member.profile.mizusawa.name,
+    member.profile.mizusawa.role, 
+    member.profile.mizusawa.body, 
+    member.profile.mizusawa.twitter, 
+    member.profile.mizusawa.fb, 
+    member.profile.mizusawa.linkedin)
+  .p-popup-overlay(data-exit=member.profile.mizusawa.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_ishii.png', id="js-popup-"+member.profile.ishii.id)
+    +popup_member(
+    member.profile.ishii.id,
+    member.profile.ishii.name,
+    member.profile.ishii.role, 
+    member.profile.ishii.body, 
+    member.profile.ishii.twitter, 
+    member.profile.ishii.fb, 
+    member.profile.ishii.linkedin)
+  .p-popup-overlay(data-exit=member.profile.ishii.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_togashi.png', id="js-popup-"+member.profile.togashi.id)
+    +popup_member(
+    member.profile.togashi.id,
+    member.profile.togashi.name,
+    member.profile.togashi.role, 
+    member.profile.togashi.body, 
+    member.profile.togashi.twitter, 
+    member.profile.togashi.fb, 
+    member.profile.togashi.linkedin)
+  .p-popup-overlay(data-exit=member.profile.togashi.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kamei.png', id="js-popup-"+member.profile.kamei.id)
+    +popup_member(
+    member.profile.kamei.id,
+    member.profile.kamei.name,
+    member.profile.kamei.role, 
+    member.profile.kamei.body, 
+    member.profile.kamei.twitter, 
+    member.profile.kamei.fb, 
+    member.profile.kamei.linkedin)
+  .p-popup-overlay(data-exit=member.profile.kamei.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_usagi.png', id="js-popup-"+member.profile.usagi.id)
+    +popup_member(
+    member.profile.usagi.id,
+    member.profile.usagi.name,
+    member.profile.usagi.role, 
+    member.profile.usagi.body, 
+    member.profile.usagi.twitter, 
+    member.profile.usagi.fb, 
+    member.profile.usagi.linkedin)
+  .p-popup-overlay(data-exit=member.profile.usagi.id)
+
+  article.p-popup.p-popup-member.is-effect(src='/img/pc/img_profile_kubori.png', id="js-popup-"+member.profile.kubori.id)
+    +popup_member(
+    member.profile.kubori.id,
+    member.profile.kubori.name,
+    member.profile.kubori.role, 
+    member.profile.kubori.body, 
+    member.profile.kubori.twitter, 
+    member.profile.kubori.fb, 
+    member.profile.kubori.linkedin)
+  .p-popup-overlay(data-exit=member.profile.kubori.id)
 
   // Footer
   #meetus

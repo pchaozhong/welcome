@@ -1,0 +1,207 @@
+include includes/header
+
+// Navbar
+body
+  include includes/navbar
+
+  include mixin/mail_form
+
+  .p-page
+    main.l-main
+      .p-cover-header.p-cover-header--news.js-cover-header
+        h2.p-cover-header__title NEWS
+
+      .container-fluid
+        .p-block--lg
+          .row.p-news-cards
+            include mixin/news_card
+            .col-lg-4(data-hasurl=news._02282018.url)
+              a.p-news-card.p-news-card--twitter(href=news._02282018.url, target="_blank", data-category=news._02282018.category)
+                +news_card(
+                news._02282018.category,
+                news._02282018.date,
+                news._02282018.header,
+                news._02282018.body)
+            .col-lg-4(data-hasurl=news._02242018.url)
+              a.p-news-card.p-news-card--twitter(href=news._02242018.url, target="_blank", data-category=news._02242018.category)
+                +news_card(
+                news._02242018.category,
+                news._02242018.date,
+                news._02242018.header,
+                news._02242018.body)
+            .col-lg-4(data-hasurl=news._02142018.url)
+              a.p-news-card.p-news-card--twitter(href=news._02142018.url, target="_blank", data-category=news._02142018.category)
+                +news_card(
+                news._02142018.category,
+                news._02142018.date,
+                news._02142018.header,
+                news._02142018.body)
+            .col-lg-4(data-hasurl=news._02122018.url)
+              a.p-news-card.p-news-card--twitter(href=news._02122018.url, target="_blank", data-category=news._02122018.category)
+                +news_card(
+                news._02122018.category,
+                news._02122018.date,
+                news._02122018.header,
+                news._02122018.body)
+            .col-lg-4(data-hasurl=news._02072018.url)
+              a.p-news-card.p-news-card--twitter(href=news._02072018.url, target="_blank", data-category=news._02072018.category)
+                +news_card(
+                news._02072018.category,
+                news._02072018.date,
+                news._02072018.header,
+                news._02072018.body)
+            .col-lg-4(data-hasurl=news._02062018_1.url)
+              a.p-news-card.p-news-card--twitter(href=news._02062018_1.url, target="_blank", data-category=news._02062018_1.category)
+                +news_card(
+                news._02062018_1.category,
+                news._02062018_1.date,
+                news._02062018_1.header,
+                news._02062018_1.body)
+            .col-lg-4(data-hasurl=news._02062018_2.url)
+              a.p-news-card.p-news-card--twitter(href=news._02062018_2.url, target="_blank", data-category=news._02062018_2.category)
+                +news_card(
+                news._02062018_2.category,
+                news._02062018_2.date,
+                news._02062018_2.header,
+                news._02062018_2.body)
+            .col-lg-4(data-hasurl=news._01222018.url)
+              a.p-news-card.p-news-card--twitter(href=news._01222018.url, target="_blank", data-category=news._01222018.category)
+                +news_card(
+                news._01222018.category,
+                news._01222018.date,
+                news._01222018.header,
+                news._01222018.body)
+            .col-lg-4(data-hasurl=news._12232017_1.url)
+              a.p-news-card.p-news-card--twitter(href=news._12232017_1.url, target="_blank", data-category=news._12232017_1.category)
+                +news_card(
+                news._12232017_1.category,
+                news._12232017_1.date,
+                news._12232017_1.header,
+                news._12232017_1.body)
+            .col-lg-4(data-hasurl=news._12232017_2.url)
+              a.p-news-card.p-news-card--twitter(href=news._12232017_2.url, target="_blank", data-category=news._12232017_2.category)
+                +news_card(
+                news._12232017_2.category,
+                news._12232017_2.date,
+                news._12232017_2.header,
+                news._12232017_2.body)
+            .col-lg-4(data-hasurl=news._12052017.url)
+              a.p-news-card.p-news-card--twitter(href=news._12052017.url, target="_blank", data-category=news._12052017.category)
+                +news_card(
+                news._12052017.category,
+                news._12052017.date,
+                news._12052017.header,
+                news._12052017.body)
+            .col-lg-4(data-hasurl=news._09292017.url)
+              a.p-news-card.p-news-card--twitter(href=news._09292017.url, target="_blank", data-category=news._09292017.category)
+                +news_card(
+                news._09292017.category,
+                news._09292017.date,
+                news._09292017.header,
+                news._09292017.body)
+            .col-lg-4(data-hasurl=news._09272017_1)
+              a.p-news-card.p-news-card--twitter(href=news._09272017_1.url, target="_blank", data-category=news. _09272017_1.category)
+                +news_card(
+                news. _09272017_1.category,
+                news. _09272017_1.date,
+                news. _09272017_1.header,
+                news. _09272017_1.body)
+            .col-lg-4(data-hasurl=news._09272017_2.url)
+              a.p-news-card.p-news-card--twitter(href=news._09272017_2.url, target="_blank", data-category=news._09272017_2.category)
+                +news_card(
+                news._09272017_2.category,
+                news._09272017_2.date,
+                news._09272017_2.header,
+                news._09272017_2.body)
+            .col-lg-4(data-hasurl=news._09132018.url)
+              a.p-news-card.p-news-card--twitter(href=news._09132018.url, target="_blank", data-category=news._09132018.category)
+                +news_card(
+                news._09132018.category,
+                news._09132018.date,
+                news._09132018.header,
+                news._09132018.body)
+            //- NHK
+            .col-lg-4(data-hasurl=news._09092017.url)
+              a.p-news-card.p-news-card--twitter(href=news._09092017.url, target="_blank", data-category=news._09092017.category)
+                +news_card(
+                news._09092017.category,
+                news._09092017.date,
+                news._09092017.header,
+                news._09092017.body)
+            .col-lg-4(data-hasurl=news._09012017_1.url)
+              a.p-news-card.p-news-card--twitter(href=news._09012017_1.url, target="_blank", data-category=news._09012017_1.category)
+                +news_card(
+                news._09012017_1.category,
+                news._09012017_1.date,
+                news._09012017_1.header,
+                news._09012017_1.body)
+            .col-lg-4(data-hasurl=news._09012017_2.url)
+              a.p-news-card.p-news-card--twitter(href=news._09012017_2.url, target="_blank", data-category=news._09012017_2.category)
+                +news_card(
+                news._09012017_2.category,
+                news._09012017_2.date,
+                news._09012017_2.header,
+                news._09012017_2.body)
+            .col-lg-4(data-hasurl=news._09112017.url)
+              a.p-news-card.p-news-card--twitter(href=news._09112017.url, target="_blank", data-category=news._09112017.category)
+                +news_card(
+                news._09112017.category,
+                news._09112017.date,
+                news._09112017.header,
+                news._09112017.body)
+            .col-lg-4(data-hasurl=news._09062017.url)
+              a.p-news-card.p-news-card--twitter(href=news._09062017.url, target="_blank", data-category=news._09062017.category)
+                +news_card(
+                news._09062017.category,
+                news._09062017.date,
+                news._09062017.header,
+                news._09062017.body)
+            .col-lg-4(data-hasurl=news._09012017_3.url)
+              a.p-news-card.p-news-card--twitter(href=news._09012017_3.url, target="_blank", data-category=news._09012017_3.category)
+                +news_card(
+                news._09012017_3.category,
+                news._09012017_3.date,
+                news._09012017_3.header,
+                news._09012017_3.body)
+            .col-lg-4(data-hasurl=news._08302018.url)
+              a.p-news-card.p-news-card--twitter(href=news._08302018.url, target="_blank", data-category=news._08302018.category)
+                +news_card(
+                news._08302018.category,
+                news._08302018.date,
+                news._08302018.header,
+                news._08302018.body)
+            .col-lg-4(data-hasurl=news._08252017_1.url)
+              a.p-news-card.p-news-card--twitter(href=news._08252017_1.url, target="_blank", data-category=news._08252017_1.category)
+                +news_card(
+                news._08252017_1.category,
+                news._08252017_1.date,
+                news._08252017_1.header,
+                news._08252017_1.body)
+            .col-lg-4(data-hasurl=news._08252017_2.url)
+              a.p-news-card.p-news-card--twitter(href=news._08252017_2.url, target="_blank", data-category=news._08252017_2.category)
+                +news_card(
+                news._08252017_2.category,
+                news._08252017_2.date,
+                news._08252017_2.header,
+                news._08252017_2.body)
+            .col-lg-4(data-hasurl=news._08232018.url)
+              a.p-news-card.p-news-card--twitter(href=news._08232018.url, target="_blank", data-category=news._08232018.category)
+                +news_card(
+                news._08232018.category,
+                news._08232018.date,
+                news._08232018.header,
+                news._08232018.body)
+            .col-lg-4(data-hasurl=news._08182017.url)
+              a.p-news-card.p-news-card--twitter(href=news._08182017.url, target="_blank", data-category=news._08182017.category)
+                +news_card(
+                news._08182017.category,
+                news._08182017.date,
+                news._08182017.header,
+                news._08182017.body)
+
+  // Footer
+  #meetus
+  include includes/footer
+
+  // generated by webpack
+  script(type="text/javascript", src='/js/low_priority_index.js')
