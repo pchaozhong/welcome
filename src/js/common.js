@@ -137,9 +137,16 @@ $(() => {
   }
 
   if($('.p-page-news').length > 0) {
-    $('.js-ellipsis').each(function(){
-      if ($(this).text().length > 60) {
-        let text = $(this).text().slice(0, 60);
+    let lang = ($('.is-ja').length > 0) ? 'ja':'en'; 
+    let size = {
+      'en': { 'header': 60, 'body': 90 },
+      'ja': { 'header': 28, 'body': 60 }
+    };
+
+    $('[data-ellipsis]').each(function(){
+      let type = $(this).data('ellipsis');
+      if ($(this).text().length > size[lang][type]) {
+        let text = $(this).text().slice(0, size[lang][type]);
         $(this).text(text+"…");
       }
     })
