@@ -46,7 +46,7 @@ $(() => {
   });
 
   // 言語セレクトボックスのオープン
-  $('.js-select-lang').click(function(e) {
+  $('.js-select-lang').click(function() {
     $(this).parent('.c-select').addClass('is-on')
   });
 
@@ -95,7 +95,7 @@ $(() => {
 
   $('[data-popup]').click(function(){
     const target = $(this).data('popup');
-    current_scrollY =　$( window ).scrollTop();
+    current_scrollY = $( window ).scrollTop();
     $('html, body').css({'overflow':'hidden', 'height': '100%'});
     $('#js-popup-'+target).addClass('is-on');
   });
