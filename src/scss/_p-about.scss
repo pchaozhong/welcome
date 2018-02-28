@@ -93,15 +93,14 @@
 	&__body {
 		margin: 0 auto;
 		max-width: 320px;
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 		line-height: 2;
-		letter-spacing: 3px;
+		letter-spacing: 2px;
 		text-align: left;
 		@include mq(lg) {
 			max-width: 100%;
 		}
 		@include mq() {
-			font-size: 1.4rem;
 			letter-spacing: 2px;
 			line-height: 1.5;		
 		}
