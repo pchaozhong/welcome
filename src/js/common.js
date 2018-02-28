@@ -88,39 +88,20 @@ $(() => {
     }
   });
 
+
   // ポップアップ
+
+  let current_scrollY = 0;
+
   $('[data-popup]').click(function(){
     const target = $(this).data('popup');
-
-    $('#js-popup-'+target).css('max-height', '500px');
-    // let touch_start_y = 0;
-    // タッチしたとき開始位置を保存しておく
-    // $(window).on('touchstart', function(event) {
-    //   touch_start_y = event.originalEvent.changedTouches[0].screenY;
-    // });
-
-    // // スワイプしているとき
-    // $(window).on('touchmove.noscroll', function(event) {
-    //   var current_y = event.originalEvent.changedTouches[0].screenY,
-    //       height = $('#js-popup-'+target).outerHeight(),
-    //       is_top = touch_start_y <= current_y && $('#js-popup-'+target).scrollTop() === 0,
-    //       is_bottom = touch_start_y >= current_y && $('#js-popup-'+target).scrollHeight - $('#js-popup-'+target).scrollTop() === height;
-      
-    //   // スクロール対応モーダルの上端または下端のとき
-    //   if (is_top || is_bottom) {
-    //     // スクロール禁止
-    //     event.preventDefault();
-    //   }
-    // })
-
-    // スクロール禁止
+    current_scrollY =　$( window ).scrollTop();
     $('html, body').css({'overflow':'hidden', 'height': '100%'});
-  
     $('#js-popup-'+target).addClass('is-on');
   });
 
-
   $('[data-exit]').click(function(){
+    $( 'html, body' ).prop( { scrollTop: current_scrollY } );
     $('body').removeAttr('style');
     $(window).off('touchmove.noscroll');
     const target = $(this).data('exit');
