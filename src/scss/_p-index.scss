@@ -223,9 +223,6 @@
 
 /* Feature List
 -------------------------------------------------- */
-.is-ja .p-feature-list {
-  max-width: 520px;
-}
 
 .p-feature-list {
   padding: 0;
@@ -294,7 +291,7 @@
   &__item-body {
     font-size: 1.6rem;
     line-height: 2;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     font-weight: bold;
     display: inline-block;
     vertical-align: middle;
@@ -308,6 +305,14 @@
       text-align: left;
       padding-left: 1rem;
     }
+  }
+}
+
+.is-ja .p-feature-list {
+  max-width: 520px;
+
+  &__item-body {
+    letter-spacing: 4px;
   }
 }
 

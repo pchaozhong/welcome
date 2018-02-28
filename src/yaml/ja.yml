@@ -43,8 +43,8 @@ project:
     item2_body2: 書く・見つけると
     item2_body3: 報酬がもらえる
     item3_body1: 日本コミュニティを
-    item3_body2: 中心に創り上げる
-    item3_body3: プロダクト
+    item3_body2: 中心に創り上げるプロダクト
+    item3_body3: 
 product:
   header: PRODUCT
   body_line_1: 現在ALISでは4月下旬に公開予定のALISクローズドβへの参加者を募集しています。
