@@ -94,7 +94,7 @@ $(() => {
   let current_scrollY = $( window ).scrollTop();
 
   $('[data-popup]').click(function(){
-    current_scrollY =　window.scrollY;
+    current_scrollY = window.scrollY;
     const target = $(this).data('popup');    
     $('#js-popup-'+target).addClass('is-on');
     $('html, body').css({'overflow':'hidden'});
