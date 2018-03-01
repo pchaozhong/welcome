@@ -4,7 +4,9 @@
 
 $(() => {
 
-  let checkLang = (path, reg) => {
+  const isIOS = /iP(hone|(o|a)d)/.test(navigator.userAgent);
+
+  const checkLang = (path, reg) => {
     let lang = (path.match(reg))?path.slice(1,3).toUpperCase():'EN';
 
     return lang;
@@ -88,27 +90,26 @@ $(() => {
     }
   });
 
-
   // ポップアップ
-
-  let current_scrollY = 0;
+  let current_scrollY = $( window ).scrollTop();
 
   $('[data-popup]').click(function(){
-    const target = $(this).data('popup');
-    current_scrollY = $( window ).scrollTop();
-    $('html, body').css({'overflow':'hidden', 'height': '100%'});
+    current_scrollY = window.scrollY;
+    const target = $(this).data('popup');    
     $('#js-popup-'+target).addClass('is-on');
+    $('html, body').css({'overflow':'hidden'});
+    $( window ).scrollTop(current_scrollY);
+    if ( isIOS ) {
+      $('html, body').css({'height':"100%"});
+    } 
   });
 
-  $('[data-exit]').click(function(){
-    $( 'html, body' ).prop( { scrollTop: current_scrollY } );
-    $('body').removeAttr('style');
-    $(window).off('touchmove.noscroll');
+  $('[data-exit]').click(function(){   
+    $( window ).scrollTop(current_scrollY);
     const target = $(this).data('exit');
     $('#js-popup-'+target).removeClass('is-on');
-    $('html').removeAttr('style');
+    $('html, body').removeAttr('style');
   });
-
 
   if($('[data-scroll]').length > 0) {
     let targetClass = $('[data-scroll]').data('scroll');
