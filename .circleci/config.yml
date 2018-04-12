@@ -32,7 +32,6 @@ jobs:
         paths:
         - ./node_modules
 
-  deploy-develop:
     - deploy:
         command: |
           if [ "${CIRCLE_BRANCH}" != "master" ]; then
