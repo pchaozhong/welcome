@@ -28,9 +28,9 @@ cover:
     second: 全く新しいソーシャルメディア
 registration:
   header: REGISTRATION
-  body_line_1: ALISでは4月下旬に公開予定のALISクローズドβへの参加者を募集しています。
-  body_line_2: ご興味をお持ちの方はクローズドβ応募フォームよりご応募ください。
-  body_line_3: ※クローズドβは現在募集を停止しております
+  body_line_1: おかげさまげ23日公開予定のALISクローズドβ版ユーザー事前登録は定員に達しましたので、募集を締め切らせていただきます。
+  body_line_2: 今後の追加ユーザー募集につきましては詳細が決まり次第アナウンスさせていただきます。
+  body_line_3: 
   btn_text: クローズドβに応募する
   url: http://eepurl.com/diOWan
 project:
