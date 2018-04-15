@@ -49,14 +49,14 @@ project:
     item3_body3:
 product:
   header: PRODUCT
-  body_line_1: 現在ALISでは4月下旬に公開予定のALISクローズドβへの参加者を募集しています。
-  body_line_2: デザインモックへのフィードバックも可能ですのでぜひご覧ください。
+  body_line_1: ALISは現在クローズドβ版を公開しており、プロダクトの開発状況もご確認いただけます。
+  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。
   mock_pc:
-    btn_text: パソコンのモックを見る
-    url: https://invis.io/NVF0FSW2B
+    btn_text: クローズドβにアクセス
+    url: https://alis.to
   mock_sp:
-    btn_text: スマートフォンのモックを見る
-    url: https://invis.io/GNF0FS8R8
+    btn_text: Waitingリストに登録
+    url: http://eepurl.com/
   dev_status: プロダクトの開発状況はこちら
 about:
   vision:
