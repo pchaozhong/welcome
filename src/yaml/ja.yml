@@ -29,8 +29,7 @@ cover:
 registration:
   header: CLOSED β PRODUCT
   body_line_1: ALISは現在クローズドβ版を公開しております。
-  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。登録がお済みでない方はWaitingリストにご登録いただき、登録再開をお待ち下さい。
-  body_line_3:
+  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。Waitingリストにご登録いただき、利用枠数の追加タイミングで順番にご案内いたします。
   btn_text1: クローズドβにアクセス
   url1: https://alis.to
   btn_text2: Waitingリストに登録
@@ -50,7 +49,7 @@ project:
 product:
   header: PRODUCT
   body_line_1: ALISは現在クローズドβ版を公開しており、プロダクトの開発状況もご確認いただけます。
-  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。
+  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。Waitingリストにご登録いただき、利用枠数の追加タイミングで順番にご案内いたします。
   mock_pc:
     btn_text: クローズドβにアクセス
     url: https://alis.to
