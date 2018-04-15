@@ -16,72 +16,74 @@ navbar:
   community: COMMUNITY
   product: PRODUCT
   roadmap: ROADMAP
-  news: NEWS 
+  news: NEWS
 whitepaper:
   url: https://alisproject.github.io/whitepaper/whitepaper_v1.01.pdf
   btn_text: Read Whitepaper
 roadmap:
   url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
 cover:
-  caption_line_one: 
-    first: A completely new social media concept 
-    second: revealing and providing access to 
+  caption_line_one:
+    first: A completely new social media concept
+    second: revealing and providing access to
     third: reliable, articles, news, and people
 registration:
-  header: REGISTRATION
-  body_line_1: ALIS is looking for participants to join the ALIS closed beta version to be published in the end of April. 
+  header: CLOSED β PRODUCT
+  body_line_1: ALIS is looking for participants to join the ALIS closed beta version to be published in the end of April.
   body_line_2: If you are interested please apply via the closed beta application form.※ We are looking for those with a domestic, SMS capable, Japanese phone number.
-  body_line_3: 
-  url: http://eepurl.com/diOWan
-  btn_text: Apply to be a part of the closed beta launch!
+  body_line_3:
+  btn_text1: Open the website
+  url1: https://alis.to
+  btn_text2: subscribe to waitinglist
+  url2: http://eepurl.com/
 project:
   header: OUR PROJECT
   body1: ALIS is a social media platform set to revolutionize the news and social media industries by connecting ALIS users with trustworthy articles, news, and people quickly. Our goal is to create a platform that incentivizes reliable information by rewarding authors trusted by you, the ALIS community user, as well as rewarding the consumers of the content, who vote on the level of reliability and quality of news, articles, and blogs. The goal is to set people free from advertisement-saturated conventional media, stealth marketing campaigns, and less-than-reliable information sources.
   feature_list:
-    item1_body1: Find the information 
+    item1_body1: Find the information
     item1_body2: you want immediately
-    item2_body1: Write articles, 
-    item2_body2: and get rewards 
+    item2_body1: Write articles,
+    item2_body2: and get rewards
     item2_body3: for curation
-    item3_body1: A product created 
+    item3_body1: A product created
     item3_body2: mainly by the Japanese community
-    item3_body3: 
+    item3_body3:
 product:
   header: PRODUCT
   body_line_1: The team has currently published a design mock-up for the closed beta release scheduled in the end of April.　
   body_line_2: A community feedback feature has been made available, so please check out the mock-up, and let us know what you think!
-  mock_pc: 
+  mock_pc:
     btn_text: View closed beta mock-up for PC
     url: https://invis.io/NVF0FSW2B
-  mock_sp: 
+  mock_sp:
     btn_text: View closed beta mock-up for mobile device
     url: https://invis.io/GNF0FS8R8
   dev_status: Click here for product development status
 about:
-  vision: 
+  vision:
     body_line_1: Facilitate the connection of people through visualized trust
-    body_line_2: 
+    body_line_2:
   mission:
     item1: Create a social media platform that enables users to find trustworthy articles and people quickly
     item2: Continuous improvement of concept, and flexibility for adjustment in order to maximize the accurate visualization of reliable people and information
     item3: Realize an autonomously developing economic system made possible via blockchain technology and a token economy
-  value: 
-    item1: 
+  value:
+    item1:
       header: Alliance and Wisdom
       body: Rather than trying to accomplish something alone, combining the wisdom of everyone is an indispensable element in creating a new business. We cherish the interdependent business creation process, working together with a wealth of various ideas, rather than alone, with few.
-    item2: 
+    item2:
       header: Keep it short and simple
       body: Instead of compromising our basic philosophy with over-complicated explanations and convoluted functions, we think the most important thing is to make a simple and concise product that can be used by everyone.
-    item3: 
+    item3:
       header: Discuss and share our product with more than just words
       body: No amount of mere talk can bring provide verification of trustworthiness, or bring real value as we wish to bring to our users. We aim to provide real value in continuously improving our product. A large part of this process involves listening to and successfully and reliably applying user feedback.
-    item4: 
+    item4:
       header: Wow! the user
       body: In addition to responding to user expectations, we will continuously provide the "WOW” experience, exceeding user expectations in as many ways as possible, delivering a product that always has—even in small ways—pleasant surprises.
-    item5: 
+    item5:
       header: Be the first penguin
       body: In unexplored and new areas full of potential, you can learn a lot by jumping in first. Though there may be an enemy lurking down there, the first penguin in the water takes this risk boldly anyway, and often gets the most fish!
-    item6: 
+    item6:
       header: Passion as subject
       body: In the development of community products, individuals should not just wait around to "see what happens," but take an active role in making contributions and suggestions, according to their own unique wants, needs, and visions. This can make for a robust discussion, and a well-rounded product!
 team:
@@ -118,7 +120,7 @@ member:
       fb: https://fb.me/sota.ishii
       linkedin:
     togashi:
-      id: togashi 
+      id: togashi
       name: KEIJU TOGASHI
       body: |
         Togashi has over 12 years of experience in engineering, and as a service planning team member for several years.
@@ -128,7 +130,7 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/keillera
       fb: https://www.facebook.com/people/Keiju-Togashi/100005289070257
-      linkedin:      
+      linkedin:
     kamei:
       id: kamei
       name: TATSUHIKO KAMEI
@@ -138,7 +140,7 @@ member:
       twitter: https://twitter.com/chamoisth
       fb: https://www.facebook.com/tatsuhiko.kamei.9
       linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
-    usagi: 
+    usagi:
       id: usagi
       name: USAGI
       body: |
@@ -147,13 +149,13 @@ member:
       twitter: https://twitter.com/AKG_FF0000
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
-    gachiho: 
+    gachiho:
       id: gachiho
       name: GACHIHO
       body: |
-        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.   
+        sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text. sample text.
       role: ENGINEER
-      twitter: 
+      twitter:
       fb:
       linkedin:
     kubori:
@@ -168,7 +170,7 @@ member:
 ambassador:
   header: AMBASSADOR
   body: to help spread awareness of the platform ALIS.
-  profile: 
+  profile:
     seiya:
       name: seiya
       url: https://twitter.com/crypto_seiya
@@ -204,7 +206,7 @@ ambassador:
       url: https://twitter.com/rethink_urban
     francis:
       name: Francis
-      url: 
+      url:
     takuya:
       name: Takuya Koide
       url: https://twitter.com/tkoide0513
@@ -213,10 +215,10 @@ ambassador:
       url: https://twitter.com/TornadoYoshi
     michal:
       name: Michal Vlasak
-      url: 
+      url:
     peter:
       name: Peter Wu
-      url: 
+      url:
     tan:
       name: Tan Liang Yit
       url: https://twitter.com/liangyit90
@@ -224,38 +226,38 @@ ambassador:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
 community:
-  header: 
-    body_line_1: Pioneering the Future, 
+  header:
+    body_line_1: Pioneering the Future,
     body_line_2: Together!
   body: In order to obtain quality feedback, ALIS is constantly keeping the community updated on the latest news and developments, continuously seeking user suggestions and direction. Via this process of “crowdsourcing wisdom,” sound and successful ideas will tend to survive those not so solid, and we can move forward with the most practical and useful platform. Your activity is what makes ALIS successful. Let’s do it!
   twitter:
     name: TWITTER
     body_line_1: Get the latest updates and news about ALIS
-    body_line_2: 
-    body_line_3: 
+    body_line_2:
+    body_line_3:
   medium:
     name: MEDIUM
-    body_line_1: Learn more 
+    body_line_1: Learn more
     body_line_2: about ALIS
-    body_line_3: 
+    body_line_3:
   discord:
     name: DISCORD
     body_line_1: Meet other enthusiastic members of the ALIS community
-    body_line_2: 
-    body_line_3: 
+    body_line_2:
+    body_line_3:
   reddit:
     name: REDDIT
-    body_line_1: I would like 
-    body_line_2: to participate 
+    body_line_1: I would like
+    body_line_2: to participate
     body_line_3: in an ALIS Q & A.
   github:
     name: GITHUB
     body_line_1: Check the progress of the ALIS platform and coin
-    body_line_2: 
-    body_line_3: 
+    body_line_2:
+    body_line_3:
 ambassador_program:
   header_line_1: AMBASSADOR PROGRAM
-  header_line_2: 
+  header_line_2:
   body: The ambassador program allows ALIS fans and investors to spread the ALIS “gospel” and inform others about the network. Certified ambassadors located around the world utilize their special skills, hobbies, and knowledge to share the message of ALIS with others. Ambassadors keep the community vibrant and active, translate ALIS resources to their mother tongue, hold Meetups, etc. If you are interested in becoming an ALIS ambassador, please send a message to info@alismedia.jp. Limited benefits are available to those who have become ambassadors.
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/alis-ambassador-program-starts-dcb1ef3b39d0
@@ -426,7 +428,7 @@ news:
     body: ou can read this article in only 3 minutes. We hope you are interested in ALIS by reading this article.
     url: https://medium.com/@alismedia/the-key-points-of-whitepaper-in-3-minutes-606fa956c18b
 
-sns_url: 
+sns_url:
   twitter: https://twitter.com/ALIS_media
   medium: https://medium.com/@alismedia
   reddit: https://www.reddit.com/r/Alis/

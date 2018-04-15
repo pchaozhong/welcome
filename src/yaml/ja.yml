@@ -23,20 +23,22 @@ whitepaper:
 roadmap:
   url: https://trello.com/b/XH5jh4DT/alis-public-roadmap
 cover:
-  caption_line_one: 
+  caption_line_one:
     first: 信頼できる記事と人々を明らかにする
     second: 全く新しいソーシャルメディア
 registration:
-  header: REGISTRATION
-  body_line_1: おかげさまで23日公開予定のALISクローズドβ版ユーザー事前登録は定員に達しましたので、募集を締め切らせていただきます。
-  body_line_2: 今後の追加ユーザー募集につきましては詳細が決まり次第アナウンスさせていただきます。
-  body_line_3: 
-  btn_text: クローズドβに応募する
-  url: http://eepurl.com/diOWan
+  header: CLOSED β PRODUCT
+  body_line_1: ALISは現在クローズドβ版を公開しております。
+  body_line_2: ※記事を投稿したりいいねをするためには登録が必要です。登録がお済みでない方はWaitingリストにご登録いただき、登録再開をお待ち下さい。
+  body_line_3:
+  btn_text1: クローズドβにアクセス
+  url1: https://alis.to
+  btn_text2: Waitingリストに登録
+  url2: http://eepurl.com/
 project:
   header: OUR PROJECT
   body1: ALISは信頼性の高い情報・人に素早く出会えるソーシャルメディアプラットフォームです。 信頼できる記事を書いた人、それをいち早く見つけた人が報酬を獲得することで信頼できる情報を蓄積するプラットフォームの実現を目指します。 従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報にうんざりしている人々を解放することがALISの目的です。
-  feature_list: 
+  feature_list:
     item1_body1: 欲しい情報が
     item1_body2: すぐに見つかる
     item2_body1: 信頼できる記事を
@@ -44,16 +46,16 @@ project:
     item2_body3: 報酬がもらえる
     item3_body1: 日本コミュニティを
     item3_body2: 中心に創り上げるプロダクト
-    item3_body3: 
+    item3_body3:
 product:
   header: PRODUCT
   body_line_1: 現在ALISでは4月下旬に公開予定のALISクローズドβへの参加者を募集しています。
   body_line_2: デザインモックへのフィードバックも可能ですのでぜひご覧ください。
-  mock_pc: 
+  mock_pc:
     btn_text: パソコンのモックを見る
     url: https://invis.io/NVF0FSW2B
-  mock_sp: 
-    btn_text: スマートフォンのモックを見る 
+  mock_sp:
+    btn_text: スマートフォンのモックを見る
     url: https://invis.io/GNF0FS8R8
   dev_status: プロダクトの開発状況はこちら
 about:
@@ -64,23 +66,23 @@ about:
     item1: 信頼できる記事と人々に素早く出会えることを可能にするソーシャルメディアを創造する
     item2: 人や情報の信頼性を可視化するロジックを柔軟に変化させながら常に磨き続ける
     item3: ブロックチェーン技術とトークンエコノミーにより自律的に発展する経済圏を実現する
-  value: 
-    item1: 
+  value:
+    item1:
       header: Alliance and Wisdom
       body: 一人で何かを成し遂げようとするのではなく、全員の知恵を結集することが新しい事業を創造するためには欠かせない要素です。常に独りよがりになることなく、周囲を巻き込みながら事業を創り上げることを大事にします。
-    item2: 
+    item2:
       header: Keep it short and simple
       body: 複雑な説明やめまぐるしいほど多くの機能を実装してしまい哲学を失うのではなく、本当に必要だと思うことを考え抜き、誰にでも利用できるシンプルで簡潔なプロダクトを提供します。
-    item3: 
+    item3:
       header: 言葉よりプロダクトで議論する
       body: いくら言葉で議論しても、何かを検証したり世の中に価値を提供することはできません。我々は常に動くプロダクトと それを使ったユーザのフィードバックから、次なる価値提供を目指します。
-    item4: 
+    item4:
       header: ユーザーのWowを創る
       body: 相手の期待に応えるだけでなく、ほんの少しでも期待を上回る「Wow」をいかなるシーンにおいても提供し続けることで、常に驚きが産まれるプロダクトを創造します。
-    item5: 
+    item5:
       header: Be the first penguin
       body: 常に新しいことの連続である領域では、とにかくまずは飛び込んでやってみることによって多くの学びを得ることができます。外敵が潜む海に真っ先に飛び込むFirst Penguineの様に、臆することなく挑戦します。
-    item6: 
+    item6:
       header: Passion as subject
       body: コミュニティおよびプロダクトの発展のために、誰かが、を待つのではなく常に自分が主体者として良いと思うこと・やりたいことに挑戦する志を磨き続けます。
 team:
@@ -123,8 +125,8 @@ member:
       role: CO-FOUNDER / CTO
       twitter: https://twitter.com/sot528
       fb: https://fb.me/sota.ishii
-      linkedin: 
-    togashi: 
+      linkedin:
+    togashi:
       id: togashi
       name: KEIJU TOGASHI
       body: |
@@ -135,7 +137,7 @@ member:
       role: ENGINEER
       twitter: https://twitter.com/keillera
       fb: https://www.facebook.com/people/Keiju-Togashi/100005289070257
-      linkedin:      
+      linkedin:
     kamei:
       id: kamei
       name: TATSUHIKO KAMEI
@@ -146,7 +148,7 @@ member:
       twitter: https://twitter.com/chamoisth
       fb: https://www.facebook.com/tatsuhiko.kamei.9
       linkedin: https://www.linkedin.com/in/tatsuhiko-kamei-1753ba132/
-    usagi: 
+    usagi:
       id: usagi
       name: USAGI
       body: |
@@ -156,12 +158,12 @@ member:
       fb: https://www.facebook.com/kenta.akagi.1
       linkedin: https://www.linkedin.com/in/kenta-akagi/
     gachiho:
-      id: gachiho 
+      id: gachiho
       name: GACHIHO
       body: |
         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
       role: ENGINEER
-      twitter: 
+      twitter:
       fb:
       linkedin:
     kubori:
@@ -175,8 +177,8 @@ member:
       linkedin:
 ambassador:
   header: AMBASSADOR
-  body: to help spread awareness of the platform ALIS. 
-  profile: 
+  body: to help spread awareness of the platform ALIS.
+  profile:
     seiya:
       name: seiya
       url: https://twitter.com/crypto_seiya
@@ -212,7 +214,7 @@ ambassador:
       url: https://twitter.com/rethink_urban
     francis:
       name: Francis
-      url: 
+      url:
     takuya:
       name: Takuya Koide
       url: https://twitter.com/tkoide0513
@@ -221,10 +223,10 @@ ambassador:
       url: https://twitter.com/TornadoYoshi
     michal:
       name: Michal Vlasak
-      url: 
+      url:
     peter:
       name: Peter Wu
-      url: 
+      url:
     tan:
       name: Tan Liang Yit
       url: https://twitter.com/liangyit90
@@ -232,20 +234,20 @@ ambassador:
       name: Neowhite
       url: https://twitter.com/gavin_teoh
 community:
-  header: 
-    body_line_1: Pioneering the Future, 
+  header:
+    body_line_1: Pioneering the Future,
     body_line_2: Together!
   body: ALISは良質なフィードバックを得るために、活動を透明化し、仮説をすばやくコミュニティに問いかけます。そこで自然淘汰され、生き残ったアイディアを伸ばすことが「使ってもらえるモノを作るための最善の方法」だと考えるからです。ぜひ一緒にコミュニティを盛り上げてください。あなたの活動や反応がこれからのALISを作ります。
   twitter:
     name: TWITTER
     body_line_1: ALISの
     body_line_2: 最新情報を
-    body_line_3: 知りたい 
+    body_line_3: 知りたい
   medium:
     name: MEDIUM
     body_line_1: ALISについて
     body_line_2: もっと詳しく
-    body_line_3: 知りたい 
+    body_line_3: 知りたい
   discord:
     name: DISCORD
     body_line_1: ALISに興味の
@@ -263,7 +265,7 @@ community:
     body_line_3: 知りたい
 ambassador_program:
   header_line_1: AMBASSADOR PROGRAM
-  header_line_2: 
+  header_line_2:
   body: ALISファンや投資家の方に、ALISの魅力を積極的に発信頂くためのプログラムです。世界中に配置された認定アンバサダーは主に、母国語への翻訳、コミュニティ活性化、Meetupの開催などを行います。あなたがALISの推奨者で、アンバサダーに興味がある場合はinfo@alismedia.jpにメッセージを送ってください。アンバサダーになっていただいた方には限定の特典もご用意しております。
   btn_text: 詳細はこちら
   url: https://medium.com/@alismedia/alis-ambassador-program%E9%96%8B%E5%A7%8B-aa59f00f2969
@@ -437,11 +439,10 @@ news:
     body: ホワイトペーパーの中から要点を抽出した記事を作成いたしました。本記事をご覧いただき、少しでもALISにご興味を持っていただければ幸いです。
     url: https://medium.com/@alismedia/whitepaper%E3%81%AE%E8%A6%81%E6%89%80%E3%82%923%E5%88%86%E3%81%A7%E3%81%8A%E4%BC%9D%E3%81%88%E3%81%99%E3%82%8B-fff453986ebe
 
-sns_url: 
+sns_url:
   twitter: https://twitter.com/ALIS_media
   medium: https://medium.com/@alismedia
   reddit: https://www.reddit.com/r/Alis/
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/BBhg390G/alis
   github: https://github.com/AlisProject
-
