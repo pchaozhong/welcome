@@ -29,13 +29,13 @@ cover:
     third: reliable, articles, news, and people
 registration:
   header: CLOSED β PRODUCT
-  body_line_1: ALIS is looking for participants to join the ALIS closed beta version to be published in the end of April.
-  body_line_2: If you are interested please apply via the closed beta application form.※ We are looking for those with a domestic, SMS capable, Japanese phone number.
+  body_line_1: ALIS is now available for pre-registered user.
+  body_line_2: ※ Those who are SMS capable and have Japanese phone number can use ALIS currently.
   body_line_3:
-  btn_text1: Open the website
+  btn_text1: Open the product
   url1: https://alis.to
-  btn_text2: subscribe to waitinglist
-  url2: http://eepurl.com/
+  btn_text2:
+  url2:
 project:
   header: OUR PROJECT
   body1: ALIS is a social media platform set to revolutionize the news and social media industries by connecting ALIS users with trustworthy articles, news, and people quickly. Our goal is to create a platform that incentivizes reliable information by rewarding authors trusted by you, the ALIS community user, as well as rewarding the consumers of the content, who vote on the level of reliability and quality of news, articles, and blogs. The goal is to set people free from advertisement-saturated conventional media, stealth marketing campaigns, and less-than-reliable information sources.
@@ -50,11 +50,11 @@ project:
     item3_body3:
 product:
   header: PRODUCT
-  body_line_1: The team has currently published a design mock-up for the closed beta release scheduled in the end of April.　
-  body_line_2: A community feedback feature has been made available, so please check out the mock-up, and let us know what you think!
+  body_line_1: ALIS is now available for pre-registered user. You can also check our product development status.　
+  body_line_2: ※ Those who are SMS capable and have Japanese phone number can use ALIS currently.
   mock_pc:
-    btn_text: View closed beta mock-up for PC
-    url: https://invis.io/NVF0FSW2B
+    btn_text: Open the product
+    url: https://alis.to
   mock_sp:
     btn_text: View closed beta mock-up for mobile device
     url: https://invis.io/GNF0FS8R8
