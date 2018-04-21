@@ -33,7 +33,7 @@ registration:
   btn_text1: クローズドβにアクセス
   url1: https://alis.to
   btn_text2: Waitingリストに登録
-  url2: http://eepurl.com/
+  url2: http://eepurl.com/drM0Jr
 project:
   header: OUR PROJECT
   body1: ALISは信頼性の高い情報・人に素早く出会えるソーシャルメディアプラットフォームです。 信頼できる記事を書いた人、それをいち早く見つけた人が報酬を獲得することで信頼できる情報を蓄積するプラットフォームの実現を目指します。 従来のメディアにありがちな広告のためのコンテンツ、ステルスマーケティング、信頼性の低い情報にうんざりしている人々を解放することがALISの目的です。
@@ -55,7 +55,7 @@ product:
     url: https://alis.to
   mock_sp:
     btn_text: Waitingリストに登録
-    url: http://eepurl.com/
+    url: http://eepurl.com/drM0Jr
   dev_status: プロダクトの開発状況はこちら
 about:
   vision:
