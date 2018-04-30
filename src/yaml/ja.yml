@@ -57,6 +57,7 @@ product:
     btn_text: Waitingリストに登録
     url: http://eepurl.com/drM0Jr
   dev_status: プロダクトの開発状況はこちら
+  bi_status: BIデータはこちら
 about:
   vision:
     body_line_1: 信頼の可視化で
@@ -445,3 +446,4 @@ sns_url:
   discord: https://discordapp.com/invite/b6T44q3
   trello: https://trello.com/b/BBhg390G/alis
   github: https://github.com/AlisProject
+  googledatastudio: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q

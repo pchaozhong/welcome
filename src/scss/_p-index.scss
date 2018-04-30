@@ -364,11 +364,8 @@
 
   &__link{
     display: inline-block;
-    margin: 40px 0;
+    margin: 10px 0;
     text-decoration: underline;
-    @include mq() {
-      margin:24px 0;
-    }
   }
 }
 
