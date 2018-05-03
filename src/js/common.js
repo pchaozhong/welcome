@@ -174,5 +174,5 @@ $(() => {
     "font-weight: bold", "color: lightgrey; font-size: 3em; font-weight: bold");
 
   console.log("エンジニア募集中です。↓のコマンド叩いてね 😉");
-  console.log("> alis.joinThaWonderland()");
+  console.log("> alis.joinTheWonderland()");
 })();
