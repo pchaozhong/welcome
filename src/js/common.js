@@ -172,4 +172,7 @@ $(() => {
     " font-weight: bold;", "color: blue; font-size: 10em; font-weight: bold; font-family: american typewriter, " +
     "brush script mt, harrington, arial, sans-serif;",   "color: lightgreen; font-size: 3em; " +
     "font-weight: bold", "color: lightgrey; font-size: 3em; font-weight: bold");
+
+  console.log("エンジニア募集中です。↓のコマンド叩いてね 😉");
+  console.log("> alis.joinThaWonderland()");
 })();
