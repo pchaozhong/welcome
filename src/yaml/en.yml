@@ -272,6 +272,72 @@ closedb:
   btn_text: Click here for detail
   url: https://medium.com/@alismedia/45a55f0169a3
 news:
+  _06212018:
+    category: UPDATE
+    date: Jun 21, 2018
+    header: ALIS Update - Closed beta version usage report
+    body: In today’s article, the ﬁrst in this series, we will present to you a part of our data analysis.
+    url: https://medium.com/@alismedia/alis-update-closed-beta-version-usage-report-77f1f6bae4e8
+  _06122018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _06092018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _05312018:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _05102018:
+    category: MEDIA
+    date: May 10, 2018
+    header: Forbes JAPAN
+    body: ALIS was interviewed at Forbs JAPAN. This article is in Japanese.
+    url: https://forbesjapan.com/articles/detail/20970/
+  _05072018:
+    category: MEDIA
+    date: May 7, 2018
+    header: Business Insider Japan
+    body: ALIS was interviewed at Business Insider Japan. This article is in Japanese.
+    url: https://www.businessinsider.jp/post-166831
+  _04302018:
+    category: UPDATE
+    date: Apr 30, 2018
+    header: Released closed beta version realtime analytics
+    body: We released the usage situation of closed beta users.
+    url: https://datastudio.google.com/u/0/reporting/1w4tIXAc1xSqTgjrwSDzpT9jpcRuOGo6Q/page/6V8Q
+  _04272018:
+    category: MEDIA
+    date: Apr 27, 2018
+    header: Coinpost
+    body: ALIS was interviewed at Coinpost. This article is in Japanese.
+    url: http://coinpost.jp/?p=23785
+  _04252018_1:
+    category: MEDIA
+    date: Apr 25, 2018
+    header: Coinchoice
+    body: ALIS was interviewed at Coinchoice. This article is in Japanese.
+    url: https://coinchoice.net/201804-alis-beta-version-event/
+  _04252018_2:
+    category:
+    date:
+    header:
+    body:
+    url:
+  _04242018:
+    category: UPDATE
+    date: Apr 24, 2018
+    header: Closed Beta Public Launch Event
+    body: On Monday, April 23, 2018, we held a closed beta version public launch event. With about 400 community members and media participating, the venue was lively and full of enthusiasm.
+    url: https://medium.com/@alismedia/closed-beta-public-launch-event-and-future-strategy-presentation-e00c217eef75
   _02282018:
     category:
     date:
@@ -383,7 +449,7 @@ news:
   _09012017_1:
     category: MEDIA
     date: Sep 1, 2017
-    header: 日本経済新聞
+    header: The Nikkei
     body: ALIS was interviewed at Nikkei Newspaper.
     url: https://www.nikkei.com/article/DGXLASDZ01H7H_01092017000000/
   _09012017_2:
