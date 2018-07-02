@@ -306,7 +306,7 @@ news:
   _05102018:
     category: MEDIA
     date: May 10, 2018
-    header: MEDIA
+    header: Forbes JAPAN
     body: 格差なき世界を目指す　ブロックチェーンSNS「ALIS」の信念
     url: https://forbesjapan.com/articles/detail/20970/
   _05072018:
@@ -340,11 +340,11 @@ news:
     body: ALIS(アリス)のβ版公開イベントレポート！今後のビジョンや実現に向けたロードマップを発表
     url: https://coinchoice.net/201804-alis-beta-version-event/
   _04242018:
-    category:
-    date:
-    header:
-    body:
-    url:
+    category: UPDATE
+    date: Apr 24, 2018
+    header: クローズドβ版公開記念イベントで今後の戦略を発表
+    body: 2018年4月23日（月）にクローズドβ版公開記念イベントを開催。当日の発表内容をまとめました。
+    url: https://medium.com/@alismedia/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%89%CE%B2%E7%89%88%E5%85%AC%E9%96%8B%E8%A8%98%E5%BF%B5%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%A7%E4%BB%8A%E5%BE%8C%E3%81%AE%E6%88%A6%E7%95%A5%E3%82%92%E7%99%BA%E8%A1%A8-11f0d2a4ea8
   _02282018:
     category: UPDATE
     date: Feb 28, 2018
@@ -438,7 +438,7 @@ news:
 
   _09132018:
     category: PRESS RELEASE
-    date: Sep 13, 2018
+    date: Sep 13, 2017
     header: ICO開始12日で最小目標となる約3.8億を調達。
     body: 国内初となるブロックチェーン技術を用いたソーシャルメディア『ALIS』のリリースに向けたICO（Initial Coin Offering）で目標最小調達額として設定していた11,666ETH（約3.8億円）を調達。2017年9月1日（日本時間）のICO開始からわずか12日間での達成となった。
     url: https://prtimes.jp/main/html/rd/p/000000003.000027792.html
